@@ -1,4 +1,4 @@
-// Santos Casados: renders the cards, filters and fichas from data/matrimonios.json.
+// Santidad Matrimonial: renders the cards, filters and fichas from data/matrimonios.json.
 (function () {
   // Link to the podcast's channel or playlist; leave empty to hide the button.
   var CANAL_PODCAST = "https://open.spotify.com/show/1JpMc7SNgKkQx8vrc84TUn";
@@ -43,7 +43,7 @@
       '<h3>' + esc(m.nombres) + '</h3>' +
       (m.descripcion ? '<p>' + esc(m.descripcion) + '</p>' : '') +
       '<div class="meta">' + (m.pais ? '<span>' + esc(m.pais) + '</span>' : '') + (m.siglo ? '<span>s. ' + esc(m.siglo) + '</span>' : '') +
-      (m.podcast ? '<span class="tag-pod">Podcast</span>' : '') + '</div></div></a>';
+      (m.fiesta ? '<span>' + esc(m.fiesta) + '</span>' : '') + '</div></div></a>';
   }
 
   function aplicarFiltros() {
@@ -88,9 +88,9 @@
   function fichaHTML(m) {
     var e = etapa(m);
     var filas = [
-      ["País", m.pais], ["Siglo", m.siglo], ["Fiesta o Memoria", m.fiesta], ["Referencia", m.referencia],
+      ["País", m.pais], ["Siglo", m.siglo], ["Fiesta o Memoria", m.fiesta], ["Referencia", m.referencia], ["", m.josefino ? "Matrimonio josefino" : null],
       ["Causa", m.ambos ? "De ambos esposos" : "De uno de los esposos"],
-      ["Mártir", m.martir ? "Sí" : null], ["Devoción josefina", m.josefino ? "Sí" : null]
+      ["Mártir", m.martir ? "Sí" : null]
     ].filter(function (f) { return f[1]; }).map(function (f) { return "<dt>" + f[0] + "</dt><dd>" + esc(f[1]) + "</dd>"; }).join("");
     var links = [];
     if (m.podcast) links.push('<a class="btn" href="' + esc(m.podcast) + '" target="_blank" rel="noopener">Escuchar el podcast</a>');
@@ -122,12 +122,12 @@
     $("ficha").innerHTML = fichaHTML(m);
     $("ficha").hidden = false; $("ficha-fondo").hidden = false;
     $("ficha").scrollTop = 0;
-    document.title = m.nombres + " · Santos Casados";
+    document.title = m.nombres + " · Santidad Matrimonial";
     $("ficha").querySelector("[data-cerrar]").focus();
   }
   function cerrarFicha() {
     $("ficha").hidden = true; $("ficha-fondo").hidden = true;
-    document.title = "Santos Casados";
+    document.title = "Santidad Matrimonial";
   }
   function ruta() {
     var h = (location.hash || "").replace("#", "");
