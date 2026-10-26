@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Santos Casados</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Fichas de esposos y matrimonios santos, beatos, venerables y siervos de Dios, con fotos, enlaces y el podcast Caminos de Santidad Matrimonial.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,600;0,6..12,700;1,6..12,400&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <a class="brand" href="#inicio" aria-label="Inicio">
+      <svg viewBox="0 0 40 40" aria-hidden="true" class="brand-mark"><circle cx="15" cy="20" r="10"/><circle cx="25" cy="20" r="10"/></svg>
+      <span>Santos Casados</span>
+    </a>
+    <nav class="nav" aria-label="Secciones">
+      <a href="#inicio" data-nav="inicio">Matrimonios</a>
+      <a href="#podcast" data-nav="podcast">Podcast</a>
+      <a href="#acerca" data-nav="acerca">Acerca</a>
+    </nav>
+  </div>
+</header>
+
+<main id="vista-inicio" class="wrap">
+  <section class="intro">
+    <p class="eyebrow">Caminos de Santidad Matrimonial</p>
+    <h1>Esposos que llegaron, o que han caminado, hacia los altares.</h1>
+    <p class="lede">Quiénes fueron, de qué siglo, dónde nacieron o vivieron y cómo conocer más sobre sus vidas.</p>
+    <ul class="camino-resumen" id="resumen" aria-label="Fichas por título"></ul>
+  </section>
+
+  <section class="filtros" aria-label="Buscar y filtrar">
+    <div class="buscar">
+      <label for="q" class="sr">Buscar</label>
+      <input id="q" type="search" placeholder="Buscar por nombre, país, referencia…" autocomplete="off">
+    </div>
+    <div class="chips" id="chips-etapa" role="group" aria-label="Título"></div>
+    <div class="selects">
+      <div class="campo"><span class="lbl" id="f-pais-lbl">País</span><details class="multi" id="f-pais" data-todos="Todos"><summary aria-labelledby="f-pais-lbl f-pais-txt"><span id="f-pais-txt">Todos</span></summary><div class="opts" role="group" aria-labelledby="f-pais-lbl"><button type="button" class="limpiar" data-limpiar>Todos</button></div></details></div>
+      <div class="campo"><span class="lbl" id="f-siglo-lbl">Siglo</span><details class="multi" id="f-siglo" data-todos="Todos"><summary aria-labelledby="f-siglo-lbl f-siglo-txt"><span id="f-siglo-txt">Todos</span></summary><div class="opts" role="group" aria-labelledby="f-siglo-lbl"><button type="button" class="limpiar" data-limpiar>Todos</button></div></details></div>
+      <div class="campo"><span class="lbl" id="f-ref-lbl">Referencia</span><details class="multi" id="f-ref" data-todos="Todas"><summary aria-labelledby="f-ref-lbl f-ref-txt"><span id="f-ref-txt">Todas</span></summary><div class="opts" role="group" aria-labelledby="f-ref-lbl"><button type="button" class="limpiar" data-limpiar>Todas</button></div></details></div>
+      <label>Orden <select id="f-orden">
+        <option value="destacados">Destacados primero</option>
+        <option value="nombre">Nombre</option>
+        <option value="siglo">Siglo (más antiguos primero)</option>
+        <option value="siglo-desc">Siglo (más recientes primero)</option>
+        <option value="fiesta">Fiesta o Memoria (calendario)</option>
+      </select></label>
+    </div>
+    <div class="toggles">
+      <label><input type="checkbox" id="f-ambos"> Ambos esposos con causa</label>
+      <label><input type="checkbox" id="f-martir"> Mártires</label>
+      <label><input type="checkbox" id="f-podcast"> Con episodio de podcast</label>
+    </div>
+  </section>
+
+  <p class="conteo" id="conteo" aria-live="polite"></p>
+  <div class="grid" id="grid"></div>
+  <div class="mas"><button id="btn-mas" type="button" hidden>Mostrar más</button></div>
+</main>
+
+<main id="vista-podcast" class="wrap" hidden>
+  <section class="intro">
+    <p class="eyebrow">Podcast</p>
+    <h1>Caminos de Santidad Matrimonial</h1>
+    <p class="lede">Cada episodio cuenta la historia de un matrimonio o esposo camino a los altares, desde la voz de los autores en su ciclo de Radio María Argentina. Elija uno para escucharlo.</p>
+    <p id="canal-wrap" hidden><a class="btn" id="canal" href="#" target="_blank" rel="noopener">Escuchar el programa en Spotify</a></p>
+  </section>
+  <ul class="episodios" id="episodios"></ul>
+</main>
+
+<main id="vista-acerca" class="wrap prosa" hidden>
+  <p class="eyebrow">Acerca</p>
+  <h1>Sobre este sitio</h1>
+  <p>Este repositorio reúne a los esposos o matrimonios beatificados, canonizados o con causa de beatificación iniciada, a partir de la investigación realizada por Leonardo y Paola Cozzi, y reflejada en su libro “Caminos de Santidad Matrimonial”.</p>
+  <h2>Títulos de acuerdo al proceso de beatificación</h2>
+  <dl class="etapas-def">
+    <dt>Santo</dt><dd>Fue canonizado y su culto se extiende a toda la Iglesia.</dd>
+    <dt>Beato</dt><dd>Fue beatificado, habitualmente tras un milagro comprobado, o bien por reconocimiento de su martirio.</dd>
+    <dt>Venerable</dt><dd>La Iglesia reconoció que vivió las virtudes en grado heroico.</dd>
+    <dt>Siervo de Dios</dt><dd>Se abrió formalmente la causa de beatificación.</dd>
+  </dl>
+  <p>“Ambos esposos” indica que tanto marido como mujer tienen causa abierta o concluida.</p>
+  <p>En el caso de los Venerables y Siervos de Dios, en nada se pretende prevenir el juicio de la autoridad eclesiástica. A efectos de reflejar una fecha de memoria, si la causa en curso corresponde a ambos cónyuges se toma la fecha de su matrimonio, de lo contrario se indica la fecha del fallecimiento.</p>
+  <p>¿Ha encontrado un dato para corregir o un matrimonio que faltaría? Escríbanos a <a href="mailto:caminosdesantidadmatrimonial@gmail.com">caminosdesantidadmatrimonial@gmail.com</a></p>
+</main>
+
+<div class="ficha-fondo" id="ficha-fondo" hidden></div>
+<article class="ficha" id="ficha" role="dialog" aria-modal="true" aria-labelledby="ficha-titulo" hidden></article>
+
+<footer class="pie">
+  <div class="wrap">Caminos de Santidad Matrimonial · Datos e imágenes recopilados por el equipo del podcast.</div>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
