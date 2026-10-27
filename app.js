@@ -175,11 +175,29 @@
   var CONTINENTES = {
     "Europa": ["Italia","España","Francia","Inglaterra","Polonia","Alemania","Bélgica","Hungría","Irlanda","Suecia","Portugal","Ucrania","Austria","Chequia","Suiza","Grecia","Islandia","Rusia","Dinamarca","Noruega","Escocia","Bielorrusia","Malta","Chipre","Albania","Eslovaquia","Rumania","Croacia","Gales"],
     "América": ["México","Argentina","EEUU","Brasil","Canadá","Venezuela","Chile","El Salvador","Guatemala","Ecuador","Haiti","Trinidad","Colombia","Honduras","Perú","Uruguay"],
-    "Asia": ["Turquía","Japón","China","Siria","Israel","Vietnam","Filipinas","Tailandia","Iran","Corea","India","Arabia","Líbano","Georgia","Laos","Jordania"],
+    "Asia": ["Turquía","Japón","China","Siria","Israel","Vietnam","Filipinas","Tailandia","Iran","Corea","India","Arabia","Arabia Saudita","Líbano","Georgia","Laos","Jordania"],
     "África": ["Madagascar","Argelia","Sudáfrica","Egipto","Túnez","Ruanda","Burkina Faso","Etiopía","Lesotho","Tanzania","Costa de Marfil","Uganda","Mauritania"],
     "Oceanía": ["Papua Nueva Guinea"]
   };
   var PAISES_VISIBLES = 12;
+  // Spreadsheet country -> name in data/mundo.json (Natural Earth). England, Scotland and Wales share the United Kingdom.
+  var MAPA = {
+    "Italia": "Italy", "España": "Spain", "Francia": "France", "Inglaterra": "United Kingdom", "Escocia": "United Kingdom", "Gales": "United Kingdom",
+    "Polonia": "Poland", "Alemania": "Germany", "Turquía": "Turkey", "México": "Mexico", "Argentina": "Argentina", "Bélgica": "Belgium",
+    "Hungría": "Hungary", "EEUU": "United States of America", "Japón": "Japan", "China": "China", "Siria": "Syria", "Brasil": "Brazil",
+    "Canadá": "Canada", "Irlanda": "Ireland", "Suecia": "Sweden", "Portugal": "Portugal", "Ucrania": "Ukraine", "Austria": "Austria",
+    "Israel": "Israel", "Venezuela": "Venezuela", "Vietnam": "Vietnam", "Chequia": "Czechia", "Suiza": "Switzerland", "Grecia": "Greece",
+    "Islandia": "Iceland", "Madagascar": "Madagascar", "Argelia": "Algeria", "Chile": "Chile", "Rusia": "Russia", "Filipinas": "Philippines",
+    "Sudáfrica": "South Africa", "Egipto": "Egypt", "Dinamarca": "Denmark", "El Salvador": "El Salvador", "Guatemala": "Guatemala",
+    "Tailandia": "Thailand", "Ecuador": "Ecuador", "Iran": "Iran", "Corea": "South Korea", "India": "India", "Noruega": "Norway",
+    "Túnez": "Tunisia", "Papua Nueva Guinea": "Papua New Guinea", "Haiti": "Haiti", "Trinidad": "Trinidad and Tobago", "Colombia": "Colombia",
+    "Ruanda": "Rwanda", "Burkina Faso": "Burkina Faso", "Arabia": "Saudi Arabia", "Arabia Saudita": "Saudi Arabia", "Etiopía": "Ethiopia", "Bielorrusia": "Belarus",
+    "Malta": "Malta", "Chipre": "Cyprus", "Lesotho": "Lesotho", "Albania": "Albania", "Eslovaquia": "Slovakia", "Honduras": "Honduras",
+    "Líbano": "Lebanon", "Georgia": "Georgia", "Tanzania": "Tanzania", "Costa de Marfil": "Côte d'Ivoire", "Laos": "Laos", "Rumania": "Romania",
+    "Uganda": "Uganda", "Croacia": "Croatia", "Perú": "Peru", "Jordania": "Jordan", "Uruguay": "Uruguay", "Mauritania": "Mauritania"
+  };
+  // Upper bound of each color step; counts above the last one take the darkest.
+  var ESCALONES = [1, 4, 9, 24, 69];
 
   function contar(lista, clave) {
     var c = {};
@@ -260,6 +278,36 @@
         '<span class="c-pila"><span class="c-num">' + f.n + '</span><span class="c-seg" style="height:' + (f.n * 88 / maxMes) + '%"></span></span><span class="c-lbl">' + f.k + '</span></div>';
     }).join("");
   }
+  // World map: each country shaded by its number of cases, in steps of one hue.
+  function pintarMapa(mundo) {
+    var grupos = {};
+    datos.forEach(function (m) {
+      var vistos = {};
+      m._paises.forEach(function (p) {
+        var en = MAPA[p]; if (!en || vistos[en]) return;
+        vistos[en] = 1;
+        var g = grupos[en] || (grupos[en] = { n: 0, es: [] });
+        g.n++; if (g.es.indexOf(p) < 0) g.es.push(p);
+      });
+    });
+    function paso(n) { var i = 0; while (i < ESCALONES.length && n > ESCALONES[i]) i++; return i + 1; }
+    function etiqueta(g) { return g.es.length > 1 ? "Reino Unido (" + g.es.join(", ") + ")" : g.es[0]; }
+    var formas = mundo.paises.map(function (p) {
+      var g = grupos[p.n];
+      if (!g) return '<path class="m-pais" d="' + p.d + '"/>';
+      var tip = etiqueta(g) + ": " + g.n + (g.n === 1 ? " caso" : " casos");
+      var marca = p.c ? '<circle class="m-punto" cx="' + p.c[0] + '" cy="' + p.c[1] + '" r="4"/>' : "";
+      return '<a href="#inicio" data-filtro="pais|' + esc(g.es.join(",")) + '" data-tip="' + esc(tip) + '" aria-label="' + esc(tip) + '">' +
+        '<path class="m-pais m' + paso(g.n) + '" d="' + p.d + '"/>' + marca + '</a>';
+    }).join("");
+    $("est-mapa").innerHTML = '<svg viewBox="0 0 ' + mundo.w + ' ' + mundo.h + '" role="group" aria-label="Mapamundi de casos por país">' + formas + '</svg>';
+    var desde = 1;
+    $("est-mapa-ley").innerHTML = ESCALONES.concat([null]).map(function (hasta, i) {
+      var txt = hasta == null ? "Más de " + (desde - 1) : hasta === desde ? String(hasta) : desde + " a " + hasta;
+      desde = (hasta || 0) + 1;
+      return '<li><i class="m' + (i + 1) + '"></i>' + txt + '</li>';
+    }).join("") + '<li><i class="m0"></i>Sin casos</li>';
+  }
   // Clear every filter, then apply the one the bar stands for.
   function filtrarDesde(filtro) {
     var p = filtro.split("|"), tipo = p[0], valor = p[1];
@@ -274,7 +322,8 @@
     else if (tipo === "ambos" || tipo === "martir" || tipo === "podcast") $("f-" + tipo).checked = true;
     else {
       var sel = { pais: "f-pais", siglo: "f-siglo", ref: "f-ref" }[tipo];
-      $(sel).querySelectorAll("input").forEach(function (i) { if (i.value === valor) i.checked = true; });
+      var valores = valor.split(",");
+      $(sel).querySelectorAll("input").forEach(function (i) { if (valores.indexOf(i.value) >= 0) i.checked = true; });
     }
     ["f-pais", "f-siglo", "f-ref"].forEach(rotular);
     aplicarFiltros();
@@ -330,6 +379,9 @@
         (ep.articulo ? '<a href="' + esc(ep.articulo) + '" target="_blank" rel="noopener">Leer artículo</a>' : '') + '</div></div></li>';
     }).join("");
     pintarEstadisticas();
+    fetch("data/mundo.json").then(function (r) { return r.json(); }).then(pintarMapa).catch(function () {
+      $("est-mapa").textContent = "No se pudo cargar el mapa.";
+    });
     tooltip();
     if (CANAL_PODCAST) { $("canal").href = CANAL_PODCAST; $("canal-wrap").hidden = false; }
 
