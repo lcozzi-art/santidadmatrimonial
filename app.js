@@ -21,6 +21,8 @@
     });
   }
   function norm(s) { return String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase(); }
+  // Compares texts ignoring case, accents, spaces and punctuation.
+  function soloLetras(s) { return norm(s).replace(/[^a-z0-9]/g, ""); }
   function etapa(m) { return ETAPAS.find(function (e) { return e.cod === m.proceso; }) || ETAPAS[ETAPAS.length - 1]; }
   function sigloNum(s) { var i = ROMANOS.indexOf(String(s || "").trim()); return i < 0 ? 99 : i; }
   function ytThumb(url) {
@@ -107,7 +109,7 @@
       '<div class="ficha-in" style="--c:' + e.c + '">' +
       '<div><span class="estado">' + esc(m.beatitud || e.nombre) + '</span><h2 id="ficha-titulo">' + esc(m.titulo) + '</h2>' +
       (m.descripcion ? '<p class="sub">' + esc(m.descripcion) + '</p>' : '') + '</div>' +
-      (m.resumen ? '<div><h4>En pocas palabras</h4><p class="texto">' + esc(m.resumen) + '</p></div>' : '') +
+      (m.resumen && soloLetras(m.resumen) !== soloLetras(m.descripcion) ? '<div><h4>En pocas palabras</h4><p class="texto">' + esc(m.resumen) + '</p></div>' : '') +
       (filas ? '<dl class="datos">' + filas + '</dl>' : '') +
       (m.cita ? '<blockquote class="cita">' + esc(angulares(m.cita)) + '</blockquote>' : '') +
       '<div><h4>Para conocer más</h4><div class="enlaces">' + links.join("") + '</div></div>' +
