@@ -17,3 +17,7 @@ Las fichas sin foto propia usan la miniatura de YouTube del podcast o video, y s
 ## Actualizar los datos
 
 Volver a exportar la planilla y regenerar `data/matrimonios.json` (y las fotos nuevas en `img/`).
+
+## Caché de los navegadores
+
+`index.html` carga `styles.css?v=…` y `app.js?v=…`. Al cambiar esos archivos, actualizar el valor de `v` para que los celulares no sigan usando la versión guardada.

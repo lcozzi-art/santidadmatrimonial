@@ -379,7 +379,7 @@
         (ep.articulo ? '<a href="' + esc(ep.articulo) + '" target="_blank" rel="noopener">Leer artículo</a>' : '') + '</div></div></li>';
     }).join("");
     pintarEstadisticas();
-    fetch("data/mundo.json").then(function (r) { return r.json(); }).then(pintarMapa).catch(function () {
+    fetch("data/mundo.json?v=2026-10-27b").then(function (r) { return r.json(); }).then(pintarMapa).catch(function () {
       $("est-mapa").textContent = "No se pudo cargar el mapa.";
     });
     tooltip();
