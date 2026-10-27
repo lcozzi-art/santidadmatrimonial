@@ -190,7 +190,7 @@
     opc = opc || {};
     var max = Math.max.apply(null, filas.map(function (f) { return f.n; })) || 1;
     $(id).innerHTML = filas.map(function (f, i) {
-      var tip = f.n + (f.n === 1 ? " ficha" : " fichas") + " · " + pct(f.n) + " del total";
+      var tip = f.n + (f.n === 1 ? " caso" : " casos") + " · " + pct(f.n) + " del total";
       var dentro = '<span class="b-lbl">' + esc(f.lbl || f.k) + '</span>' +
         '<span class="b-pista"><span class="b-barra" style="width:' + (f.n * 100 / max) + '%;' + (f.c ? '--c:' + f.c : '') + '"></span></span>' +
         '<span class="b-num">' + f.n + '</span>';
@@ -201,14 +201,11 @@
   }
   function pintarEstadisticas() {
     var nPaises = contar(null, function (m) { return m._paises; }).length;
-    var siglos = contar(null, function (m) { return m.siglo; }).length;
     var cifras = [
-      [datos.length, "fichas de esposos y matrimonios"],
+      [datos.length, "casos del esposo/a o matrimonio"],
       [datos.filter(function (m) { return m.ambos; }).length, "con causa de ambos esposos", "ambos"],
       [datos.filter(function (m) { return m.martir; }).length, "mártires", "martir"],
-      [nPaises, "países"],
-      [siglos, "siglos, del I al XXI"],
-      [datos.filter(function (m) { return m.podcast; }).length, "con episodio de podcast", "podcast"]
+      [nPaises, "países"]
     ];
     $("est-cifras").innerHTML = cifras.map(function (c) {
       var dentro = '<b>' + c[0] + '</b><span>' + c[1] + '</span>';
@@ -227,7 +224,7 @@
     var paises = contar(null, function (m) { return m._paises; }).sort(porMayor);
     paises.forEach(function (f) { f.filtro = "pais|" + f.k; });
     barras("est-pais", paises, { visibles: PAISES_VISIBLES });
-    $("est-pais-nota").textContent = "Los " + PAISES_VISIBLES + " con más fichas, de " + paises.length + " países.";
+    $("est-pais-nota").textContent = "Los " + PAISES_VISIBLES + " con más casos.";
     $("est-pais-todos").onclick = function () {
       var abrir = this.textContent.indexOf("todos") >= 0;
       $("est-pais").querySelectorAll(".b-fila").forEach(function (b, i) { b.hidden = !abrir && i >= PAISES_VISIBLES; });
@@ -248,7 +245,7 @@
         var n = datos.filter(function (m) { return m.siglo === r && m.proceso === e.cod; }).length;
         return n ? '<span class="c-seg" style="height:' + (n * 88 / max) + '%;--c:' + e.c + '" data-tip="Siglo ' + r + ': ' + n + ' ' + (n === 1 ? e.nombre : e.plural).toLowerCase() + '"></span>' : "";
       }).reverse().join("");
-      return '<a class="c-col" href="#inicio" data-filtro="siglo|' + r + '" aria-label="Siglo ' + r + ': ' + tot[i] + ' fichas">' +
+      return '<a class="c-col" href="#inicio" data-filtro="siglo|' + r + '" aria-label="Siglo ' + r + ': ' + tot[i] + ' casos">' +
         '<span class="c-pila"><span class="c-num">' + tot[i] + '</span>' + segs + '</span><span class="c-lbl">' + r + '</span></a>';
     }).join("");
 
