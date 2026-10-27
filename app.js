@@ -87,7 +87,7 @@
 
   // Quotes always use « » instead of “ ” or straight double quotes.
   function angulares(s) {
-    return s.replace(/(^|[\s(\[:;—–-])["“”]/g, "$1«").replace(/["“”]/g, "»");
+    return s.replace(/(^|[\s(\[:;—–-])["“”](?=[\p{L}\d¿¡.…])/gu, "$1«").replace(/["“”]/g, "»");
   }
 
   function fichaHTML(m) {
