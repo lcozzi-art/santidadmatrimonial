@@ -85,6 +85,11 @@
     $("btn-mas").textContent = "Mostrar más (" + (filtrados.length - mostrados) + " restantes)";
   }
 
+  // Quotes always use « » instead of “ ” or straight double quotes.
+  function angulares(s) {
+    return s.replace(/(^|[\s(\[:;—–-])["“”]/g, "$1«").replace(/["“”]/g, "»");
+  }
+
   function fichaHTML(m) {
     var e = etapa(m);
     var filas = [
@@ -104,7 +109,7 @@
       (m.descripcion ? '<p class="sub">' + esc(m.descripcion) + '</p>' : '') + '</div>' +
       (m.resumen ? '<div><h4>En pocas palabras</h4><p class="texto">' + esc(m.resumen) + '</p></div>' : '') +
       (filas ? '<dl class="datos">' + filas + '</dl>' : '') +
-      (m.cita ? '<blockquote class="cita">' + esc(m.cita) + '</blockquote>' : '') +
+      (m.cita ? '<blockquote class="cita">' + esc(angulares(m.cita)) + '</blockquote>' : '') +
       '<div><h4>Para conocer más</h4><div class="enlaces">' + links.join("") + '</div></div>' +
       (m.bibliografia ? '<div><h4>Bibliografía</h4><p class="biblio">' + esc(m.bibliografia) + '</p></div>' : '') +
       '</div>';
