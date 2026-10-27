@@ -117,7 +117,7 @@
 
   var ultimaVista = "inicio";
   function mostrarVista(v) {
-    ["inicio", "podcast", "acerca"].forEach(function (n) { $("vista-" + n).hidden = n !== v; });
+    ["inicio", "podcast", "estadisticas", "acerca"].forEach(function (n) { $("vista-" + n).hidden = n !== v; });
     document.querySelectorAll("[data-nav]").forEach(function (a) {
       if (a.dataset.nav === v) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
     });
@@ -142,7 +142,7 @@
       if (m) { abrirFicha(m); return; }
     }
     cerrarFicha();
-    var v = ["podcast", "acerca"].indexOf(h) >= 0 ? h : "inicio";
+    var v = ["podcast", "estadisticas", "acerca"].indexOf(h) >= 0 ? h : "inicio";
     if (v !== ultimaVista) window.scrollTo(0, 0);
     mostrarVista(v);
   }
@@ -166,6 +166,135 @@
     var v = elegidos(sel), d = $(sel);
     $(sel + "-txt").textContent = !v.length ? d.dataset.todos : v.length === 1 ? v[0] : v.length + " elegidos";
     d.classList.toggle("activo", v.length > 0);
+  }
+
+  // Statistics tab: plain HTML bars; each bar links to the cards with that filter.
+  var MESES = ["Ene","Feb","Mar","Abr","May","Jun","Jul","Ago","Sep","Oct","Nov","Dic"];
+  var CONTINENTES = {
+    "Europa": ["Italia","España","Francia","Inglaterra","Polonia","Alemania","Bélgica","Hungría","Irlanda","Suecia","Portugal","Ucrania","Austria","Chequia","Suiza","Grecia","Islandia","Rusia","Dinamarca","Noruega","Escocia","Bielorrusia","Malta","Chipre","Albania","Eslovaquia","Rumania","Croacia","Gales"],
+    "América": ["México","Argentina","EEUU","Brasil","Canadá","Venezuela","Chile","El Salvador","Guatemala","Ecuador","Haiti","Trinidad","Colombia","Honduras","Perú","Uruguay"],
+    "Asia": ["Turquía","Japón","China","Siria","Israel","Vietnam","Filipinas","Tailandia","Iran","Corea","India","Arabia","Líbano","Georgia","Laos","Jordania"],
+    "África": ["Madagascar","Argelia","Sudáfrica","Egipto","Túnez","Ruanda","Burkina Faso","Etiopía","Lesotho","Tanzania","Costa de Marfil","Uganda","Mauritania"],
+    "Oceanía": ["Papua Nueva Guinea"]
+  };
+  var PAISES_VISIBLES = 12;
+
+  function contar(lista, clave) {
+    var c = {};
+    datos.forEach(function (m) { [].concat(clave(m)).forEach(function (k) { if (k) c[k] = (c[k] || 0) + 1; }); });
+    return (lista || Object.keys(c)).map(function (k) { return { k: k, n: c[k] || 0 }; });
+  }
+  function porMayor(a, b) { return b.n - a.n || a.k.localeCompare(b.k, "es"); }
+  function pct(n) { return Math.round(n * 100 / datos.length) + "%"; }
+  function barras(id, filas, opc) {
+    opc = opc || {};
+    var max = Math.max.apply(null, filas.map(function (f) { return f.n; })) || 1;
+    $(id).innerHTML = filas.map(function (f, i) {
+      var tip = f.n + (f.n === 1 ? " ficha" : " fichas") + " · " + pct(f.n) + " del total";
+      var dentro = '<span class="b-lbl">' + esc(f.lbl || f.k) + '</span>' +
+        '<span class="b-pista"><span class="b-barra" style="width:' + (f.n * 100 / max) + '%;' + (f.c ? '--c:' + f.c : '') + '"></span></span>' +
+        '<span class="b-num">' + f.n + '</span>';
+      var oculto = opc.visibles && i >= opc.visibles ? " hidden" : "";
+      return f.filtro ? '<a class="b-fila" href="#inicio" data-filtro="' + esc(f.filtro) + '" data-tip="' + esc(tip) + '"' + oculto + '>' + dentro + '</a>'
+        : '<div class="b-fila" data-tip="' + esc(tip) + '"' + oculto + '>' + dentro + '</div>';
+    }).join("");
+  }
+  function pintarEstadisticas() {
+    var nPaises = contar(null, function (m) { return m._paises; }).length;
+    var siglos = contar(null, function (m) { return m.siglo; }).length;
+    var cifras = [
+      [datos.length, "fichas de esposos y matrimonios"],
+      [datos.filter(function (m) { return m.ambos; }).length, "con causa de ambos esposos", "ambos"],
+      [datos.filter(function (m) { return m.martir; }).length, "mártires", "martir"],
+      [nPaises, "países"],
+      [siglos, "siglos, del I al XXI"],
+      [datos.filter(function (m) { return m.podcast; }).length, "con episodio de podcast", "podcast"]
+    ];
+    $("est-cifras").innerHTML = cifras.map(function (c) {
+      var dentro = '<b>' + c[0] + '</b><span>' + c[1] + '</span>';
+      return '<li>' + (c[2] ? '<a class="cifra" href="#inicio" data-filtro="' + c[2] + '">' + dentro + '</a>' : '<div class="cifra">' + dentro + '</div>') + '</li>';
+    }).join("");
+
+    barras("est-etapa", ETAPAS.map(function (e) {
+      return { k: e.plural, n: datos.filter(function (m) { return m.proceso === e.cod; }).length, c: e.c, filtro: "etapa|" + e.cod };
+    }));
+
+    barras("est-continente", contar(Object.keys(CONTINENTES), function (m) {
+      var cs = m._paises.map(function (p) { return Object.keys(CONTINENTES).find(function (c) { return CONTINENTES[c].indexOf(p) >= 0; }); });
+      return cs.filter(function (c, i) { return c && cs.indexOf(c) === i; });
+    }).sort(porMayor));
+
+    var paises = contar(null, function (m) { return m._paises; }).sort(porMayor);
+    paises.forEach(function (f) { f.filtro = "pais|" + f.k; });
+    barras("est-pais", paises, { visibles: PAISES_VISIBLES });
+    $("est-pais-nota").textContent = "Los " + PAISES_VISIBLES + " con más fichas, de " + paises.length + " países.";
+    $("est-pais-todos").onclick = function () {
+      var abrir = this.textContent.indexOf("todos") >= 0;
+      $("est-pais").querySelectorAll(".b-fila").forEach(function (b, i) { b.hidden = !abrir && i >= PAISES_VISIBLES; });
+      this.textContent = abrir ? "Ver menos" : "Ver todos los países";
+    };
+
+    var refs = contar(null, function (m) { return m.referencia; }).sort(porMayor);
+    refs.forEach(function (f) { f.filtro = "ref|" + f.k; f.lbl = f.k.charAt(0).toUpperCase() + f.k.slice(1); });
+    barras("est-ref", refs);
+
+    // Centuries: one stacked column per century, split by stage.
+    var usados = ROMANOS.filter(function (r) { return datos.some(function (m) { return m.siglo === r; }); });
+    var tot = usados.map(function (r) { return datos.filter(function (m) { return m.siglo === r; }).length; });
+    var max = Math.max.apply(null, tot);
+    $("est-leyenda").innerHTML = ETAPAS.map(function (e) { return '<li style="--c:' + e.c + '"><i></i>' + e.plural + '</li>'; }).join("");
+    $("est-siglo").innerHTML = usados.map(function (r, i) {
+      var segs = ETAPAS.map(function (e) {
+        var n = datos.filter(function (m) { return m.siglo === r && m.proceso === e.cod; }).length;
+        return n ? '<span class="c-seg" style="height:' + (n * 88 / max) + '%;--c:' + e.c + '" data-tip="Siglo ' + r + ': ' + n + ' ' + (n === 1 ? e.nombre : e.plural).toLowerCase() + '"></span>' : "";
+      }).reverse().join("");
+      return '<a class="c-col" href="#inicio" data-filtro="siglo|' + r + '" aria-label="Siglo ' + r + ': ' + tot[i] + ' fichas">' +
+        '<span class="c-pila"><span class="c-num">' + tot[i] + '</span>' + segs + '</span><span class="c-lbl">' + r + '</span></a>';
+    }).join("");
+
+    var meses = MESES.map(function (mes, i) {
+      return { k: mes, n: datos.filter(function (m) { return m.fiestaOrden && Math.floor(m.fiestaOrden / 100) === i + 1; }).length };
+    });
+    var maxMes = Math.max.apply(null, meses.map(function (f) { return f.n; }));
+    $("est-mes").innerHTML = meses.map(function (f) {
+      return '<div class="c-col" data-tip="' + f.k + ': ' + f.n + ' fiestas o memorias">' +
+        '<span class="c-pila"><span class="c-num">' + f.n + '</span><span class="c-seg" style="height:' + (f.n * 88 / maxMes) + '%"></span></span><span class="c-lbl">' + f.k + '</span></div>';
+    }).join("");
+  }
+  // Clear every filter, then apply the one the bar stands for.
+  function filtrarDesde(filtro) {
+    var p = filtro.split("|"), tipo = p[0], valor = p[1];
+    $("q").value = "";
+    ["f-ambos", "f-martir", "f-podcast"].forEach(function (id) { $(id).checked = false; });
+    ["f-pais", "f-siglo", "f-ref"].forEach(function (id) {
+      $(id).querySelectorAll("input").forEach(function (i) { i.checked = false; });
+    });
+    etapasActivas = {};
+    $("chips-etapa").querySelectorAll("[data-etapa]").forEach(function (b) { b.setAttribute("aria-pressed", "false"); });
+    if (tipo === "etapa") { etapasActivas[valor] = true; $("chips-etapa").querySelector('[data-etapa="' + valor + '"]').setAttribute("aria-pressed", "true"); }
+    else if (tipo === "ambos" || tipo === "martir" || tipo === "podcast") $("f-" + tipo).checked = true;
+    else {
+      var sel = { pais: "f-pais", siglo: "f-siglo", ref: "f-ref" }[tipo];
+      $(sel).querySelectorAll("input").forEach(function (i) { if (i.value === valor) i.checked = true; });
+    }
+    ["f-pais", "f-siglo", "f-ref"].forEach(rotular);
+    aplicarFiltros();
+  }
+  function tooltip() {
+    var t = document.createElement("div");
+    t.className = "tip"; t.hidden = true; document.body.appendChild(t);
+    function mostrar(ev) {
+      var el = ev.target.closest && ev.target.closest("[data-tip]");
+      if (!el || !$("vista-estadisticas").contains(el)) { t.hidden = true; return; }
+      t.textContent = el.dataset.tip; t.hidden = false;
+      var r = el.getBoundingClientRect(), x = ev.clientX != null && ev.type !== "focusin" ? ev.clientX : r.left + r.width / 2;
+      var y = ev.type === "focusin" ? r.top : Math.min(ev.clientY, r.bottom);
+      t.style.left = Math.max(8, Math.min(window.innerWidth - t.offsetWidth - 8, x - t.offsetWidth / 2)) + "px";
+      t.style.top = Math.max(8, y - t.offsetHeight - 12) + "px";
+    }
+    document.addEventListener("mousemove", mostrar);
+    document.addEventListener("focusin", mostrar);
+    document.addEventListener("scroll", function () { t.hidden = true; }, { passive: true });
   }
 
   function iniciar(json) {
@@ -201,6 +330,8 @@
         '<div class="ep-links">' + (ep.podcast ? '<a href="' + esc(ep.podcast) + '" target="_blank" rel="noopener">Escuchar en YouTube</a>' : '') +
         (ep.articulo ? '<a href="' + esc(ep.articulo) + '" target="_blank" rel="noopener">Leer artículo</a>' : '') + '</div></div></li>';
     }).join("");
+    pintarEstadisticas();
+    tooltip();
     if (CANAL_PODCAST) { $("canal").href = CANAL_PODCAST; $("canal-wrap").hidden = false; }
 
     ["q", "f-orden", "f-ambos", "f-martir", "f-podcast"].forEach(function (id) {
@@ -239,6 +370,7 @@
     document.addEventListener("click", function (ev) {
       var a = ev.target.closest('a[href^="#"]'); if (!a) return;
       ev.preventDefault();
+      if (a.dataset.filtro) filtrarDesde(a.dataset.filtro);
       try { history.pushState(null, "", a.getAttribute("href")); } catch (e) {}
       ruta();
     });
