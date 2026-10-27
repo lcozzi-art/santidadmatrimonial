@@ -28,6 +28,7 @@
     <nav class="nav" aria-label="Secciones">
       <a href="#inicio" data-nav="inicio">Matrimonios</a>
       <a href="#podcast" data-nav="podcast">Podcast</a>
+      <a href="#estadisticas" data-nav="estadisticas">Estadísticas</a>
       <a href="#acerca" data-nav="acerca">Acerca</a>
     </nav>
   </div>
@@ -79,6 +80,49 @@
     <p id="canal-wrap" hidden><a class="btn" id="canal" href="#" target="_blank" rel="noopener">Escuchar el programa en Spotify</a></p>
   </section>
   <ul class="episodios" id="episodios"></ul>
+</main>
+
+<main id="vista-estadisticas" class="wrap" hidden>
+  <section class="intro">
+    <p class="eyebrow">Estadísticas</p>
+    <h1>Los esposos santos, en números</h1>
+    <p class="lede">Cuántos son, en qué etapa está su causa, de dónde y de qué siglo son, y qué vocación los distinguió. Toque una barra para ver esos casos.</p>
+  </section>
+  <ul class="cifras" id="est-cifras"></ul>
+  <div class="paneles">
+    <section class="panel">
+      <h2>Estado de la causa</h2>
+      <p class="nota">Casos según el título alcanzado.</p>
+      <div class="barras" id="est-etapa"></div>
+    </section>
+    <section class="panel">
+      <h2>Por continente</h2>
+      <p class="nota">Según el país actual, de uno o ambos.</p>
+      <div class="barras" id="est-continente"></div>
+    </section>
+    <section class="panel ancho">
+      <h2>Por siglo</h2>
+      <p class="nota">Siglo en que transcurrió la mayor parte del matrimonio, por estado de la causa.</p>
+      <ul class="leyenda" id="est-leyenda"></ul>
+      <div class="columnas" id="est-siglo"></div>
+    </section>
+    <section class="panel">
+      <h2>Por país</h2>
+      <p class="nota" id="est-pais-nota"></p>
+      <div class="barras" id="est-pais"></div>
+      <button type="button" class="ver-todos" id="est-pais-todos">Ver todos los países</button>
+    </section>
+    <section class="panel">
+      <h2>Por referencia vocacional</h2>
+      <p class="nota">Lo que caracterizó a los esposos.</p>
+      <div class="barras" id="est-ref"></div>
+    </section>
+    <section class="panel ancho">
+      <h2>Fiestas y memorias por mes</h2>
+      <p class="nota">En qué mes del calendario se los recuerda.</p>
+      <div class="columnas meses" id="est-mes"></div>
+    </section>
+  </div>
 </main>
 
 <main id="vista-acerca" class="wrap prosa" hidden>
