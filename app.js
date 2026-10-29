@@ -306,7 +306,7 @@
       var txt = hasta == null ? "Más de " + (desde - 1) : hasta === desde ? String(hasta) : desde + " a " + hasta;
       desde = (hasta || 0) + 1;
       return '<li><i class="m' + (i + 1) + '"></i>' + txt + '</li>';
-    }).join("") + '<li><i class="m0"></i>Sin casos</li>';
+    }).join("");
   }
   // Clear every filter, then apply the one the bar stands for.
   function filtrarDesde(filtro) {
