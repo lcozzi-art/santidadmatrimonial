@@ -134,7 +134,7 @@
 
   var ultimaVista = "inicio";
   function mostrarVista(v) {
-    ["inicio", "podcast", "estadisticas", "acerca"].forEach(function (n) { $("vista-" + n).hidden = n !== v; });
+    ["inicio", "podcast", "libro", "estadisticas", "acerca"].forEach(function (n) { $("vista-" + n).hidden = n !== v; });
     document.querySelectorAll("[data-nav]").forEach(function (a) {
       if (a.dataset.nav === v) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
     });
@@ -160,7 +160,7 @@
       if (m) { abrirFicha(m); return; }
     }
     cerrarFicha();
-    var v = ["podcast", "estadisticas", "acerca"].indexOf(h) >= 0 ? h : "inicio";
+    var v = ["podcast", "libro", "estadisticas", "acerca"].indexOf(h) >= 0 ? h : "inicio";
     if (v !== ultimaVista) window.scrollTo(0, 0);
     mostrarVista(v);
   }
