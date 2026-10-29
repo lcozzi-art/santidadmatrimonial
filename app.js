@@ -29,6 +29,20 @@
     var m = String(url || "").match(/(?:youtu\.be\/|v=)([\w-]{11})/);
     return m ? "https://i.ytimg.com/vi/" + m[1] + "/hqdefault.jpg" : null;
   }
+  // YouTube links play inside the page: the button swaps the photo for the player.
+  function ytAttr(id) { return id ? ' data-yt="' + esc(id) + '"' : ''; }
+  function reproductor(id) {
+    return '<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/' + encodeURIComponent(id) +
+      '?autoplay=1&rel=0" title="Reproductor de YouTube" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>';
+  }
+  function reproducir(a, ev) {
+    if (ev.ctrlKey || ev.metaKey || ev.shiftKey || ev.button) return;
+    var caja = a.closest(".ficha, .ep"); if (!caja) return;
+    ev.preventDefault();
+    var lugar = caja.querySelector(".foto, .video");
+    lugar.outerHTML = reproductor(a.dataset.yt);
+    if (caja.id === "ficha") caja.scrollTop = 0;
+  }
   var ANILLOS = '<svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="15" cy="20" r="10"/><circle cx="25" cy="20" r="10"/></svg>';
 
   function fotoHTML(m, sizes) {
@@ -101,9 +115,9 @@
       ["Mártir", m.martir ? "Sí" : null]
     ].filter(function (f) { return f[1]; }).map(function (f) { return "<dt>" + f[0] + "</dt><dd>" + esc(f[1]) + "</dd>"; }).join("");
     var links = [];
-    if (m.podcast) links.push('<a class="btn" href="' + esc(m.podcast) + '" target="_blank" rel="noopener">Escuchar el podcast</a>');
+    if (m.podcast) links.push('<a class="btn" href="' + esc(m.podcast) + '"' + ytAttr(m.podcastId) + ' target="_blank" rel="noopener">Escuchar el podcast</a>');
     if (m.articulo) links.push('<a class="btn' + (m.podcast ? ' sec' : '') + '" href="' + esc(m.articulo) + '" target="_blank" rel="noopener">Leer artículo</a>');
-    if (m.video) links.push('<a class="btn sec" href="' + esc(m.video) + '" target="_blank" rel="noopener">Ver video</a>');
+    if (m.video) links.push('<a class="btn sec" href="' + esc(m.video) + '"' + ytAttr(m.videoId) + ' target="_blank" rel="noopener">Ver video</a>');
     if (m.masInfo && m.masInfo !== m.articulo) links.push('<a class="btn sec" href="' + esc(m.masInfo) + '" target="_blank" rel="noopener">Más información</a>');
     links.push('<a class="btn sec" href="https://www.google.com/search?q=' + encodeURIComponent(m.titulo) + '" target="_blank" rel="noopener">Buscar en la web</a>');
     return '<button class="cerrar" type="button" aria-label="Cerrar ficha" data-cerrar>×</button>' + fotoHTML(m) +
@@ -134,6 +148,7 @@
     $("ficha").querySelector("[data-cerrar]").focus();
   }
   function cerrarFicha() {
+    $("ficha").innerHTML = "";
     $("ficha").hidden = true; $("ficha-fondo").hidden = true;
     document.title = "Santidad Matrimonial";
   }
@@ -381,7 +396,7 @@
       return '<li class="ep"><div class="foto"><div class="emblema">' + ANILLOS + '</div>' +
         (t ? '<img src="' + t + '" alt="" loading="lazy" onerror="this.remove()">' : '') + '</div>' +
         '<div class="ep-body"><h3>' + esc(ep.nombre) + '</h3>' + (ep.descripcion ? '<p>' + esc(ep.descripcion) + '</p>' : '') +
-        '<div class="ep-links">' + (ep.podcast ? '<a href="' + esc(ep.podcast) + '" target="_blank" rel="noopener">Escuchar en YouTube</a>' : '') +
+        '<div class="ep-links">' + (ep.podcast ? '<a href="' + esc(ep.podcast) + '"' + ytAttr(ep.podcastId) + ' target="_blank" rel="noopener">Escuchar</a>' : '') +
         (ep.articulo ? '<a href="' + esc(ep.articulo) + '" target="_blank" rel="noopener">Leer artículo</a>' : '') + '</div></div></li>';
     }).join("");
     pintarEstadisticas();
@@ -429,6 +444,7 @@
     document.addEventListener("keydown", function (ev) { if (ev.key === "Escape" && !$("ficha").hidden) cerrarYVolver(); });
     // Cards and nav use plain #anchors; handle clicks directly so it also works where hashchange is unavailable.
     document.addEventListener("click", function (ev) {
+      var yt = ev.target.closest("a[data-yt]"); if (yt) { reproducir(yt, ev); return; }
       var a = ev.target.closest('a[href^="#"]'); if (!a) return;
       ev.preventDefault();
       if (a.dataset.filtro) filtrarDesde(a.dataset.filtro);
