@@ -50,7 +50,7 @@
 
   function aplicarFiltros() {
     var q = norm($("q").value).trim();
-    var pais = elegidos("f-pais"), siglo = elegidos("f-siglo"), ref = elegidos("f-ref");
+    var pais = elegidos("f-pais"), siglo = elegidos("f-siglo"), ref = elegidos("f-ref"), mes = elegidos("f-mes");
     var ambos = $("f-ambos").checked, martir = $("f-martir").checked, pod = $("f-podcast").checked;
     var algunaEtapa = Object.keys(etapasActivas).some(function (k) { return etapasActivas[k]; });
     filtrados = datos.filter(function (m) {
@@ -58,6 +58,7 @@
       if (pais.length && !m._paises.some(function (p) { return pais.indexOf(p) >= 0; })) return false;
       if (siglo.length && siglo.indexOf(m.siglo) < 0) return false;
       if (ref.length && ref.indexOf(m.referencia) < 0) return false;
+      if (mes.length && mes.indexOf(m._mes) < 0) return false;
       if (ambos && !m.ambos) return false;
       if (martir && !m.martir) return false;
       if (pod && !m.podcast) return false;
@@ -172,6 +173,7 @@
 
   // Statistics tab: plain HTML bars; each bar links to the cards with that filter.
   var MESES = ["Ene","Feb","Mar","Abr","May","Jun","Jul","Ago","Sep","Oct","Nov","Dic"];
+  var MESES_LARGOS = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
   var CONTINENTES = {
     "Europa": ["Italia","España","Francia","Inglaterra","Polonia","Alemania","Bélgica","Hungría","Irlanda","Suecia","Portugal","Ucrania","Austria","Chequia","Suiza","Grecia","Islandia","Rusia","Dinamarca","Noruega","Escocia","Bielorrusia","Malta","Chipre","Albania","Eslovaquia","Rumania","Croacia","Gales"],
     "América": ["México","Argentina","EEUU","Brasil","Canadá","Venezuela","Chile","El Salvador","Guatemala","Ecuador","Haiti","Trinidad","Colombia","Honduras","Perú","Uruguay"],
@@ -270,12 +272,12 @@
     }).join("");
 
     var meses = MESES.map(function (mes, i) {
-      return { k: mes, n: datos.filter(function (m) { return m.fiestaOrden && Math.floor(m.fiestaOrden / 100) === i + 1; }).length };
+      return { k: mes, largo: MESES_LARGOS[i], n: datos.filter(function (m) { return m._mes === MESES_LARGOS[i]; }).length };
     });
     var maxMes = Math.max.apply(null, meses.map(function (f) { return f.n; }));
     $("est-mes").innerHTML = meses.map(function (f) {
-      return '<div class="c-col" data-tip="' + f.k + ': ' + f.n + ' fiestas o memorias">' +
-        '<span class="c-pila"><span class="c-num">' + f.n + '</span><span class="c-seg" style="height:' + (f.n * 88 / maxMes) + '%"></span></span><span class="c-lbl">' + f.k + '</span></div>';
+      return '<a class="c-col" href="#inicio" data-filtro="mes|' + f.largo + '" data-tip="' + f.largo + ': ' + f.n + ' fiestas o memorias">' +
+        '<span class="c-pila"><span class="c-num">' + f.n + '</span><span class="c-seg" style="height:' + (f.n * 88 / maxMes) + '%"></span></span><span class="c-lbl">' + f.k + '</span></a>';
     }).join("");
   }
   // World map: each country shaded by its number of cases, in steps of one hue.
@@ -313,7 +315,7 @@
     var p = filtro.split("|"), tipo = p[0], valor = p[1];
     $("q").value = "";
     ["f-ambos", "f-martir", "f-podcast"].forEach(function (id) { $(id).checked = false; });
-    ["f-pais", "f-siglo", "f-ref"].forEach(function (id) {
+    ["f-pais", "f-siglo", "f-ref", "f-mes"].forEach(function (id) {
       $(id).querySelectorAll("input").forEach(function (i) { i.checked = false; });
     });
     etapasActivas = {};
@@ -321,11 +323,13 @@
     if (tipo === "etapa") { etapasActivas[valor] = true; $("chips-etapa").querySelector('[data-etapa="' + valor + '"]').setAttribute("aria-pressed", "true"); }
     else if (tipo === "ambos" || tipo === "martir" || tipo === "podcast") $("f-" + tipo).checked = true;
     else {
-      var sel = { pais: "f-pais", siglo: "f-siglo", ref: "f-ref" }[tipo];
+      var sel = { pais: "f-pais", siglo: "f-siglo", ref: "f-ref", mes: "f-mes" }[tipo];
       var valores = valor.split(",");
       $(sel).querySelectorAll("input").forEach(function (i) { if (valores.indexOf(i.value) >= 0) i.checked = true; });
     }
-    ["f-pais", "f-siglo", "f-ref"].forEach(rotular);
+    ["f-pais", "f-siglo", "f-ref", "f-mes"].forEach(rotular);
+    // Within one month, list the cases in calendar order.
+    if (tipo === "mes") $("f-orden").value = "fiesta";
     aplicarFiltros();
   }
   function tooltip() {
@@ -352,6 +356,7 @@
       // "Italia/Francia" counts for each country.
       m._paises = m.pais ? m.pais.split("/").map(function (p) { return p.trim(); }).filter(Boolean) : [];
       m._peso = (m.foto ? 2 : 0) + (m.podcast ? 2 : 0) + (m.fotoYT ? 1 : 0);
+      m._mes = m.fiestaOrden ? MESES_LARGOS[Math.floor(m.fiestaOrden / 100) - 1] : null;
       m._txt = norm([m.titulo, m.fiesta, m.nombres, m.descripcion, m.resumen, m.pais, m.referencia, m.beatitud].join(" "));
     });
     $("resumen").innerHTML = ETAPAS.map(function (e) {
@@ -369,6 +374,7 @@
     opciones("f-pais", Object.keys(paises).sort(function (a, b) { return a.localeCompare(b, "es"); }));
     opciones("f-siglo", cuenta("siglo").sort(function (a, b) { return sigloNum(a) - sigloNum(b); }));
     opciones("f-ref", cuenta("referencia").sort(function (a, b) { return a.localeCompare(b, "es"); }));
+    opciones("f-mes", MESES_LARGOS);
 
     $("episodios").innerHTML = episodios.map(function (ep) {
       var t = ytThumb(ep.podcast);
@@ -388,7 +394,7 @@
     ["q", "f-orden", "f-ambos", "f-martir", "f-podcast"].forEach(function (id) {
       $(id).addEventListener(id === "q" ? "input" : "change", aplicarFiltros);
     });
-    var multis = ["f-pais", "f-siglo", "f-ref"];
+    var multis = ["f-pais", "f-siglo", "f-ref", "f-mes"];
     multis.forEach(function (id) {
       var d = $(id);
       d.addEventListener("change", function () { rotular(id); aplicarFiltros(); });
