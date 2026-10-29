@@ -397,7 +397,11 @@
     var multis = ["f-pais", "f-siglo", "f-ref", "f-mes"];
     multis.forEach(function (id) {
       var d = $(id);
-      d.addEventListener("change", function () { rotular(id); aplicarFiltros(); });
+      d.addEventListener("change", function () {
+        // Picking a month lists its cases in calendar order.
+        if (id === "f-mes" && elegidos(id).length) $("f-orden").value = "fiesta";
+        rotular(id); aplicarFiltros();
+      });
       d.addEventListener("click", function (ev) {
         if (!ev.target.closest("[data-limpiar]")) return;
         d.querySelectorAll("input:checked").forEach(function (i) { i.checked = false; });
