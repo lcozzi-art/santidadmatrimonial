@@ -76,7 +76,7 @@
     $("grid").innerHTML = "";
     pintarLote();
     var n = filtrados.length;
-    $("conteo").textContent = n === datos.length ? n + " fichas" : n + " de " + datos.length + " fichas";
+    $("conteo").textContent = n === datos.length ? n + " matrimonios" : n + " de " + datos.length + " matrimonios";
     if (!n) $("grid").innerHTML = '<p class="conteo">No hay fichas con esos filtros. Probá quitar alguno.</p>';
   }
   function pintarLote() {
