@@ -231,3 +231,4 @@ a.c-col:hover .c-pila, a.c-col:focus-visible .c-pila { opacity: .8; }
   #est-siglo { margin-bottom: 44px; }
 }
 @media (prefers-reduced-motion: reduce) { .card { transition: none; } .card:hover { transform: none; } }
+.est-pie { margin: 24px 0 8px; color: var(--muted); font-size: .9rem; }
