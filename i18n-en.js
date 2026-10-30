@@ -12,7 +12,7 @@ window.TRADUCCION = {
   ui: {
     "Santo": "Saint", "Santos": "Saints",
     "Beato": "Blessed", "Beatos": "Blessed",
-    "Venerable": "Venerable", "Venerables": "Venerables",
+    "Venerable": "Venerable", "Venerables": "Venerable",
     "Siervo de Dios": "Servant of God", "Siervos de Dios": "Servants of God",
     "Reproductor de YouTube": "YouTube player",
     "Siglo {s}": "Century {s}",
@@ -21,7 +21,7 @@ window.TRADUCCION = {
     "{n} de {total} matrimonios": "{n} of {total} couples",
     "No hay fichas con esos filtros. Probá quitar alguno.": "No profiles match these filters. Try removing one.",
     "Mostrar más ({n} restantes)": "Show more ({n} left)",
-    "País": "Country", "Siglo": "Century", "Fiesta o Memoria": "Feast or memorial", "Referencia": "Vocation",
+    "País": "Country", "Siglo": "Century", "Fiesta o Memoria": "Feast or memorial", "Referencia": "Reference",
     "Matrimonio josefino": "Josephite marriage",
     "Causa": "Cause", "De ambos esposos": "Of both spouses", "De uno de los esposos": "Of one of the spouses",
     "Mártir": "Martyr", "Sí": "Yes",
@@ -60,7 +60,7 @@ window.TRADUCCION = {
   beatitudes: {
     "santo": "Saint", "santa": "Saint", "santos": "Saints",
     "beato": "Blessed", "beata": "Blessed", "beatos": "Blessed",
-    "venerable": "Venerable", "venerables": "Venerables",
+    "venerable": "Venerable", "venerables": "Venerable",
     "siervo de dios": "Servant of God", "sierva de dios": "Servant of God", "siervos de dios": "Servants of God"
   },
   referencias: {
