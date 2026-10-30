@@ -66,11 +66,11 @@
   },
   "10": {
    "titulo": "St. Margaret and Malcolm Canmore",
-   "nombres": "Margaret and Malcolm Canmore",
+   "nombres": "Margaret of Scotland and Malcolm Canmore",
    "descripcion": "model mother and queen, the “Pearl of Scotland”",
    "resumen": "king and queen",
    "cita": "“As I hope in you, Lord, inspire me with the trust that will lead me to your holy mountain” (St. Margaret)",
-   "_es": "be277a51bc"
+   "_es": "fdf2af6359"
   },
   "11": {
    "titulo": "St. Monica and Patricius",
@@ -163,9 +163,9 @@
    "titulo": "Ven. Enrique Shaw and Cecilia Bunge",
    "nombres": "Enrique Shaw and Cecilia Bunge",
    "descripcion": "the “saint of the business world”",
-   "resumen": "businessman, co-founder of ACDE (Christian Association of Business Leaders)",
+   "resumen": "businessman, co-founder of ACDE (Christian Association of Business Leaders); a miracle has been approved for his beatification",
    "cita": "“The mission I feel called to is to give glory to God myself so that others will give it too. Our program must be to save our neighbor's soul, to save our own and to be saints.” (Ven. Enrique Shaw)",
-   "_es": "a6e6049562"
+   "_es": "a8d1d5caee"
   },
   "23": {
    "titulo": "Ven. Jérôme Lejeune and Birthe Bringsted",
@@ -347,8 +347,8 @@
    "titulo": "Sts. Adrian and Natalia",
    "nombres": "Adrian and Natalia",
    "descripcion": "converted Roman soldier",
-   "resumen": "converted Roman soldier",
-   "_es": "1a7cde1164"
+   "resumen": "patron of soldiers and intercessor against plagues",
+   "_es": "f53087bc3f"
   },
   "47": {
    "titulo": "Servant of God Dr. Adrienne von Speyr and Emil Dürr",
@@ -940,7 +940,7 @@
    "nombres": "Consilio Pistocchi and Bruna Buratti",
    "descripcion": "Italian deacon devoted to children in crisis",
    "resumen": "founders of Casa Betania, serving women in need",
-   "_es": "68af8a154f"
+   "_es": "f3c93490aa"
   },
   "129": {
    "titulo": "Servant of God Cora Louise Evans and Mack",
@@ -2010,11 +2010,11 @@
    "_es": "cd8cfcfa7d"
   },
   "278": {
-   "titulo": "Sts. Xenophon and Mary, monks",
-   "nombres": "Xenophon and Mary, monks",
+   "titulo": "Sts. Xenophon and Mary",
+   "nombres": "Xenophon and Mary",
    "descripcion": "nobles who became monastics with their 2 sons",
    "resumen": "nobles who became monastics with their 2 sons",
-   "_es": "11e03837f0"
+   "_es": "fac1452477"
   },
   "279": {
    "titulo": "Bl. Jérôme Le Royer and Jeanne de Baugé",
@@ -2158,11 +2158,12 @@
    "_es": "d4a0cf0351"
   },
   "298": {
-   "titulo": "St. Joseph Tuan",
-   "nombres": "Joseph Tuan",
+   "titulo": "St. Joseph Tuân",
+   "nombres": "Joseph Tuân",
    "resumen": "martyr and family man",
    "cita": "he refused to step on the cross; instead, he venerated it",
-   "_es": "ccd6d3d191"
+   "_es": "728f89fcef",
+   "descripcion": "husband martyred for refusing to step on the Cross"
   },
   "299": {
    "titulo": "Bl. Josef Mayr-Nusser and Hildegard Straub",
@@ -2691,11 +2692,11 @@
   },
   "371": {
    "titulo": "Servant of God María Cecilia Perrín and Luis Buide",
-   "nombres": "María Cecilia Perrín and Luis Buide",
+   "nombres": "Cecilia Perrín and Luis Buide",
    "descripcion": "Argentine mother and teacher of the Focolare",
    "resumen": "Focolare member, pro-life teacher who died after refusing to end her pregnancy",
    "cita": "“Your ways, Lord, are madness; they break my humanity, but they are the only ones I want to walk”",
-   "_es": "09bd9654af"
+   "_es": "89a17eda22"
   },
   "372": {
    "titulo": "Ven. Marie Clotilde and Charles Emmanuel IV",
@@ -2779,11 +2780,11 @@
    "_es": "40f60e5cb2"
   },
   "383": {
-   "titulo": "Bl. Maria Lorenza Longo and Giovanni Longo",
-   "nombres": "Maria Lorenza Longo and Giovanni Longo (Regent of Naples)",
+   "titulo": "Bl. Maria Lorenza Requenses and Giovanni Longo",
+   "nombres": "Maria Lorenza Requenses and Giovanni Longo",
    "descripcion": "wife of a royal official in Naples; mother and founder of the Hospital of the Incurables in Naples",
    "resumen": "widow of a royal official in Naples; a benefactor with a disability who founded a hospital",
-   "_es": "8c6fe926ea"
+   "_es": "f0170d2282"
   },
   "384": {
    "titulo": "Ven. María Luisa de la Peña and Pascual Rojas",
