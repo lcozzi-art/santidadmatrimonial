@@ -192,7 +192,7 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .cifra { padding: 16px 18px; display: grid; gap: 4px; align-content: start; height: 100%; color: inherit; text-decoration: none; border-radius: 14px; }
 a.cifra:hover { box-shadow: var(--shadow); }
 a.cifra span { color: var(--accent); }
-.cifras b { font-family: var(--f-display); font-weight: 400; font-size: 2.2rem; line-height: 1; color: var(--ink); font-variant-numeric: tabular-nums; }
+.cifras b { font-family: var(--f-display); font-weight: 400; font-size: 1.7rem; line-height: 1; color: var(--ink); font-variant-numeric: tabular-nums; }
 .cifras span { font-size: .9rem; color: var(--muted); }
 .paneles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; align-items: start; }
 .panel { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 20px 20px 22px; display: grid; gap: 6px; min-width: 0; }
@@ -265,7 +265,7 @@ a.c-col:hover .c-pila, a.c-col:focus-visible .c-pila { opacity: .8; }
   .paneles { grid-template-columns: 1fr; }
   .panel { padding: 16px 14px 18px; }
   .cifras { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .cifras b { font-size: 1.8rem; }
+  .cifras b { font-size: 1.3rem; }
   .columnas { gap: 2px; }
   .c-num { font-size: .62rem; }
   #est-siglo .c-lbl { writing-mode: vertical-rl; transform: rotate(180deg); text-align: right; top: calc(100% + 4px); left: 50%; right: auto; translate: -50% 0; }
