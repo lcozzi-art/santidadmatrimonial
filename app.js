@@ -439,6 +439,20 @@
       b.setAttribute("aria-pressed", on); etapasActivas[b.dataset.etapa] = on; aplicarFiltros();
     });
     $("btn-mas").addEventListener("click", pintarLote);
+    // Contact form: send through FormSubmit without leaving the page.
+    $("contacto").addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      var f = ev.target, estado = $("contacto-estado"), boton = f.querySelector("button");
+      boton.disabled = true; estado.hidden = false; estado.textContent = "Enviando…";
+      fetch(f.action.replace("formsubmit.co/", "formsubmit.co/ajax/"), { method: "POST", headers: { Accept: "application/json" }, body: new FormData(f) })
+        .then(function (r) { return r.json(); })
+        .then(function (r) {
+          if (String(r.success) !== "true") throw new Error(r.message);
+          f.reset(); estado.textContent = "¡Gracias! Recibimos su mensaje y le responderemos a la brevedad.";
+        })
+        .catch(function () { estado.textContent = "No se pudo enviar. Intente de nuevo en unos minutos."; })
+        .then(function () { boton.disabled = false; });
+    });
     $("ficha-fondo").addEventListener("click", cerrarYVolver);
     $("ficha").addEventListener("click", function (ev) { if (ev.target.closest("[data-cerrar]")) cerrarYVolver(); });
     document.addEventListener("keydown", function (ev) { if (ev.key === "Escape" && !$("ficha").hidden) cerrarYVolver(); });
