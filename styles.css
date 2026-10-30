@@ -233,24 +233,22 @@ a.c-col:hover .c-pila, a.c-col:focus-visible .c-pila { opacity: .8; }
 .mapa { margin-inline: -8px; }
 .mapa svg { display: block; width: 100%; height: auto; }
 .m-pais { fill: color-mix(in srgb, var(--ink) 7%, var(--surface)); stroke: var(--surface); stroke-width: .6; }
-.m1 { fill: color-mix(in srgb, var(--accent) 18%, var(--surface)); }
-.m2 { fill: color-mix(in srgb, var(--accent) 34%, var(--surface)); }
-.m3 { fill: color-mix(in srgb, var(--accent) 50%, var(--surface)); }
-.m4 { fill: color-mix(in srgb, var(--accent) 66%, var(--surface)); }
-.m5 { fill: color-mix(in srgb, var(--accent) 83%, var(--surface)); }
-.m6 { fill: var(--accent); }
+.m1 { fill: color-mix(in srgb, var(--accent) 20%, var(--surface)); }
+.m2 { fill: color-mix(in srgb, var(--accent) 40%, var(--surface)); }
+.m3 { fill: color-mix(in srgb, var(--accent) 60%, var(--surface)); }
+.m4 { fill: color-mix(in srgb, var(--accent) 80%, var(--surface)); }
+.m5 { fill: var(--accent); }
 .m-punto { fill: var(--gold); stroke: var(--surface); stroke-width: 1.5; }
 .mapa a:hover .m-pais, .mapa a:focus-visible .m-pais { stroke: var(--gold); stroke-width: 1.5; }
 .mapa a:focus { outline: none; }
 .mapa-ley { margin: 10px 0 0; }
 .mapa-ley i { width: 18px; height: 12px; border-radius: 3px; }
 .mapa-ley i.m0 { background: color-mix(in srgb, var(--ink) 7%, var(--surface)); }
-.mapa-ley i.m1 { background: color-mix(in srgb, var(--accent) 18%, var(--surface)); }
-.mapa-ley i.m2 { background: color-mix(in srgb, var(--accent) 34%, var(--surface)); }
-.mapa-ley i.m3 { background: color-mix(in srgb, var(--accent) 50%, var(--surface)); }
-.mapa-ley i.m4 { background: color-mix(in srgb, var(--accent) 66%, var(--surface)); }
-.mapa-ley i.m5 { background: color-mix(in srgb, var(--accent) 83%, var(--surface)); }
-.mapa-ley i.m6 { background: var(--accent); }
+.mapa-ley i.m1 { background: color-mix(in srgb, var(--accent) 20%, var(--surface)); }
+.mapa-ley i.m2 { background: color-mix(in srgb, var(--accent) 40%, var(--surface)); }
+.mapa-ley i.m3 { background: color-mix(in srgb, var(--accent) 60%, var(--surface)); }
+.mapa-ley i.m4 { background: color-mix(in srgb, var(--accent) 80%, var(--surface)); }
+.mapa-ley i.m5 { background: var(--accent); }
 .tip { position: fixed; z-index: 30; pointer-events: none; background: var(--ink); color: var(--bg); font-size: .85rem; font-weight: 600; padding: 6px 10px; border-radius: 8px; box-shadow: var(--shadow); max-width: 260px; }
 
 .prosa { max-width: 760px; padding-block: 40px; display: grid; gap: 14px; }

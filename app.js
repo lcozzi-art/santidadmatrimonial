@@ -214,7 +214,7 @@
     "Uganda": "Uganda", "Croacia": "Croatia", "Perú": "Peru", "Jordania": "Jordan", "Uruguay": "Uruguay", "Mauritania": "Mauritania"
   };
   // Upper bound of each color step; counts above the last one take the darkest.
-  var ESCALONES = [1, 4, 9, 24, 69];
+  var ESCALONES = [4, 9, 24, 69];
 
   function contar(lista, clave) {
     var c = {};
