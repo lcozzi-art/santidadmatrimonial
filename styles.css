@@ -52,6 +52,11 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .nav { display: flex; gap: 4px; max-width: 100%; overflow-x: auto; scrollbar-width: none; }
 .nav a { text-decoration: none; color: var(--muted); padding: 6px 12px; border-radius: 999px; font-weight: 600; font-size: .95rem; }
 .nav a[aria-current="page"] { color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, transparent); }
+.top-in > .nav { margin-left: auto; }
+.idioma { order: 3; margin-left: -6px; text-decoration: none; color: var(--ink); padding: 5px 11px; border: 1px solid var(--line); border-radius: 999px; font-weight: 600; font-size: .9rem; letter-spacing: .04em; }
+.idioma:hover { border-color: var(--gold); }
+/* When the tabs wrap below the brand, the language link stays on the brand's line. */
+@media (max-width: 880px) { .nav { order: 4; flex-basis: 100%; } .idioma { margin-left: 0; } }
 
 .intro { padding-block: 40px 24px; display: grid; gap: 12px; max-width: 780px; }
 .eyebrow { margin: 0; text-transform: uppercase; letter-spacing: .14em; font-size: .78rem; font-weight: 700; color: var(--gold); }
