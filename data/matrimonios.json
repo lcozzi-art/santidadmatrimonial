@@ -14619,270 +14619,308 @@
  ],
  "episodios": [
   {
-   "nombre": "Catherine Doherty",
-   "descripcion": "madre rusa emigrante que se brindó por los necesitados de EEUU y Canadá",
-   "podcast": "https://youtu.be/jKOSoxVRVCk?si=VByIecvtuKVr6EUG",
-   "podcastId": "jKOSoxVRVCk",
-   "articulo": "https://www.religionenlibertad.com/personajes/174297786/catherine-doherty-aristocrata-rusa-conversa-catolicismo-entrego-vida-pobres.html"
-  },
-  {
-   "nombre": "Takashi y Midori Nagai",
-   "descripcion": "radiólogo japonés converso sobreviviente de la bomba atómica",
-   "podcast": "https://youtu.be/jxXGZ7xve_w?si=oSco7z1tvAybnwq8",
-   "podcastId": "jxXGZ7xve_w",
-   "articulo": "https://es.aleteia.org/2014/06/30/takashi-nagai-el-cientifico-japones-que-se-convirtio-leyendo-a-pascal/"
-  },
-  {
-   "nombre": "Conchita Cabrera",
-   "descripcion": "Madre y mística, la primera laica beatificada de Mexico",
-   "podcast": "https://youtu.be/_js0_0Vf6Wo?si=KMGkoRHVKIAVyBxz",
-   "podcastId": "_js0_0Vf6Wo",
-   "articulo": "https://www.vaticannews.va/es/iglesia/news/2019-05/conchita-cabrera-armida-beata-mexico.html"
-  },
-  {
-   "nombre": "Elisabeth Leseur",
-   "descripcion": "la francesa que logra convertir a su esposo ateo... desde el cielo",
-   "podcast": "https://youtu.be/eql1DdkTVPI?si=7YJAmJWHRNkdCRxi",
-   "podcastId": "eql1DdkTVPI",
-   "articulo": "https://es.catholic.net/op/articulos/22815/cat/708/felix-leseur-de-esposo-ateo-a-sacerdote-catolico.html#modal"
-  },
-  {
-   "nombre": "Cyprien y Daphrose Rugamba",
-   "descripcion": "heroica historia de conversión y generosidad en Ruanda",
-   "podcast": "https://youtu.be/FKGbRCryrvM?si=_d9t_FKKMBfZE_cI",
-   "podcastId": "FKGbRCryrvM",
-   "articulo": "https://emmanuel.info/es/cyprien-daphrose-lugamba/"
-  },
-  {
-   "nombre": "Santa Margarita de Escocia",
-   "descripcion": "modelo de madre y reina, la Perla de Escocia",
-   "podcast": "https://youtu.be/aEEXk6JwiFI?si=6lPpJ3IqYHKfBbe8",
-   "podcastId": "aEEXk6JwiFI",
-   "articulo": "https://es.catholic.net/op/articulos/32053/margarita-de-escocia-santa.html#modal"
-  },
-  {
-   "nombre": "Reina Santa Adelaida",
-   "descripcion": "virtuosa emperatriz romano-germanica",
-   "podcast": "https://youtu.be/8S-RQi0Hh8U?si=J46BCLK7cSOCgMFo",
-   "podcastId": "8S-RQi0Hh8U",
-   "articulo": "https://www.ewtn.com/es/catolicismo/santos/adelaida-14746"
-  },
-  {
-   "nombre": "Sergio y Domenica Bernardini",
-   "descripcion": "una pareja italiana venerable",
-   "podcast": "https://youtu.be/TvAXJeeHUWI?si=TckzZToBIh-A99uK",
-   "podcastId": "TvAXJeeHUWI",
-   "articulo": "https://es.catholic.net/op/articulos/57694/cat/1070/una-pareja-de-bienaventurados.html#modal"
-  },
-  {
-   "nombre": "Luigi y María Beltrame Quattrocchi",
-   "descripcion": "los primeros esposos beatificados juntos",
-   "podcast": "https://www.youtube.com/watch?v=C6ocTAV1wuY",
-   "podcastId": "C6ocTAV1wuY",
-   "articulo": "https://es.catholic.net/op/articulos/35012/cat/214/luis-beltrame-quattrocchi-y-maria-corsini-beatos.html"
-  },
-  {
-   "nombre": "Odoardo Focherini",
-   "descripcion": "periodista que salvó a un centenar de judios",
-   "podcast": "https://youtu.be/QIgN4vSzC5o?si=fDTjSp01TWdhViZu",
-   "podcastId": "QIgN4vSzC5o",
-   "articulo": "https://www.religionenlibertad.com/personajes/29704/odoardo-focherini-periodista-que-salvo-a100-judios-y-murio-en.html"
-  },
-  {
-   "nombre": "Jérôme Lejeune",
-   "descripcion": "pediatra genetista pro-vida que identificó el gen del síndrome de Down",
-   "podcast": "https://youtu.be/Di__6LuCLZ4",
-   "podcastId": "Di__6LuCLZ4",
-   "articulo": "https://www.youtube.com/watch?v=Shz2iR5ifjo"
-  },
-  {
-   "nombre": "Santa Gianna Beretta",
-   "descripcion": "la pediatra que dio todo por sus hijos",
-   "podcast": "https://youtu.be/EP-8rdRQ1fY",
-   "podcastId": "EP-8rdRQ1fY",
-   "articulo": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20040516_beretta-molla_sp.html"
-  },
-  {
-   "nombre": "Hildegarda Burjan",
-   "descripcion": "madre, diputada y trabajadora social austríaca",
-   "podcast": "https://youtu.be/nda0LHUHyuI?si=VdMYmttJAfBM1v9p",
-   "podcastId": "nda0LHUHyuI",
-   "articulo": "https://www.religionenlibertad.com/personajes/210925/filosofa-judia-conversa-fundadora-beata-hildegard-burjan-modelo-politicos-catolicos_66943_amp.html"
-  },
-  {
-   "nombre": "Chiara Corbella",
-   "descripcion": "la Gianna Beretta del siglo XXI",
-   "podcast": "https://youtu.be/aZWGkeQ-Jow?si=z-NuSpF1gh1UHhCl",
-   "podcastId": "aZWGkeQ-Jow",
-   "articulo": "http://www.laici.va/content/laici/es/sezioni/donna/notizie/tutti-dietro-a-chiara.html"
-  },
-  {
-   "nombre": "Gwen y Jerry Coniker",
-   "descripcion": "matrimonio americano pionero en contenido televisivo familiar",
-   "podcast": "https://youtu.be/IDgfEkWqH-g?si=4A8ihDcn5ZUBO_SK",
-   "podcastId": "IDgfEkWqH-g",
-   "articulo": "https://afc.org/our-history/"
+   "nombre": "Enrique Shaw",
+   "descripcion": "el argentino santo del mundo empresario",
+   "podcast": "https://youtu.be/mnbY-S8dbko?si=FQGPIG8lfqgXTGgd",
+   "podcastId": "mnbY-S8dbko",
+   "articulo": "https://www.enriqueshaw.com/quien-fue/",
+   "numero": 1
   },
   {
    "nombre": "Tomás y Paquita Alvira",
    "descripcion": "matrimonio de educadores españoles",
    "podcast": "https://youtu.be/dMbpLVbSb18?si=NCw50c0XClRrJhoZ",
    "podcastId": "dMbpLVbSb18",
-   "articulo": "https://www.revistamision.com/la-santidad-de-dos-en-dos-la-vida-de-tomas-y-paquita/"
+   "articulo": "https://www.revistamision.com/la-santidad-de-dos-en-dos-la-vida-de-tomas-y-paquita/",
+   "numero": 2
   },
   {
-   "nombre": "Raoul y Madeleine Follereau",
-   "descripcion": "samaritanos de los leprosos en el siglo XX",
-   "podcast": "https://youtu.be/-SVYYQ626vI?si=XH8H1F6Eru6wiocC",
-   "podcastId": "-SVYYQ626vI",
-   "articulo": "https://solidaridad.net/raoul-follereau-vagabundo-de-la-caridad-en-el-centenario-de-su-nacimiento1140/"
+   "nombre": "Santa Gianna Beretta",
+   "descripcion": "la pediatra que dio todo por sus hijos",
+   "podcast": "https://youtu.be/EP-8rdRQ1fY",
+   "podcastId": "EP-8rdRQ1fY",
+   "articulo": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20040516_beretta-molla_sp.html",
+   "numero": 4
   },
   {
-   "nombre": "Santo Tomás Moro",
-   "descripcion": "patrono de los políticos y defensor del matrimonio católico",
-   "podcast": "https://youtu.be/lsX6gaeCm2E?si=gre29a0WJm_L6vkh",
-   "podcastId": "lsX6gaeCm2E",
-   "articulo": "https://www.vaticannews.va/es/santos/06/22/s--tomas-moro--martir-ingles.html"
+   "nombre": "Santa Margarita de Escocia",
+   "descripcion": "modelo de madre y reina, la Perla de Escocia",
+   "podcast": "https://youtu.be/aEEXk6JwiFI?si=6lPpJ3IqYHKfBbe8",
+   "podcastId": "aEEXk6JwiFI",
+   "articulo": "https://es.catholic.net/op/articulos/32053/margarita-de-escocia-santa.html#modal",
+   "numero": 6
   },
   {
-   "nombre": "Vittorio Trancanelli",
-   "descripcion": "el santo del quirófano",
-   "podcast": "https://youtu.be/O0JOBP37hns?si=ZbAFQBEeMMc1bDuR",
-   "podcastId": "O0JOBP37hns",
-   "articulo": "https://www.aciprensa.com/noticias/este-medico-padre-de-familia-adopto-7-ninos-y-era-conocido-como-el-santo-del-quirofano-18666"
+   "nombre": "Sergio y Domenica Bernardini",
+   "descripcion": "una pareja italiana venerable",
+   "podcast": "https://youtu.be/TvAXJeeHUWI?si=TckzZToBIh-A99uK",
+   "podcastId": "TvAXJeeHUWI",
+   "articulo": "https://es.catholic.net/op/articulos/57694/cat/1070/una-pareja-de-bienaventurados.html#modal",
+   "numero": 8
   },
   {
-   "nombre": "João Pozzobon",
-   "descripcion": "esposo brasilero pionero de la Campaña de la Virgen Peregrina",
-   "podcast": "https://youtu.be/K5JrBmvfkVI",
-   "podcastId": "K5JrBmvfkVI",
-   "articulo": "https://www.schoenstatt.org.ar/vidas-heroicas/luiz-pozzobon.html/"
+   "nombre": "Takashi y Midori Nagai",
+   "descripcion": "radiólogo japonés converso sobreviviente de la bomba atómica",
+   "podcast": "https://youtu.be/jxXGZ7xve_w?si=oSco7z1tvAybnwq8",
+   "podcastId": "jxXGZ7xve_w",
+   "articulo": "https://es.aleteia.org/2014/06/30/takashi-nagai-el-cientifico-japones-que-se-convirtio-leyendo-a-pascal/",
+   "numero": 9
+  },
+  {
+   "nombre": "Gwen y Jerry Coniker",
+   "descripcion": "matrimonio americano pionero en contenido televisivo familiar",
+   "podcast": "https://youtu.be/IDgfEkWqH-g?si=4A8ihDcn5ZUBO_SK",
+   "podcastId": "IDgfEkWqH-g",
+   "articulo": "https://afc.org/our-history/",
+   "numero": 10
+  },
+  {
+   "nombre": "Jérôme Lejeune",
+   "descripcion": "pediatra genetista pro-vida que identificó el gen del síndrome de Down",
+   "podcast": "https://youtu.be/Di__6LuCLZ4",
+   "podcastId": "Di__6LuCLZ4",
+   "articulo": "https://www.youtube.com/watch?v=Shz2iR5ifjo",
+   "numero": 11
   },
   {
    "nombre": "Pierre Toussaint",
    "descripcion": "el ex esclavo peluquero y filántropo en Nueva York",
    "podcast": "https://youtu.be/-tK2W4uSvW0",
    "podcastId": "-tK2W4uSvW0",
-   "articulo": "https://www.aciprensa.com/noticias/10-datos-sobre-pierre-toussaint-un-ex-esclavo-camino-a-la-santidad-91095"
+   "articulo": "https://www.aciprensa.com/noticias/10-datos-sobre-pierre-toussaint-un-ex-esclavo-camino-a-la-santidad-91095",
+   "numero": 12
   },
   {
-   "nombre": "Ana María Taigi",
-   "descripcion": "patrona de las madres de familia",
-   "podcast": "https://youtu.be/wNKuTDMz9Kg?si=PThJ2f8bUqHf4FE0",
-   "podcastId": "wNKuTDMz9Kg",
-   "articulo": "http://es.catholic.net/op/articulos/36116/cat/214/ana-maria-taigi-beata.html"
+   "nombre": "Raoul y Madeleine Follereau",
+   "descripcion": "samaritanos de los leprosos en el siglo XX",
+   "podcast": "https://youtu.be/-SVYYQ626vI?si=XH8H1F6Eru6wiocC",
+   "podcastId": "-SVYYQ626vI",
+   "articulo": "https://solidaridad.net/raoul-follereau-vagabundo-de-la-caridad-en-el-centenario-de-su-nacimiento1140/",
+   "numero": 14
   },
   {
-   "nombre": "Santos Luis y Celia Martin",
-   "descripcion": "los santos padres de Santa Teresita",
-   "podcast": "https://youtu.be/pAYWXs7DceM?si=VZ4eCF2n0MA4xUw6",
-   "podcastId": "pAYWXs7DceM",
-   "articulo": "http://es.catholic.net/op/articulos/36542/cat/214/celia-y-luis-martin-beatos.html"
+   "nombre": "Hildegarda Burjan",
+   "descripcion": "madre, diputada y trabajadora social austríaca",
+   "podcast": "https://youtu.be/nda0LHUHyuI?si=VdMYmttJAfBM1v9p",
+   "podcastId": "nda0LHUHyuI",
+   "articulo": "https://www.religionenlibertad.com/personajes/210925/filosofa-judia-conversa-fundadora-beata-hildegard-burjan-modelo-politicos-catolicos_66943_amp.html",
+   "numero": 16
   },
   {
-   "nombre": "Santa Brígida de Suecia",
-   "descripcion": "la co-patrona de Europa",
-   "podcast": "https://youtu.be/6HSxcq3iIZU?si=R4UIDCf3j_rcjEtz",
-   "podcastId": "6HSxcq3iIZU",
-   "articulo": "https://www.aciprensa.com/noticias/51521/hoy-celebramos-a-santa-brigida-de-suecia-patrona-de-europa-modelo-de-mujer-esposa-y-madre"
+   "nombre": "Elisabeth Leseur",
+   "descripcion": "la francesa que logra convertir a su esposo ateo... desde el cielo",
+   "podcast": "https://youtu.be/eql1DdkTVPI?si=7YJAmJWHRNkdCRxi",
+   "podcastId": "eql1DdkTVPI",
+   "articulo": "https://es.catholic.net/op/articulos/22815/cat/708/felix-leseur-de-esposo-ateo-a-sacerdote-catolico.html#modal",
+   "numero": 17
   },
   {
    "nombre": "Jerónimo y Zélia",
    "descripcion": "los \"Luis y Celia Martin brasileros\"",
    "podcast": "https://youtu.be/W0sMjraIUdI?si=JR-g2B9oAWLCAMlk",
    "podcastId": "W0sMjraIUdI",
-   "articulo": "https://www.postulazionecausesanti.it/es/zelia-pedreira-magalhaes/"
-  },
-  {
-   "nombre": "San Peter To Rot",
-   "descripcion": "catequista heroico, primer santo de Papua Nueva Guinea",
-   "podcast": "https://youtu.be/hwsANIAD1QA",
-   "podcastId": "hwsANIAD1QA",
-   "articulo": "https://www.vaticannews.va/es/iglesia/news/2025-06/peter-to-rot-un-santo-fruto-de-la-mision-compartida.html"
-  },
-  {
-   "nombre": "Santos Aquila y Priscila",
-   "descripcion": "matrimonio compañero del apóstol San Pablo",
-   "podcast": "https://www.youtube.com/watch?v=5CpFRPDlcmA",
-   "podcastId": "5CpFRPDlcmA",
-   "articulo": "https://www.aciprensa.com/noticias/100992/vaticano-beatificacion-sin-precedentes-de-una-familia-entera-la-familia-ulma"
-  },
-  {
-   "nombre": "Carlo y Giulia Falletti Di Barolo",
-   "descripcion": "un matrimonio venerable y benefactor",
-   "podcast": "https://youtu.be/6ThNZxvIhEs?si=Ayvc2ounm7v6mu0y",
-   "podcastId": "6ThNZxvIhEs",
-   "articulo": "https://www.carm.es/edu/pub/20_2016/1S_contenido.html"
-  },
-  {
-   "nombre": "Alcide De Gasperi",
-   "descripcion": "uno de los padres forjadores de la Unión Europea",
-   "podcast": "https://youtu.be/htcNCMds2G8?si=mtdI1kLKyH2T09pz",
-   "podcastId": "htcNCMds2G8",
-   "articulo": "https://www.vatican.va/content/john-paul-ii/es/speeches/1981/april/documents/hf_jp-ii_spe_19810402_de-gasperi.html"
+   "articulo": "https://www.postulazionecausesanti.it/es/zelia-pedreira-magalhaes/",
+   "numero": 18
   },
   {
    "nombre": "San Luis Rey de Francia",
    "descripcion": "virtuoso rey, padre y caballero de Francia",
    "podcast": "https://youtu.be/2LossRymLa4?si=KGHQUYS9HYp8UooM",
    "podcastId": "2LossRymLa4",
-   "articulo": "https://es.gaudiumpress.org/content/39770-san-luis-rey-de-francia-caballero-y-religioso/"
+   "articulo": "https://es.gaudiumpress.org/content/39770-san-luis-rey-de-francia-caballero-y-religioso/",
+   "numero": 19
   },
   {
-   "nombre": "Enrique Shaw",
-   "descripcion": "el argentino santo del mundo empresario",
-   "podcast": "https://youtu.be/mnbY-S8dbko?si=FQGPIG8lfqgXTGgd",
-   "podcastId": "mnbY-S8dbko",
-   "articulo": "https://www.enriqueshaw.com/quien-fue/"
+   "nombre": "Luigi y María Beltrame Quattrocchi",
+   "descripcion": "los primeros esposos beatificados juntos",
+   "podcast": "https://www.youtube.com/watch?v=C6ocTAV1wuY",
+   "podcastId": "C6ocTAV1wuY",
+   "articulo": "https://es.catholic.net/op/articulos/35012/cat/214/luis-beltrame-quattrocchi-y-maria-corsini-beatos.html",
+   "numero": 20
   },
   {
-   "nombre": "Santa Mónica",
-   "descripcion": "la patrona de las madres con hijos descarriados",
-   "podcast": "https://youtu.be/nVVWjZoVwrk?si=CQtdPSguAzQvPlRP",
-   "podcastId": "nVVWjZoVwrk",
-   "articulo": "https://www.aciprensa.com/madres/monica.htm"
+   "nombre": "Vittorio Trancanelli",
+   "descripcion": "el santo del quirófano",
+   "podcast": "https://youtu.be/O0JOBP37hns?si=ZbAFQBEeMMc1bDuR",
+   "podcastId": "O0JOBP37hns",
+   "articulo": "https://www.aciprensa.com/noticias/este-medico-padre-de-familia-adopto-7-ninos-y-era-conocido-como-el-santo-del-quirofano-18666",
+   "numero": 21
   },
   {
    "nombre": "Arístides y Adela Calvani",
    "descripcion": "canciller venezolano apóstol de la democracia",
    "podcast": "https://youtu.be/yxdfNf2WdBY?si=zRnWlXq5DZWXLfaK",
    "podcastId": "yxdfNf2WdBY",
-   "articulo": "https://www.elnacional.com/opinion/aristides-calvani-apostol-de-la-caridad-politica/"
+   "articulo": "https://www.elnacional.com/opinion/aristides-calvani-apostol-de-la-caridad-politica/",
+   "numero": 22
   },
   {
-   "nombre": "Georges y Pauline Vanier",
-   "descripcion": "gobernador canadiense y su esposa",
-   "podcast": "https://youtu.be/7G6wIyOufQQ?si=y_6KNXBZhP7wFuu8",
-   "podcastId": "7G6wIyOufQQ",
-   "articulo": "https://www.canadianchristianleaders.org/leader/pauline-vanier/"
-  },
-  {
-   "nombre": "Marcello Labor",
-   "descripcion": "médico, padre, escritor y luego cura párroco",
-   "podcast": "https://youtu.be/j5OmiVHZk-c?si=jWBvAxJFxrLGMWNC",
-   "podcastId": "j5OmiVHZk-c",
-   "articulo": "https://www.causesanti.va/it/venerabili/marcello-labor.html"
-  },
-  {
-   "nombre": "Federico Ozanam",
-   "descripcion": "abogado francés fundador de una obra mundial de caridad",
-   "podcast": "https://youtu.be/ysVm6qF-GrA?si=WqyVvBMxQswm_nBr",
-   "podcastId": "ysVm6qF-GrA",
-   "articulo": "https://www.corazondepaul.org/2020/09/02/biografia-beato-federico-ozanam/"
+   "nombre": "Chiara Corbella",
+   "descripcion": "la Gianna Beretta del siglo XXI",
+   "podcast": "https://youtu.be/aZWGkeQ-Jow?si=z-NuSpF1gh1UHhCl",
+   "podcastId": "aZWGkeQ-Jow",
+   "articulo": "http://www.laici.va/content/laici/es/sezioni/donna/notizie/tutti-dietro-a-chiara.html",
+   "numero": 23
   },
   {
    "nombre": "Dorotea Chopitea",
    "descripcion": "madre chilena que dio su fortuna por los necesitados de Barcelona",
    "podcast": "https://www.youtube.com/watch?v=-ih_WbeYZls",
    "podcastId": "-ih_WbeYZls",
-   "articulo": "http://cristiandad.orlandis.org/2016/09/dona-dorotea-de-chopitea-madre-de-los-pobres/"
+   "articulo": "http://cristiandad.orlandis.org/2016/09/dona-dorotea-de-chopitea-madre-de-los-pobres/",
+   "numero": 24
+  },
+  {
+   "nombre": "Ana María Taigi",
+   "descripcion": "patrona de las madres de familia",
+   "podcast": "https://youtu.be/wNKuTDMz9Kg?si=PThJ2f8bUqHf4FE0",
+   "podcastId": "wNKuTDMz9Kg",
+   "articulo": "http://es.catholic.net/op/articulos/36116/cat/214/ana-maria-taigi-beata.html",
+   "numero": 25
+  },
+  {
+   "nombre": "Alcide De Gasperi",
+   "descripcion": "uno de los padres forjadores de la Unión Europea",
+   "podcast": "https://youtu.be/htcNCMds2G8?si=mtdI1kLKyH2T09pz",
+   "podcastId": "htcNCMds2G8",
+   "articulo": "https://www.vatican.va/content/john-paul-ii/es/speeches/1981/april/documents/hf_jp-ii_spe_19810402_de-gasperi.html",
+   "numero": 28
+  },
+  {
+   "nombre": "Odoardo Focherini",
+   "descripcion": "periodista que salvó a un centenar de judios",
+   "podcast": "https://youtu.be/QIgN4vSzC5o?si=fDTjSp01TWdhViZu",
+   "podcastId": "QIgN4vSzC5o",
+   "articulo": "https://www.religionenlibertad.com/personajes/29704/odoardo-focherini-periodista-que-salvo-a100-judios-y-murio-en.html",
+   "numero": 29
+  },
+  {
+   "nombre": "Santa Brígida de Suecia",
+   "descripcion": "la co-patrona de Europa",
+   "podcast": "https://youtu.be/6HSxcq3iIZU?si=R4UIDCf3j_rcjEtz",
+   "podcastId": "6HSxcq3iIZU",
+   "articulo": "https://www.aciprensa.com/noticias/51521/hoy-celebramos-a-santa-brigida-de-suecia-patrona-de-europa-modelo-de-mujer-esposa-y-madre",
+   "numero": 30
+  },
+  {
+   "nombre": "Santos Aquila y Priscila",
+   "descripcion": "matrimonio compañero del apóstol San Pablo",
+   "podcast": "https://www.youtube.com/watch?v=5CpFRPDlcmA",
+   "podcastId": "5CpFRPDlcmA",
+   "articulo": "https://www.aciprensa.com/noticias/100992/vaticano-beatificacion-sin-precedentes-de-una-familia-entera-la-familia-ulma",
+   "numero": 33
+  },
+  {
+   "nombre": "Reina Santa Adelaida",
+   "descripcion": "virtuosa emperatriz romano-germanica",
+   "podcast": "https://youtu.be/8S-RQi0Hh8U?si=J46BCLK7cSOCgMFo",
+   "podcastId": "8S-RQi0Hh8U",
+   "articulo": "https://www.ewtn.com/es/catolicismo/santos/adelaida-14746",
+   "numero": 34
+  },
+  {
+   "nombre": "Conchita Cabrera",
+   "descripcion": "Madre y mística, la primera laica beatificada de Mexico",
+   "podcast": "https://youtu.be/_js0_0Vf6Wo?si=KMGkoRHVKIAVyBxz",
+   "podcastId": "_js0_0Vf6Wo",
+   "articulo": "https://www.vaticannews.va/es/iglesia/news/2019-05/conchita-cabrera-armida-beata-mexico.html",
+   "numero": 35
+  },
+  {
+   "nombre": "Federico Ozanam",
+   "descripcion": "abogado francés fundador de una obra mundial de caridad",
+   "podcast": "https://youtu.be/ysVm6qF-GrA?si=WqyVvBMxQswm_nBr",
+   "podcastId": "ysVm6qF-GrA",
+   "articulo": "https://www.corazondepaul.org/2020/09/02/biografia-beato-federico-ozanam/",
+   "numero": 36
+  },
+  {
+   "nombre": "Catherine Doherty",
+   "descripcion": "madre rusa emigrante que se brindó por los necesitados de EEUU y Canadá",
+   "podcast": "https://youtu.be/jKOSoxVRVCk?si=VByIecvtuKVr6EUG",
+   "podcastId": "jKOSoxVRVCk",
+   "articulo": "https://www.religionenlibertad.com/personajes/174297786/catherine-doherty-aristocrata-rusa-conversa-catolicismo-entrego-vida-pobres.html",
+   "numero": 37
+  },
+  {
+   "nombre": "João Pozzobon",
+   "descripcion": "esposo brasilero pionero de la Campaña de la Virgen Peregrina",
+   "podcast": "https://youtu.be/K5JrBmvfkVI",
+   "podcastId": "K5JrBmvfkVI",
+   "articulo": "https://www.schoenstatt.org.ar/vidas-heroicas/luiz-pozzobon.html/",
+   "numero": 38
+  },
+  {
+   "nombre": "San Peter To Rot",
+   "descripcion": "catequista heroico, primer santo de Papua Nueva Guinea",
+   "podcast": "https://youtu.be/hwsANIAD1QA",
+   "podcastId": "hwsANIAD1QA",
+   "articulo": "https://www.vaticannews.va/es/iglesia/news/2025-06/peter-to-rot-un-santo-fruto-de-la-mision-compartida.html",
+   "numero": 39
+  },
+  {
+   "nombre": "Cyprien y Daphrose Rugamba",
+   "descripcion": "heroica historia de conversión y generosidad en Ruanda",
+   "podcast": "https://youtu.be/FKGbRCryrvM?si=_d9t_FKKMBfZE_cI",
+   "podcastId": "FKGbRCryrvM",
+   "articulo": "https://emmanuel.info/es/cyprien-daphrose-lugamba/",
+   "numero": null
+  },
+  {
+   "nombre": "Santo Tomás Moro",
+   "descripcion": "patrono de los políticos y defensor del matrimonio católico",
+   "podcast": "https://youtu.be/lsX6gaeCm2E?si=gre29a0WJm_L6vkh",
+   "podcastId": "lsX6gaeCm2E",
+   "articulo": "https://www.vaticannews.va/es/santos/06/22/s--tomas-moro--martir-ingles.html",
+   "numero": null
+  },
+  {
+   "nombre": "Santos Luis y Celia Martin",
+   "descripcion": "los santos padres de Santa Teresita",
+   "podcast": "https://youtu.be/pAYWXs7DceM?si=VZ4eCF2n0MA4xUw6",
+   "podcastId": "pAYWXs7DceM",
+   "articulo": "http://es.catholic.net/op/articulos/36542/cat/214/celia-y-luis-martin-beatos.html",
+   "numero": null
+  },
+  {
+   "nombre": "Carlo y Giulia Falletti Di Barolo",
+   "descripcion": "un matrimonio venerable y benefactor",
+   "podcast": "https://youtu.be/6ThNZxvIhEs?si=Ayvc2ounm7v6mu0y",
+   "podcastId": "6ThNZxvIhEs",
+   "articulo": "https://www.carm.es/edu/pub/20_2016/1S_contenido.html",
+   "numero": null
+  },
+  {
+   "nombre": "Santa Mónica",
+   "descripcion": "la patrona de las madres con hijos descarriados",
+   "podcast": "https://youtu.be/nVVWjZoVwrk?si=CQtdPSguAzQvPlRP",
+   "podcastId": "nVVWjZoVwrk",
+   "articulo": "https://www.aciprensa.com/madres/monica.htm",
+   "numero": null
+  },
+  {
+   "nombre": "Georges y Pauline Vanier",
+   "descripcion": "gobernador canadiense y su esposa",
+   "podcast": "https://youtu.be/7G6wIyOufQQ?si=y_6KNXBZhP7wFuu8",
+   "podcastId": "7G6wIyOufQQ",
+   "articulo": "https://www.canadianchristianleaders.org/leader/pauline-vanier/",
+   "numero": null
+  },
+  {
+   "nombre": "Marcello Labor",
+   "descripcion": "médico, padre, escritor y luego cura párroco",
+   "podcast": "https://youtu.be/j5OmiVHZk-c?si=jWBvAxJFxrLGMWNC",
+   "podcastId": "j5OmiVHZk-c",
+   "articulo": "https://www.causesanti.va/it/venerabili/marcello-labor.html",
+   "numero": null
   },
   {
    "nombre": "Aurelio y Natalia, Felix y Liliosa",
    "descripcion": "testimonio herioco de matrimonios amigos",
    "podcast": "https://www.youtube.com/watch?v=EQpDQkAoz7o",
    "podcastId": "EQpDQkAoz7o",
-   "articulo": "https://es.catholic.net/op/articulos/32016/aurelio-natalia-flix-liliosa-y-jorge-mrtires.html#modal"
+   "articulo": "https://es.catholic.net/op/articulos/32016/aurelio-natalia-flix-liliosa-y-jorge-mrtires.html#modal",
+   "numero": null
   }
  ]
 }

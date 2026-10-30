@@ -395,7 +395,7 @@
       var t = ytThumb(ep.podcast);
       return '<li class="ep"><div class="foto"><div class="emblema">' + ANILLOS + '</div>' +
         (t ? '<img src="' + t + '" alt="" loading="lazy" onerror="this.remove()">' : '') + '</div>' +
-        '<div class="ep-body"><h3>' + esc(ep.nombre) + '</h3>' + (ep.descripcion ? '<p>' + esc(ep.descripcion) + '</p>' : '') +
+        '<div class="ep-body">' + (ep.numero ? '<span class="ep-num">Episodio ' + ep.numero + '</span>' : '') + '<h3>' + esc(ep.nombre) + '</h3>' + (ep.descripcion ? '<p>' + esc(ep.descripcion) + '</p>' : '') +
         '<div class="ep-links">' + (ep.podcast ? '<a href="' + esc(ep.podcast) + '"' + ytAttr(ep.podcastId) + ' target="_blank" rel="noopener">Escuchar</a>' : '') +
         (ep.articulo ? '<a href="' + esc(ep.articulo) + '" target="_blank" rel="noopener">Leer artículo</a>' : '') + '</div></div></li>';
     }).join("");
