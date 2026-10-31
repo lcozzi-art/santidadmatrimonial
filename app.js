@@ -26,7 +26,7 @@
   ];
   var ROMANOS = ["I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII","XIII","XIV","XV","XVI","XVII","XVIII","XIX","XX","XXI"];
   var LOTE = 48;
-  var datos = [], episodios = [], filtrados = [], mostrados = 0;
+  var datos = [], episodios = [], peliculas = [], filtrados = [], mostrados = 0;
   var etapasActivas = {};
   var $ = function (id) { return document.getElementById(id); };
 
@@ -150,7 +150,7 @@
   var ultimaVista = "inicio";
   var TITULO = document.title;
   function mostrarVista(v) {
-    ["inicio", "podcast", "libro", "estadisticas", "acerca"].forEach(function (n) { $("vista-" + n).hidden = n !== v; });
+    ["inicio", "podcast", "peliculas", "libro", "estadisticas", "acerca"].forEach(function (n) { $("vista-" + n).hidden = n !== v; });
     document.querySelectorAll("[data-nav]").forEach(function (a) {
       if (a.dataset.nav === v) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
     });
@@ -176,7 +176,7 @@
       if (m) { abrirFicha(m); return; }
     }
     cerrarFicha();
-    var v = ["podcast", "libro", "estadisticas", "acerca"].indexOf(h) >= 0 ? h : "inicio";
+    var v = ["podcast", "peliculas", "libro", "estadisticas", "acerca"].indexOf(h) >= 0 ? h : "inicio";
     if (v !== ultimaVista) window.scrollTo(0, 0);
     mostrarVista(v);
   }
@@ -407,7 +407,7 @@
   }
 
   function iniciar(json) {
-    datos = json.matrimonios; episodios = json.episodios;
+    datos = json.matrimonios; episodios = json.episodios; peliculas = json.peliculas || [];
     datos.forEach(function (m) {
       m._orden = norm(m.nombres);
       // "Italia/Francia" counts for each country.
@@ -442,6 +442,15 @@
         '<div class="ep-body">' + (ep.numero ? '<span class="ep-num">' + t("Episodio {n}", { n: ep.numero }) + '</span>' : '') + '<h3>' + esc(ep.nombre) + '</h3>' + (ep.descripcion ? '<p>' + esc(ep.descripcion) + '</p>' : '') +
         '<div class="ep-links">' + (ep.podcast ? '<a href="' + esc(ep.podcast) + '"' + ytAttr(ep.podcastId) + ' target="_blank" rel="noopener">' + t("Escuchar") + '</a>' : '') +
         (ep.articulo ? '<a href="' + esc(ep.articulo) + '" target="_blank" rel="noopener">' + t("Leer artículo") + '</a>' : '') + '</div></div></li>';
+    }).join("");
+    // Films: the thumbnail plays the video in place; the couple's name opens its ficha.
+    $("lista-peliculas").innerHTML = peliculas.map(function (p) {
+      var m = datos.find(function (x) { return x.id === p.ficha; });
+      return '<li class="ep"><a class="foto" href="' + esc(p.video) + '"' + ytAttr(p.videoId) + ' target="_blank" rel="noopener" aria-label="' + esc(t("Ver {t}", { t: p.titulo })) + '">' +
+        '<div class="emblema">' + ANILLOS + '</div><img src="' + ytThumb(p.video) + '" alt="" loading="lazy" onerror="this.remove()"><span class="play" aria-hidden="true"></span></a>' +
+        '<div class="ep-body">' + (m ? '<a class="ep-num" href="#m' + m.id + '">' + esc(m.nombres) + '</a>' : '') + '<h3>' + esc(p.titulo) + '</h3>' + (p.descripcion ? '<p>' + esc(p.descripcion) + '</p>' : '') +
+        '<div class="ep-links"><a href="' + esc(p.video) + '"' + ytAttr(p.videoId) + ' target="_blank" rel="noopener">' + t("Ver película") + '</a>' +
+        (m ? '<a href="#m' + m.id + '">' + t("Ver ficha") + '</a>' : '') + '</div></div></li>';
     }).join("");
     pintarEstadisticas();
     fetch(BASE + "data/mundo.json?v=2026-10-27b").then(function (r) { return r.json(); }).then(pintarMapa).catch(function () {
