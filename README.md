@@ -20,7 +20,7 @@ Volver a exportar la planilla y regenerar `data/matrimonios.json` (y las fotos n
 
 ## Caché de los navegadores
 
-`index.html` carga `styles.css?v=…` y `app.js?v=…`. Al cambiar esos archivos, actualizar el valor de `v` para que los celulares no sigan usando la versión guardada.
+`index.html` carga `styles.css?v=…` y `app.js?v=…`. Al cambiar esos archivos, actualizar el valor de `v` para que los celulares no sigan usando la versión guardada. Al cambiar `data/matrimonios.json` o `data/en.json`, actualizar `DATOS_V` en `app.js` (y el `v` de `app.js`).
 
 ## Versión en inglés
 
