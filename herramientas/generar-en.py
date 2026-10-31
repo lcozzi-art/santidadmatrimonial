@@ -31,7 +31,7 @@ TEXTOS = [
     ('<h1>Películas y documentales</h1>', '<h1>Films and documentaries</h1>'),
     ('<p class="lede">Películas, documentales y cortos sobre la vida de algunos de estos esposos. Elija uno para verlo aquí mismo, o abra la ficha del matrimonio.</p>',
      '<p class="lede">Films, documentaries and short films about the lives of some of these couples, mostly in Spanish or Italian. Choose one to watch it right here, or open the couple\'s profile.</p>'),
-    ('data-nav="estadisticas">En números</a>', 'data-nav="estadisticas">By the numbers</a>'),
+    ('<span class="nav-largo">En números</span><span class="nav-corto">Números</span>', '<span class="nav-largo">By the numbers</span><span class="nav-corto">Numbers</span>'),
     ('data-nav="libro">Libro</a>', 'data-nav="libro">Book</a>'),
     ('data-nav="acerca">Acerca</a>', 'data-nav="acerca">About</a>'),
     ('<a class="idioma" href="en/" hreflang="en" lang="en" title="English version">EN</a>',

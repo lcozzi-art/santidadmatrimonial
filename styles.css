@@ -302,3 +302,5 @@ a.c-col:hover .c-pila, a.c-col:focus-visible .c-pila { opacity: .8; }
 .contacto .btn { justify-self: start; }
 .contacto-estado { margin: 0; font-size: .95rem; }
 @media (max-width: 720px) { .filtros .buscar { order: -1; } }
+.nav-corto { display: none; }
+@media (max-width: 720px) { .nav-largo { display: none; } .nav-corto { display: inline; } }
