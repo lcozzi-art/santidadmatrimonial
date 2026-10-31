@@ -31,7 +31,7 @@ TEXTOS = [
     ('<h1>Películas y documentales</h1>', '<h1>Films and documentaries</h1>'),
     ('<p class="lede">Películas, documentales y cortos sobre la vida de algunos de estos esposos. Elija uno para verlo aquí mismo, o abra la ficha del matrimonio.</p>',
      '<p class="lede">Films, documentaries and short films about the lives of some of these couples, mostly in Spanish or Italian. Choose one to watch it right here, or open the couple\'s profile.</p>'),
-    ('data-nav="estadisticas">Números</a>', 'data-nav="estadisticas">Numbers</a>'),
+    ('data-nav="estadisticas">En números</a>', 'data-nav="estadisticas">By the numbers</a>'),
     ('data-nav="libro">Libro</a>', 'data-nav="libro">Book</a>'),
     ('data-nav="acerca">Acerca</a>', 'data-nav="acerca">About</a>'),
     ('<a class="idioma" href="en/" hreflang="en" lang="en" title="English version">EN</a>',
@@ -182,7 +182,7 @@ TEXTOS = [
     ('>Schoenstatt.store</a>, en Estados Unidos.</li>', '>Schoenstatt.store</a>, in the United States.</li>'),
 
     # Números
-    ('<p class="eyebrow">Números</p>', '<p class="eyebrow">Numbers</p>'),
+    ('<p class="eyebrow">En números</p>', '<p class="eyebrow">By the numbers</p>'),
     ('<h1>Los esposos santos, en números</h1>', '<h1>Holy spouses, by the numbers</h1>'),
     ('<p class="lede">Cuántos son, en qué etapa está su causa, de dónde y de qué siglo son, y qué vocación los distinguió. Toque una barra para ver esos casos.</p>',
      '<p class="lede">How many there are, what stage their cause has reached, where and when they lived, and what set them apart. Tap a bar to see those cases.</p>'),
