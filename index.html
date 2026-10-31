@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,600;0,6..12,700;1,6..12,400&display=swap">
-<link rel="stylesheet" href="styles.css?v=2026-10-30-en2">
+<link rel="stylesheet" href="styles.css?v=2026-10-31-pel">
 </head>
 <body>
 <header class="top">
@@ -30,6 +30,7 @@
     <nav class="nav" aria-label="Secciones">
       <a href="#inicio" data-nav="inicio">Matrimonios</a>
       <a href="#podcast" data-nav="podcast">Podcast</a>
+      <a href="#peliculas" data-nav="peliculas">Películas</a>
       <a href="#estadisticas" data-nav="estadisticas">Números</a>
       <a href="#libro" data-nav="libro">Libro</a>
       <a href="#acerca" data-nav="acerca">Acerca</a>
@@ -90,6 +91,15 @@
     <p id="canal-wrap" hidden><a class="btn" id="canal" href="#" target="_blank" rel="noopener">Escuchar el programa en Spotify</a></p>
   </section>
   <ul class="episodios" id="episodios"></ul>
+</main>
+
+<main id="vista-peliculas" class="wrap" hidden>
+  <section class="intro">
+    <p class="eyebrow">Películas</p>
+    <h1>Películas y documentales</h1>
+    <p class="lede">Películas, documentales y cortos sobre la vida de algunos de estos esposos. Elija uno para verlo aquí mismo, o abra la ficha del matrimonio.</p>
+  </section>
+  <ul class="episodios" id="lista-peliculas"></ul>
 </main>
 
 <main id="vista-libro" class="wrap" hidden>
@@ -287,6 +297,6 @@
 <footer class="pie">
   <div class="wrap">Caminos de Santidad Matrimonial</div>
 </footer>
-<script src="app.js?v=2026-10-30-en2"></script>
+<script src="app.js?v=2026-10-31-pel"></script>
 </body>
 </html>
