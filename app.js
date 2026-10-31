@@ -502,10 +502,18 @@
         .then(function (r) {
           if (String(r.success) !== "true") throw new Error(r.message);
           f.reset(); estado.textContent = t("¡Gracias! Recibimos su mensaje y le responderemos a la brevedad.");
+          boton.disabled = false;
         })
-        .catch(function () { estado.textContent = t("No se pudo enviar. Intente de nuevo en unos minutos."); })
-        .then(function () { boton.disabled = false; });
+        .catch(function () {
+          // AJAX refused (form not yet activated, blocker, network): send it the classic way so the message is not lost.
+          estado.textContent = t("Enviando…");
+          HTMLFormElement.prototype.submit.call(f);
+        });
     });
+    if (/[?&]enviado=1/.test(location.search)) {
+      var est = $("contacto-estado"); est.hidden = false;
+      est.textContent = t("¡Gracias! Recibimos su mensaje y le responderemos a la brevedad.");
+    }
     $("ficha-fondo").addEventListener("click", cerrarYVolver);
     $("ficha").addEventListener("click", function (ev) { if (ev.target.closest("[data-cerrar]")) cerrarYVolver(); });
     document.addEventListener("keydown", function (ev) { if (ev.key === "Escape" && !$("ficha").hidden) cerrarYVolver(); });
