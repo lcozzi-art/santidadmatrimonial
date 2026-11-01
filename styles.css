@@ -58,7 +58,9 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 /* When the tabs wrap below the brand, the language link stays on the brand's line. */
 @media (max-width: 880px) { .nav { order: 4; flex-basis: 100%; } .idioma { margin-left: 0; } }
 
-.intro { padding-block: 40px 24px; display: grid; gap: 12px; max-width: 780px; }
+.intro { padding-block: 40px 24px; display: grid; gap: 12px; }
+.intro > * { max-width: 780px; }
+.intro > .destacados { width: 100%; justify-self: center; }
 .eyebrow { margin: 0; text-transform: uppercase; letter-spacing: .14em; font-size: .78rem; font-weight: 700; color: var(--gold); }
 .intro h1 { font-size: clamp(2rem, 4.5vw, 3.1rem); }
 .lede { margin: 0; font-size: 1.1rem; color: var(--muted); max-width: 62ch; }
