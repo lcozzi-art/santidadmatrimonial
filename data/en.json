@@ -14,8 +14,8 @@
    "nombres": "Aquila and Priscilla",
    "descripcion": "married companions of the apostle Saint Paul",
    "resumen": "followers of the apostle Saint Paul",
-   "cita": "“They are a model of married life committed to serving the Christian community, and a model of the Church, the family of God for all times”",
-   "_es": "429ead51fd"
+   "cita": "“They are a model of married life committed to serving the Christian community, and a model of the Church, the family of God for all times” (Benedict XVI)",
+   "_es": "c484ea538b"
   },
   "3": {
    "titulo": "Sts. Aurelius and Natalia, Felix and Liliosa",
@@ -101,16 +101,16 @@
    "nombres": "Anna Maria and Domenico Taigi",
    "descripcion": "patroness of mothers of families",
    "resumen": "mystic, patroness of mothers of families",
-   "cita": "“Anna Maria was the happiness of the family, always kind and smiling”",
-   "_es": "ac299a1163"
+   "cita": "“Anna Maria was the happiness of the family, always kind and smiling” (Domenico, during his wife's beatification process)",
+   "_es": "dd5119d74e"
   },
   "15": {
    "titulo": "Bl. Concepción Cabrera de Armida and Francisco",
    "nombres": "Conchita Cabrera and Francisco Armida",
    "descripcion": "mother and mystic, the first laywoman beatified in her country",
    "resumen": "writer, first laywoman beatified in Mexico",
-   "cita": "“I have Christ, who does not die, who does not leave me and will never abandon me” (Conchita Cabrera de Armida)",
-   "_es": "12f2d87384"
+   "cita": "“I have Christ, who does not die, who does not leave me and will never abandon me” (Conchita Cabrera)",
+   "_es": "3ba9bb555c"
   },
   "16": {
    "titulo": "Bl. Frédéric Ozanam and Amélie Soulacroix",
@@ -180,16 +180,16 @@
    "nombres": "João Pozzobon and Vitória Filipetto",
    "descripcion": "husband who pioneered the Pilgrim Mother Campaign",
    "resumen": "co-founder of the Schoenstatt Rosary Campaign",
-   "cita": "“When something comes from God, one man can move the world” (J. Pozzobon)",
-   "_es": "c9b3b053b2"
+   "cita": "“When something comes from God, one man can move the world” (João Pozzobon)",
+   "_es": "4a8131c408"
   },
   "25": {
    "titulo": "Ven. Dr. Marcello Labor and Elsa Reiss",
    "nombres": "Marcello Labor and Elsa Reiss",
    "descripcion": "doctor, father, writer and later parish priest",
    "resumen": "widowed doctor who became a priest, earlier in the St. Vincent de Paul Society and Catholic Action",
-   "cita": "“Poor and naked. What is on me or around me belongs to the Church; naked, with only my beloved cassock. I feel so poor before God”",
-   "_es": "1e3cdfcbc5"
+   "cita": "“Poor and naked. What is on me or around me belongs to the Church; naked, with only my beloved cassock. I feel so poor before God” (Marcello Labor)",
+   "_es": "78bd99fa41"
   },
   "26": {
    "titulo": "Ven. Pierre Toussaint & Juliette Noel",
@@ -319,8 +319,8 @@
    "nombres": "Abraham and María Patricia Reyes",
    "descripcion": "humble and generous Venezuelan couple",
    "resumen": "members of the Legion of Mary and co-founders of the Jesuit educational movement Fe y Alegría",
-   "cita": "“Why so many things? You have given too much,” he would say to God, “what have I done?…” (Abraham Reyes)",
-   "_es": "0c6413863c"
+   "cita": "“Why so many things? You have given me too much,” he would say to God, “what have I done?…” (Abraham Reyes)",
+   "_es": "495548f4b5"
   },
   "43": {
    "titulo": "St. Acahilda of Wendelstein and Thietmar",
@@ -437,8 +437,8 @@
    "nombres": "Aleth of Montbard and Tescelin",
    "descripcion": "parents of St. Bernard of Clairvaux, the “family that reached Christ”",
    "resumen": "parents of St. Bernard of Clairvaux",
-   "cita": "“How many times Bernard and his brothers acknowledged that their true ‘novice master’ had been their mother!”",
-   "_es": "ac50a6f2eb"
+   "cita": "“How many times Bernard and his brothers acknowledged that their true ‘novice master’ had been their mother!” (a Cistercian hagiographer)",
+   "_es": "c96df790db"
   },
   "59": {
    "titulo": "Servant of God Alma Ferrara and Francesco Sacco",
@@ -502,8 +502,8 @@
    "nombres": "Anacleto González Flores and Concepción Guerrero",
    "descripcion": "Cristero husband, called the “Mexican Gandhi”",
    "resumen": "Cristero martyr, patron of the laity in Mexico",
-   "cita": "“I forgive you with all my heart; very soon we will meet before the divine tribunal (...) and then you will have in me an intercessor with God” (Anacleto González Flores)",
-   "_es": "46657e08e5"
+   "cita": "“I forgive you with all my heart; very soon we will meet before the divine tribunal (...) and then you will have in me an intercessor with God” (Anacleto González Flores, to his executioner)",
+   "_es": "e96aba9ea3"
   },
   "68": {
    "titulo": "Servants of God Anatolii Hurhula, priest, and Irina Durbak",
@@ -584,7 +584,7 @@
    "descripcion": "Chilean-Croatian doctor of the poor and poet",
    "resumen": "Croatian doctor and poet, naturalized Chilean",
    "cita": "“I want to be for the poor and the sorrowful the word of encouragement that you were, the humble consoling charity. And inspired by your example, may my life be an open hand held out to all who suffer and weep.” (Ivo Serge)",
-   "_es": "d6789e4466"
+   "_es": "7d96f21598"
   },
   "79": {
    "titulo": "Bl. Antonio Tort Reixachs and María Josefa Gavin",
@@ -605,15 +605,15 @@
    "nombres": "Argentino del Valle Larrabure and María Susana de Martín",
    "descripcion": "Argentine family man and army officer who forgave his captors",
    "resumen": "colonel murdered by the ERP guerrillas",
-   "cita": "“I want to die standing, calling on God in my family, on my country in my army, on my people untainted by ideas soaked in division and blood. I ask God in his mercy to grant me this grace.” (from his diary)",
-   "_es": "55a188665d"
+   "cita": "“I want to die standing, calling on God in my family, on my country in my army, on my people untainted by ideas soaked in division and blood. I ask God in his mercy to grant me this grace.” (from his captivity diary)",
+   "_es": "87b5753610"
   },
   "82": {
    "titulo": "Ven. M. Aristea Ceccarelli and Igino (Gino) Bernacchia",
    "nombres": "Aristea Ceccarelli and Gino Bernacchia",
    "descripcion": "her example converted her husband",
-   "cita": "“I would say it again to every bride: adorn your soul within as best you can for Jesus,",
-   "_es": "b71e0587ae"
+   "cita": "“I would say it again to every bride: adorn your soul within as best you can for Jesus, and outwardly for your husband. If you draw him to yourself, you draw him to God himself.” (Maria Aristea Ceccarelli)",
+   "_es": "5a96d29b0a"
   },
   "83": {
    "titulo": "Sts. Artemius and Candida",
@@ -677,8 +677,8 @@
    "nombres": "Benedict Daswa and Shadi Eveline Monyai",
    "descripcion": "South African school principal",
    "resumen": "martyr, school principal and father of 8",
-   "cita": "“His witness joins that of so many (...) persecuted, expelled, killed for confessing Jesus Christ.” (Pope Francis)",
-   "_es": "a6210e2997"
+   "cita": "“Benedict's witness joins that of so many (...) persecuted, expelled, killed for confessing Jesus Christ.” (Pope Francis)",
+   "_es": "04192e5f4f"
   },
   "92": {
    "titulo": "St. Bernard, Bishop of Vienne",
@@ -720,8 +720,8 @@
    "nombres": "Boutros Wadih Kassab",
    "descripcion": "the apostle of Upper Egypt in the 20th century",
    "resumen": "called the “Apostle of Upper Egypt and of the young,” of the Melkite Greek Catholic Church and the St. Vincent de Paul Society",
-   "cita": "“He was the Apostle of Upper Egypt and the Apostle of Youth, a committed layman living entirely by the values of the Gospel”",
-   "_es": "fca1dacc9d"
+   "cita": "“He was the Apostle of Upper Egypt and the Apostle of Youth, a committed layman living entirely by the values of the Gospel” (Patriarch Gregory III, at the opening of his cause)",
+   "_es": "1c6d5c6cf5"
   },
   "98": {
    "titulo": "Servant of God Bruno Cornacchiola and Iolanda Lo Gatto",
@@ -970,8 +970,8 @@
    "titulo": "Servant of God Daniela Benedetti and Patrizio Spadoni",
    "nombres": "Daniela Benedetti and Patrizio Spadoni",
    "descripcion": "young Italian mother of the late 20th century",
-   "cita": "“Very difficult things must be asked of the Lord. Those are the ones he is most ‘passionate’ about,",
-   "_es": "aeeb5abce1"
+   "cita": "“Very difficult things must be asked of the Lord. Those are the ones he is most ‘passionate’ about.” (Daniela Benedetti)",
+   "_es": "52118ca61f"
   },
   "133": {
    "titulo": "St. Darerca and Conan Meriadoc / Chonas the Briton",
@@ -1015,8 +1015,8 @@
    "nombres": "Dr. Eduardo Ortiz de Landázuri and Laura Busca",
    "descripcion": "doctor, founder of the University Hospital of Navarra",
    "resumen": "supernumeraries of Opus Dei; doctor",
-   "cita": "“I didn't ask you to build a Faculty, but to become a saint by building a Faculty” (St. Josemaría Escrivá to Eduardo)",
-   "_es": "3a4c2b82aa"
+   "cita": "“I didn't ask you to build a faculty, but to become a saint by building a faculty” (St. Josemaría Escrivá, to Eduardo)",
+   "_es": "5d88bebd94"
   },
   "139": {
    "titulo": "Servants of God Edmond Michelet and Marie Vialle",
@@ -1058,8 +1058,8 @@
    "nombres": "Queen Hedwig of Poland and Władysław II",
    "descripcion": "the holy patroness of queens",
    "resumen": "king and queen",
-   "cita": "“It is not pearls and jewels that can make me pleasing to God (...) but total surrender to his will and the awareness of my own nothingness”",
-   "_es": "3f2b6dd801"
+   "cita": "“It is not pearls and jewels that can make me pleasing to God (...) but total surrender to his will and the awareness of my own nothingness” (St. Hedwig)",
+   "_es": "9371b6e468"
   },
   "145": {
    "titulo": "St. Hedwig of Silesia and Henry I",
@@ -1147,7 +1147,7 @@
    "descripcion": "mother and European politician, defender of women's rights",
    "resumen": "convert, politician, nurse and activist, co-founder of the Association of Catholic Working Women",
    "cita": "“Social work must not remain amateurish; it is a duty of responsibility toward people” (Ellen Ammann)",
-   "_es": "ab7207b101"
+   "_es": "8eae77aff4"
   },
   "157": {
    "titulo": "Bl. Héloïse of Coulombs and Hugh II of Meulan / Alexandre Azzelin",
@@ -1166,8 +1166,8 @@
    "nombres": "Émilie d'Oultremont (Mary of Jesus) and Victor d'Hooghvorst",
    "descripcion": "Belgian mother and founder",
    "resumen": "widow who became a religious, founded and led the Society of the Sisters of Mary Reparatrix",
-   "cita": "“Émilie fulfilled above all the mission of every Christian marriage: to make her home ‘a domestic sanctuary of the Church’”",
-   "_es": "c8eb031873"
+   "cita": "“Émilie fulfilled above all the mission of every Christian marriage: to make her home ‘a domestic sanctuary of the Church’” (St. John Paul II)",
+   "_es": "6fb712ab65"
   },
   "160": {
    "titulo": "Bl. Emilia Fernández Rodríguez and Juan Cortés",
@@ -1203,8 +1203,8 @@
    "nombres": "Empress Eugénie de Montijo and Emperor Napoleon III",
    "descripcion": "the empress devoted to Lourdes",
    "resumen": "benefactor devoted to Lourdes",
-   "cita": "“Catholic and devout, she will offer to Heaven the same prayers I make for the happiness of France”",
-   "_es": "25a7a7fc97"
+   "cita": "“Catholic and devout, she will offer to Heaven the same prayers I make for the happiness of France” (the emperor, about his wife)",
+   "_es": "e012a15a5f"
   },
   "165": {
    "titulo": "Servants of God Enrica Onorante and Aldo Michisanti",
@@ -1227,8 +1227,8 @@
    "nombres": "Enrico Casolani and Inez Vassallo",
    "descripcion": "the first Maltese couple whose cause for beatification is open",
    "resumen": "Augustinian tertiaries",
-   "cita": "“I thank God for this new bouquet. These are the wonders of life. I am in his hands and I accept with joy all he sends me.”",
-   "_es": "447747010c"
+   "cita": "“I thank God for this new bouquet. These are the wonders of life. I am in his hands and I accept with joy all he sends me.” (Inez Vassallo, about her terminal illness)",
+   "_es": "566216bd24"
   },
   "168": {
    "titulo": "Bl. Henry of Bolzano",
@@ -1312,8 +1312,8 @@
    "nombres": "Eugen Bolz and Maria Hoene",
    "descripcion": "public servant who opposed Nazism",
    "resumen": "politician beheaded by the Nazis after an attempt on Hitler's life",
-   "cita": "“The fear of the Lord is the beginning of wisdom” (Proverbs 1:7, on the plaque of his birthplace in Rottenburg am Neckar)",
-   "_es": "4fba44d133"
+   "cita": "“The fear of the Lord is the beginning of wisdom” (Proverbs 1:7; on the plaque over his birthplace in Rottenburg am Neckar)",
+   "_es": "8068fc4efa"
   },
   "180": {
    "titulo": "Servants of God Eugenio Balmori and Marina Francisca Cinta",
@@ -1321,7 +1321,7 @@
    "descripcion": "a couple of catechists",
    "resumen": "teacher, oil company employee and catechist",
    "cita": "“Our home will be a chapel of love, where no other ideal reigns but to thank God and to love each other dearly” (Marina, writing to him on their wedding night)",
-   "_es": "d0ebd842ee"
+   "_es": "671c86da87"
   },
   "181": {
    "titulo": "Servant of God Eulalia ’M’a-Gabriel Mokhosi",
@@ -1379,8 +1379,8 @@
    "nombres": "Ferdinand III the Saint and Beatrice / Joan",
    "descripcion": "King of Castile and León; father, model of a king and of a layman",
    "resumen": "king and queen; he reconquered most of Spain",
-   "cita": "“Knight of Jesus Christ, Servant of the Most Holy Virgin, and Standard-bearer of the Apostle St. James” (as Ferdinand signed his letters)",
-   "_es": "4792cb093b"
+   "cita": "“Knight of Jesus Christ, Servant of the Most Holy Virgin, and Standard-bearer of the Apostle St. James” (Ferdinand's motto in his writings)",
+   "_es": "946350c910"
   },
   "190": {
    "titulo": "Sts. Philemon and Apphia",
@@ -1422,8 +1422,8 @@
    "nombres": "Lourdinha Nogueira Fontão and Heber",
    "descripcion": "Brazilian mother and catechist",
    "resumen": "Focolare catechist",
-   "cita": "“She seemed to have a direct connection with God, it was impressive; always a kind and faithful word for everyone”",
-   "_es": "5eaa0713af"
+   "cita": "“She seemed to have a direct connection with God, it was impressive; always a kind and faithful word for everyone” (her daughter María de Lourdes)",
+   "_es": "15f3a89870"
   },
   "196": {
    "titulo": "Servant of God Fortunata “Natuzza” Evolo and Pasquale Nicolace",
@@ -1459,8 +1459,8 @@
    "nombres": "Francesco Ugenti and Teresa Sivilli",
    "descripcion": "consecrated members of the Holy Family Institute, part of the worldwide Pauline Family",
    "resumen": "consecrated members of the Holy Family Institute, part of the worldwide Pauline Family",
-   "cita": "“When I call upon the Lord, I don't only pray: I weep and feel him close.",
-   "_es": "f3c6b8bc62"
+   "cita": "“When I call upon the Lord, I don't only pray: I weep and feel him close. He is the Almighty Spirit, he sees me and always wants me close” (Teresa Sivilli)",
+   "_es": "81aa466b4a"
   },
   "201": {
    "titulo": "Bl. Francis Taylor and Jennet Shelton",
@@ -1517,7 +1517,7 @@
    "descripcion": "Catholic Action, Focolare, and mayor of Locri",
    "resumen": "Catholic Action, Focolare, and mayor of Locri",
    "cita": "Franco founded the MEIC (Ecclesial Movement for Cultural Commitment of Catholic Action) in the diocese and, with Maria Rosaria, took part in the 1995 ecclesial conference in Palermo, on returning from which he set out the lines of future pastoral commitment for all:\n1. restoring legality and public morality;\n2. promoting a social sense and a culture of participation;\n3. deepening and developing Christian social teaching;\n4. seeking new forms of solidarity economy",
-   "_es": "e28c0c7574"
+   "_es": "4fa80feaee"
   },
   "209": {
    "titulo": "Servant of God František Nosek and Anna Kubešová",
@@ -1638,8 +1638,8 @@
    "nombres": "Giovanni Gheddo and Rosetta Franzi",
    "descripcion": "a couple who were an example of simplicity and of heroism in wartime",
    "resumen": "surveyor, president of Catholic Youth Action",
-   "cita": "“We will do God's will, Giovanni, as we always have” (Rosetta on her deathbed)",
-   "_es": "6063716f2e"
+   "cita": "“We will do God's will, Giovanni, as we always have” (Rosetta, on her deathbed)",
+   "_es": "f2a54a1cd9"
   },
   "226": {
    "titulo": "Servant of God Giovanni Modugno and Maria Spinelli",
@@ -1692,10 +1692,10 @@
   "233": {
    "titulo": "St. Gregory of Nyssa, bishop, and St. Theosebia",
    "nombres": "Gregory of Nyssa and Theosebia",
-   "descripcion": "bishop and Doctor of the Church; celibate after marriage",
+   "descripcion": "the “father of the Fathers of the Church”",
    "resumen": "bishop and Doctor of the Church; celibate after marriage",
-   "cita": "“Father of the Fathers of the Church” (4th century). “Basil is the arm that acts; Gregory Nazianzen, the mouth that speaks; and Gregory of Nyssa, the head that thinks”",
-   "_es": "7bc1d434c3"
+   "cita": "“Basil is the arm that acts; Gregory Nazianzen, the mouth that speaks; and Gregory of Nyssa, the head that thinks” (on the so-called “Cappadocian Fathers”)",
+   "_es": "3236d8ec86"
   },
   "234": {
    "titulo": "Servant of God Guilherme Braga da Cruz and Ofélia Garcia",
@@ -1845,8 +1845,8 @@
    "nombres": "Ida of Herzfeld and Lord Egbert",
    "descripcion": "German patroness of brides and expectant mothers",
    "resumen": "nobles",
-   "cita": "“At the moment when husband and wife are united, there is a physical unity in them, an indivisible action of the Holy Spirit that kindles in them a powerful inner love directed toward heavenly things”",
-   "_es": "13ac70fdb3"
+   "cita": "“At the moment when husband and wife are united, there is a physical unity in them, an indivisible action of the Holy Spirit that kindles in them a powerful inner love directed toward heavenly things” (his biographer, the monk Uffing, in a passage on his marriage)",
+   "_es": "b35653dc8f"
   },
   "256": {
    "titulo": "Bl. Ida of Hohenfels and Eberhard",
@@ -2102,16 +2102,16 @@
    "nombres": "José Gálvez Ginachero and María Moll Sampelayo",
    "descripcion": "gynecologist, director of the Provincial Civil Hospital of Málaga",
    "resumen": "gynecologist, director of the Provincial Civil Hospital of Málaga",
-   "cita": "“Get used to bearing cheerfully the small mortifications life gives you” (José Gálvez Ginachero, after several blows)",
-   "_es": "0bc6ab532f"
+   "cita": "“Get used to bearing cheerfully the small mortifications life gives you” (José Gálvez Ginachero, after several hard moments)",
+   "_es": "aa601b22ff"
   },
   "291": {
    "titulo": "Servant of God José Jorge Bunader and Sidara",
    "nombres": "José Jorge Bunader and Sidara",
    "descripcion": "Lebanese-Argentine family man",
    "resumen": "Lebanese Maronite, Franciscan tertiary and Catholic Action member",
-   "cita": "“A special light surrounds him, a joy and a deep recollection that make you feel he truly carries God in his soul” (about Bunader)",
-   "_es": "4c000f624e"
+   "cita": "“A special light surrounds him, a joy and a deep recollection that make you feel he truly carries God in his soul” (about Bunader, in his beatification process)",
+   "_es": "781bba4fd4"
   },
   "292": {
    "titulo": "Servant of God José María Haro and María Luisa Sabater Valero",
@@ -2171,7 +2171,7 @@
    "descripcion": "husband martyred for his freedom of conscience",
    "resumen": "economist, Catholic Action and St. Vincent de Paul Conference member, martyred for refusing to swear an oath to Nazism",
    "cita": "He raised his hand and cried: “General, I cannot swear loyalty to Hitler; my faith and conscience forbid it.”\nA companion, Hans Karl Neuhauser, told him he did not believe God asked him to refuse the oath, and Josef replied: “If no one ever has the courage to say they do not agree with the Nazis' views, nothing will ever change”",
-   "_es": "eef49952ef"
+   "_es": "03185d0ada"
   },
   "300": {
    "titulo": "Bl. Josefa Saturnina Rodríguez and Col. Manuel de Zavalía",
@@ -2193,8 +2193,8 @@
    "nombres": "Justo Takayama Ukon and Justa",
    "descripcion": "the “samurai of Christ”",
    "resumen": "the “samurai of Christ”",
-   "cita": "“God says that whoever takes up the sword perishes by it. Go back to Japan as envoys of peace.” (Justo Takayama)",
-   "_es": "cc7897fdeb"
+   "cita": "“God says that whoever takes up the sword perishes by it.” (Justo Takayama)",
+   "_es": "534f02b84b"
   },
   "303": {
    "titulo": "Bl. Juan Bautista Faubel Cano and Patrocinio Olba Martínez",
@@ -2299,7 +2299,7 @@
    "descripcion": "martyr of Catholic Youth",
    "resumen": "martyr of Catholic Youth",
    "cita": "“Youth for Christ through Mary”; “wherever there is a brother to help, a soul to save: a reason for the apostolate”",
-   "_es": "2bbda7f0cc"
+   "_es": "b54f5c9818"
   },
   "317": {
    "titulo": "Servant of God Julio Tobar Donoso and Ángela García Gómez",
@@ -2942,8 +2942,8 @@
    "nombres": "Medarda Guerrero García and José Piñero",
    "descripcion": "the Good Samaritan of the Venezuelan Andes",
    "resumen": "carer of the sick",
-   "cita": "“Come here, my child! Here you have a home, here you have bread. Eat, my child.” (her phrase that became famous among the people)",
-   "_es": "ed2c91c9f7"
+   "cita": "“Come here, my child! Here you have a home, here you have bread. Eat, my child.” (Medarda's phrase that became famous among the people)",
+   "_es": "877bf19810"
   },
   "406": {
    "titulo": "St. Melania the Younger and St. Pinian",
@@ -3016,7 +3016,7 @@
    "descripcion": "the father of the Swiss nation",
    "resumen": "celibate after marriage; soldier, judge and hermit, with 10 children",
    "cita": "My Lord and my God, take from me everything that keeps me from you.\nMy Lord and my God, give me everything that brings me closer to you.\nMy Lord and my God, take me from myself and give me completely to you.",
-   "_es": "1189e36fbd"
+   "_es": "811ff381d6"
   },
   "417": {
    "titulo": "Bl. Niccolò Giustiniani and Anna Michiel",
@@ -3150,7 +3150,7 @@
    "descripcion": "learned mother who helped with the first translation of the Bible",
    "resumen": "widowed religious",
    "cita": "“Following Christ in Bethlehem in great poverty, reducing her greatness to a stable” (St. Jerome on Paula, in her epitaph)",
-   "_es": "a3b8b54f39"
+   "_es": "8544ec1a59"
   },
   "436": {
    "titulo": "Bl. Paola Gambara and Ludovico Antonio Costa",
@@ -3309,8 +3309,8 @@
    "nombres": "King Francis II of Naples and Maria Sophie of Bavaria",
    "descripcion": "the last Neapolitan king",
    "resumen": "last king of the Two Sicilies",
-   "cita": "“Never a word of reproach or resentment from his mouth, but always of peace and encouragement” (Francesco II Foundation)",
-   "_es": "f59069f375"
+   "cita": "“Never a word of reproach or resentment from his mouth, but always of peace and encouragement” (from the Francesco II Foundation)",
+   "_es": "0764b41d0b"
   },
   "459": {
    "titulo": "Servant of God Rhoda Wise and Ernest Wissmar / George Wise",
@@ -3426,7 +3426,7 @@
    "descripcion": "Uruguayan doctor, politician and journalist",
    "resumen": "doctor, journalist, politician and president of the Catholic Workers' Circle",
    "cita": "“The law shows a double face when it frustrates the essential right to exist at the hands of one's own mother” (Dr. García Pintos)",
-   "_es": "a13a018ef7"
+   "_es": "07c48eed64"
   },
   "475": {
    "titulo": "Ven. Sándor Bálint and Sarolta Maddalena Németh",
@@ -3484,8 +3484,8 @@
    "nombres": "Simon Phan Đắc Hòa",
    "descripcion": "Vietnamese doctor and teacher",
    "resumen": "martyr, charitable doctor and missionary",
-   "cita": "“I am very happy to do God's will; do not be sad.”",
-   "_es": "c49505c50d"
+   "cita": "“I am very happy to do God's will; do not be sad.” (St. Simon)",
+   "_es": "9652d07c60"
   },
   "483": {
    "titulo": "Bl. Sofía Ximénez Ximénez and Carlos del Río Díez de Bulnes",
@@ -3611,7 +3611,7 @@
    "descripcion": "20th-century martyr of Guatemala",
    "resumen": "member of Catholic Action, head sacristan, one of the 10 “Martyrs of El Quiché”",
    "cita": "I die as Jesus died. He was not a sinner, and people said he was a bad man… And I am a sinner",
-   "_es": "22887adcc4"
+   "_es": "12f430dfea"
   },
   "500": {
    "titulo": "Ven. Uberto Mori and Gilda Cavedoni",
@@ -3698,8 +3698,8 @@
    "nombres": "Volodymyr Ivanovych Pryima",
    "descripcion": "Ukrainian father and parish cantor",
    "resumen": "Greek Catholic, choir director",
-   "cita": "“In baptism every Christian is called to holiness. Not all are called to undergo the supreme trial of shedding their blood. But all are entrusted with the task of following Christ with daily, faithful generosity.”",
-   "_es": "f8231effac"
+   "cita": "“In baptism every Christian is called to holiness. Not all are called to undergo the supreme trial of shedding their blood. But all are entrusted with the task of following Christ with daily, faithful generosity.” (St. John Paul II, at the beatification of the martyrs of Ukraine)",
+   "_es": "c6eef94f0a"
   },
   "512": {
    "titulo": "St. Volusianus",
@@ -3728,16 +3728,16 @@
    "nombres": "Wenceslao Pedernera and Coca Cornejo",
    "descripcion": "Argentine family man and catechist",
    "resumen": "martyr of the era of the military dictatorship",
-   "cita": "“Wenceslao had only words of forgiveness for his attackers, urging his family to hold no grudge”",
-   "_es": "a377815621"
+   "cita": "“Wenceslao had only words of forgiveness for his attackers, urging his family to hold no grudge” (Fr. Puigjané, who gave him the last rites)",
+   "_es": "b9dda9def5"
   },
   "516": {
    "titulo": "Servant of God Wilhelm Frede and Maria Brohl",
    "nombres": "Wilhelm Frede and Maria Brohl",
    "descripcion": "politician and consular attaché, later a prisoner in Sachsenhausen",
    "resumen": "politician and consular attaché, later a prisoner in Sachsenhausen",
-   "cita": "“There is hardly anyone I admire more for his character, his patience and his sense of justice.",
-   "_es": "59445c2487"
+   "cita": "“There is hardly anyone I admire more for his character, his patience and his sense of justice. He gave his whole self for the good of the humblest.” (his superior, Consul Arnoldus Jurgens, in 1948)",
+   "_es": "c24939a717"
   },
   "517": {
    "titulo": "Bl. William Howard and Mary Stafford",
