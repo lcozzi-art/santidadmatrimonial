@@ -65,7 +65,7 @@ TEXTOS = [
     ('>Siglo (más recientes primero)</option>', '>Century (most recent first)</option>'),
     ('>Fiesta o Memoria (calendario)</option>', '>Feast or memorial (calendar)</option>'),
     ('id="f-ambos"> Ambos esposos con causa</label>', 'id="f-ambos"> Cause for both spouses</label>'),
-    ('id="f-martir"> Mártires</label>', 'id="f-martir"> Martyrs</label>'),
+    ('id="f-religiosos"> Incluir los de vocación principalmente religiosa</label>', 'id="f-religiosos"> Include those with a mainly religious vocation</label>'),
     ('id="f-podcast"> Con episodio de podcast</label>', 'id="f-podcast"> With a podcast episode</label>'),
     ('class="sr">Buscar</label>', 'class="sr">Search</label>'),
     ('placeholder="Buscar por nombre o palabras clave"', 'placeholder="Search by name or keyword"'),

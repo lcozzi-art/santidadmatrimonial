@@ -80,7 +80,7 @@
   function aplicarFiltros() {
     var q = norm($("q").value).trim();
     var pais = elegidos("f-pais"), siglo = elegidos("f-siglo"), ref = elegidos("f-ref"), mes = elegidos("f-mes");
-    var ambos = $("f-ambos").checked, martir = $("f-martir").checked, pod = $("f-podcast").checked;
+    var ambos = $("f-ambos").checked, religiosos = $("f-religiosos").checked || ref.indexOf("religioso/a") >= 0, pod = $("f-podcast").checked;
     var algunaEtapa = Object.keys(etapasActivas).some(function (k) { return etapasActivas[k]; });
     filtrados = datos.filter(function (m) {
       if (algunaEtapa && !etapasActivas[m.proceso]) return false;
@@ -89,7 +89,7 @@
       if (ref.length && ref.indexOf(m.referencia) < 0) return false;
       if (mes.length && mes.indexOf(m._mes) < 0) return false;
       if (ambos && !m.ambos) return false;
-      if (martir && !m.martir) return false;
+      if (!religiosos && m.referencia === "religioso/a") return false;
       if (pod && !m.podcast) return false;
       if (q && m._txt.indexOf(q) < 0) return false;
       return true;
@@ -265,7 +265,7 @@
     var cifras = [
       [datos.length, t("casos del esposo/a o matrimonio")],
       [datos.filter(function (m) { return m.ambos; }).length, t("con causa de ambos esposos"), "ambos"],
-      [datos.filter(function (m) { return m.martir; }).length, t("mártires"), "martir"],
+      [datos.filter(function (m) { return m.martir; }).length, t("mártires")],
       [nPaises, t("países")]
     ];
     $("est-cifras").innerHTML = cifras.map(function (c) {
@@ -354,14 +354,15 @@
   function filtrarDesde(filtro) {
     var p = filtro.split("|"), tipo = p[0], valor = p[1];
     $("q").value = "";
-    ["f-ambos", "f-martir", "f-podcast"].forEach(function (id) { $(id).checked = false; });
+    ["f-ambos", "f-podcast"].forEach(function (id) { $(id).checked = false; });
+    $("f-religiosos").checked = true; // the bars count every case
     ["f-pais", "f-siglo", "f-ref", "f-mes"].forEach(function (id) {
       $(id).querySelectorAll("input").forEach(function (i) { i.checked = false; });
     });
     etapasActivas = {};
     $("chips-etapa").querySelectorAll("[data-etapa]").forEach(function (b) { b.setAttribute("aria-pressed", "false"); });
     if (tipo === "etapa") { etapasActivas[valor] = true; $("chips-etapa").querySelector('[data-etapa="' + valor + '"]').setAttribute("aria-pressed", "true"); }
-    else if (tipo === "ambos" || tipo === "martir" || tipo === "podcast") $("f-" + tipo).checked = true;
+    else if (tipo === "ambos" || tipo === "podcast") $("f-" + tipo).checked = true;
     else {
       var sel = { pais: "f-pais", siglo: "f-siglo", ref: "f-ref", mes: "f-mes" }[tipo];
       var valores = valor.split(",");
@@ -459,7 +460,7 @@
     tooltip();
     if (CANAL_PODCAST) { $("canal").href = CANAL_PODCAST; $("canal-wrap").hidden = false; }
 
-    ["q", "f-orden", "f-ambos", "f-martir", "f-podcast"].forEach(function (id) {
+    ["q", "f-orden", "f-ambos", "f-religiosos", "f-podcast"].forEach(function (id) {
       $(id).addEventListener(id === "q" ? "input" : "change", aplicarFiltros);
     });
     var multis = ["f-pais", "f-siglo", "f-ref", "f-mes"];
