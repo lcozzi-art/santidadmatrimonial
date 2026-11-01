@@ -12849,8 +12849,8 @@
    "podcastId": null,
    "video": "https://www.youtube.com/watch?v=t17HpGLYm0k",
    "videoId": "t17HpGLYm0k",
-   "foto": null,
-   "fotoYT": "https://www.youtube.com/watch?v=t17HpGLYm0k"
+   "foto": "img/460.jpg",
+   "fotoYT": null
   },
   {
    "id": 461,
