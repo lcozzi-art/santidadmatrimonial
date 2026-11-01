@@ -20,8 +20,9 @@ TEXTOS = [
     # Cabecera y metadatos
     ('<html lang="es">', '<html lang="en">'),
     ('<title>Santidad Matrimonial</title>', '<title>Santidad Matrimonial · Holy married couples</title>'),
-    ('content="Esposos santos, beatos, venerables y siervos de Dios, con fotos, enlaces y el podcast Caminos de Santidad Matrimonial."',
-     'content="Married saints, blesseds, venerables and servants of God, with photos, links and the podcast Caminos de Santidad Matrimonial."'),
+    ('content="Todos los esposos santos o en proceso de la Iglesia católica"', 'content="All the married saints and candidates for sainthood of the Catholic Church"'),
+    ('<meta property="og:url" content="https://santidadmatrimonial.org/">', '<meta property="og:url" content="https://santidadmatrimonial.org/en/">'),
+    ('content="Anillos de Santidad Matrimonial"', 'content="Santidad Matrimonial rings"'),
     ('<meta property="og:locale" content="es_AR">', '<meta property="og:locale" content="en_US">'),
     ('aria-label="Inicio"', 'aria-label="Home"'),
     ('aria-label="Secciones"', 'aria-label="Sections"'),
