@@ -448,7 +448,7 @@
     $("lista-peliculas").innerHTML = peliculas.map(function (p) {
       var m = datos.find(function (x) { return x.id === p.ficha; });
       return '<li class="ep"><a class="foto" href="' + esc(p.video) + '"' + ytAttr(p.videoId) + ' target="_blank" rel="noopener" aria-label="' + esc(t("Ver {t}", { t: p.titulo })) + '">' +
-        '<div class="emblema">' + ANILLOS + '</div><img src="' + ytThumb(p.video) + '" alt="" loading="lazy" onerror="this.remove()"><span class="play" aria-hidden="true"></span></a>' +
+        '<div class="emblema">' + ANILLOS + '</div>' + (ytThumb(p.video) ? '<img src="' + ytThumb(p.video) + '" alt="" loading="lazy" onerror="this.remove()">' : '') + '<span class="play" aria-hidden="true"></span></a>' +
         '<div class="ep-body">' + (m ? '<a class="ep-num" href="#m' + m.id + '">' + esc(m.nombres) + '</a>' : '') + '<h3>' + esc(p.titulo) + '</h3>' + (p.descripcion ? '<p>' + esc(p.descripcion) + '</p>' : '') +
         '<div class="ep-links"><a href="' + esc(p.video) + '"' + ytAttr(p.videoId) + ' target="_blank" rel="noopener">' + t("Ver película") + '</a>' +
         (m ? '<a href="#m' + m.id + '">' + t("Ver ficha") + '</a>' : '') + '</div></div></li>';
