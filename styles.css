@@ -143,6 +143,11 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .enlaces { display: flex; flex-wrap: wrap; gap: 10px; }
 .ficha h4 { margin: 0 0 6px; font-size: .78rem; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); }
 .ficha .texto { margin: 0; }
+.resena p { margin: 0 0 .75em; line-height: 1.6; }
+.resena p:last-child { margin-bottom: 0; }
+.resena .cita { margin: 14px 0; }
+.resena .fuente { font-size: .85rem; color: var(--muted); }
+.resena .fuente a { color: inherit; }
 .biblio { font-size: .9rem; color: var(--muted); white-space: pre-line; }
 
 /* podcast */

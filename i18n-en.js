@@ -34,6 +34,7 @@ window.TRADUCCION = {
     "En pocas palabras": "In a few words",
     "Para conocer más": "Learn more",
     "Bibliografía": "Bibliography",
+    "Su historia": "Their story", "Familia": "Family", "Fuente": "Source", "(en español)": "(in Spanish)",
     "{n} elegidos": "{n} selected",
     "{n} caso": "{n} case", "{n} casos": "{n} cases",
     "{p} del total": "{p} of the total",

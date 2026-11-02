@@ -122,13 +122,38 @@
     return s.replace(/(^|[\s(\[:;—–-])["“”](?=[\p{L}\d¿¡.…])/gu, "$1«").replace(/["“”]/g, "»");
   }
 
+  // Reseñas del "Santoral de Laicos Casados" (data/resenas.json, por id), cargadas aparte.
+  // En inglés, data/resenas-en.json reemplaza el texto de las que estén traducidas.
+  var resenas = {}, resenaES = {};
+  function datosTxt(s) {
+    if (LOCALE === "es") return s;
+    return s.replace(/años de matrimonio/g, "years of marriage").replace(/\bhijas\b/g, "daughters").replace(/\bhija\b/g, "daughter")
+      .replace(/\bhijos\b/g, "children").replace(/\bhijo\b/g, "son").replace(/\by\b/g, "and");
+  }
+  // The ficha's quote goes inside, before the source, since the last paragraph may lead into it.
+  function resenaHTML(m, cita) {
+    var r = resenas[m.id];
+    if (!r || !r.texto || !r.texto.length) return cita;
+    var fuente = "";
+    if (r.fuente && [m.articulo, m.masInfo].indexOf(r.fuente) < 0) {
+      var host = r.fuente.replace(/^https?:\/\/(www\.)?/, "").split("/")[0];
+      fuente = '<p class="fuente">' + t("Fuente") + ': <a href="' + esc(r.fuente) + '" target="_blank" rel="noopener">' + esc(host) + '</a></p>';
+    }
+    var texto = r.texto.map(function (p) { return "<p>" + esc(LOCALE === "es" ? angulares(p) : p) + "</p>"; }).join("");
+    return '<div class="resena"><h4>' + t("Su historia") + '</h4>' +
+      (LOCALE !== "es" && resenaES[m.id] ? '<p class="fuente">' + t("(en español)") + '</p>' : '') +
+      texto + cita + fuente + '</div>';
+  }
+
   function fichaHTML(m) {
     var e = etapa(m);
     var filas = [
       [t("País"), paisTxt(m.pais)], [t("Siglo"), m.siglo], [t("Fiesta o Memoria"), m.fiesta], [t("Referencia"), refTxt(m.referencia)], ["", m.josefino ? t("Matrimonio josefino") : null],
       [t("Causa"), m.ambos ? t("De ambos esposos") : t("De uno de los esposos")],
-      [t("Mártir"), m.martir ? t("Sí") : null]
+      [t("Mártir"), m.martir ? t("Sí") : null],
+      [t("Familia"), resenas[m.id] && resenas[m.id].datos ? datosTxt(resenas[m.id].datos) : null]
     ].filter(function (f) { return f[1]; }).map(function (f) { return "<dt>" + f[0] + "</dt><dd>" + esc(f[1]) + "</dd>"; }).join("");
+    var cita = m.cita ? '<blockquote class="cita">' + esc(LOCALE === "es" ? angulares(m.cita) : m.cita) + '</blockquote>' : '';
     var links = [];
     if (m.podcast) links.push('<a class="btn" href="' + esc(m.podcast) + '"' + ytAttr(m.podcastId) + ' target="_blank" rel="noopener">' + t("Escuchar el podcast") + '</a>');
     if (m.articulo) links.push('<a class="btn' + (m.podcast ? ' sec' : '') + '" href="' + esc(m.articulo) + '" target="_blank" rel="noopener">' + t("Leer artículo") + '</a>');
@@ -141,7 +166,7 @@
       (m.descripcion ? '<p class="sub">' + esc(m.descripcion) + '</p>' : '') + '</div>' +
       (m.resumen && soloLetras(m.resumen) !== soloLetras(m.descripcion) ? '<div><h4>' + t("En pocas palabras") + '</h4><p class="texto">' + esc(m.resumen) + '</p></div>' : '') +
       (filas ? '<dl class="datos">' + filas + '</dl>' : '') +
-      (m.cita ? '<blockquote class="cita">' + esc(LOCALE === "es" ? angulares(m.cita) : m.cita) + '</blockquote>' : '') +
+      (resenas[m.id] ? resenaHTML(m, cita) : cita) +
       '<div><h4>' + t("Para conocer más") + '</h4><div class="enlaces">' + links.join("") + '</div></div>' +
       (m.bibliografia ? '<div><h4>' + t("Bibliografía") + '</h4><p class="biblio">' + esc(m.bibliografia) + '</p></div>' : '') +
       '</div>';
@@ -534,11 +559,27 @@
   }
 
   // Change DATOS_V whenever data/*.json changes, so browsers don't keep the cached copy.
-  var DATOS_V = "2026-11-01-sin184";
+  var DATOS_V = "2026-11-02-resenas";
   function leer(url) { return fetch(BASE + url + "?v=" + DATOS_V).then(function (r) { return r.json(); }); }
-  Promise.all([leer("data/matrimonios.json"), TR.datos ? leer(TR.datos).catch(function () { return {}; }) : null])
-    .then(function (r) { iniciar(r[1] ? traducir(r[0], r[1]) : r[0]); })
-    .catch(function () {
-      $("conteo").textContent = t("No se pudieron cargar los datos. Recargá la página.");
-    });
+  var listo = Promise.all([leer("data/matrimonios.json"), TR.datos ? leer(TR.datos).catch(function () { return {}; }) : null])
+    .then(function (r) { iniciar(r[1] ? traducir(r[0], r[1]) : r[0]); });
+  listo.catch(function () {
+    $("conteo").textContent = t("No se pudieron cargar los datos. Recargá la página.");
+  });
+  // The reseñas arrive after the cards; an open ficha is redrawn once they do.
+  Promise.all([leer("data/resenas.json"), TR.resenas ? leer(TR.resenas).catch(function () { return {}; }) : null, listo])
+    .then(function (r) {
+      var en = r[1] || {};
+      Object.keys(r[0]).forEach(function (id) {
+        var x = r[0][id], y = en[id];
+        if (LOCALE !== "es" && !(y && y.texto)) resenaES[id] = true;
+        resenas[id] = y ? { texto: y.texto || x.texto, datos: x.datos, fuente: x.fuente } : x;
+      });
+      var mm = (location.hash || "").match(/^#m(\d+)$/);
+      if (mm && !$("ficha").hidden) {
+        var m = datos.find(function (x) { return x.id === +mm[1]; });
+        var top = $("ficha").scrollTop;
+        if (m) { $("ficha").innerHTML = fichaHTML(m); $("ficha").scrollTop = top; }
+      }
+    }).catch(function () {});
 })();
