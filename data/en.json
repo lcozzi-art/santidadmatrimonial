@@ -1,5 +1,5 @@
 {
- "_nota": "Traducción al inglés de las fichas (por id) y de los episodios (por id de YouTube). _es es la huella del texto en español: si cambia, la ficha se revisa con herramientas/revisar-en.py.",
+ "_nota": "Traducción al inglés de las fichas (por id) y de los episodios (por id de YouTube). _es es la huella del texto en español: si cambia, la ficha se revisa con herramientas/revisar-traduccion.py.",
  "matrimonios": {
   "1": {
    "titulo": "St. Adelaide and Lothair II / Otto I the Great",

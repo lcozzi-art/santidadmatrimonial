@@ -3,11 +3,20 @@ window.TRADUCCION = {
   base: "../",
   locale: "en",
   datos: "data/en.json",
+  resenas: "data/resenas-en.json",
   // "16 de diciembre" -> "December 16"
   fecha: function (s) {
     var m = String(s).match(/^(\d{1,2}) de (\w+)$/);
     var mes = m && window.TRADUCCION.meses[m[2].charAt(0).toUpperCase() + m[2].slice(1)];
     return mes ? mes + " " + m[1] : s;
+  },
+  // "4 hijos y 25 años de matrimonio" -> "4 children and 25 years of marriage"
+  familia: function (s) {
+    return s.replace(/años de matrimonio/g, "years of marriage").replace(/años de casado/g, "years married")
+      .replace(/años entre ambos matrimonios/g, "years across both marriages").replace(/meses de matrimonio/g, "months of marriage")
+      .replace(/hijo biológico y (\d+) adoptados/g, "biological child and $1 adopted").replace(/hijos sacerdotes/g, "sons who became priests")
+      .replace(/\(aprox\)/g, "(approx.)").replace(/\bhijas\b/g, "daughters").replace(/\bhija\b/g, "daughter")
+      .replace(/\bhijos\b/g, "children").replace(/\bhijo\b/g, "son").replace(/\by\b/g, "and");
   },
   ui: {
     "Santo": "Saint", "Santos": "Saints",

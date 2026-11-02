@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Santidad Matrimonial · Saints époux</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Tous les époux saints ou en voie de béatification de l’Église catholique">
+<meta property="og:title" content="Santidad Matrimonial">
+<meta property="og:description" content="Tous les époux saints ou en voie de béatification de l’Église catholique">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Santidad Matrimonial">
+<meta property="og:url" content="https://santidadmatrimonial.org/fr/">
+<meta property="og:image" content="https://santidadmatrimonial.org/og-image.png">
+<meta property="og:image:width" content="600">
+<meta property="og:image:height" content="600">
+<meta property="og:image:alt" content="Alliances de Santidad Matrimonial">
+<meta name="twitter:card" content="summary">
+<meta property="og:locale" content="fr_FR">
+<link rel="alternate" hreflang="es" href="https://santidadmatrimonial.org/">
+<link rel="alternate" hreflang="en" href="https://santidadmatrimonial.org/en/">
+<link rel="alternate" hreflang="fr" href="https://santidadmatrimonial.org/fr/">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,600;0,6..12,700;1,6..12,400&display=swap">
+<link rel="stylesheet" href="../styles.css?v=2026-11-02c">
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <a class="brand" href="#inicio" aria-label="Accueil">
+      <svg viewBox="0 0 40 40" aria-hidden="true" class="brand-mark"><circle cx="15" cy="20" r="10"/><circle cx="25" cy="20" r="10"/></svg>
+      <span>Santidad Matrimonial</span>
+    </a>
+    <nav class="nav" aria-label="Rubriques">
+      <a href="#inicio" data-nav="inicio">Couples</a>
+      <a href="#podcast" data-nav="podcast">Podcast</a>
+      <a href="#peliculas" data-nav="peliculas">Films</a>
+      <a href="#estadisticas" data-nav="estadisticas"><span class="nav-largo">En chiffres</span><span class="nav-corto">Chiffres</span></a>
+      <a href="#libro" data-nav="libro">Livre</a>
+      <a href="#acerca" data-nav="acerca">À propos</a>
+    </nav>
+    <div class="idiomas">
+      <a class="idioma" href="../" hreflang="es" lang="es" title="Versión en español">ES</a>
+      <a class="idioma" href="../en/" hreflang="en" lang="en" title="English version">EN</a>
+    </div>
+  </div>
+</header>
+
+<main id="vista-inicio" class="wrap">
+  <section class="intro">
+    <p class="eyebrow">Caminos de Santidad Matrimonial</p>
+    <h1>Des époux parvenus, ou en marche, vers les autels.</h1>
+    <p class="lede">Qui ils étaient et comment en savoir plus sur les époux dont l’Église catholique a reconnu les vertus au fil des siècles.</p>
+    <ul class="destacados" aria-label="Quelques couples">
+      <li><a href="#m9"><img src="../img/9.jpg" alt="Louis Martin et Zélie Guérin"></a></li>
+      <li><a href="#m27"><img src="../img/27.jpg" alt="Sergio Bernardini et Domenica Bedonni"></a></li>
+      <li><a href="#m106"><img src="../img/106.jpg" alt="Charles Ier d’Autriche et Zita de Bourbon-Parme"></a></li>
+    </ul>
+  </section>
+
+  <section class="filtros" aria-label="Rechercher et filtrer">
+    <div class="chips" id="chips-etapa" role="group" aria-label="Titre"></div>
+    <div class="selects">
+      <div class="campo"><span class="lbl" id="f-pais-lbl">Pays</span><details class="multi" id="f-pais" data-todos="Tous"><summary aria-labelledby="f-pais-lbl f-pais-txt"><span id="f-pais-txt">Tous</span></summary><div class="opts" role="group" aria-labelledby="f-pais-lbl"><button type="button" class="limpiar" data-limpiar>Tous</button></div></details></div>
+      <div class="campo"><span class="lbl" id="f-siglo-lbl">Siècle</span><details class="multi" id="f-siglo" data-todos="Tous"><summary aria-labelledby="f-siglo-lbl f-siglo-txt"><span id="f-siglo-txt">Tous</span></summary><div class="opts" role="group" aria-labelledby="f-siglo-lbl"><button type="button" class="limpiar" data-limpiar>Tous</button></div></details></div>
+      <div class="campo"><span class="lbl" id="f-ref-lbl">Référence</span><details class="multi" id="f-ref" data-todos="Toutes"><summary aria-labelledby="f-ref-lbl f-ref-txt"><span id="f-ref-txt">Toutes</span></summary><div class="opts" role="group" aria-labelledby="f-ref-lbl"><button type="button" class="limpiar" data-limpiar>Toutes</button></div></details></div>
+      <div class="campo"><span class="lbl" id="f-mes-lbl">Fête ou mémoire</span><details class="multi" id="f-mes" data-todos="Tous"><summary aria-labelledby="f-mes-lbl f-mes-txt"><span id="f-mes-txt">Tous</span></summary><div class="opts" role="group" aria-labelledby="f-mes-lbl"><button type="button" class="limpiar" data-limpiar>Tous</button></div></details></div>
+      <label>Trier <select id="f-orden">
+        <option value="destacados">En vedette d’abord</option>
+        <option value="nombre">Nom</option>
+        <option value="siglo">Siècle (les plus anciens d’abord)</option>
+        <option value="siglo-desc">Siècle (les plus récents d’abord)</option>
+        <option value="fiesta">Fête ou mémoire (calendrier)</option>
+      </select></label>
+    </div>
+    <div class="toggles">
+      <label><input type="checkbox" id="f-ambos"> Cause pour les deux époux</label>
+      <label><input type="checkbox" id="f-religiosos"> Inclure ceux de vocation surtout religieuse</label>
+      <label><input type="checkbox" id="f-podcast"> Avec un épisode du podcast</label>
+    </div>
+    <div class="buscar">
+      <label for="q" class="sr">Rechercher</label>
+      <svg class="lupa" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg>
+      <input id="q" type="search" placeholder="Rechercher par nom ou mot-clé" autocomplete="off">
+    </div>
+  </section>
+
+  <p class="conteo" id="conteo" aria-live="polite"></p>
+  <div class="grid" id="grid"></div>
+  <div class="mas"><button id="btn-mas" type="button" hidden>Afficher plus</button></div>
+</main>
+
+<main id="vista-podcast" class="wrap" hidden>
+  <section class="intro">
+    <p class="eyebrow">Podcast</p>
+    <h1>Caminos de Santidad Matrimonial</h1>
+    <p class="lede">Chaque épisode raconte l’histoire d’un couple ou d’un époux en route vers les autels, par la voix des auteurs, dans leur émission sur Radio María Argentina. Les épisodes sont en espagnol. Choisissez-en un pour l’écouter.</p>
+    <p id="canal-wrap" hidden><a class="btn" id="canal" href="#" target="_blank" rel="noopener">Écouter l’émission sur Spotify (en espagnol)</a></p>
+  </section>
+  <ul class="episodios" id="episodios"></ul>
+</main>
+
+<main id="vista-peliculas" class="wrap" hidden>
+  <section class="intro">
+    <p class="eyebrow">Films</p>
+    <h1>Films et docufictions</h1>
+    <p class="lede">Films, documentaires et courts métrages sur la vie de certains de ces époux, surtout en espagnol ou en italien. Choisissez-en un pour le regarder ici même, ou ouvrez la fiche du couple.</p>
+  </section>
+  <ul class="episodios" id="lista-peliculas"></ul>
+</main>
+
+<main id="vista-libro" class="wrap" hidden>
+  <section class="libro-hero">
+    <figure class="libro-tapa"><img src="../img/libro-tapa.jpg" width="720" height="1066" alt="Couverture du livre Caminos de Santidad Matrimonial, de Leonardo Cozzi et Paola Risuleo : un cortège de couples marchant vers une lumière parmi les nuages."></figure>
+    <div class="libro-info">
+      <p class="eyebrow">Le livre</p>
+      <h1>Caminos de Santidad Matrimonial</h1>
+      <p class="libro-sub">20 chemins conjugaux en 20 siècles · <span lang="fr">Chemins de sainteté conjugale</span></p>
+      <p class="lede">L’histoire de quarante couples qui ont vécu leur vocation conjugale comme un chemin vers Dieu, des premiers chrétiens jusqu’à nos jours : rois et laboureurs, médecins et éducateurs, martyrs et mères héroïques. Le podcast et ce site sont nés de cette recherche. Le livre est pour l’instant disponible en espagnol.</p>
+      <dl class="datos libro-datos">
+        <dt>Auteurs</dt><dd>Leonardo Cozzi et Paola Risuleo</dd>
+        <dt>Préface</dt><dd>Sara Shaw de Critto, fille du vénérable Enrique Shaw</dd>
+        <dt>Avec la contribution de</dt><dd>P. Thomas Kevin Kraft, OP</dd>
+        <dt>Éditeur</dt><dd>Ediciones Logos, Áncora</dd>
+        <dt>Format</dt><dd>14 × 20 cm, broché avec rabats</dd>
+      </dl>
+      <div class="enlaces">
+        <a class="btn" href="https://www.edicioneslogos.com/shop/caminos-de-santidad-matrimonial-2da-edicion-20267" target="_blank" rel="noopener">Acheter chez Ediciones Logos</a>
+        <a class="btn sec" href="#podcast">Écouter le podcast</a>
+      </div>
+    </div>
+  </section>
+
+  <blockquote class="cita libro-cita">« Maintenant, aidons-nous mutuellement à aller au Ciel »<cite>Bienheureux Charles Ier d’Autriche</cite></blockquote>
+
+  <section class="libro-sec">
+    <h2>Les 20 chemins</h2>
+    <p class="nota">Chaque chapitre réunit deux histoires. Touchez un nom pour voir sa fiche.</p>
+    <div class="eras">
+      <section class="era">
+        <h3>Premiers chrétiens</h3>
+        <ol class="caps">
+          <li value="1"><b>Église domestique</b><span><span>Saint Joseph et la Vierge Marie</span><span><a href="#m2">Saints Aquila et Priscille</a></span></span></li>
+          <li value="2"><b>Épouses en prière</b><span><span><a href="#m11">Sainte Monique et Patrice</a></span><span><a href="#m35">Élisabeth Arrighi et Félix Leseur</a></span></span></li>
+          <li value="3"><b>Martyrs de la foi</b><span><span><a href="#m3">Saints Félix et Liliose, Aurèle et Natalie</a></span><span><a href="#m34">Cyprien et Daphrose Rugamba</a></span></span></li>
+        </ol>
+      </section>
+      <section class="era">
+        <h3>Monarques évangélisateurs</h3>
+        <ol class="caps">
+          <li value="4"><b>Rois de l’humilité</b><span><span><a href="#m5">Saint Étienne et la bienheureuse Gisèle</a></span><span><a href="#m8">Saint Louis IX et Marguerite</a></span></span></li>
+          <li value="5"><b>Reines de la vertu</b><span><span><a href="#m10">Sainte Marguerite et Malcolm</a></span><span><a href="#m1">Sainte Adélaïde et Otton Ier</a></span></span></li>
+        </ol>
+      </section>
+      <section class="era">
+        <h3>Une aristocratie engagée</h3>
+        <ol class="caps">
+          <li value="6"><b>Mystiques et religieux</b><span><span><a href="#m4">Sainte Brigitte et Ulf</a></span><span><a href="#m25">Marcello Labor et Elsa Reiss</a></span></span></li>
+          <li value="7"><b>Serviteurs publics</b><span><span><a href="#m13">Saint Thomas More, Jane et Alice</a></span><span><a href="#m37">Pauline Archer et Georges Vanier</a></span></span></li>
+          <li value="8"><b>Bienfaiteurs sans mesure</b><span><span><a href="#m20">Carlo et Giulia Falletti di Barolo</a></span><span><a href="#m21">Dorotea Chopitea et José María Serra</a></span></span></li>
+        </ol>
+      </section>
+      <section class="era">
+        <h3>Sainteté du foyer</h3>
+        <ol class="caps">
+          <li value="9"><b>Laboureurs, artisans et saints du foyer</b><span><span><a href="#m14">Anna Maria et Domenico Taigi</a></span><span><a href="#m27">Sergio et Domenica Bernardini</a></span></span></li>
+          <li value="10"><b>Missionnaires et pionniers</b><span><span><a href="#m26">Pierre Toussaint et Juliette Noël</a></span><span><a href="#m332">Louis et Valérie Wandété</a></span></span></li>
+          <li value="11"><b>Pépinières spirituelles</b><span><span><a href="#m9">Louis et Zélie Martin</a></span><span><a href="#m31">Jerônimo et Zélia Castro Abreu</a></span></span></li>
+        </ol>
+      </section>
+      <section class="era">
+        <h3>Héroïsme de l’époque moderne</h3>
+        <ol class="caps">
+          <li value="12"><b>Fondateurs sur le roc</b><span><span><a href="#m16">Frédéric Ozanam et Amélie Soulacroix</a></span><span><a href="#m36">Gwen et Jerry Coniker</a></span></span></li>
+          <li value="13"><b>Écrivains et journalistes</b><span><span><a href="#m15">Conchita Cabrera et Francisco Armida</a></span><span><a href="#m38">Raoul et Madeleine Follereau</a></span></span></li>
+          <li value="14"><b>Éducateurs des âmes</b><span><span><a href="#m297">Giuseppe Tovini et Emilia Corbolani</a></span><span><a href="#m40">Tomás et Paquita Alvira</a></span></span></li>
+          <li value="15"><b>Professionnels à l’idéal transcendant</b><span><span><a href="#m18">Luigi et Maria Beltrame Quattrocchi</a></span><span><a href="#m22">Enrique Shaw et Cecilia Bunge</a></span></span></li>
+          <li value="16"><b>Politiques au service des autres</b><span><span><a href="#m29">Alcide De Gasperi et Francesca Romani</a></span><span><a href="#m30">Arístides et Adela Calvani</a></span></span></li>
+          <li value="17"><b>Héros dans la guerre</b><span><span><a href="#m19">Odoardo Focherini et Maria Marchesi</a></span><span><a href="#m39">Takashi Nagai et Midori Moriyama</a></span></span></li>
+          <li value="18"><b>Travailleurs sociaux</b><span><span><a href="#m17">Hildegard et Alexander Burjan</a></span><span><a href="#m32">Catherine de Hueck et Eddie Doherty</a></span></span></li>
+          <li value="19"><b>Médecins de l’esprit</b><span><span><a href="#m23">Jérôme Lejeune et Birthe Bringsted</a></span><span><a href="#m28">Vittorio Trancanelli et Lia Sabatini</a></span></span></li>
+          <li value="20"><b>Mères héroïques</b><span><span><a href="#m7">Sainte Gianna Beretta et Pietro Molla</a></span><span><a href="#m33">Chiara Corbella et Enrico Petrillo</a></span></span></li>
+        </ol>
+      </section>
+    </div>
+  </section>
+
+  <section class="libro-sec">
+    <h2>Dans la presse <span class="nota">(en espagnol)</span></h2>
+    <ul class="prensa">
+      <li><a href="https://www.schoenstatt.org/es/en-salida/proyectos/2024/01/nuevo-libro-caminos-de-santidad-matrimonial/" target="_blank" rel="noopener"><span class="medio">schoenstatt.org · janvier 2024</span><b>Nuevo libro «Caminos de Santidad Matrimonial»</b><span class="leer">Lire l’article</span></a></li>
+      <li><a href="https://aica.org/noticia-presentaran-el-libro-caminos-de-santidad-matrimonial-que-recoge-el-testimonio-de-matrimonios-santos-y-beatos" target="_blank" rel="noopener"><span class="medio">AICA · avril 2024</span><b>Presentarán el libro «Caminos de santidad matrimonial»</b><span class="leer">Lire l’article</span></a></li>
+      <li><a href="https://www.ucalp.edu.ar/se-presento-el-libro-caminos-de-santidad-matrimonial/" target="_blank" rel="noopener"><span class="medio">UCALP · avril 2024</span><b>Se presentó el libro «Caminos de santidad matrimonial»</b><span class="leer">Lire l’article</span></a></li>
+      <li><a href="https://www.schoenstatt.org/es/en-salida/proyectos/2025/02/ciclo-caminos-de-santidad-matrimonial-en-radio-maria/" target="_blank" rel="noopener"><span class="medio">schoenstatt.org · février 2025</span><b>Ciclo «Caminos de Santidad Matrimonial» en Radio María</b><span class="leer">Lire l’article</span></a></li>
+    </ul>
+    <div class="ep libro-video">
+      <a class="foto" href="https://www.youtube.com/watch?v=MayGoZyEEkA" data-yt="MayGoZyEEkA" target="_blank" rel="noopener" aria-label="Voir la vidéo de la présentation du livre sur Radio María"><img src="https://i.ytimg.com/vi/MayGoZyEEkA/hqdefault.jpg" alt="" loading="lazy" onerror="this.remove()"><span class="play" aria-hidden="true"></span></a>
+      <div class="ep-body">
+        <span class="medio">Video · Radio María</span>
+        <h3>Présentation du livre sur Radio María (en espagnol)</h3>
+        <div class="ep-links"><a href="https://www.youtube.com/watch?v=MayGoZyEEkA" data-yt="MayGoZyEEkA" target="_blank" rel="noopener">Voir la vidéo</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="libro-sec libro-dos">
+    <div>
+      <h2>Les auteurs</h2>
+      <p>Paola et Leo Cozzi sont parents de quatre enfants et vivent à Los Cardales, près de Buenos Aires. Ils forment un couple consacré à l’Institut des Familles du Mouvement apostolique de Schoenstatt. Paola est psychopédagogue et a travaillé dans plusieurs établissements scolaires ; Leo est diplômé en administration des entreprises et travaille comme consultant en processus et qualité. Ensemble, ils se consacrent à la formation des jeunes et des couples, sur la vocation conjugale et la mission chrétienne.</p>
+    </div>
+    <div>
+      <h2>Où se le procurer</h2>
+      <ul class="donde">
+        <li><a href="https://www.edicioneslogos.com/shop/caminos-de-santidad-matrimonial-2da-edicion-20267" target="_blank" rel="noopener">Ediciones Logos</a>, en ligne.</li>
+        <li>Librairies Ágape et Claretiana, en Argentine.</li>
+        <li>Sanctuaires de Schoenstatt de Buenos Aires, F. Varela, Córdoba et Miami.</li>
+        <li><a href="https://schoenstatt.store/products" target="_blank" rel="noopener">Schoenstatt.store</a>, aux États-Unis.</li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<main id="vista-estadisticas" class="wrap" hidden>
+  <section class="intro">
+    <p class="eyebrow">En chiffres</p>
+    <h1>Les saints époux, en chiffres</h1>
+    <p class="lede">Combien ils sont, où en est leur cause, d’où et de quel siècle ils sont, et ce qui les a distingués. Touchez une barre pour voir ces cas.</p>
+    <ul class="camino-resumen" id="resumen" aria-label="Fiches par titre"></ul>
+  </section>
+  <ul class="cifras" id="est-cifras"></ul>
+  <div class="paneles">
+    <section class="panel ancho">
+      <h2>Carte des cas par pays</h2>
+      <p class="nota">Touchez un pays pour voir ses cas.</p>
+      <div class="mapa" id="est-mapa"></div>
+      <ul class="leyenda mapa-ley" id="est-mapa-ley" aria-label="Nombre de cas"></ul>
+    </section>
+    <section class="panel">
+      <h2>État de la cause</h2>
+      <p class="nota">Cas selon le titre obtenu.</p>
+      <div class="barras" id="est-etapa"></div>
+    </section>
+    <section class="panel">
+      <h2>Par continent</h2>
+      <p class="nota">Selon le pays actuel, de l’un ou des deux époux.</p>
+      <div class="barras" id="est-continente"></div>
+    </section>
+    <section class="panel ancho">
+      <h2>Par siècle</h2>
+      <p class="nota">Siècle où s’est déroulée la plus grande partie du mariage, selon l’état de la cause.</p>
+      <ul class="leyenda" id="est-leyenda"></ul>
+      <div class="columnas" id="est-siglo"></div>
+    </section>
+    <section class="panel">
+      <h2>Par pays</h2>
+      <p class="nota" id="est-pais-nota"></p>
+      <div class="barras" id="est-pais"></div>
+      <button type="button" class="ver-todos" id="est-pais-todos">Voir tous les pays</button>
+    </section>
+    <section class="panel">
+      <h2>Par référence</h2>
+      <p class="nota">Ce qui a caractérisé les époux.</p>
+      <div class="barras" id="est-ref"></div>
+    </section>
+    <section class="panel ancho">
+      <h2>Fêtes et mémoires par mois</h2>
+      <p class="nota">Le mois du calendrier où l’on fait mémoire d’eux.</p>
+      <div class="columnas meses" id="est-mes"></div>
+    </section>
+  </div>
+  <p class="est-pie">Note : ces chiffres n’incluent pas plusieurs dizaines d’autres époux béatifiés dans des causes collectives de martyrs.</p>
+</main>
+
+<main id="vista-acerca" class="wrap prosa" hidden>
+  <p class="eyebrow">À propos</p>
+  <h1>À propos de ce site</h1>
+  <p>Ce répertoire rassemble les époux et les couples béatifiés, canonisés ou dont la cause de béatification a été ouverte, à partir de la recherche de Leonardo et Paola Cozzi présentée dans leur livre « Caminos de Santidad Matrimonial » (Chemins de sainteté conjugale, en espagnol).</p>
+  <h2>Titres selon le procès de béatification</h2>
+  <dl class="etapas-def">
+    <dt>Saint</dt><dd>A été canonisé, et son culte s’étend à toute l’Église.</dd>
+    <dt>Bienheureux</dt><dd>A été béatifié, en général après un miracle reconnu, ou par la reconnaissance de son martyre.</dd>
+    <dt>Vénérable</dt><dd>L’Église a reconnu qu’il ou elle a vécu les vertus à un degré héroïque.</dd>
+    <dt>Serviteur de Dieu</dt><dd>La cause de béatification a été formellement ouverte.</dd>
+  </dl>
+  <p>« Les deux époux » signifie que le mari comme la femme ont une cause ouverte ou conclue. On les nomme de toute façon tous les deux, même si l’un d’eux n’a pas de cause ouverte, pour souligner la complémentarité conjugale.</p>
+  <p>Le siècle est celui où s’est déroulée la plus grande partie du mariage, et le pays est indiqué selon les frontières actuelles. Pour la date de mémoire, si la cause concerne les deux époux, on retient la date de leur mariage ; sinon, la date du décès.</p>
+  <p>Pour les Vénérables et les Serviteurs de Dieu, rien ici ne prétend devancer le jugement de l’autorité de l’Église sur les causes encore en cours.</p>
+  <p>La référence « Religieux/se » est employée au sens large pour les prêtres, évêques, moines, abbés, religieuses ou abbesses. Cela a pu se produire pendant le mariage (dans les cas anciens, ou chez les catholiques orientaux) ou après le veuvage.</p>
+  <p>Vous avez trouvé quelque chose à corriger ou souhaitez nous laisser un commentaire ? Écrivez-nous ici, nous le lirons avec plaisir (en français, en anglais ou en espagnol) :</p>
+  <form class="contacto" id="contacto" action="https://formsubmit.co/caminosdesantidadmatrimonial@gmail.com" method="POST">
+    <label>Commentaire <textarea name="comentario" rows="5" required></textarea></label>
+    <label>Votre adresse e-mail, pour vous répondre <input type="email" name="email" required autocomplete="email"></label>
+    <input type="hidden" name="_subject" value="Commentaire depuis Santidad Matrimonial (site en français)">
+    <input type="hidden" name="_template" value="box">
+    <input type="hidden" name="_next" value="https://santidadmatrimonial.org/?enviado=1#acerca">
+    <input type="text" name="_honey" class="sr" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <button type="submit" class="btn">Envoyer</button>
+    <p class="contacto-estado" id="contacto-estado" role="status" hidden></p>
+  </form>
+</main>
+
+<div class="ficha-fondo" id="ficha-fondo" hidden></div>
+<article class="ficha" id="ficha" role="dialog" aria-modal="true" aria-labelledby="ficha-titulo" hidden></article>
+
+<footer class="pie">
+  <div class="wrap">Caminos de Santidad Matrimonial</div>
+</footer>
+<script src="../i18n-fr.js?v=2026-11-02e"></script>
+<script src="../app.js?v=2026-11-02e"></script>
+<script data-goatcounter="https://lcozzi.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

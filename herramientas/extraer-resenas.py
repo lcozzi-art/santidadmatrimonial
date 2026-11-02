@@ -37,7 +37,7 @@ MANUAL = {
 
 STOP = set("san santa santos stos sta sto beato beata beatos venerable venerables ven siervo sierva siervos sdd "
            "de dios del la el los las y e dr dra don dona da di von van le du st b bto bta cnel".split())
-DATOS = re.compile(r"^(\d+\s*años de matrimonio|\d+\s*hij[oa]s?|\(siglo)", re.I)
+DATOS = re.compile(r"^(\d+\s*(años|meses) (de|entre)|\d+\+?\s*hij[oa]s?|\(siglo)", re.I)
 
 
 def limpiar(s):

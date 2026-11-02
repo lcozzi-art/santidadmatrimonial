@@ -14,7 +14,7 @@ Las fichas sin foto propia usan la miniatura de YouTube del podcast o video, y s
 
 Para agregar o actualizar meses: `python3 herramientas/extraer-resenas.py "Santoral de Laicos Casados - Enero.pptx" ...` (necesita `pip install python-pptx`). Lista las diapositivas que no pudo emparejar con una ficha; se corrigen en la tabla `MANUAL` del script. Después, actualizar `DATOS_V` en `app.js`.
 
-En inglés las reseñas se muestran en español, con la aclaración "(in Spanish)", hasta que exista `data/resenas-en.json` (mismo formato, solo `texto`) y se agregue `resenas: "data/resenas-en.json"` en `i18n-en.js`.
+La versión en inglés lee `data/resenas-en.json` (configurado en `i18n-en.js` como `resenas:`): mismas claves, solo `texto`, con un párrafo por cada párrafo del español. Si se agrega o cambia una reseña en español, hay que agregar o corregir su traducción ahí; mientras falte, la ficha en inglés muestra el texto en español con la aclaración "(in Spanish)". El renglón "Family" se traduce solo, en `datosTxt` de `app.js`.
 
 ## Publicar en GitHub Pages
 
@@ -28,7 +28,7 @@ Volver a exportar la planilla y regenerar `data/matrimonios.json` (y las fotos n
 
 ## Caché de los navegadores
 
-`index.html` carga `styles.css?v=…` y `app.js?v=…`. Al cambiar esos archivos, actualizar el valor de `v` para que los celulares no sigan usando la versión guardada. Al cambiar `data/matrimonios.json` o `data/en.json`, actualizar `DATOS_V` en `app.js` (y el `v` de `app.js`).
+`index.html` carga `styles.css?v=…` y `app.js?v=…`. Al cambiar esos archivos, actualizar el valor de `v` para que los celulares no sigan usando la versión guardada. Al cambiar `data/matrimonios.json` , `data/en.json` o `data/fr.json`, actualizar `DATOS_V` en `app.js` (y el `v` de `app.js`).
 
 ## Versión en inglés
 
@@ -36,4 +36,10 @@ El sitio en inglés está en `/en/` y comparte las fotos, los datos y `app.js` c
 
 - `en/index.html` se genera desde `index.html`: después de cambiar textos en `index.html`, correr `python3 herramientas/generar-en.py`. Si un texto nuevo o cambiado no tiene traducción, el script lo lista; se agrega en la tabla `TEXTOS` del script.
 - Los textos que arma `app.js` (botones, filtros, números) se traducen en `i18n-en.js`. Un texto nuevo en `app.js` se escribe como `t("texto en español")` y se agrega su traducción ahí.
-- Las fichas y los episodios se traducen en `data/en.json`, por id. Si una ficha no tiene traducción, se muestra en español. `python3 herramientas/revisar-en.py` lista las fichas nuevas o cuyo texto en español cambió desde que se tradujeron.
+- Las fichas y los episodios se traducen en `data/en.json`, por id. Si una ficha no tiene traducción, se muestra en español. `python3 herramientas/revisar-traduccion.py en` lista las fichas nuevas o cuyo texto en español cambió desde que se tradujeron.
+
+## Versión en francés
+
+Igual que la inglesa, en `/fr/`: `fr/index.html` se genera con `python3 herramientas/generar-fr.py` (tabla `TEXTOS` en el script), los textos de `app.js` están en `i18n-fr.js`, las fichas y episodios en `data/fr.json` (revisar con `python3 herramientas/revisar-traduccion.py fr`) y las reseñas en `data/resenas-fr.json`. Las reseñas que no estén ahí se muestran en español con la aclaración "(en espagnol)".
+
+Cada versión muestra arriba a la derecha los otros dos idiomas (ES · EN · FR). Al agregar textos a `index.html`, correr los dos scripts `generar-*.py`.

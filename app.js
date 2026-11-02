@@ -3,7 +3,7 @@
   // Link to the podcast's channel or playlist; leave empty to hide the button.
   var CANAL_PODCAST = "https://open.spotify.com/show/1JpMc7SNgKkQx8vrc84TUn";
 
-  // Translation: en/index.html loads i18n-en.js first, which sets window.TRADUCCION.
+  // Translation: en/index.html and fr/index.html load i18n-en.js or i18n-fr.js first, which set window.TRADUCCION.
   // Texts are written in Spanish and looked up in it; anything missing stays in Spanish.
   var TR = window.TRADUCCION || {};
   var BASE = TR.base || "";
@@ -123,13 +123,10 @@
   }
 
   // Reseñas del "Santoral de Laicos Casados" (data/resenas.json, por id), cargadas aparte.
-  // En inglés, data/resenas-en.json reemplaza el texto de las que estén traducidas.
+  // En otros idiomas, TR.resenas (data/resenas-en.json, data/resenas-fr.json) reemplaza el texto de las que estén traducidas.
   var resenas = {}, resenaES = {};
-  function datosTxt(s) {
-    if (LOCALE === "es") return s;
-    return s.replace(/años de matrimonio/g, "years of marriage").replace(/\bhijas\b/g, "daughters").replace(/\bhija\b/g, "daughter")
-      .replace(/\bhijos\b/g, "children").replace(/\bhijo\b/g, "son").replace(/\by\b/g, "and");
-  }
+  // "4 hijos y 25 años de matrimonio": each i18n-*.js translates it with TR.familia.
+  function datosTxt(s) { return LOCALE !== "es" && TR.familia ? TR.familia(s) : s; }
   function resenaHTML(m) {
     var r = resenas[m.id];
     if (!r || !r.texto || !r.texto.length) return "";
@@ -204,7 +201,7 @@
     if (v !== ultimaVista) window.scrollTo(0, 0);
     mostrarVista(v);
   }
-  // The ES/EN link keeps the open tab or ficha.
+  // The ES/EN/FR links keep the open tab or ficha.
   function idioma() {
     document.querySelectorAll("a.idioma").forEach(function (a) { a.href = a.getAttribute("href").split("#")[0] + location.hash; });
   }
@@ -558,7 +555,7 @@
   }
 
   // Change DATOS_V whenever data/*.json changes, so browsers don't keep the cached copy.
-  var DATOS_V = "2026-11-02-resenas13";
+  var DATOS_V = "2026-11-02-fr";
   function leer(url) { return fetch(BASE + url + "?v=" + DATOS_V).then(function (r) { return r.json(); }); }
   var listo = Promise.all([leer("data/matrimonios.json"), TR.datos ? leer(TR.datos).catch(function () { return {}; }) : null])
     .then(function (r) { iniciar(r[1] ? traducir(r[0], r[1]) : r[0]); });
