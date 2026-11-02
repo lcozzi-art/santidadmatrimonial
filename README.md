@@ -8,6 +8,14 @@ Sitio estático con las fichas de esposos y matrimonios santos, beatos, venerabl
 
 Las fichas sin foto propia usan la miniatura de YouTube del podcast o video, y si no hay ninguno, un emblema.
 
+## Reseñas del santoral
+
+`data/resenas.json` tiene la reseña de cada ficha (por id) sacada de los PowerPoint "Santoral de Laicos Casados - <Mes>.pptx", y se muestra en la ficha como "Su historia". Va aparte de `data/matrimonios.json` para que regenerar la planilla no la borre.
+
+Para agregar o actualizar meses: `python3 herramientas/extraer-resenas.py "Santoral de Laicos Casados - Enero.pptx" ...` (necesita `pip install python-pptx`). Lista las diapositivas que no pudo emparejar con una ficha; se corrigen en la tabla `MANUAL` del script. Después, actualizar `DATOS_V` en `app.js`.
+
+En inglés las reseñas se muestran en español, con la aclaración "(in Spanish)", hasta que exista `data/resenas-en.json` (mismo formato, solo `texto`) y se agregue `resenas: "data/resenas-en.json"` en `i18n-en.js`.
+
 ## Publicar en GitHub Pages
 
 1. Subir esta carpeta a la raíz de un repositorio público.
