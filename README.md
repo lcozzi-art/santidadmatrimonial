@@ -28,7 +28,7 @@ Volver a exportar la planilla y regenerar `data/matrimonios.json` (y las fotos n
 
 ## Caché de los navegadores
 
-`index.html` carga `styles.css?v=…` y `app.js?v=…`. Al cambiar esos archivos, actualizar el valor de `v` para que los celulares no sigan usando la versión guardada. Al cambiar `data/matrimonios.json` o `data/en.json`, actualizar `DATOS_V` en `app.js` (y el `v` de `app.js`).
+`index.html` carga `styles.css?v=…` y `app.js?v=…`. Al cambiar esos archivos, actualizar el valor de `v` para que los celulares no sigan usando la versión guardada. Al cambiar `data/matrimonios.json` , `data/en.json` o `data/fr.json`, actualizar `DATOS_V` en `app.js` (y el `v` de `app.js`).
 
 ## Versión en inglés
 
@@ -36,4 +36,10 @@ El sitio en inglés está en `/en/` y comparte las fotos, los datos y `app.js` c
 
 - `en/index.html` se genera desde `index.html`: después de cambiar textos en `index.html`, correr `python3 herramientas/generar-en.py`. Si un texto nuevo o cambiado no tiene traducción, el script lo lista; se agrega en la tabla `TEXTOS` del script.
 - Los textos que arma `app.js` (botones, filtros, números) se traducen en `i18n-en.js`. Un texto nuevo en `app.js` se escribe como `t("texto en español")` y se agrega su traducción ahí.
-- Las fichas y los episodios se traducen en `data/en.json`, por id. Si una ficha no tiene traducción, se muestra en español. `python3 herramientas/revisar-en.py` lista las fichas nuevas o cuyo texto en español cambió desde que se tradujeron.
+- Las fichas y los episodios se traducen en `data/en.json`, por id. Si una ficha no tiene traducción, se muestra en español. `python3 herramientas/revisar-traduccion.py en` lista las fichas nuevas o cuyo texto en español cambió desde que se tradujeron.
+
+## Versión en francés
+
+Igual que la inglesa, en `/fr/`: `fr/index.html` se genera con `python3 herramientas/generar-fr.py` (tabla `TEXTOS` en el script), los textos de `app.js` están en `i18n-fr.js`, las fichas y episodios en `data/fr.json` (revisar con `python3 herramientas/revisar-traduccion.py fr`) y las reseñas en `data/resenas-fr.json`. Las reseñas que no estén ahí se muestran en español con la aclaración "(en espagnol)".
+
+Cada versión muestra arriba a la derecha los otros dos idiomas (ES · EN · FR). Al agregar textos a `index.html`, correr los dos scripts `generar-*.py`.

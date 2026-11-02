@@ -50,7 +50,7 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); font-family: var(--f-display); font-size: 1.3rem; }
 .brand-mark { width: 34px; height: 34px; fill: none; stroke: var(--gold); stroke-width: 2.2; }
 .nav { display: flex; gap: 4px; max-width: 100%; overflow-x: auto; scrollbar-width: none; }
-.nav a { text-decoration: none; color: var(--muted); padding: 6px 12px; border-radius: 999px; font-weight: 600; font-size: .95rem; }
+.nav a { text-decoration: none; color: var(--muted); padding: 6px 12px; border-radius: 999px; font-weight: 600; font-size: .95rem; white-space: nowrap; }
 .nav a[aria-current="page"] { color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, transparent); }
 .top-in > .nav { margin-left: auto; }
 .idiomas { order: 3; margin-left: -6px; display: flex; gap: 6px; }
