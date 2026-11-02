@@ -17,6 +17,9 @@
   function refTxt(r) { return tv("referencias", r); }
   function beatitudTxt(b) { return b ? b.split("/").map(function (x) { return tv("beatitudes", x.trim().toLowerCase()); }).join("/") : b; }
   var LOCALE = TR.locale || "es";
+  // The Films tab is hidden in a translation that sets peliculas: false (no dubbed or subtitled versions yet).
+  var VISTAS = ["podcast", "peliculas", "libro", "estadisticas", "acerca"].filter(function (n) { return n !== "peliculas" || TR.peliculas !== false; });
+  if (TR.peliculas === false) document.querySelectorAll('[data-nav="peliculas"]').forEach(function (a) { a.remove(); });
 
   var ETAPAS = [
     { cod: "S", nombre: t("Santo"), plural: t("Santos"), c: "var(--st-s)" },
@@ -197,7 +200,7 @@
       if (m) { abrirFicha(m); return; }
     }
     cerrarFicha();
-    var v = ["podcast", "peliculas", "libro", "estadisticas", "acerca"].indexOf(h) >= 0 ? h : "inicio";
+    var v = VISTAS.indexOf(h) >= 0 ? h : "inicio";
     if (v !== ultimaVista) window.scrollTo(0, 0);
     mostrarVista(v);
   }

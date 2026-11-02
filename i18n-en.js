@@ -2,6 +2,8 @@
 window.TRADUCCION = {
   base: "../",
   locale: "en",
+  // Films tab hidden until there are versions in this language; set to true to show it.
+  peliculas: false,
   datos: "data/en.json",
   resenas: "data/resenas-en.json",
   // "16 de diciembre" -> "December 16"
