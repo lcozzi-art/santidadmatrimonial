@@ -127,7 +127,10 @@
   var resenas = {}, resenaES = {};
   function datosTxt(s) {
     if (LOCALE === "es") return s;
-    return s.replace(/años de matrimonio/g, "years of marriage").replace(/\bhijas\b/g, "daughters").replace(/\bhija\b/g, "daughter")
+    return s.replace(/años de matrimonio/g, "years of marriage").replace(/años de casado/g, "years married")
+      .replace(/años entre ambos matrimonios/g, "years across both marriages").replace(/meses de matrimonio/g, "months of marriage")
+      .replace(/hijo biológico y (\d+) adoptados/g, "biological child and $1 adopted").replace(/hijos sacerdotes/g, "sons who became priests")
+      .replace(/\(aprox\)/g, "(approx.)").replace(/\bhijas\b/g, "daughters").replace(/\bhija\b/g, "daughter")
       .replace(/\bhijos\b/g, "children").replace(/\bhijo\b/g, "son").replace(/\by\b/g, "and");
   }
   function resenaHTML(m) {
@@ -558,7 +561,7 @@
   }
 
   // Change DATOS_V whenever data/*.json changes, so browsers don't keep the cached copy.
-  var DATOS_V = "2026-11-02-resenas13";
+  var DATOS_V = "2026-11-02-resenas-en";
   function leer(url) { return fetch(BASE + url + "?v=" + DATOS_V).then(function (r) { return r.json(); }); }
   var listo = Promise.all([leer("data/matrimonios.json"), TR.datos ? leer(TR.datos).catch(function () { return {}; }) : null])
     .then(function (r) { iniciar(r[1] ? traducir(r[0], r[1]) : r[0]); });

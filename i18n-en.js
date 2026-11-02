@@ -3,6 +3,7 @@ window.TRADUCCION = {
   base: "../",
   locale: "en",
   datos: "data/en.json",
+  resenas: "data/resenas-en.json",
   // "16 de diciembre" -> "December 16"
   fecha: function (s) {
     var m = String(s).match(/^(\d{1,2}) de (\w+)$/);

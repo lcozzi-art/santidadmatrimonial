@@ -14,7 +14,7 @@ Las fichas sin foto propia usan la miniatura de YouTube del podcast o video, y s
 
 Para agregar o actualizar meses: `python3 herramientas/extraer-resenas.py "Santoral de Laicos Casados - Enero.pptx" ...` (necesita `pip install python-pptx`). Lista las diapositivas que no pudo emparejar con una ficha; se corrigen en la tabla `MANUAL` del script. Después, actualizar `DATOS_V` en `app.js`.
 
-En inglés las reseñas se muestran en español, con la aclaración "(in Spanish)", hasta que exista `data/resenas-en.json` (mismo formato, solo `texto`) y se agregue `resenas: "data/resenas-en.json"` en `i18n-en.js`.
+La versión en inglés lee `data/resenas-en.json` (configurado en `i18n-en.js` como `resenas:`): mismas claves, solo `texto`, con un párrafo por cada párrafo del español. Si se agrega o cambia una reseña en español, hay que agregar o corregir su traducción ahí; mientras falte, la ficha en inglés muestra el texto en español con la aclaración "(in Spanish)". El renglón "Family" se traduce solo, en `datosTxt` de `app.js`.
 
 ## Publicar en GitHub Pages
 
