@@ -28,6 +28,8 @@ MANUAL = {
     "Abril 13": [485],        # Estanislao Starowieyski
     "Abril 23": [390, 472],   # María y Cleofás, Salomé y Zebedeo en la misma diapositiva
     "Marzo 18": [],           # San José y Santa María: no tiene ficha
+    "Julio 30": [],           # Santa Kinga y Boleslao V: no tiene ficha
+    "Diciembre 29": [],       # La Sagrada Familia: no tiene ficha
     "Noviembre 9": [432],     # Pablo Xu Guangqi
     "Noviembre 12": [247],    # San Homobono
     "Septiembre 17": [304, 270],  # dos matrimonios mártires de Cajonos en la misma diapositiva
@@ -69,7 +71,7 @@ def leer(ruta):
             if not texto:
                 continue
             if sh.name.startswith("Título"):
-                d["titulo"] = texto
+                d["titulo"] = d["titulo"] or texto
             elif sh.name.startswith("Marcador de texto"):
                 d["cuerpo"] = parrafos
             elif re.fullmatch(r"\d+°?\s+(y\s+\d+°?\s+)?de\s+(%s)" % "|".join(MESES), texto, re.I):
