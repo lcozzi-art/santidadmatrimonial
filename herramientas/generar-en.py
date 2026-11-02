@@ -8,12 +8,7 @@ Al terminar lista los textos que quedaron en español (por ejemplo, porque cambi
 en index.html): hay que agregarlos o corregirlos en TEXTOS y volver a correr el script.
 Los textos de app.js se traducen en i18n-en.js y los de las fichas en data/en.json.
 """
-import html.parser
-import pathlib
-import re
-import sys
-
-RAIZ = pathlib.Path(__file__).resolve().parent.parent
+import traducir_html
 
 # (español, inglés). Se aplican en orden; cada texto en español debe aparecer en index.html.
 TEXTOS = [
@@ -37,6 +32,8 @@ TEXTOS = [
     ('data-nav="acerca">Acerca</a>', 'data-nav="acerca">About</a>'),
     ('<a class="idioma" href="en/" hreflang="en" lang="en" title="English version">EN</a>',
      '<a class="idioma" href="../" hreflang="es" lang="es" title="Versión en español">ES</a>'),
+    ('<a class="idioma" href="fr/" hreflang="fr" lang="fr" title="Version française">FR</a>',
+     '<a class="idioma" href="../fr/" hreflang="fr" lang="fr" title="Version française">FR</a>'),
 
     # Matrimonios
     ('<h1>Esposos que llegaron, o han caminado, hacia los altares.</h1>',
@@ -239,7 +236,7 @@ TEXTOS = [
 
 # Textos que quedan igual en inglés (nombres propios, marcas).
 IGUALES = {
-    "Santidad Matrimonial", "Caminos de Santidad Matrimonial", "Podcast", "Venerable", "EN", "×",
+    "Santidad Matrimonial", "Caminos de Santidad Matrimonial", "Podcast", "Venerable", "EN", "FR", "Version française", "×",
     "P. Thomas Kevin Kraft, OP", "Ediciones Logos, Áncora", "Ediciones Logos", "Schoenstatt.store",
     "Video · Radio María", "schoenstatt.org · enero 2024", "AICA · abril 2024", "UCALP · abril 2024",
     "schoenstatt.org · febrero 2025",
@@ -248,67 +245,5 @@ IGUALES = {
     "Se presentó el libro «Caminos de santidad matrimonial»", "Ciclo «Caminos de Santidad Matrimonial» en Radio María",
 }
 
-# Archivos del sitio que en/index.html toma de la carpeta de arriba.
-RUTAS = re.compile(r'(href|src)="(?!https?:|#|\.\./|mailto:)((?:img|data)/[^"]*|[\w-]+\.(?:svg|png|css|js)(?:\?[^"]*)?)"')
-
-
-class Textos(html.parser.HTMLParser):
-    """Junta los textos visibles y los atributos que se leen en pantalla."""
-    ATTRS = ("alt", "aria-label", "title", "placeholder", "data-todos")
-
-    def __init__(self):
-        super().__init__()
-        self.lista, self._script = [], False
-
-    def handle_starttag(self, tag, attrs):
-        self._script = tag in ("script", "style")
-        a = dict(attrs)
-        leidos = [a.get(k) for k in self.ATTRS]
-        if tag == "meta" and (a.get("name") == "description" or a.get("property") in ("og:title", "og:description")):
-            leidos.append(a.get("content"))
-        if tag == "input" and a.get("name") == "_subject":
-            leidos.append(a.get("value"))
-        self.lista += [v.strip() for v in leidos if v and v.strip()]
-
-    def handle_endtag(self, tag):
-        self._script = False
-
-    def handle_data(self, d):
-        if not self._script and d.strip():
-            self.lista.append(" ".join(d.split()))
-
-
-def textos(h):
-    p = Textos(); p.feed(h); return p.lista
-
-
-def main():
-    es = (RAIZ / "index.html").read_text(encoding="utf-8")
-    en = es
-    faltan = []
-    for a, b in TEXTOS:
-        if a not in en:
-            faltan.append(a)
-        en = en.replace(a, b)
-    en = RUTAS.sub(lambda m: '%s="../%s"' % (m.group(1), m.group(2)), en)
-    # i18n-en.js va antes que app.js.
-    en = re.sub(r'(<script src="\.\./app\.js(\?[^"]*)?"></script>)', r'<script src="../i18n-en.js\2"></script>\n\1', en)
-    destino = RAIZ / "en" / "index.html"
-    destino.parent.mkdir(exist_ok=True)
-    destino.write_text(en, encoding="utf-8")
-    print("Escrito", destino.relative_to(RAIZ))
-
-    sin_traducir = [t for t in textos(en) if t in set(textos(es)) and t not in IGUALES and not re.fullmatch(r"[\d\s·×.,:()-]+", t)]
-    if faltan:
-        print("\nTextos de la tabla que ya no están en index.html (revisar si cambiaron):")
-        for a in faltan: print("  -", a[:110])
-    if sin_traducir:
-        print("\nTextos que quedaron en español en en/index.html:")
-        for t in dict.fromkeys(sin_traducir): print("  -", t[:110])
-    if faltan or sin_traducir:
-        sys.exit(1)
-    print("Todo traducido.")
-
-
 if __name__ == "__main__":
-    main()
+    traducir_html.generar("en", TEXTOS, IGUALES)

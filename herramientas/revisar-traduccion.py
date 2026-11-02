@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Lista las fichas y episodios que necesitan traducción al inglés en data/en.json.
+"""Lista las fichas y episodios que necesitan traducción en data/en.json o data/fr.json.
 
-Uso:  python3 herramientas/revisar-en.py
+Uso:  python3 herramientas/revisar-traduccion.py [en|fr]   (sin idioma, en)
 
 Una ficha aparece si no tiene traducción, o si su texto en español cambió desde que se
 tradujo (la huella "_es" ya no coincide). Después de corregir la traducción en data/en.json,
 correr con --actualizar para guardar las huellas nuevas.
-Las fichas sin traducción se muestran en español en el sitio en inglés.
+Las fichas sin traducción se muestran en español en el sitio traducido.
 """
 import hashlib
 import json
@@ -23,7 +23,8 @@ def huella(m):
 
 def main():
     es = json.loads((RAIZ / "data" / "matrimonios.json").read_text(encoding="utf-8"))
-    ruta_en = RAIZ / "data" / "en.json"
+    idioma = next((a for a in sys.argv[1:] if not a.startswith("-")), "en")
+    ruta_en = RAIZ / "data" / (idioma + ".json")
     en = json.loads(ruta_en.read_text(encoding="utf-8"))
     actualizar = "--actualizar" in sys.argv
     faltan, cambiaron = [], []
