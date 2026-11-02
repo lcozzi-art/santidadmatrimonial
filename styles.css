@@ -145,7 +145,6 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .ficha .texto { margin: 0; }
 .resena p { margin: 0 0 .75em; line-height: 1.6; }
 .resena p:last-child { margin-bottom: 0; }
-.resena .cita { margin: 14px 0; }
 .resena .fuente { font-size: .85rem; color: var(--muted); }
 .resena .fuente a { color: inherit; }
 .biblio { font-size: .9rem; color: var(--muted); white-space: pre-line; }

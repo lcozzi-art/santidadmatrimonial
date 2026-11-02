@@ -130,10 +130,9 @@
     return s.replace(/años de matrimonio/g, "years of marriage").replace(/\bhijas\b/g, "daughters").replace(/\bhija\b/g, "daughter")
       .replace(/\bhijos\b/g, "children").replace(/\bhijo\b/g, "son").replace(/\by\b/g, "and");
   }
-  // The ficha's quote goes inside, before the source, since the last paragraph may lead into it.
-  function resenaHTML(m, cita) {
+  function resenaHTML(m) {
     var r = resenas[m.id];
-    if (!r || !r.texto || !r.texto.length) return cita;
+    if (!r || !r.texto || !r.texto.length) return "";
     var fuente = "";
     if (r.fuente && [m.articulo, m.masInfo].indexOf(r.fuente) < 0) {
       var host = r.fuente.replace(/^https?:\/\/(www\.)?/, "").split("/")[0];
@@ -142,7 +141,7 @@
     var texto = r.texto.map(function (p) { return "<p>" + esc(LOCALE === "es" ? angulares(p) : p) + "</p>"; }).join("");
     return '<div class="resena"><h4>' + t("Su historia") + '</h4>' +
       (LOCALE !== "es" && resenaES[m.id] ? '<p class="fuente">' + t("(en español)") + '</p>' : '') +
-      texto + cita + fuente + '</div>';
+      texto + fuente + '</div>';
   }
 
   function fichaHTML(m) {
@@ -166,7 +165,7 @@
       (m.descripcion ? '<p class="sub">' + esc(m.descripcion) + '</p>' : '') + '</div>' +
       (m.resumen && soloLetras(m.resumen) !== soloLetras(m.descripcion) ? '<div><h4>' + t("En pocas palabras") + '</h4><p class="texto">' + esc(m.resumen) + '</p></div>' : '') +
       (filas ? '<dl class="datos">' + filas + '</dl>' : '') +
-      (resenas[m.id] ? resenaHTML(m, cita) : cita) +
+      cita + resenaHTML(m) +
       '<div><h4>' + t("Para conocer más") + '</h4><div class="enlaces">' + links.join("") + '</div></div>' +
       (m.bibliografia ? '<div><h4>' + t("Bibliografía") + '</h4><p class="biblio">' + esc(m.bibliografia) + '</p></div>' : '') +
       '</div>';
@@ -559,7 +558,7 @@
   }
 
   // Change DATOS_V whenever data/*.json changes, so browsers don't keep the cached copy.
-  var DATOS_V = "2026-11-02-resenas12";
+  var DATOS_V = "2026-11-02-resenas13";
   function leer(url) { return fetch(BASE + url + "?v=" + DATOS_V).then(function (r) { return r.json(); }); }
   var listo = Promise.all([leer("data/matrimonios.json"), TR.datos ? leer(TR.datos).catch(function () { return {}; }) : null])
     .then(function (r) { iniciar(r[1] ? traducir(r[0], r[1]) : r[0]); });

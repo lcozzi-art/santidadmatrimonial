@@ -94,11 +94,8 @@ def resena(d, ficha):
     datos = ""
     if cuerpo and DATOS.match(cuerpo[0]) and len(cuerpo[0]) < 90:
         datos = re.sub(r"\s*\(siglos? [^)]*\)\s*$", "", cuerpo.pop(0)).strip(" ,")
-    # Si el último párrafo anuncia una cita ("dijo a su verdugo:"), se le agrega la cita,
-    # salvo que sea la misma de la ficha, que se muestra justo debajo de la reseña.
-    cita_ficha = letras(ficha.get("cita"))
-    if cuerpo and cuerpo[-1].endswith(":") and d["cita"] and not (
-            cita_ficha and (cita_ficha in letras(d["cita"]) or letras(d["cita"])[:40] in cita_ficha)):
+    # Si el último párrafo anuncia una cita ("dijo a su verdugo:"), se le agrega la cita.
+    if cuerpo and cuerpo[-1].endswith(":") and d["cita"]:
         cuerpo[-1] += " " + d["cita"]
     r = {"texto": cuerpo}
     if datos:
