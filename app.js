@@ -89,7 +89,7 @@
       if (algunaEtapa && !etapasActivas[m.proceso]) return false;
       if (pais.length && !m._paises.some(function (p) { return pais.indexOf(p) >= 0; })) return false;
       if (siglo.length && siglo.indexOf(m.siglo) < 0) return false;
-      if (ref.length && ref.indexOf(m.referencia) < 0) return false;
+      if (ref.length && ref.indexOf(m.referencia) < 0 && ref.indexOf(m.referencia2) < 0) return false;
       if (mes.length && mes.indexOf(m._mes) < 0) return false;
       if (ambos && !m.ambos) return false;
       if (!religiosos && m.referencia === "religioso/a") return false;
@@ -147,7 +147,7 @@
   function fichaHTML(m) {
     var e = etapa(m);
     var filas = [
-      [t("País"), paisTxt(m.pais)], [t("Siglo"), m.siglo], [t("Fiesta o Memoria"), m.fiesta], [t("Referencia"), refTxt(m.referencia)], ["", m.josefino ? t("Matrimonio josefino") : null],
+      [t("País"), paisTxt(m.pais)], [t("Siglo"), m.siglo], [t("Fiesta o Memoria"), m.fiesta], [t("Referencia"), refTxt(m.referencia) + (m.referencia2 ? ", " + refTxt(m.referencia2) : "")], ["", m.josefino ? t("Matrimonio josefino") : null],
       [t("Causa"), m.ambos ? t("De ambos esposos") : t("De uno de los esposos")],
       [t("Mártir"), m.martir ? t("Sí") : null],
       [t("Familia"), resenas[m.id] && resenas[m.id].datos ? datosTxt(resenas[m.id].datos) : null]
@@ -439,8 +439,8 @@
       m._paises = m.pais ? m.pais.split("/").map(function (p) { return p.trim(); }).filter(Boolean) : [];
       m._peso = (m.foto ? 2 : 0) + (m.podcast ? 2 : 0) + (m.fotoYT ? 1 : 0);
       m._mes = m.fiestaOrden ? MESES_LARGOS[Math.floor(m.fiestaOrden / 100) - 1] : null;
-      m._txt = norm([m.titulo, m.fiesta, m.nombres, m.descripcion, m.resumen, m.pais, m.referencia, m.beatitud,
-        m._es, paisTxt(m.pais), refTxt(m.referencia), beatitudTxt(m.beatitud)].join(" "));
+      m._txt = norm([m.titulo, m.fiesta, m.nombres, m.descripcion, m.resumen, m.pais, m.referencia, m.referencia2, m.beatitud,
+        m._es, paisTxt(m.pais), refTxt(m.referencia), m.referencia2 ? refTxt(m.referencia2) : "", beatitudTxt(m.beatitud)].join(" "));
     });
     $("resumen").innerHTML = ETAPAS.map(function (e) {
       var n = datos.filter(function (m) { return m.proceso === e.cod; }).length;
@@ -457,7 +457,9 @@
     var porEtiqueta = function (sel) { return function (a, b) { return etiquetas[sel](a).localeCompare(etiquetas[sel](b), LOCALE); }; };
     opciones("f-pais", Object.keys(paises).sort(porEtiqueta("f-pais")));
     opciones("f-siglo", cuenta("siglo").sort(function (a, b) { return sigloNum(a) - sigloNum(b); }));
-    opciones("f-ref", cuenta("referencia").sort(porEtiqueta("f-ref")));
+    // A second Referencia only widens the filter; stats count the first one alone.
+    var refs = {}; cuenta("referencia").concat(cuenta("referencia2")).forEach(function (r) { refs[r] = 1; });
+    opciones("f-ref", Object.keys(refs).sort(porEtiqueta("f-ref")));
     opciones("f-mes", MESES_LARGOS);
 
     $("episodios").innerHTML = episodios.map(function (ep) {
@@ -558,7 +560,7 @@
   }
 
   // Change DATOS_V whenever data/*.json changes, so browsers don't keep the cached copy.
-  var DATOS_V = "2026-11-03-ref15";
+  var DATOS_V = "2026-11-03-ref2";
   function leer(url) { return fetch(BASE + url + "?v=" + DATOS_V).then(function (r) { return r.json(); }); }
   var listo = Promise.all([leer("data/matrimonios.json"), TR.datos ? leer(TR.datos).catch(function () { return {}; }) : null])
     .then(function (r) { iniciar(r[1] ? traducir(r[0], r[1]) : r[0]); });
