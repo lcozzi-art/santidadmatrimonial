@@ -3,7 +3,7 @@
   // Link to the podcast's channel or playlist; leave empty to hide the button.
   var CANAL_PODCAST = "https://open.spotify.com/show/1JpMc7SNgKkQx8vrc84TUn";
 
-  // Translation: en/, fr/ and it/index.html load i18n-en.js, i18n-fr.js or i18n-it.js first, which set window.TRADUCCION.
+  // Translation: en/, fr/, it/ and pt/index.html load i18n-en.js, i18n-fr.js, i18n-it.js or i18n-pt.js first, which set window.TRADUCCION.
   // Texts are written in Spanish and looked up in it; anything missing stays in Spanish.
   var TR = window.TRADUCCION || {};
   var BASE = TR.base || "";
@@ -126,7 +126,7 @@
   }
 
   // Reseñas del "Santoral de Laicos Casados" (data/resenas.json, por id), cargadas aparte.
-  // En otros idiomas, TR.resenas (data/resenas-en.json, data/resenas-fr.json, data/resenas-it.json) reemplaza el texto de las que estén traducidas.
+  // En otros idiomas, TR.resenas (data/resenas-en.json, data/resenas-fr.json, data/resenas-it.json, data/resenas-pt.json) reemplaza el texto de las que estén traducidas.
   var resenas = {}, resenaES = {};
   // "4 hijos y 25 años de matrimonio": each i18n-*.js translates it with TR.familia.
   function datosTxt(s) { return LOCALE !== "es" && TR.familia ? TR.familia(s) : s; }
@@ -204,7 +204,7 @@
     if (v !== ultimaVista) window.scrollTo(0, 0);
     mostrarVista(v);
   }
-  // The ES/EN/FR/IT links keep the open tab or ficha.
+  // The ES/EN/FR/IT/PT links keep the open tab or ficha.
   function idioma() {
     document.querySelectorAll("a.idioma").forEach(function (a) { a.href = a.getAttribute("href").split("#")[0] + location.hash; });
   }
@@ -558,7 +558,7 @@
   }
 
   // Change DATOS_V whenever data/*.json changes, so browsers don't keep the cached copy.
-  var DATOS_V = "2026-11-03-it";
+  var DATOS_V = "2026-11-03-pt2";
   function leer(url) { return fetch(BASE + url + "?v=" + DATOS_V).then(function (r) { return r.json(); }); }
   var listo = Promise.all([leer("data/matrimonios.json"), TR.datos ? leer(TR.datos).catch(function () { return {}; }) : null])
     .then(function (r) { iniciar(r[1] ? traducir(r[0], r[1]) : r[0]); });

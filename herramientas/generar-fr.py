@@ -38,6 +38,8 @@ TEXTOS = [
     ('\n      <a class="idioma" href="fr/" hreflang="fr" lang="fr" title="Version française">FR</a>', ''),
     ('<a class="idioma" href="it/" hreflang="it" lang="it" title="Versione italiana">IT</a>',
      '<a class="idioma" href="../it/" hreflang="it" lang="it" title="Versione italiana">IT</a>'),
+    ('<a class="idioma" href="pt/" hreflang="pt" lang="pt" title="Versão em português">PT</a>',
+     '<a class="idioma" href="../pt/" hreflang="pt" lang="pt" title="Versão em português">PT</a>'),
 
     # Matrimonios
     ('<h1>Esposos que llegaron, o han caminado, hacia los altares.</h1>',
@@ -240,7 +242,7 @@ TEXTOS = [
 
 # Textos que quedan igual en francés (nombres propios, marcas).
 IGUALES = {
-    "Santidad Matrimonial", "Caminos de Santidad Matrimonial", "Podcast", "ES", "EN", "English version", "IT", "Versione italiana", "×",
+    "Santidad Matrimonial", "Caminos de Santidad Matrimonial", "Podcast", "ES", "EN", "English version", "IT", "Versione italiana", "PT", "Versão em português", "×",
     "P. Thomas Kevin Kraft, OP", "Ediciones Logos, Áncora", "Ediciones Logos", "Schoenstatt.store",
     "Video · Radio María", "schoenstatt.org · enero 2024", "AICA · abril 2024", "UCALP · abril 2024",
     "schoenstatt.org · febrero 2025",
