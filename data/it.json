@@ -1,0 +1,3953 @@
+{
+ "_nota": "Traducción al italiano de las fichas (por id) y de los episodios (por id de YouTube). _es es la huella del texto en español: si cambia, la ficha se revisa con herramientas/revisar-traduccion.py it.",
+ "matrimonios": {
+  "1": {
+   "titulo": "Santa Adelaide e Lotario II / Ottone I il Grande",
+   "nombres": "Adelaide e Lotario II / Ottone I",
+   "descripcion": "virtuosa imperatrice del Sacro Romano Impero",
+   "resumen": "virtuosa imperatrice del Sacro Romano Impero germanico",
+   "cita": "«Solo nel Signore posso trovare conforto per tante perdite e sventure» (Adelaide)",
+   "_es": "7bc61fc828"
+  },
+  "2": {
+   "titulo": "Santi Aquila e Priscilla",
+   "nombres": "Aquila e Priscilla",
+   "descripcion": "coppia compagna dell’apostolo san Paolo",
+   "resumen": "discepoli dell’apostolo san Paolo",
+   "cita": "«Sono un modello di vita coniugale impegnata al servizio della comunità cristiana e un modello di Chiesa, famiglia di Dio per tutti i tempi» (Benedetto XVI)",
+   "_es": "c484ea538b"
+  },
+  "3": {
+   "titulo": "Santi Aurelio e Natalia, Felice e Liliosa",
+   "nombres": "Aurelio e Natalia, Felice e Liliosa",
+   "descripcion": "eroica testimonianza di due coppie amiche",
+   "resumen": "martiri",
+   "_es": "e619625d25"
+  },
+  "4": {
+   "titulo": "Santa Brigida e Ulf Gudmarsson",
+   "nombres": "Brigida e Ulf Gudmarsson",
+   "descripcion": "compatrona d’Europa",
+   "resumen": "nobili; mistica, vedova e religiosa, patrona d’Europa",
+   "cita": "«Io nella vita ho sofferto la povertà, e tu hai troppo lusso e comodità» (Gesù a santa Brigida, che da allora si veste come la gente povera)",
+   "_es": "5e34d63881"
+  },
+  "5": {
+   "titulo": "Santo Stefano re d’Ungheria e la beata Gisella",
+   "nombres": "Stefano re d’Ungheria e Gisella",
+   "descripcion": "grandi sovrani evangelizzatori",
+   "resumen": "re",
+   "cita": "«Manda, Signore, la sapienza dall’alto, perché stia con me e operi con me, e io sappia ciò che ti è gradito in ogni tempo» (santo Stefano)",
+   "_es": "4fec53b901"
+  },
+  "7": {
+   "titulo": "Santa Gianna Beretta e Pietro Molla",
+   "nombres": "Gianna Beretta e Pietro Molla",
+   "descripcion": "la pediatra che diede tutto per i suoi figli",
+   "resumen": "madre eroica in difesa della vita",
+   "cita": "«Se dovete decidere fra me e il bimbo, nessuna esitazione: scegliete – e lo esigo – il bimbo. Salvate lui» (Gianna al marito, pochi giorni prima del parto)",
+   "_es": "52ac53f299"
+  },
+  "8": {
+   "titulo": "San Luigi IX e Margherita di Provenza",
+   "nombres": "Luigi IX di Francia e Margherita",
+   "descripcion": "re virtuoso, padre e cavaliere",
+   "resumen": "re, genitori di 11 figli; lui promosse 2 crociate",
+   "cita": "«Se Dio ti manda la prosperità, ringrazialo umilmente, perché l’orgoglio non ti faccia peggiorare invece di migliorare» (san Luigi)",
+   "_es": "f3742800d8"
+  },
+  "9": {
+   "titulo": "Santi Luigi Martin e Zelia Guérin",
+   "nombres": "Luigi e Zelia Martin",
+   "descripcion": "i santi genitori di santa Teresa di Gesù Bambino",
+   "resumen": "genitori di santa Teresa di Lisieux e di altre 4 religiose; lei terziaria francescana, lui delle Conferenze di San Vincenzo de’ Paoli e dell’Adorazione notturna",
+   "cita": "«Il Signore mi ha dato un padre e una madre più degni del cielo che della terra» (la figlia minore, santa Teresa di Lisieux)",
+   "_es": "0bc795b671"
+  },
+  "10": {
+   "titulo": "Santa Margherita e Malcolm Canmore",
+   "nombres": "Margherita di Scozia e Malcolm Canmore",
+   "descripcion": "modello di madre e di regina, la «Perla di Scozia»",
+   "resumen": "re",
+   "cita": "«Poiché spero in te, Signore, ispirami la fiducia che mi conduca al tuo monte santo» (santa Margherita)",
+   "_es": "fdf2af6359"
+  },
+  "11": {
+   "titulo": "Santa Monica e Patrizio",
+   "nombres": "Monica e Patrizio",
+   "descripcion": "la patrona delle madri con figli smarriti",
+   "resumen": "genitori di sant’Agostino d’Ippona",
+   "cita": "«Quando mio marito è di cattivo umore, io mi sforzo di essere di buon umore. Quando lui grida, io taccio. E siccome per litigare bisogna essere in due e io non accetto la lite... non litighiamo»",
+   "_es": "5469b30a35"
+  },
+  "12": {
+   "titulo": "San Pietro To Rot e Paula Ia Varpit",
+   "nombres": "Pietro To Rot e Paula Ia Varpit",
+   "descripcion": "catechista martire in tempo di guerra, primo santo del suo paese",
+   "resumen": "catechista martirizzato dai giapponesi, primo beato di Papua Nuova Guinea",
+   "cita": "«Il matrimonio era per lui sacro e lottò contro la secolarizzazione del vincolo, sostenuta da altri» (il capo Tarúe, suo zio)",
+   "_es": "1082959da5"
+  },
+  "13": {
+   "titulo": "San Tommaso Moro e Jane Colt / Alice Middleton",
+   "nombres": "Tommaso Moro e Jane Colt / Alice Middleton",
+   "descripcion": "patrono dei politici e difensore del matrimonio cattolico",
+   "resumen": "cancelliere e avvocato",
+   "cita": "«Nulla può accadermi che Dio non voglia. E tutto ciò che Egli vuole, per quanto possa sembrarci cattivo, è in realtà il meglio» (Tommaso Moro)",
+   "_es": "4d391ff706"
+  },
+  "14": {
+   "titulo": "Beata Anna Maria e Domenico Taigi",
+   "nombres": "Anna Maria e Domenico Taigi",
+   "descripcion": "patrona delle madri di famiglia",
+   "resumen": "mistica, patrona delle madri di famiglia",
+   "cita": "«Anna Maria era la felicità della famiglia, sempre gentile e sorridente» (Domenico, durante il processo di beatificazione della moglie)",
+   "_es": "dd5119d74e"
+  },
+  "15": {
+   "titulo": "Beata Concepción Cabrera de Armida e Francisco",
+   "nombres": "Conchita Cabrera e Francisco Armida",
+   "descripcion": "madre e mistica, la prima laica beatificata del suo paese",
+   "resumen": "scrittrice, prima laica beatificata del Messico",
+   "cita": "«Ho Cristo, che non muore, non si allontana da me e non mi abbandonerà mai» (Conchita Cabrera)",
+   "_es": "3ba9bb555c"
+  },
+  "16": {
+   "titulo": "Beato Federico Ozanam e Amélie Soulacroix",
+   "nombres": "Federico Ozanam e Amélie Soulacroix",
+   "descripcion": "avvocato fondatore di un’opera di carità mondiale",
+   "resumen": "avvocato, fondatore della Società di San Vincenzo de’ Paoli",
+   "cita": "«Il fine principale del matrimonio è offrire l’esempio, il modello, la consacrazione originaria di ogni associazione umana nell’amore» (F. Ozanam)",
+   "_es": "14aebc8eff"
+  },
+  "17": {
+   "titulo": "Beata Hildegard Freund e Alexander Burjan",
+   "nombres": "Hildegard Freund e Alexander Burjan",
+   "descripcion": "madre, deputata e assistente sociale",
+   "resumen": "ebrea convertita, dottoressa in economia, deputata, fondatrice dell’Associazione delle Lavoratrici Cristiane e delle Suore della Caritas Socialis; rifiutò un aborto",
+   "cita": "Il suo motto: «Donata completamente a Dio e completamente all’umanità»",
+   "_es": "069b1481e5"
+  },
+  "18": {
+   "titulo": "Beati Luigi e Maria Beltrame Quattrocchi",
+   "nombres": "Luigi e Maria Beltrame Quattrocchi",
+   "descripcion": "i primi sposi beatificati insieme",
+   "resumen": "benefattori dei poveri",
+   "cita": "«Ricordati che Cristo si segue, se necessario, fino alla morte» (Maria Corsini, dedicando un libro a uno dei figli)",
+   "_es": "4070ffcc9f"
+  },
+  "19": {
+   "titulo": "Beato Odoardo Focherini e Maria Marchesi",
+   "nombres": "Odoardo Focherini e Maria Marchesi",
+   "descripcion": "giornalista che salvò un centinaio di ebrei",
+   "resumen": "giornalista martire, morto in un campo di concentramento",
+   "cita": "«Accetta, o Signore, questo sacrificio (...) la mia vita in olocausto (...) per il ritorno della pace nel mondo» (a un amico, in una lettera)",
+   "_es": "0126cbc921"
+  },
+  "20": {
+   "titulo": "Venerabili Carlo Tancredi Falletti di Barolo e Giulia Colbert",
+   "nombres": "Carlo Tancredi Falletti di Barolo e Giulia Colbert",
+   "descripcion": "coppia venerabile di benefattori",
+   "resumen": "nobili, fondatori delle Suore di Sant’Anna",
+   "_es": "1aa4f9347d"
+  },
+  "21": {
+   "titulo": "Venerabile Dorotea Chopitea e José María Serra Muñoz",
+   "nombres": "Dorotea Chopitea e José María Serra",
+   "descripcion": "madre aristocratica che donò la sua fortuna ai bisognosi di Barcellona",
+   "resumen": "aristocratica stabilitasi a Barcellona, promotrice delle opere di don Bosco",
+   "cita": "«I poveri saranno la mia prima preoccupazione» (Dorotea de Chopitea)",
+   "_es": "039fb008dc"
+  },
+  "22": {
+   "titulo": "Venerabile Enrique Shaw e Cecilia Bunge",
+   "nombres": "Enrique Shaw e Cecilia Bunge",
+   "descripcion": "il «santo del mondo imprenditoriale»",
+   "resumen": "imprenditore, cofondatore dell’ACDE (Associazione Cristiana dei Dirigenti d’Impresa); è stato approvato un miracolo per la sua beatificazione",
+   "cita": "«La missione a cui mi sento chiamato è dare io stesso gloria a Dio per far sì che anche gli altri gliela diano. Il nostro programma deve essere salvare l’anima del prossimo, salvare la nostra ed essere santi» (ven. Enrique Shaw)",
+   "_es": "a8d1d5caee"
+  },
+  "23": {
+   "titulo": "Venerabile Jérôme Lejeune e Birthe Bringsted",
+   "nombres": "Jérôme Lejeune e Birthe Bringsted",
+   "descripcion": "pediatra genetista pro vita che scoprì la causa genetica della sindrome di Down",
+   "resumen": "pediatra genetista pro vita che scoprì la causa genetica della sindrome di Down, primo presidente della Pontificia Accademia per la Vita",
+   "cita": "«Le persone con sindrome di Down hanno la capacità di tirar fuori il meglio di noi; nessuno accanto a un bambino Down resiste senza sorridere»",
+   "_es": "66ca3734be"
+  },
+  "24": {
+   "titulo": "Venerabile João Pozzobon e Vitória Filipetto",
+   "nombres": "João Pozzobon e Vitória Filipetto",
+   "descripcion": "sposo pioniere della Campagna della Madonna Pellegrina",
+   "resumen": "cofondatore della Campagna del Rosario di Schoenstatt",
+   "cita": "«Quando una cosa viene da Dio, un uomo può muovere il mondo» (João Pozzobon)",
+   "_es": "4a8131c408"
+  },
+  "25": {
+   "titulo": "Venerabile dott. Marcello Labor ed Elsa Reiss",
+   "nombres": "Marcello Labor ed Elsa Reiss",
+   "descripcion": "medico, padre, scrittore e poi parroco",
+   "resumen": "medico, vedovo e sacerdote; prima nella Società di San Vincenzo de’ Paoli e nell’Azione Cattolica",
+   "cita": "«Povero e nudo. Ciò che ho addosso o intorno è della Chiesa; nudo, solo con la mia amata talare. Mi sento così povero davanti a Dio» (Marcello Labor)",
+   "_es": "78bd99fa41"
+  },
+  "26": {
+   "titulo": "Venerabile Pierre Toussaint e Juliette Noël",
+   "nombres": "Pierre Toussaint e Juliette Noël",
+   "descripcion": "l’ex schiavo parrucchiere e filantropo a New York",
+   "resumen": "parrucchiere ex schiavo e filantropo, primo laico sepolto nella cattedrale di San Patrizio",
+   "_es": "deca5122d5"
+  },
+  "27": {
+   "titulo": "Venerabili Sergio Bernardini e Domenica Bedonni",
+   "nombres": "Sergio Bernardini e Domenica Bedonni",
+   "descripcion": "coppia semplice e venerabile",
+   "resumen": "genitori semplici di 10 figli: 8 sacerdoti o religiose",
+   "_es": "dd0c5a43c4"
+  },
+  "28": {
+   "titulo": "Venerabile dott. Vittorio Trancanelli e Lia Sabatini",
+   "nombres": "Vittorio Trancanelli e Lia Sabatini",
+   "descripcion": "il «santo della sala operatoria»",
+   "resumen": "medico chirurgo chiamato il «santo della sala operatoria», che accolse 7 persone disabili",
+   "cita": "«per questo vale la pena vivere, non per diventare qualcuno, fare carriera o guadagnare soldi»",
+   "_es": "26c56933a3"
+  },
+  "29": {
+   "titulo": "Servo di Dio Alcide De Gasperi e Francesca Romani",
+   "nombres": "Alcide De Gasperi e Francesca Romani",
+   "descripcion": "uno dei padri fondatori dell’Unione europea",
+   "resumen": "cofondatore dell’Unione europea e presidente del Consiglio",
+   "cita": "«Se non avessi il sentimento di compiere un dovere cristiano e di meritare l’aiuto di Dio, non resterei al mio posto un giorno di più» (De Gasperi)",
+   "_es": "12ccf2b82c"
+  },
+  "30": {
+   "titulo": "Servi di Dio Arístides Calvani e Adela Abbo Fontana",
+   "nombres": "Arístides Calvani e Adela Abbo Fontana",
+   "descripcion": "ministro degli Esteri, «apostolo della democrazia»",
+   "resumen": "cittadino esemplare, accademico, politico e diplomatico venezuelano nato a Trinidad (lei era colombiana)",
+   "cita": "«In politica si viene per servire. La politica è servizio». «Abbiate paura del potere», perché avvilisce e degrada lo spirito se non siamo preparati a resistere alle sue tentazioni di grandezza e a crederci dèi",
+   "_es": "132fc7b5ce"
+  },
+  "31": {
+   "titulo": "Servi di Dio Jerônimo de Castro Abreu Magalhães e Zélia Pedreira",
+   "nombres": "Jerônimo e Zélia Castro Abreu",
+   "descripcion": "i «Luigi e Zelia Martin brasiliani»",
+   "resumen": "ingegnere civile con 13 figli e terziario francescano; nel suo ultimo anno lei, vedova, si fa religiosa",
+   "cita": "«Dio ti manderà un santo, lo sposerai, darai una grande discendenza alla Chiesa e alla fine della tua vita realizzerai il tuo sogno di dedicarti totalmente a Dio», predisse alla giovane Zélia la mistica Nhá Chica, oggi beata",
+   "_es": "7ec951adad"
+  },
+  "32": {
+   "titulo": "Serva di Dio Catherine de Hueck ed Eddie Doherty",
+   "nombres": "Catherine de Hueck ed Eddie Doherty",
+   "descripcion": "madre emigrata che si donò ai bisognosi degli Stati Uniti e del Canada",
+   "resumen": "scrittrice; fondò le Case dell’Amicizia e di Madonna House",
+   "_es": "12df38578d"
+  },
+  "33": {
+   "titulo": "Serva di Dio Chiara Corbella ed Enrico Petrillo",
+   "nombres": "Chiara Corbella ed Enrico Petrillo",
+   "descripcion": "la «Gianna Beretta del XXI secolo»",
+   "resumen": "madre pro vita del Rinnovamento Carismatico, morta di cancro per salvare suo figlio",
+   "cita": "«Non voglio morire per Francesco, voglio dare la mia vita a Francesco» e al figlio che compiva un anno: «Vado in Cielo a occuparmi di Maria e Davide, tu resta qui con papà. Io da lassù pregherò per voi. Sei speciale e hai una grande missione. Il Signore ti ha scelto e io ti mostrerò la strada da seguire se apri il tuo cuore. Fidati, ne vale la pena. Mamma»",
+   "_es": "fd0a927a4e"
+  },
+  "34": {
+   "titulo": "Servi di Dio Cyprien Rugamba e Daphrose Mukansanga",
+   "nombres": "Cyprien e Daphrose Rugamba",
+   "descripcion": "eroica storia di conversione e di carità",
+   "resumen": "compositore e coreografo convertito, del Rinnovamento Carismatico; fondatori della Comunità dell’Emmanuele in Ruanda, martiri con 6 dei loro 10 figli",
+   "cita": "«Abbiamo un solo partito, quello di Gesù» (Cyprien Rugamba)",
+   "_es": "f13143b2fe"
+  },
+  "35": {
+   "titulo": "Serva di Dio Elisabeth Arrighi e Félix Leseur",
+   "nombres": "Elisabeth Arrighi e Félix Leseur",
+   "descripcion": "sposa che riuscì a convertire il marito ateo... dal cielo",
+   "resumen": "convertì il marito ateo con il suo diario postumo",
+   "cita": "«Questo, mio amato sposo, è il testamento della mia anima: il Padre adorato lo conoscerai e lo amerai grazie alle mie preghiere dal Cielo… quando sarai suo figlio, discepolo di Gesù Cristo e membro vivo della sua Chiesa» (profezia di Elisabeth, 9 anni prima di morire)",
+   "_es": "92a2c2545d"
+  },
+  "36": {
+   "titulo": "Servi di Dio Gwen Cecilia Billings e Jerry Coniker",
+   "nombres": "Gwen e Jerry Coniker",
+   "descripcion": "coppia pioniera dei contenuti televisivi per la famiglia",
+   "resumen": "con 13 figli, fondatori dell’AFC, Apostolato per la Consacrazione della Famiglia",
+   "_es": "4f45520d3e"
+  },
+  "37": {
+   "titulo": "Servi di Dio Pauline Archer e Georges Vanier",
+   "nombres": "Pauline Archer e Georges Vanier",
+   "descripcion": "il governatore e la first lady benefattrice",
+   "resumen": "governatore generale del Canada e la first lady benefattrice",
+   "cita": "«La fede, lungi dall’essere fuori moda, dona una bellezza, una ricchezza e uno splendore che non si trovano in nessun’altra fonte» (Pauline Archer)",
+   "_es": "1d87e30efc"
+  },
+  "38": {
+   "titulo": "Servi di Dio Raoul Follereau e Madeleine Boudou",
+   "nombres": "Raoul Follereau e Madeleine Boudou",
+   "descripcion": "samaritani dei lebbrosi nel XX secolo",
+   "resumen": "scrittore e giornalista, fondazione contro la lebbra e la povertà",
+   "cita": "«Essere felici è rendere felici gli altri» (Raoul Follereau)",
+   "_es": "360f7d5632"
+  },
+  "39": {
+   "titulo": "Servi di Dio Takashi Nagai e Midori Moriyama",
+   "nombres": "Takashi e Midori Nagai",
+   "descripcion": "radiologo convertito, sopravvissuto alla bomba atomica",
+   "resumen": "medico e scrittore, eroi di Nagasaki",
+   "cita": "«Siamo servi inutili. Abbiamo fatto quanto dovevamo fare» (Takashi, sulla propria lapide, citando Lc 1,38 e 17,10)",
+   "_es": "300e860cd6"
+  },
+  "40": {
+   "titulo": "Servi di Dio Tomás Alvira e Paquita Domínguez",
+   "nombres": "Tomás e Paquita Alvira",
+   "descripcion": "coppia di educatori",
+   "resumen": "soprannumerari dell’Opus Dei; educatori",
+   "cita": "«Avevano un amore per Dio che traspariva nel loro amore coniugale, e quell’amore traboccava verso gli altri» (la figlia M. Isabel Alvira)",
+   "_es": "fa1cabf3d2"
+  },
+  "41": {
+   "titulo": "San Abdel Mooti Massabki",
+   "nombres": "Abdel Mooti Massabki",
+   "descripcion": "padre di 5 figli, ucciso dai drusi con i suoi 2 fratelli nel convento di San Paolo (Damasco)",
+   "resumen": "padre di 5 figli, ucciso dai drusi con i suoi 2 fratelli nel convento di San Paolo (Damasco)",
+   "_es": "a009d0672d"
+  },
+  "42": {
+   "titulo": "Servi di Dio Abraham e María Patricia Reyes",
+   "nombres": "Abraham e María Patricia Reyes",
+   "descripcion": "sposi venezuelani umili e generosi",
+   "resumen": "della Legione di Maria e cofondatori del movimento educativo gesuita Fe y Alegría",
+   "cita": "«Perché tante cose? È troppo quello che mi hai dato – diceva a Dio – che cosa ho fatto io?…» (Abraham Reyes)",
+   "_es": "495548f4b5"
+  },
+  "43": {
+   "titulo": "Santa Acahilda di Wendelstein e Thietmar",
+   "nombres": "Acahilda di Wendelstein e Thietmar",
+   "descripcion": "si fanno religiosi",
+   "resumen": "si fanno religiosi",
+   "_es": "027e7afe0f"
+  },
+  "44": {
+   "titulo": "Santa Regina di Denain e il beato Adalberto II",
+   "nombres": "Adalberto II e Regina di Denain",
+   "descripcion": "vedova nobile, religiosa fondatrice di un convento, obbediente alla figlia badessa santa Renfrida",
+   "resumen": "vedova nobile, religiosa fondatrice di un convento, obbediente alla figlia badessa santa Renfrida",
+   "_es": "31911efc8e"
+  },
+  "45": {
+   "titulo": "Beato Adrian Fortescue e Anne Stonor / Anne Rede",
+   "nombres": "Adrian Fortescue e Anne Stonor / Anne Rede",
+   "descripcion": "terziario domenicano, martire per non essersi piegato alla politica di Enrico VIII",
+   "resumen": "terziario domenicano, martire per non essersi piegato alla politica di Enrico VIII",
+   "_es": "80f4cfb010"
+  },
+  "46": {
+   "titulo": "Sant’Adriano e santa Natalia",
+   "nombres": "Adriano e Natalia",
+   "descripcion": "soldato romano convertito",
+   "resumen": "patrono dei soldati e intercessore contro le epidemie",
+   "_es": "f53087bc3f"
+  },
+  "47": {
+   "titulo": "Serva di Dio dott.ssa Adrienne von Speyr ed Emil Dürr",
+   "nombres": "Adrienne von Speyr ed Emil Dürr",
+   "descripcion": "medico convertita, mistica, autrice di spiritualità e teologia",
+   "resumen": "medico convertita, mistica, autrice di 60 libri di spiritualità e teologia; collaborò con von Balthasar, suo confessore per 27 anni, e insieme fondarono la Comunità di San Giovanni",
+   "cita": "Com’è bello morire!",
+   "_es": "95879105a3"
+  },
+  "48": {
+   "titulo": "Servi di Dio Afonso Sanches e Teresa Martins de Meneses",
+   "nombres": "Afonso Sanches, signore di Albuquerque, e Teresa Martins de Meneses",
+   "descripcion": "signore di Albuquerque, fondatori del monastero di Santa Chiara",
+   "resumen": "fondatori del monastero di Santa Chiara",
+   "_es": "da27865ba3"
+  },
+  "49": {
+   "titulo": "Santa Agnese Lê Thị Thành (Đê)",
+   "nombres": "Agnese Lê Thị Thành (Đê)",
+   "resumen": "martire",
+   "_es": "a45eba73b5"
+  },
+  "50": {
+   "titulo": "Venerabile Albertina Violi e Livio Zirondoli",
+   "nombres": "Albertina Violi e Livio Zirondoli",
+   "descripcion": "la signora maestra",
+   "resumen": "dei Focolari, chiamata la «signora maestra»",
+   "cita": "«Grazie all’Onnipotente, che ha permesso che la mia parola entrasse nell’anima di quella creatura dal cuore così buono»",
+   "_es": "ef3ca71ca4"
+  },
+  "51": {
+   "titulo": "Venerabile Alberto Capellán e Isabel Arenas",
+   "nombres": "Alberto Capellán e Isabel Arenas",
+   "descripcion": "semplice contadino",
+   "resumen": "contadino, padre di 8 figli e adoratore notturno",
+   "cita": "«Quante volte ho avuto la grande gioia di portare Cristo sulle mie spalle nella persona del povero» (Alberto Capellán)",
+   "_es": "97582ebb8d"
+  },
+  "52": {
+   "titulo": "Beato Alberto da Bergamo",
+   "nombres": "Alberto da Bergamo",
+   "descripcion": "l’agricoltore caritatevole che convertì la moglie",
+   "resumen": "contadino terziario domenicano, incompreso dalla moglie",
+   "_es": "0287f59b24"
+  },
+  "53": {
+   "titulo": "Santa Alda di Siena e Bindo Bellanti",
+   "nombres": "Alda di Siena e Bindo Bellanti",
+   "descripcion": "vedova benefattrice",
+   "resumen": "vedova benefattrice",
+   "_es": "c0a9127103"
+  },
+  "54": {
+   "titulo": "Servo di Dio Aldo Moro ed Eleonora Chiavarelli",
+   "nombres": "Aldo Moro ed Eleonora Chiavarelli",
+   "descripcion": "capo del governo italiano",
+   "resumen": "presidente del Consiglio italiano e terziario domenicano",
+   "cita": "«Quando si dice la verità non bisogna dolersi di averla detta. La verità è sempre illuminante» (Aldo Moro)",
+   "_es": "562d753de1"
+  },
+  "55": {
+   "titulo": "Venerabile dott. Alessandro Nottegar e Luisa Scipionato",
+   "nombres": "Alessandro Nottegar e Luisa Scipionato",
+   "descripcion": "medico missionario e fondatore",
+   "resumen": "medico, fondatore della Comunità Regina Pacis",
+   "cita": "«Non mi interessano la carriera né il denaro; studio per prepararmi a servire meglio Cristo e i fratelli» (Alessandro Nottegar)",
+   "_es": "4ace89c315"
+  },
+  "56": {
+   "titulo": "Servo di Dio Alfred Diban Ki-Zerbo e Louise Coulibaly / Folo Ki",
+   "nombres": "Alfred Diban Ki-Zerbo e Louise Coulibaly / Folo Ki",
+   "descripcion": "ex schiavo evangelizzatore dell’Alto Volta",
+   "resumen": "catechista, «primo cristiano dell’Alto Volta» e guida di 500.000 cristiani nell’Africa nord-occidentale",
+   "_es": "688562cdb8"
+  },
+  "57": {
+   "titulo": "Sant’Alfredo il Grande, re del Wessex, ed Ealhswith",
+   "nombres": "Alfredo il Grande, re del Wessex, ed Ealhswith",
+   "descripcion": "grande re sassone",
+   "resumen": "re dei Sassoni occidentali",
+   "cita": "«Nella prosperità l’uomo dimentica se stesso; nelle difficoltà è costretto a riflettere su se stesso» (sant’Alfredo)",
+   "_es": "190a42bbe9"
+  },
+  "58": {
+   "titulo": "Beata Aletta di Montbard e il venerabile Tescelino",
+   "nombres": "Aletta di Montbard e Tescelino",
+   "descripcion": "i genitori di san Bernardo di Chiaravalle, la «famiglia che raggiunse Cristo»",
+   "resumen": "genitori di san Bernardo di Chiaravalle",
+   "cita": "«Quante volte Bernardo e i suoi fratelli riconobbero che il loro vero “maestro dei novizi” era stata la madre!» (da un agiografo cistercense)",
+   "_es": "c96df790db"
+  },
+  "59": {
+   "titulo": "Serva di Dio Alma Ferrara e Francesco Sacco",
+   "nombres": "Alma Ferrara e Francesco Sacco",
+   "descripcion": "madre e mistica del XX secolo",
+   "resumen": "veggente e fondatrice del Movimento dell’Amore Gioioso del Padre",
+   "_es": "ac963cdd30"
+  },
+  "60": {
+   "titulo": "Sant’Alfonso Rodríguez e María Suárez",
+   "nombres": "Alfonso Rodríguez e María Suárez",
+   "descripcion": "padre di famiglia e portinaio gesuita",
+   "resumen": "vedovo, fratello laico gesuita che fa da portinaio",
+   "cita": "«Gesù, che si traveste da prossimo, non possiamo mai trattarlo con asprezza o maleducazione» (sant’Alfonso Rodríguez)",
+   "_es": "c1dfb2e7a1"
+  },
+  "61": {
+   "titulo": "Beato Amedeo IX di Savoia e Iolanda",
+   "nombres": "Amedeo IX di Savoia e Iolanda",
+   "descripcion": "nobile italiano virtuoso con i poveri",
+   "resumen": "nobili di Savoia e Piemonte, custode della Sacra Sindone, con 10 figli",
+   "cita": "«Non voglia il Cielo che io indaghi sulla condizione dei poveri che bussano alla mia porta; se il Signore guardasse allo stesso modo le nostre azioni, ci troverebbe molto spesso mancanti di rettitudine» (Amedeo di Savoia)",
+   "_es": "10fc7e6557"
+  },
+  "62": {
+   "titulo": "Servi di Dio Amador M. Tajanlangit Sr. e Angeles O. Ledesma",
+   "nombres": "Amador M. Tajanlangit Sr. e Angeles O. Ledesma",
+   "descripcion": "diffondeva il culto della Madonna con il cinema casalingo",
+   "resumen": "catechista devoto della Madonna e promotore del Rosario dell’Alba alla radio",
+   "_es": "5582ae6b5b"
+  },
+  "63": {
+   "titulo": "Santa Amalberga di Maubeuge",
+   "nombres": "Amalberga di Maubeuge",
+   "_es": "3a36c91521"
+  },
+  "64": {
+   "titulo": "Beata Amalia Abad Casasempere e Luis Maestre Vidal",
+   "nombres": "Amalia Abad Casasempere e Luis Maestre Vidal",
+   "resumen": "martire",
+   "_es": "73484ae0b3"
+  },
+  "65": {
+   "titulo": "Venerabile Amparo Portilla Crespo e Federico Romero",
+   "nombres": "Amparo Portilla Crespo e Federico Romero",
+   "descripcion": "madre spagnola venerabile",
+   "resumen": "catechista dedita ai poveri e ai malati",
+   "cita": "«Per le madri e per Dio, siamo tutti figli unici» (Amparo Portilla Crespo)",
+   "_es": "ef63677fac"
+  },
+  "66": {
+   "titulo": "Beata Anna Rosa Gattorno e Gerolamo Custo",
+   "nombres": "Anna Rosa Gattorno e Gerolamo Custo",
+   "descripcion": "madre e fondatrice delle Figlie di Sant’Anna",
+   "resumen": "vedova religiosa, fondatrice delle Figlie di Sant’Anna; stigmatizzata",
+   "cita": "«Vivere per Dio e morire per Lui, spendere la vita per amore» (il motto di Anna Rosa Gattorno per la sua fondazione)",
+   "_es": "7cc4271734"
+  },
+  "67": {
+   "titulo": "Beato Anacleto González Flores e Concepción Guerrero",
+   "nombres": "Anacleto González Flores e Concepción Guerrero",
+   "descripcion": "sposo cristero, chiamato il «Gandhi messicano»",
+   "resumen": "martire cristero, patrono dei laici in Messico",
+   "cita": "«La perdono di cuore, molto presto ci vedremo davanti al tribunale divino, (...) e allora avrà in me un intercessore presso Dio» (Anacleto González Flores al suo carnefice)",
+   "_es": "e96aba9ea3"
+  },
+  "68": {
+   "titulo": "Servi di Dio Anatolii Hurhula, presbitero, e Irina Durbak",
+   "nombres": "Anatolii Hurhula, presbitero, e Irina Durbak",
+   "descripcion": "sacerdote greco-cattolico",
+   "resumen": "martiri; lui sacerdote greco-cattolico",
+   "_es": "cede181b82"
+  },
+  "69": {
+   "titulo": "Santi Andronico e Atanasia, monaci",
+   "nombres": "Andronico e Atanasia, monaci",
+   "descripcion": "casti dopo il matrimonio",
+   "resumen": "casti dopo il matrimonio",
+   "cita": "«Poiché per amor tuo abbiamo lasciato aperta la porta della nostra casa, aprici Tu le porte del tuo Regno» (santa Atanasia)",
+   "_es": "a80999ce41"
+  },
+  "70": {
+   "titulo": "Sant’Angela da Foligno",
+   "nombres": "Angela da Foligno",
+   "descripcion": "la mistica della Passione di Cristo",
+   "resumen": "nobile vedova e terziaria francescana, «mistica della Passione di Cristo»",
+   "cita": "«Dovetti convincermi della grande misericordia che Dio ha per il peccatore che vuole essere perdonato» (sant’Angela)",
+   "_es": "bbaf133625"
+  },
+  "71": {
+   "titulo": "Beata Angelina da Marsciano",
+   "nombres": "Angelina da Marsciano",
+   "descripcion": "sposa casta, vedova e religiosa",
+   "resumen": "sposa casta, vedova e religiosa",
+   "_es": "5c95854773"
+  },
+  "72": {
+   "titulo": "Santa Anne Line e Roger",
+   "nombres": "Anne Line e Roger",
+   "resumen": "martire",
+   "cita": "«Dove ne ho accolto uno, avrei voluto poterne accogliere mille [di sacerdoti]» (santa Anne Line, durante il processo)",
+   "_es": "e533cad34d"
+  },
+  "73": {
+   "titulo": "Sant’Ansfrido e Ilsunda",
+   "nombres": "Ansfrido e Ilsunda",
+   "descripcion": "vescovo vedovo",
+   "resumen": "vescovo vedovo",
+   "_es": "249c177178"
+  },
+  "74": {
+   "titulo": "Beato Antero Mateo García e Manuela Trabadelo Malagón",
+   "nombres": "Antero Mateo García e Manuela Trabadelo Malagón",
+   "descripcion": "martire, terziario domenicano e dell’Adorazione notturna",
+   "resumen": "martire, terziario domenicano e dell’Adorazione notturna",
+   "_es": "3bcf5321ef"
+  },
+  "75": {
+   "titulo": "Serva di Dio Antonella Meccariello e Alessandro",
+   "nombres": "Antonella Meccariello e Alessandro",
+   "descripcion": "giovane benefattrice",
+   "resumen": "giovane benefattrice",
+   "_es": "fcae70c757"
+  },
+  "76": {
+   "titulo": "Beata Antonia da Firenze",
+   "nombres": "Antonia da Firenze",
+   "descripcion": "vedova francescana e clarissa",
+   "resumen": "vedova francescana e clarissa",
+   "_es": "a61c97bbc0"
+  },
+  "77": {
+   "titulo": "Servo di Dio Antonino Petyx",
+   "nombres": "Antonino Petyx",
+   "descripcion": "il barone «apostolo della carità»",
+   "resumen": "aristocratico terziario francescano e cofondatore delle Conferenze di San Vincenzo de’ Paoli, chiamato «apostolo della carità di Palermo»",
+   "cita": "Consapevoli del dovere di custodirli gelosamente, di educarli sulla via del bene, di insegnare loro ad amare Dio, seguendo Gesù per l’aspra via del Calvario",
+   "_es": "fbde60ce59"
+  },
+  "78": {
+   "titulo": "Servo di Dio dott. Antonio Rendic e Amy Jenkin Richards",
+   "nombres": "Antonio Rendic e Amy Jenkin Richards",
+   "descripcion": "medico dei poveri e poeta cileno-croato",
+   "resumen": "medico e poeta croato naturalizzato cileno",
+   "cita": "«Voglio essere per il povero e per l’afflitto la parola di conforto che Tu fosti, l’umile carità consolatrice. E, ispirata al tuo esempio, che la mia vita sia una mano aperta e tesa verso chiunque soffre e piange» (Ivo Serge)",
+   "_es": "7d96f21598"
+  },
+  "79": {
+   "titulo": "Beato Antonio Tort Reixachs e María Josefa Gavin",
+   "nombres": "Antonio Tort Reixachs e María Josefa Gavin",
+   "descripcion": "padre di 11 figli che ospitava religiosi in casa, vittima della guerra civile",
+   "resumen": "padre di 11 figli che ospitava religiosi in casa, vittima della guerra civile spagnola",
+   "_es": "f30e1feaf6"
+  },
+  "80": {
+   "titulo": "Santi Areta e Ruma",
+   "nombres": "Areta e Ruma",
+   "descripcion": "martiri insieme ad altri 340",
+   "resumen": "martiri insieme ad altri 340",
+   "_es": "a1331bd646"
+  },
+  "81": {
+   "titulo": "Servo di Dio Argentino del Valle Larrabure e María Susana de San Martín",
+   "nombres": "Argentino del Valle Larrabure e María Susana de Martín",
+   "descripcion": "padre di famiglia e militare argentino che perdonò i suoi sequestratori",
+   "resumen": "colonnello assassinato dalla guerriglia dell’ERP",
+   "cita": "«Voglio morire in piedi, invocando Dio nella mia famiglia, la patria nel mio esercito, il mio popolo non contaminato da idee intrise di divisione e di sangue. Chiedo a Dio nella sua misericordia di concedermi questa grazia» (dal diario della prigionia)",
+   "_es": "87b5753610"
+  },
+  "82": {
+   "titulo": "Venerabile M. Aristea Ceccarelli e Igino (Gino) Bernacchia",
+   "nombres": "Aristea Ceccarelli e Gino Bernacchia",
+   "descripcion": "il suo esempio convertì il marito",
+   "cita": "«Lo ripeterei a tutte le spose: adornate interiormente la vostra anima il meglio possibile per Gesù, ed esteriormente per lo sposo. Se lo attirate a voi, lo attirate a Dio stesso» (Maria Aristea Ceccarelli)",
+   "_es": "5a96d29b0a"
+  },
+  "83": {
+   "titulo": "Santi Artemio e Candida",
+   "nombres": "Artemio e Candida",
+   "descripcion": "romani convertiti, genitori di santa Paolina",
+   "resumen": "romani convertiti, genitori di santa Paolina",
+   "_es": "5c73f679cc"
+  },
+  "84": {
+   "titulo": "Beato Arturo Ros Montalt e Maria Llopis Sirer",
+   "nombres": "Arturo Ros Montalt e Maria Llopis Sirer",
+   "descripcion": "martire dell’Azione Cattolica",
+   "resumen": "martire dell’Azione Cattolica",
+   "_es": "8da580c6b6"
+  },
+  "85": {
+   "titulo": "Sant’Atanasia di Egina",
+   "nombres": "Atanasia di Egina",
+   "descripcion": "religiosa caritatevole",
+   "resumen": "religiosa caritatevole",
+   "_es": "c1deb9ad60"
+  },
+  "86": {
+   "titulo": "Venerabile Attilio Giordani e Noemi Davanzo",
+   "nombres": "Attilio Giordani e Noemi Davanzo",
+   "descripcion": "catechista salesiano",
+   "resumen": "militare e impiegato, cooperatore salesiano",
+   "_es": "6cf86bdf30"
+  },
+  "87": {
+   "titulo": "Santa Barbara Cui Lianzhi e Andrea Ts’oei",
+   "nombres": "Barbara Cui Lianzhi e Andrea Ts’oei",
+   "descripcion": "madre di due seminaristi, martire dei Boxer con un figlio e la nuora",
+   "resumen": "madre di 2 seminaristi, martire dei Boxer con un figlio e la nuora",
+   "_es": "d868a03ba4"
+  },
+  "88": {
+   "titulo": "San Bartolo Longo e Marianna De Fusco",
+   "nombres": "Bartolo Longo e Marianna De Fusco",
+   "descripcion": "da satanista a fondatore del santuario mariano di Pompei",
+   "resumen": "convertito da un culto satanista, fonda il santuario di Pompei ispirato dalla Madonna per diffondere il Rosario; contrae un matrimonio giuseppino approvato dal papa",
+   "cita": "«Non vidi via migliore che seguire e assecondare ciò che la Provvidenza da sola stava operando» (Bartolo Longo)",
+   "_es": "8adf7e9a77"
+  },
+  "89": {
+   "titulo": "Santi Basilio il Vecchio ed Emmelia",
+   "nombres": "Basilio il Vecchio ed Emmelia",
+   "descripcion": "vescovo e diaconessa, genitori dei santi vescovi Basilio Magno, Gregorio di Nissa e Pietro di Sebaste, e di santa Macrina",
+   "resumen": "vescovo e diaconessa, genitori dei santi vescovi Basilio Magno, Gregorio di Nissa e Pietro di Sebaste, e di santa Macrina",
+   "_es": "71ee9b3404"
+  },
+  "90": {
+   "titulo": "Santa Begga di Austrasia e Ansegiso",
+   "nombres": "Begga di Austrasia e Ansegiso",
+   "descripcion": "vedova religiosa",
+   "resumen": "vedova religiosa",
+   "_es": "8ae59a4920"
+  },
+  "91": {
+   "titulo": "Beato Benedict Daswa e Shadi Eveline Monyai",
+   "nombres": "Benedict Daswa e Shadi Eveline Monyai",
+   "descripcion": "direttore di scuola sudafricano",
+   "resumen": "martire, direttore di scuola e padre di 8 figli",
+   "cita": "«La testimonianza di Benedict si unisce a quella di tanti (...) perseguitati, espulsi, uccisi per aver confessato Gesù Cristo» (papa Francesco)",
+   "_es": "04192e5f4f"
+  },
+  "92": {
+   "titulo": "San Bernardo, vescovo di Vienne",
+   "nombres": "Bernardo, vescovo di Vienne",
+   "descripcion": "vedovo, abate e arcivescovo",
+   "resumen": "vedovo, abate e arcivescovo",
+   "_es": "e112b5af59"
+  },
+  "93": {
+   "titulo": "Beata Berta di Bingen e il principe Roboldo",
+   "nombres": "Berta di Bingen e il principe Roboldo",
+   "descripcion": "genitori di san Ruperto",
+   "resumen": "genitori di san Ruperto",
+   "_es": "30644009ac"
+  },
+  "94": {
+   "titulo": "Santa Berta di Blangy e Sigfrido",
+   "nombres": "Berta di Blangy e Sigfrido",
+   "descripcion": "vedova religiosa",
+   "resumen": "vedova religiosa",
+   "_es": "781747564d"
+  },
+  "95": {
+   "titulo": "Beata Bianca di Castiglia e Luigi VIII di Francia",
+   "nombres": "Bianca di Castiglia e Luigi VIII di Francia",
+   "descripcion": "la regina madre del re san Luigi",
+   "resumen": "madre di san Luigi IX",
+   "_es": "68111c6603"
+  },
+  "96": {
+   "titulo": "San Bodegisilo",
+   "nombres": "Bodegisilo",
+   "descripcion": "governatore ed eremita",
+   "resumen": "governatore ed eremita",
+   "_es": "5b85c9a598"
+  },
+  "97": {
+   "titulo": "Servo di Dio Bouţros Wadih Kassab",
+   "nombres": "Bouţros Wadih Kassab",
+   "descripcion": "l’apostolo dell’Alto Egitto nel XX secolo",
+   "resumen": "chiamato «Apostolo dell’Alto Egitto e dei giovani», della Chiesa greco-cattolica melchita e della Società di San Vincenzo de’ Paoli",
+   "cita": "«Era l’Apostolo dell’Alto Egitto e l’Apostolo della gioventù, un laico impegnato che viveva interamente secondo i valori evangelici» (il patriarca Gregorio III, all’apertura della causa)",
+   "_es": "1c6d5c6cf5"
+  },
+  "98": {
+   "titulo": "Servo di Dio Bruno Cornacchiola e Iolanda Lo Gatto",
+   "nombres": "Bruno Cornacchiola e Iolanda Lo Gatto",
+   "descripcion": "convertito, veggente della Vergine della Rivelazione",
+   "resumen": "comunista protestante convertito, veggente e fondatore dell’associazione SACRI (Schiere Arditi di Cristo Re Immortale)",
+   "_es": "d0135ae151"
+  },
+  "99": {
+   "titulo": "San Caleb, re d’Etiopia",
+   "nombres": "Caleb, re d’Etiopia",
+   "descripcion": "re d’Etiopia convertito e poi monaco",
+   "resumen": "re d’Etiopia convertito e poi monaco",
+   "_es": "9b7267fcdc"
+  },
+  "100": {
+   "titulo": "San Canuto IV re e Adele di Fiandra",
+   "nombres": "Canuto IV e Adele di Fiandra",
+   "descripcion": "re santo di Danimarca",
+   "resumen": "re",
+   "_es": "bfab02b092"
+  },
+  "101": {
+   "titulo": "Beata Castora Gabrielli e il conte Gualtiero Sansoneri",
+   "nombres": "Castora Gabrielli e il conte Gualtiero Sansoneri",
+   "descripcion": "vedova maltrattata dal marito e terziaria francescana",
+   "resumen": "vedova maltrattata dal marito e terziaria francescana",
+   "_es": "1db2f4c98e"
+  },
+  "102": {
+   "titulo": "Beato Carlo Magno e Ildegarda di Vinzgau / Fastrada / Liutgarda",
+   "nombres": "Carlo Magno e Ildegarda di Vinzgau / Fastrada / Liutgarda",
+   "descripcion": "primo imperatore del Sacro Romano Impero, culto confermato da Benedetto XIV",
+   "resumen": "primo imperatore del Sacro Romano Impero, culto confermato da Benedetto XIV",
+   "_es": "f0782b5a96"
+  },
+  "103": {
+   "titulo": "Beato Carlo il Buono di Danimarca e Fiandra, e Margherita di Clermont",
+   "nombres": "Carlo il Buono di Danimarca e Fiandra, e Margherita di Clermont",
+   "descripcion": "principe danese difensore dei poveri",
+   "resumen": "principe martire e benefattore",
+   "cita": "«Conosco molto bene i bisogni dei poveri e l’orgoglio dei ricchi» (Carlo «il Buono»)",
+   "_es": "3dcf3148d4"
+  },
+  "104": {
+   "titulo": "Beato Carlo di Blois, duca di Bretagna, e Giovanna di Penthièvre",
+   "nombres": "Carlo di Blois, duca di Bretagna, e Giovanna di Penthièvre",
+   "descripcion": "nobile e terziario francescano",
+   "resumen": "nobile e terziario francescano",
+   "_es": "70f44670dc"
+  },
+  "105": {
+   "titulo": "Beato Carlos Díaz Gandía e Luisa Tomó Perseguar",
+   "nombres": "Carlos Díaz Gandía e Luisa Tomó Perseguar",
+   "descripcion": "martire, catechista dell’Azione Cattolica",
+   "resumen": "martire, catechista dell’Azione Cattolica",
+   "_es": "aaa4966805"
+  },
+  "106": {
+   "titulo": "Beato Carlo I imperatore e la serva di Dio regina Zita di Borbone-Parma",
+   "nombres": "Carlo I imperatore e la regina Zita di Borbone-Parma",
+   "descripcion": "l’ultima coppia imperiale cattolica",
+   "resumen": "sovrani, genitori di 8 figli e promotori di pace",
+   "cita": "«Il mio impegno è sempre conoscere nel modo più chiaro possibile e seguire la volontà di Dio, e questo nel modo più perfetto» (Carlo I)",
+   "_es": "420aa954c4"
+  },
+  "107": {
+   "titulo": "Serva di Dio Carmela Nebot Soldán e Salvador Noguera",
+   "nombres": "Carmela Nebot Soldán e Salvador Noguera",
+   "descripcion": "catechista del gruppo «Vivencias de Fe» e dell’Associazione di Maria Ausiliatrice (ADMA)",
+   "resumen": "catechista del gruppo «Vivencias de Fe» e dell’Associazione di Maria Ausiliatrice (ADMA)",
+   "cita": "«La vita del cristiano è una lotta che dura tutta la vita»",
+   "_es": "8f75f00a7c"
+  },
+  "108": {
+   "titulo": "Serva di Dio «Mamma» Carolina Bellandi e Olinto Palladini",
+   "nombres": "Carolina Bellandi e Olinto Palladini",
+   "descripcion": "terziaria francescana",
+   "resumen": "terziaria francescana",
+   "_es": "109d20c2c0"
+  },
+  "109": {
+   "titulo": "Serva di Dio Carolina Mancinelli e Otto Scampone",
+   "nombres": "Carolina Mancinelli e Otto Scampone",
+   "_es": "b47fce827f"
+  },
+  "110": {
+   "titulo": "Serva di Dio Caroline Jones Chisholm e Archibald",
+   "nombres": "Caroline Jones Chisholm e Archibald",
+   "descripcion": "madre e pioniera umanitaria dell’Australia",
+   "resumen": "umanitaria",
+   "cita": "«Questo è il mio principio e il mio credo: il bene comune è il mio impegno» (Caroline Jones Chisholm)",
+   "_es": "9cae2336ae"
+  },
+  "111": {
+   "titulo": "Venerabile Caroline-Barbe Colchen e Paul Carré",
+   "nombres": "Caroline-Barbe Colchen e Paul Carré",
+   "descripcion": "madre e fondatrice",
+   "resumen": "cofondatrice delle Missionarie Salesiane di Maria Immacolata e dell’Associazione di San Francesco di Sales",
+   "_es": "1161ee18f0"
+  },
+  "112": {
+   "titulo": "San Castulo di Roma e santa Irene",
+   "nombres": "Castulo di Roma e Irene",
+   "descripcion": "funzionario ucciso sotto Diocleziano; patrono degli agricoltori e dei pastori",
+   "resumen": "funzionario ucciso sotto Diocleziano; patrono degli agricoltori e dei pastori",
+   "_es": "9d9d58ab85"
+  },
+  "113": {
+   "titulo": "Santa Caterina da Genova e Giuliano",
+   "nombres": "Caterina da Genova e Giuliano",
+   "descripcion": "sposa convertita, perseverante e mistica",
+   "resumen": "mistica benefattrice, figlia del viceré di Napoli e discendente di 2 papi",
+   "cita": "«È possibile, o Amore, che in un solo istante tu mi abbia rivelato ciò che non si può dire con le parole?» (santa Caterina da Genova)",
+   "_es": "dd114865e7"
+  },
+  "114": {
+   "titulo": "Santa Caterina di Svezia ed Eggert von Kyren",
+   "nombres": "Caterina di Svezia ed Eggert von Kyren",
+   "descripcion": "sposa casta e poi badessa; figlia di santa Brigida di Svezia",
+   "resumen": "sposa casta e poi badessa; figlia di santa Brigida di Svezia",
+   "_es": "97a1a86863"
+  },
+  "115": {
+   "titulo": "Santi Cazaria e Valente di Villeneuve-lès-Avignon",
+   "nombres": "Cazaria e Valente di Villeneuve-lès-Avignon",
+   "descripcion": "sposi casti, eremiti e poi vescovo",
+   "resumen": "sposi casti, eremiti e poi vescovo",
+   "_es": "e2db08b9f2"
+  },
+  "116": {
+   "titulo": "Beata Cecilia da Ferrara",
+   "nombres": "Cecilia da Ferrara",
+   "_es": "b5d93de0eb"
+  },
+  "117": {
+   "titulo": "Santa Cecilia e Valeriano",
+   "nombres": "Cecilia e Valeriano",
+   "resumen": "sposi casti e martiri",
+   "_es": "4f86c8f810"
+  },
+  "118": {
+   "titulo": "Beato Zefirino Giménez Malla (El Pelé) e Teresa Jiménez Castro",
+   "nombres": "Zefirino Giménez Malla (El Pelé) e Teresa Jiménez Castro",
+   "descripcion": "primo martire gitano (rom)",
+   "resumen": "primo martire gitano (rom)",
+   "_es": "72653b8c67"
+  },
+  "119": {
+   "titulo": "Venerabile Celia Méndez y Delgado e Paulino Fernández de Córdoba",
+   "nombres": "Celia Méndez y Delgado e Paulino Fernández de Córdoba",
+   "descripcion": "vedova religiosa, fondatrice delle Ancelle del Divin Cuore",
+   "resumen": "vedova religiosa, fondatrice delle Ancelle del Divin Cuore",
+   "cita": "«Volontà del mio Dio, io ti amo» (madre María Teresa)",
+   "_es": "2f05c594c7"
+  },
+  "120": {
+   "titulo": "Beata Celina Chludzińska e Józef Borzęcki",
+   "nombres": "Celina Chludzińska e Józef Borzęcki",
+   "descripcion": "madre e fondatrice polacca",
+   "resumen": "vedova religiosa che fondò la Congregazione delle Suore della Risurrezione di Nostro Signore Gesù Cristo",
+   "_es": "49a42661ea"
+  },
+  "121": {
+   "titulo": "Santa Celina di Laon ed Emilio",
+   "nombres": "Celina di Laon ed Emilio",
+   "descripcion": "nobili, genitori dei santi vescovi Principio di Soissons e Remigio di Reims",
+   "resumen": "nobili, genitori dei santi vescovi Principio di Soissons e Remigio di Reims",
+   "_es": "544fa59cf5"
+  },
+  "122": {
+   "titulo": "Beata Chiara Gambacorta e Simone da Massa",
+   "nombres": "Chiara Gambacorta e Simone da Massa",
+   "descripcion": "rimasta vedova molto giovane, consigliata da santa Caterina da Siena fondò il monastero di San Domenico con una regola austera",
+   "resumen": "rimasta vedova molto giovane, consigliata da santa Caterina da Siena fondò il monastero di San Domenico con una regola austera",
+   "_es": "4de94ece0d"
+  },
+  "123": {
+   "titulo": "Servi di Dio Claude Toussaint de La Garaye e Marguerite de La Motte",
+   "nombres": "Claude Toussaint de La Garaye e Marguerite de La Motte",
+   "descripcion": "gli «sposi caritatevoli» francesi",
+   "resumen": "gli «sposi caritatevoli»",
+   "_es": "cc0ea13ad9"
+  },
+  "124": {
+   "titulo": "Santa Clotilde e il re Clodoveo I",
+   "nombres": "Clotilde e il re Clodoveo I",
+   "descripcion": "la coppia reale che convertì la Francia",
+   "resumen": "re",
+   "_es": "d45b7b15d2"
+  },
+  "125": {
+   "titulo": "Serva di Dio Colette Lamontagne e Jean-Louis Samson",
+   "nombres": "Colette Lamontagne e Jean-Louis Samson",
+   "descripcion": "la «Madre Teresa del Québec»",
+   "resumen": "fondatrice della Maison Revivre",
+   "cita": "«Dietro una maschera di grande durezza c’è sempre tenerezza» (Colette Lamontagne-Samson)",
+   "_es": "44140553a4"
+  },
+  "126": {
+   "titulo": "San Costantino di Cornovaglia re",
+   "nombres": "Costantino di Cornovaglia",
+   "descripcion": "re vedovo che si fece religioso e fu abate; considerato il primo martire scozzese",
+   "resumen": "re vedovo che si fece religioso e fu abate; considerato il primo martire scozzese",
+   "_es": "0861625ba2"
+  },
+  "127": {
+   "titulo": "Beato Corrado Confalonieri ed Eufrosina di Lodi",
+   "nombres": "Corrado Confalonieri ed Eufrosina di Lodi",
+   "descripcion": "si fanno religiosi dopo essersi impoveriti per pagare un debito",
+   "resumen": "si fanno religiosi dopo essersi impoveriti per pagare un debito",
+   "_es": "249553ea26"
+  },
+  "128": {
+   "titulo": "Servi di Dio Consilio Pistocchi e Bruna Buratti",
+   "nombres": "Consilio Pistocchi e Bruna Buratti",
+   "descripcion": "diacono italiano dedito ai bambini in emergenza",
+   "resumen": "fondatori di Casa Betania al servizio delle donne in difficoltà",
+   "_es": "f3c93490aa"
+  },
+  "129": {
+   "titulo": "Serva di Dio Cora Louise Evans e Mack",
+   "nombres": "Cora Louise Evans e Mack",
+   "descripcion": "mistica convertita dal mormonismo",
+   "resumen": "veggente stigmatizzata",
+   "cita": "«Era conosciuta soprattutto per la sua spiritualità. Potrebbe essere un buon esempio di una persona sposata che ha condotto una vita molto buona, molto santa, facendo le cose ordinarie in modo straordinario» (padre Grimaldi, postulatore della causa)",
+   "_es": "95e4928832"
+  },
+  "130": {
+   "titulo": "Servo di Dio Csaba Ozsvári",
+   "nombres": "Csaba Ozsvári",
+   "descripcion": "orafo ungherese d’arte sacra, della Federazione delle Famiglie di Schoenstatt",
+   "resumen": "orafo d’arte sacra, membro di Schoenstatt",
+   "cita": "«Lo scopo ultimo di ogni arte non può che essere glorificare Dio onnipotente ed eterno ed elevare di nuovo questa umanità» (Csaba Ozsvári)",
+   "_es": "4fa96b733e"
+  },
+  "131": {
+   "titulo": "Servi di Dio Daniel e Maria «Domitilla» Hyams",
+   "nombres": "Daniel e Maria «Domitilla» Hyams",
+   "descripcion": "gli «angeli dei disabili» sudafricani",
+   "resumen": "fondatori della Little Eden Society",
+   "cita": "«Ognuno di noi è chiamato a essere le mani di Gesù» (Domitilla Hyams)",
+   "_es": "dab440e910"
+  },
+  "132": {
+   "titulo": "Serva di Dio Daniela Benedetti e Patrizio Spadoni",
+   "nombres": "Daniela Benedetti e Patrizio Spadoni",
+   "descripcion": "giovane madre italiana della fine del XX secolo",
+   "cita": "«Le cose molto difficili bisogna chiederle al Signore. Sono quelle che lo “appassionano” di più» (Daniela Benedetti)",
+   "_es": "52118ca61f"
+  },
+  "133": {
+   "titulo": "Santa Darerca e Conan Meriadoc / Chonas il Bretone",
+   "nombres": "Darerca e Conan Meriadoc / Chonas il Bretone",
+   "descripcion": "la sorella e collaboratrice di san Patrizio",
+   "resumen": "sorella minore di san Patrizio",
+   "_es": "c45192d33d"
+  },
+  "134": {
+   "titulo": "San Davide I di Scozia e Matilde di Senlis",
+   "nombres": "Davide I di Scozia e Matilde di Senlis",
+   "descripcion": "il re Davide, figlio di santa Margherita",
+   "resumen": "re",
+   "cita": "«Lasciatemi pensare solo alle cose di Dio, perché la mia anima ne esca rafforzata» (Davide I sul letto di morte)",
+   "_es": "eecf70dc0d"
+  },
+  "135": {
+   "titulo": "San Dionigi l’Areopagita, vescovo, e Damaride",
+   "nombres": "Dionigi l’Areopagita e Damaride",
+   "descripcion": "convertiti da san Paolo, poi primo vescovo di Atene",
+   "resumen": "convertiti da san Paolo, poi primo vescovo di Atene",
+   "_es": "921273cde3"
+  },
+  "136": {
+   "titulo": "Servo di Dio Domenico Antonio Mangano e Maria Pia",
+   "nombres": "Domenico Antonio Mangano e Maria Pia",
+   "descripcion": "focolarino e funzionario italiano impegnato",
+   "resumen": "politico dei Focolari, membro dei Volontari di Dio",
+   "cita": "dedicò la sua vita a costruire «frammenti di reciprocità», perle di comunione e di dialogo",
+   "_es": "f87c2fbeb8"
+  },
+  "137": {
+   "titulo": "Beata Dorotea Swartz di Montau e Albrecht di Danzica",
+   "nombres": "Dorotea Swartz di Montau e Albrecht di Danzica",
+   "descripcion": "madre e contemplativa che trasformò il marito",
+   "resumen": "nobile che trasformò il marito e, rimasta vedova, visse reclusa in una cella accanto alla cattedrale",
+   "_es": "1994e85028"
+  },
+  "138": {
+   "titulo": "Servi di Dio dott. Eduardo Ortiz de Landázuri e Laura Busca",
+   "nombres": "dott. Eduardo Ortiz de Landázuri e Laura Busca",
+   "descripcion": "medico fondatore della Clinica Universitaria di Navarra",
+   "resumen": "soprannumerari dell’Opus Dei; medico",
+   "cita": "«Non ti ho chiesto di mettere in piedi una facoltà, ma di farti santo mettendo in piedi una facoltà» (san Josemaría Escrivá a Eduardo)",
+   "_es": "5d88bebd94"
+  },
+  "139": {
+   "titulo": "Servi di Dio Edmond Michelet e Marie Vialle",
+   "nombres": "Edmond Michelet e Marie Vialle",
+   "descripcion": "sopravvissuto al campo di Dachau e ministro del governo francese",
+   "resumen": "politico e ministro della Giustizia",
+   "cita": "«Chiedo a Dio di sostenere la mia debolezza umana perché sia all’altezza delle mie impegnative responsabilità» (Edmond Michelet)",
+   "_es": "9bb6bd9ea4"
+  },
+  "140": {
+   "titulo": "Beato Edmund Rice e Mary Elliott",
+   "nombres": "Edmund Rice e Mary Elliott",
+   "descripcion": "vedovo religioso, fondatore dei Christian Brothers e dei Presentation Brothers",
+   "resumen": "vedovo religioso, fondatore dei Christian Brothers e dei Presentation Brothers",
+   "cita": "«Abbiate coraggio: il buon seme germoglierà più avanti nel cuore dei ragazzi» (Edmund Rice)",
+   "_es": "5e6d577487"
+  },
+  "141": {
+   "titulo": "Beato Edward Coleman",
+   "nombres": "Edward Coleman",
+   "descripcion": "scrittore inglese difensore della fede",
+   "resumen": "scrittore e politico martire",
+   "_es": "b1b7c0ad9c"
+  },
+  "142": {
+   "titulo": "Sant’Edoardo il Confessore ed Edith",
+   "nombres": "Edoardo il Confessore ed Edith",
+   "_es": "d667d5b6fc"
+  },
+  "143": {
+   "titulo": "Sant’Edoardo ed Æthelflæd",
+   "nombres": "Edoardo ed Æthelflæd",
+   "descripcion": "scrittore inglese difensore della fede",
+   "resumen": "martire",
+   "_es": "f0e48f2935"
+  },
+  "144": {
+   "titulo": "Santa Edvige di Polonia, regina, e Ladislao II",
+   "nombres": "Edvige di Polonia, regina, e Ladislao II",
+   "descripcion": "la santa patrona delle regine",
+   "resumen": "re",
+   "cita": "«Non sono le perle e i gioielli che possono rendermi gradita a Dio (...) ma l’abbandono totale alla sua volontà e la coscienza del mio nulla» (santa Edvige)",
+   "_es": "9371b6e468"
+  },
+  "145": {
+   "titulo": "Santa Edvige di Slesia ed Enrico I",
+   "nombres": "Edvige di Slesia ed Enrico I",
+   "descripcion": "madre e duchessa benefattrice",
+   "resumen": "sovrani benefattori",
+   "cita": "«Perché vi lamentate della volontà di Dio? Le nostre vite sono nelle sue mani, e tutto ciò che Egli fa è ben fatto» (Edvige, confortando le religiose alla morte di Enrico)",
+   "_es": "ffc25a069f"
+  },
+  "146": {
+   "titulo": "Servo di Dio Edvard Vajnilovič e Olimpia Uzłowska",
+   "nombres": "Edvard Vajnilovič e Olimpia Uzłowska",
+   "descripcion": "nobile proprietario terriero e agricoltore, politico ed editore; prima causa bielorussa",
+   "resumen": "nobile proprietario terriero e agricoltore, politico ed editore; prima causa bielorussa",
+   "_es": "c49b58ccd2"
+  },
+  "147": {
+   "titulo": "Sant’Edwin di Northumbria e sant’Etelburga",
+   "nombres": "Edwin di Northumbria ed Etelburga",
+   "descripcion": "antico re inglese convertito",
+   "resumen": "discendente di santa Clotilde, convertì il marito re",
+   "_es": "13c10bcf06"
+  },
+  "148": {
+   "titulo": "Beata Elba Ramos e Obdulio",
+   "nombres": "Elba Ramos e Obdulio",
+   "descripcion": "cuoca uccisa dai militari insieme alla figlia e a diversi gesuiti della UCA",
+   "resumen": "cuoca uccisa dai militari insieme alla figlia e a diversi gesuiti della UCA",
+   "_es": "8a06da4272"
+  },
+  "149": {
+   "titulo": "Beata Elena Duglioli Dall’Olio",
+   "nombres": "Elena Duglioli Dall’Olio",
+   "descripcion": "sposa italiana ammirata dalla sua gente",
+   "_es": "22c80d2b6e"
+  },
+  "150": {
+   "titulo": "Venerabile Eleonora Ramírez Montalvo Landi",
+   "nombres": "Eleonora Ramírez Montalvo Landi",
+   "descripcion": "vedova religiosa, fondatrice delle Suore Minime Ancelle della Santissima Trinità",
+   "resumen": "vedova religiosa, fondatrice delle Suore Minime Ancelle della Santissima Trinità",
+   "_es": "b35514e50a"
+  },
+  "151": {
+   "titulo": "Venerabile Elia Flacilla e l’imperatore Teodosio I il Grande",
+   "nombres": "Elia Flacilla e l’imperatore Teodosio I il Grande",
+   "descripcion": "virtuosa imperatrice romana",
+   "resumen": "imperatrice che san Gregorio di Nissa considerò un modello splendente di virtù cristiana e di ardente carità",
+   "cita": "«Distribuire denaro è proprio della dignità imperiale, ma io offro alla dignità imperiale stessa il servizio personale a Colui che la dona» (Elia Flacilla)",
+   "_es": "14be9c765c"
+  },
+  "152": {
+   "titulo": "Venerabile Elisa Baldo Foresti",
+   "nombres": "Elisa Baldo Foresti",
+   "descripcion": "vedova fondatrice italiana",
+   "resumen": "vedova religiosa, fondatrice delle Ancelle di Gesù Bambino e della Pia Casa di San Giuseppe",
+   "cita": "«Mio Dio, preferisco essere povera e disprezzata nelle tue cose, che illustre nel mondo» (Elisa)",
+   "_es": "878fda8ea2"
+  },
+  "153": {
+   "titulo": "Beata Elisabetta Sanna",
+   "nombres": "Elisabetta Sanna",
+   "descripcion": "madre di famiglia disabile che assisteva i malati",
+   "resumen": "terziaria francescana disabile fin da bambina, madre di 5 figli",
+   "cita": "Colpita dal vaiolo tre mesi dopo la nascita, Elisabetta non poté più alzare le braccia. Muoveva le dita e i polsi, ma non riusciva a portare il cibo alla bocca. Non poteva farsi il segno della croce, né pettinarsi, né lavarsi il viso o cambiarsi d’abito, ma sapeva impastare il pane, cuocere al forno e cucinare, e crebbe cinque figli. Nonostante la disabilità si sposò, e il suo matrimonio fu pienamente felice. Gli sposi ebbero sette figli, due dei quali morirono presto.",
+   "_es": "209db2ab32"
+  },
+  "154": {
+   "titulo": "Venerabile Elisabetta Tasca e Giuseppe Serena",
+   "nombres": "Elisabetta Tasca e Giuseppe Serena",
+   "descripcion": "contadina italiana madre di 13 figli",
+   "resumen": "genitori di 2 sacerdoti e 2 religiose",
+   "_es": "100b6c2244"
+  },
+  "155": {
+   "titulo": "Santa Elizabeth Ann Bayley e William Seton",
+   "nombres": "Elizabeth Ann Bayley e William Seton",
+   "descripcion": "madre, educatrice, fondatrice delle Suore della Carità e prima santa degli Stati Uniti",
+   "resumen": "fondatrice delle Suore della Carità",
+   "_es": "cd92bd5ab1"
+  },
+  "156": {
+   "titulo": "Serva di Dio Ellen Ammann e Ottmar",
+   "nombres": "Ellen Ammann e Ottmar",
+   "descripcion": "madre e politica europea, difensora dei diritti delle donne",
+   "resumen": "convertita, politica, infermiera e attivista, cofondatrice dell’Associazione delle Lavoratrici Cattoliche",
+   "cita": "«Il lavoro sociale non deve restare dilettantismo: è un dovere di responsabilità verso le persone» (Ellen Ammann)",
+   "_es": "8eae77aff4"
+  },
+  "157": {
+   "titulo": "Beata Eloisa di Coulombs e Ugo II di Meulan / Alexandre Azzelin",
+   "nombres": "Eloisa di Coulombs e Ugo II di Meulan / Alexandre Azzelin",
+   "descripcion": "madre e assistente dei malati nella Francia antica",
+   "resumen": "vedova caritatevole",
+   "_es": "a96572d1f9"
+  },
+  "158": {
+   "titulo": "Sant’Elzeario di Sabran e la beata Delfina",
+   "nombres": "Elzeario di Sabran e Delfina",
+   "_es": "1e66da230d"
+  },
+  "159": {
+   "titulo": "Beata Emilia d’Oultremont (Maria di Gesù) e Victor d’Hooghvorst",
+   "nombres": "Emilia d’Oultremont (Maria di Gesù) e Victor d’Hooghvorst",
+   "descripcion": "madre belga fondatrice",
+   "resumen": "vedova religiosa che fondò e guidò la Società delle Suore di Maria Riparatrice",
+   "cita": "«Emilia adempì anzitutto la missione di ogni matrimonio cristiano: fare della sua casa “un santuario domestico della Chiesa”» (san Giovanni Paolo II)",
+   "_es": "6fb712ab65"
+  },
+  "160": {
+   "titulo": "Beata Emilia Fernández Rodríguez e Juan Cortés",
+   "nombres": "Emilia Fernández Rodríguez e Juan Cortés",
+   "descripcion": "gitana incarcerata durante la guerra civile, partorì in prigione e morì poco dopo; tra i 115 uccisi in odio alla fede tra il 1936 e il 1939",
+   "resumen": "gitana incarcerata durante la guerra civile, partorì in prigione e morì poco dopo; tra i 115 uccisi in odio alla fede tra il 1936 e il 1939",
+   "_es": "4f27e2ceb4"
+  },
+  "161": {
+   "titulo": "Beata Émilie Tavernier e Jean-Baptiste Gamelin",
+   "nombres": "Émilie Tavernier e Jean-Baptiste Gamelin",
+   "descripcion": "madre e superiora canadese",
+   "resumen": "vedova religiosa, fondatrice delle Suore della Provvidenza",
+   "cita": "«Umiltà, semplicità, carità, soprattutto carità» (testamento di Émilie per le sue figlie spirituali)",
+   "_es": "5ba1471f76"
+  },
+  "162": {
+   "titulo": "Santa Emma di Gurk e Guglielmo II di Friesach",
+   "nombres": "Emma di Gurk e Guglielmo II di Friesach",
+   "descripcion": "nobile vedova benefattrice",
+   "resumen": "nobile vedova benefattrice",
+   "_es": "506becd99c"
+  },
+  "163": {
+   "titulo": "Santa Emma di Lesum e Liudger",
+   "nombres": "Emma di Lesum e Liudger",
+   "descripcion": "madre tedesca nobile e benefattrice",
+   "resumen": "nobili",
+   "_es": "cfce08e6f6"
+  },
+  "164": {
+   "titulo": "Serva di Dio imperatrice Eugenia de Montijo e l’imperatore Napoleone III",
+   "nombres": "imperatrice Eugenia de Montijo e l’imperatore Napoleone III",
+   "descripcion": "l’imperatrice devota di Lourdes",
+   "resumen": "benefattrice devota di Lourdes",
+   "cita": "«Cattolica e pia, eleverà al cielo le stesse preghiere che io faccio per la felicità della Francia» (l’imperatore sulla moglie)",
+   "_es": "e012a15a5f"
+  },
+  "165": {
+   "titulo": "Servi di Dio Enrica Onorante e Aldo Michisanti",
+   "nombres": "Enrica Onorante e Aldo Michisanti",
+   "descripcion": "sposi italiani contemporanei impegnati",
+   "resumen": "dei Focolari; collaboratrice dell’ufficio CEI per i paesi del Terzo Mondo",
+   "cita": "«Lasciamo libere le mani di Dio: solo se gli diamo piena fiducia potrà agire» (Enrica Onorante)",
+   "_es": "d39710e92e"
+  },
+  "166": {
+   "titulo": "Venerabile Enrico Medi ed Enrica Zanini",
+   "nombres": "Enrico Medi ed Enrica Zanini",
+   "descripcion": "eminente fisico italiano",
+   "resumen": "fisico, vicepresidente dell’Euratom",
+   "cita": "«La scienza per sua natura è cristiana, è ricerca della verità» (Enrico Medi)",
+   "_es": "5f4500ac38"
+  },
+  "167": {
+   "titulo": "Servi di Dio Enrico Casolani e Inez Vassallo",
+   "nombres": "Enrico Casolani e Inez Vassallo",
+   "descripcion": "prima coppia maltese in causa di beatificazione",
+   "resumen": "terziari agostiniani",
+   "cita": "«Ringrazio Dio per questo nuovo mazzo di fiori. Sono le meraviglie della vita. Sono nelle sue mani e accetto con gioia tutto ciò che mi manda» (Inez Vassallo, sulla sua malattia terminale)",
+   "_es": "566216bd24"
+  },
+  "168": {
+   "titulo": "Beato Enrico da Bolzano",
+   "nombres": "Enrico da Bolzano",
+   "descripcion": "il povero artigiano elemosiniere",
+   "resumen": "povero artigiano calzolaio che dava tutto ciò che aveva",
+   "_es": "4f5f656190"
+  },
+  "169": {
+   "titulo": "Servo di Dio Enrico II di Slesia «il Pio» e Anna di Boemia",
+   "nombres": "Enrico II di Slesia «il Pio» e Anna di Boemia",
+   "descripcion": "il reggente «Pio» di Polonia",
+   "resumen": "sovrani",
+   "_es": "2dbedd4405"
+  },
+  "170": {
+   "titulo": "Sant’Enrico II e santa Cunegonda",
+   "nombres": "Enrico II e Cunegonda",
+   "descripcion": "imperatori del Sacro Romano Impero, patroni delle coppie che non possono avere figli",
+   "resumen": "sposi casti o senza figli, patroni delle coppie che non possono avere figli",
+   "_es": "1febadad91"
+  },
+  "171": {
+   "titulo": "Servo di Dio dott. Enzo Piccinini e Fiorisa",
+   "nombres": "Enzo Piccinini e Fiorisa",
+   "descripcion": "il chirurgo evangelizzatore dei giovani",
+   "resumen": "chirurgo, uno dei responsabili nazionali del movimento di Comunione e Liberazione",
+   "cita": "«Cristo è tutto in tutti» (E. Piccinini)",
+   "_es": "7d9fb12164"
+  },
+  "172": {
+   "titulo": "Sant’Erik IX Jedvardsson e Kristina Björnsdotter",
+   "nombres": "Erik IX Jedvardsson e Kristina Björnsdotter",
+   "descripcion": "re evangelizzatore, patrono di Stoccolma",
+   "resumen": "re patrono della Svezia",
+   "_es": "c00d92b8f4"
+  },
+  "173": {
+   "titulo": "Beato Erkenberto di Frankenthal e Richlindis",
+   "nombres": "Erkenberto di Frankenthal e Richlindis",
+   "_es": "e65915e408"
+  },
+  "174": {
+   "titulo": "Venerabile dott. Ernesto Cofiño Ubico e Clemencia Samayoa",
+   "nombres": "Ernesto Cofiño Ubico e Clemencia Samayoa",
+   "descripcion": "padre della pediatria guatemalteca",
+   "resumen": "pediatra dell’Opus Dei, direttore della Caritas",
+   "_es": "1bc7d3cfc7"
+  },
+  "175": {
+   "titulo": "San Spiridione di Trimitunte",
+   "nombres": "Spiridione di Trimitunte",
+   "descripcion": "vescovo di Cipro, taumaturgo e confessore",
+   "resumen": "vescovo di Cipro, taumaturgo e confessore",
+   "cita": "«Questo è ciò che noi cristiani crediamo... e tu, che cosa credi?» (san Spiridione)",
+   "_es": "34d2be539c"
+  },
+  "176": {
+   "titulo": "Sant’Etelberto di Kent e santa Berta",
+   "nombres": "Etelberto di Kent e Berta",
+   "descripcion": "i re che avviano l’evangelizzazione dell’Inghilterra",
+   "resumen": "re che rievangelizzarono questo regno inglese con sant’Agostino di Canterbury",
+   "_es": "19a1b5ddc8"
+  },
+  "177": {
+   "titulo": "Sant’Eteldreda di Ely ed Egfrido",
+   "nombres": "Eteldreda di Ely e il re Egfrido",
+   "descripcion": "casta in due matrimoni, poi badessa",
+   "resumen": "casta in 2 matrimoni, poi badessa",
+   "_es": "35da26d9df"
+  },
+  "178": {
+   "titulo": "Servo di Dio re Baldovino del Belgio e Fabiola",
+   "nombres": "Baldovino e Fabiola del Belgio",
+   "descripcion": "re umile e difensore della vita",
+   "cita": "«Anche se ti senti poca cosa, il Signore ti vuole santo. Ha bisogno della tua debolezza per avvicinarsi agli uomini e mostrare loro la potenza del suo Amore» (re Baldovino del Belgio)",
+   "_es": "88a746fbad"
+  },
+  "179": {
+   "titulo": "Servo di Dio Eugen Bolz e Maria Hoene",
+   "nombres": "Eugen Bolz e Maria Hoene",
+   "descripcion": "funzionario oppositore del nazismo",
+   "resumen": "politico decapitato dai nazisti dopo un attentato a Hitler",
+   "cita": "«Il timore di Dio è il principio della sapienza» (da Proverbi 1,7; sulla targa della sua casa natale a Rottenburg am Neckar)",
+   "_es": "8068fc4efa"
+  },
+  "180": {
+   "titulo": "Servi di Dio Eugenio Balmori e Marina Francisca Cinta",
+   "nombres": "Eugenio Balmori e Marina Francisca Cinta",
+   "descripcion": "coppia di catechisti",
+   "resumen": "professore, impiegato del settore petrolifero e catechista",
+   "cita": "«La nostra casa sarà una cappella d’amore, in cui non regni altro ideale che rendere grazie a Dio e amarci molto» (gli scrisse Marina la notte delle nozze)",
+   "_es": "671c86da87"
+  },
+  "181": {
+   "titulo": "Serva di Dio Eulalia ’M’a-Gabriel Mokhosi",
+   "nombres": "Eulalia ’M’a-Gabriel Mokhosi",
+   "_es": "9acc4358b0"
+  },
+  "182": {
+   "titulo": "Sant’Eupsichio di Cesarea",
+   "nombres": "Eupsichio di Cesarea",
+   "descripcion": "martire",
+   "resumen": "martire",
+   "_es": "a0de201bed"
+  },
+  "183": {
+   "titulo": "Beata Eurosia Fabris «Mamma Rosa» e Carlo Barban",
+   "nombres": "Eurosia Fabris «Mamma Rosa» e Carlo Barban",
+   "descripcion": "madre semplice e devota",
+   "resumen": "contadina, catechista e terziaria francescana",
+   "_es": "b4ef309996"
+  },
+  "184": {
+   "titulo": "Sant’Everardo",
+   "nombres": "Everardo",
+   "_es": "d44618defb"
+  },
+  "185": {
+   "titulo": "San Farone di Meaux e Blidechilde",
+   "nombres": "Farone di Meaux e Blidechilde",
+   "descripcion": "si fanno religiosi; poi vescovo",
+   "resumen": "si fanno religiosi; poi vescovo",
+   "_es": "11e287a038"
+  },
+  "186": {
+   "titulo": "San Filippo Howard e Anne",
+   "nombres": "Filippo Howard e Anne",
+   "resumen": "martire",
+   "_es": "872c6eaa7e"
+  },
+  "187": {
+   "titulo": "San Felice III (II) papa",
+   "nombres": "Felice III (II), papa",
+   "descripcion": "vedovo con 2 figli che si fece sacerdote e fu eletto papa; bisnonno di san Gregorio Magno",
+   "resumen": "vedovo con 2 figli che si fece sacerdote e fu eletto papa; bisnonno di san Gregorio Magno",
+   "_es": "5b1f65ad59"
+  },
+  "188": {
+   "titulo": "Servi di Dio Fernando Crespo Alfageme e María Lourdes de Miguel",
+   "nombres": "Fernando Crespo Alfageme e María Lourdes de Miguel",
+   "descripcion": "servi di Dio spagnoli",
+   "resumen": "Opus Dei",
+   "_es": "a3f9d39f9d"
+  },
+  "189": {
+   "titulo": "San Ferdinando III e Beatrice / Giovanna",
+   "nombres": "Ferdinando III il Santo e Beatrice / Giovanna",
+   "descripcion": "re di Castiglia e León; padre, modello di re e di laico",
+   "resumen": "sovrani; riconquistò la maggior parte della Spagna",
+   "cita": "«Cavaliere di Gesù Cristo, servo della Vergine Santissima e alfiere dell’apostolo Giacomo» (epigrafe di Ferdinando nei suoi scritti)",
+   "_es": "946350c910"
+  },
+  "190": {
+   "titulo": "Santi Filemone e Appia",
+   "nombres": "Filemone e Appia",
+   "descripcion": "discepoli di san Paolo",
+   "resumen": "discepoli di san Paolo",
+   "_es": "91e8053513"
+  },
+  "191": {
+   "titulo": "Santi Fileto e Lidia",
+   "nombres": "Fileto e Lidia",
+   "descripcion": "senatore; martiri con i loro 2 figli e i 2 soldati romani che avrebbero dovuto farli abiurare",
+   "resumen": "senatore; martiri con i loro 2 figli e i 2 soldati romani che avrebbero dovuto farli abiurare",
+   "_es": "da5e77d028"
+  },
+  "192": {
+   "titulo": "Beato Filippo Siphong Onphithakt e Marie Thong",
+   "nombres": "Filippo Siphong Onphithakt e Marie Thong",
+   "descripcion": "catechista martire",
+   "resumen": "catechista martire",
+   "_es": "20c63fff86"
+  },
+  "193": {
+   "titulo": "San Filogonio di Antiochia",
+   "nombres": "Filogonio di Antiochia",
+   "descripcion": "avvocato, vescovo e confessore della fede ad Antiochia",
+   "resumen": "avvocato, vescovo e confessore della fede ad Antiochia",
+   "_es": "83caa3de1c"
+  },
+  "194": {
+   "titulo": "San Flavio Clemente e Flavia Domitilla",
+   "nombres": "Flavio Clemente e Flavia Domitilla",
+   "descripcion": "console romano, nipote dell’imperatore Vespasiano",
+   "resumen": "console romano, nipote dell’imperatore Vespasiano",
+   "_es": "36dd69b5f5"
+  },
+  "195": {
+   "titulo": "Serva di Dio Lourdinha Nogueira Fontão e Heber",
+   "nombres": "Lourdinha Nogueira Fontão e Heber",
+   "descripcion": "madre e catechista brasiliana",
+   "resumen": "catechista dei Focolari",
+   "cita": "«Sembrava avere un legame diretto con Dio, era impressionante, sempre una parola gentile e fedele per tutti» (la figlia Maria de Lourdes)",
+   "_es": "15f3a89870"
+  },
+  "196": {
+   "titulo": "Serva di Dio Fortunata «Natuzza» Evolo e Pasquale Nicolace",
+   "nombres": "Fortunata «Natuzza» Evolo e Pasquale Nicolace",
+   "descripcion": "madre semplice e mistica del XX secolo",
+   "resumen": "veggente stigmatizzata, caritatevole",
+   "cita": "«Soffrirai molto nel corpo, ma che gioia nel tuo spirito!» (Gesù a Natuzza Evolo)",
+   "_es": "688a12a234"
+  },
+  "197": {
+   "titulo": "Santa Gwen e san Fragan il confessore",
+   "nombres": "Gwen e Fragan il confessore",
+   "descripcion": "nobili; la leggenda dei «tre seni»",
+   "resumen": "nobili; la leggenda dei «tre seni»",
+   "_es": "efb61d43a7"
+  },
+  "198": {
+   "titulo": "Beato Fran Mirakaj e Prenda Alija Kamerin",
+   "nombres": "Fran Mirakaj e Prenda Alija Kamerin",
+   "descripcion": "commerciante",
+   "resumen": "commerciante",
+   "_es": "a9a4f0026b"
+  },
+  "199": {
+   "titulo": "Venerabile Francesca Lancellotti e Faustino Zotta",
+   "nombres": "Francesca Lancellotti e Faustino Zotta",
+   "descripcion": "madre e mistica italiana recente",
+   "resumen": "veggente dell’arcangelo Michele, benefattrice a Roma",
+   "_es": "74dd9915bc"
+  },
+  "200": {
+   "titulo": "Servi di Dio Francesco Ugenti e Teresa Sivilli",
+   "nombres": "Francesco Ugenti e Teresa Sivilli",
+   "descripcion": "consacrati dell’Istituto Santa Famiglia, parte della Famiglia Paolina nel mondo",
+   "resumen": "consacrati dell’Istituto Santa Famiglia, parte della Famiglia Paolina nel mondo",
+   "cita": "«Quando invoco il Signore, non solo prego, ma piango e lo sento vicino. È lo Spirito Onnipotente, mi vede e mi vuole sempre vicina» (Teresa Sivilli)",
+   "_es": "81aa466b4a"
+  },
+  "201": {
+   "titulo": "Beato Francis Taylor e Jennet Shelton",
+   "nombres": "Francis Taylor e Jennet Shelton",
+   "descripcion": "sindaco di Dublino",
+   "resumen": "sindaco martire",
+   "_es": "ce6056e59a"
+  },
+  "202": {
+   "titulo": "Santa Francesca Romana e Lorenzo de’ Ponziani",
+   "nombres": "Francesca Romana e Lorenzo de’ Ponziani",
+   "descripcion": "la santa benefattrice più amata di Roma",
+   "resumen": "nobile sposata per obbligo; grande benefattrice insieme alla cognata Vannozza",
+   "_es": "59a26b62d0"
+  },
+  "203": {
+   "titulo": "Beata Francesca d’Amboise e Pietro",
+   "nombres": "Francesca d’Amboise e Pietro, duca di Bretagna",
+   "descripcion": "moglie del duca di Bretagna",
+   "_es": "746d992b0a"
+  },
+  "204": {
+   "titulo": "San Francesco Borgia e Leonor de Castro",
+   "nombres": "Francesco Borgia e Leonor de Castro",
+   "descripcion": "padre, duca e poi superiore dei gesuiti",
+   "resumen": "viceré di Catalogna, poi vedovo religioso con 8 figli; sacerdote eletto terzo preposito generale della Compagnia di Gesù",
+   "cita": "«Sono grandi davanti a Dio solo quelli che si ritengono piccoli»",
+   "_es": "dfefb8ced4"
+  },
+  "205": {
+   "titulo": "Servo di Dio Francisco Martínez García e Carmen Morillas Quintero",
+   "nombres": "Francisco Martínez García e Carmen Morillas Quintero",
+   "descripcion": "giornalista e sindaco di Murcia ucciso durante la guerra civile",
+   "resumen": "giornalista e sindaco di Murcia ucciso durante la guerra civile",
+   "_es": "447d657bfb"
+  },
+  "206": {
+   "titulo": "San Francesco Massabki",
+   "nombres": "Francesco Massabki",
+   "descripcion": "commerciante cristiano maronita, padre di 8 figli, ucciso dai drusi nel convento di San Paolo (Damasco)",
+   "resumen": "commerciante cristiano maronita, padre di 8 figli, ucciso dai drusi nel convento di San Paolo (Damasco)",
+   "_es": "36d39f8a50"
+  },
+  "207": {
+   "titulo": "Beato Franciszek Stryjas e Józefa Kobyłka",
+   "nombres": "Franciszek Stryjas e Józefa Kobyłka",
+   "descripcion": "martire del nazismo",
+   "resumen": "martire del nazismo",
+   "_es": "d735ac4d08"
+  },
+  "208": {
+   "titulo": "Servi di Dio Franco Bono e Maria Rosaria De Angelis",
+   "nombres": "Franco Bono e Maria Rosaria De Angelis",
+   "descripcion": "Azione Cattolica, Focolari e sindaco di Locri",
+   "resumen": "Azione Cattolica, Focolari e sindaco di Locri",
+   "cita": "Franco fondò il MEIC (Movimento Ecclesiale di Impegno Culturale dell’AC) in diocesi e nel 1995 partecipò con Maria Rosaria al convegno ecclesiale di Palermo, al ritorno dal quale tracciò per tutti le linee del futuro impegno pastorale: 1. recupero della legalità e della moralità pubblica; 2. promozione del senso sociale e di una cultura della partecipazione; 3. approfondimento e sviluppo della dottrina sociale cristiana; 4. ricerca di nuove forme di economia solidale",
+   "_es": "4fa80feaee"
+  },
+  "209": {
+   "titulo": "Servo di Dio František Nosek e Anna Kubešová",
+   "nombres": "František Nosek e Anna Kubešová",
+   "descripcion": "avvocato, politico, economista e terziario francescano ceco",
+   "resumen": "avvocato, politico, ministro e terziario francescano",
+   "_es": "768e43582a"
+  },
+  "210": {
+   "titulo": "Beato Franz e Franziska Jägerstätter",
+   "nombres": "Franz e Fani Jägerstätter",
+   "descripcion": "sposo fedele alla Verità, contro il nazismo",
+   "resumen": "contadino martire, obiettore di coscienza al nazismo",
+   "cita": "«Osservate i comandamenti e, con la grazia di Dio, presto ci rivedremo in cielo» (nella sua ultima lettera a Franziska)",
+   "_es": "b71fb80c41"
+  },
+  "211": {
+   "titulo": "Servo di Dio Fritz Michael Gerlich e Sofia Stempfle",
+   "nombres": "Fritz Michael Gerlich e Sofia Stempfle",
+   "descripcion": "giornalista tedesco convertito, della resistenza al nazismo",
+   "resumen": "giornalista vittima dei nazisti",
+   "cita": "«Sono pronto a rispondere con la vita di ciò che ho scritto» (Gerlich ai suoi carcerieri)",
+   "_es": "5eb329f138"
+  },
+  "212": {
+   "titulo": "Beato Fructuoso Pérez Márquez",
+   "nombres": "Fructuoso Pérez Márquez",
+   "descripcion": "giornalista terziario domenicano ucciso durante la guerra civile",
+   "resumen": "giornalista terziario domenicano ucciso durante la guerra civile",
+   "_es": "ab2a7d89bd"
+  },
+  "213": {
+   "titulo": "Servo di Dio Gabriel García Moreno e Rosa Ascázubi / Mariana del Alcázar",
+   "nombres": "Gabriel García Moreno e Rosa Ascázubi / Mariana del Alcázar",
+   "descripcion": "due volte presidente dell’Ecuador, assassinato; terziario francescano",
+   "resumen": "due volte presidente dell’Ecuador, assassinato; terziario francescano",
+   "_es": "b66b9bb403"
+  },
+  "214": {
+   "titulo": "Beato Gabriel López-Cepero e María Teresa Ovelar",
+   "nombres": "Gabriel López-Cepero e María Teresa Ovelar",
+   "descripcion": "sette figli; membro del consiglio parrocchiale, fu ucciso dai miliziani repubblicani «in odio alla fede»",
+   "resumen": "sette figli; membro del consiglio parrocchiale, fu ucciso dai miliziani repubblicani «in odio alla fede»",
+   "_es": "c79be1e67d"
+  },
+  "215": {
+   "titulo": "Beata Gaetana Sterni e Liberale Conte",
+   "nombres": "Gaetana Sterni e Liberale Conte",
+   "descripcion": "madre e fondatrice italiana",
+   "resumen": "vedova religiosa, fondatrice delle Suore della Divina Volontà",
+   "_es": "e9bc375b76"
+  },
+  "216": {
+   "titulo": "San Gangolfo",
+   "nombres": "Gangolfo",
+   "_es": "376e7ab564"
+  },
+  "217": {
+   "titulo": "Beati Gaspare Vaz e Maria",
+   "nombres": "Gaspare Vaz e Maria",
+   "descripcion": "francescani del Terz’Ordine martirizzati a Nagasaki",
+   "resumen": "francescani del Terz’Ordine martirizzati a Nagasaki",
+   "_es": "c1289baff3"
+  },
+  "218": {
+   "titulo": "Beata Gentile Giusti e Giacomo «Pianella»",
+   "nombres": "Gentile Giusti e Giacomo «Pianella»",
+   "descripcion": "caritatevole e guaritrice",
+   "resumen": "caritatevole e guaritrice",
+   "_es": "d5b6074304"
+  },
+  "219": {
+   "titulo": "Beata Gherardesca e Alferio di Bandino",
+   "nombres": "Gherardesca e Alferio di Bandino",
+   "descripcion": "sposa casta e religiosa",
+   "resumen": "sposa casta e religiosa",
+   "_es": "86245d8057"
+  },
+  "220": {
+   "titulo": "San Germano di Auxerre ed Eustachia",
+   "nombres": "Germano di Auxerre ed Eustachia",
+   "descripcion": "governatore convertito e poi vescovo",
+   "resumen": "vescovo; casti dopo il matrimonio",
+   "_es": "89fcd9b211"
+  },
+  "221": {
+   "titulo": "Santa Gertrude di Hamage e Rigomer",
+   "nombres": "Gertrude di Hamage e Rigomer",
+   "descripcion": "madre, nonna e badessa",
+   "resumen": "vedova religiosa",
+   "_es": "b522ef22f2"
+  },
+  "222": {
+   "titulo": "Servo di Dio Giampaolo Mollo e Anna Liberace",
+   "nombres": "Giampaolo Mollo e Anna Liberace",
+   "descripcion": "padre di famiglia convertito nel Rinnovamento Carismatico",
+   "resumen": "diacono del Rinnovamento Carismatico e cofondatore della Comunità Gesù Risorto",
+   "cita": "«Gesù, sulla croce non ti fu spezzato alcun osso. Ti offro le mie ossa rotte» (Giampaolo Mollo)",
+   "_es": "d077df553a"
+  },
+  "223": {
+   "titulo": "Servo di Dio dott. Giancarlo Rastelli e Anna Anghileri",
+   "nombres": "Giancarlo Rastelli e Anna Anghileri",
+   "descripcion": "grande cardiochirurgo pediatrico",
+   "resumen": "cardiochirurgo trasferitosi negli Stati Uniti, ideatore di 2 «procedure Rastelli»",
+   "cita": "«Perseguire la conoscenza scientifica è un atto d’amore verso il paziente» (Giancarlo Rastelli)",
+   "_es": "5e83321ab5"
+  },
+  "224": {
+   "titulo": "Santi Gordiano e Silvia",
+   "nombres": "Gordiano e Silvia",
+   "descripcion": "genitori di san Gregorio Magno",
+   "resumen": "genitori di san Gregorio Magno",
+   "_es": "59a170f443"
+  },
+  "225": {
+   "titulo": "Servi di Dio Giovanni Gheddo e Rosetta Franzi",
+   "nombres": "Giovanni Gheddo e Rosetta Franzi",
+   "descripcion": "coppia esempio di semplicità e di eroismo in guerra",
+   "resumen": "geometra, presidente della Gioventù di Azione Cattolica",
+   "cita": "«Faremo la volontà di Dio, Giovanni, come l’abbiamo sempre fatta» (Rosetta, sul letto di morte)",
+   "_es": "f2a54a1cd9"
+  },
+  "226": {
+   "titulo": "Servo di Dio Giovanni Modugno e Maria Spinelli",
+   "nombres": "Giovanni Modugno e Maria Spinelli",
+   "descripcion": "educatore italiano del XX secolo",
+   "resumen": "educatore",
+   "cita": "«In questo lungo pellegrinaggio – pur senza saperlo – ho cercato Cristo e sono giunto alla casa del Padre» (Giovanni Modugno)",
+   "_es": "f9b31ff0c3"
+  },
+  "227": {
+   "titulo": "Venerabile Giuseppe Castagnetti e Giovannina Sghedoni",
+   "nombres": "Giuseppe Castagnetti e Giovannina Sghedoni",
+   "descripcion": "il sindaco esemplare che promise a padre Pio di portare solo sandali",
+   "resumen": "terziario francescano, sindaco di Prignano dal 1945 al 1959, chiamato il «sindaco di Dio»",
+   "cita": "davanti a padre Pio promette di portare i sandali per tutta la vita",
+   "_es": "9b9cde525b"
+  },
+  "228": {
+   "titulo": "Beato Goffredo di Cappenberg",
+   "nombres": "Goffredo di Cappenberg",
+   "resumen": "casti dopo il matrimonio (si fanno monaci)",
+   "_es": "571349cfac"
+  },
+  "229": {
+   "titulo": "Beato Gomidas Keumurjian, presbitero",
+   "nombres": "Gomidas Keumurjian, presbitero",
+   "descripcion": "presbitero armeno martirizzato per la sua fedeltà a Roma",
+   "resumen": "presbitero armeno martirizzato per la sua fedeltà a Roma",
+   "_es": "845f30888f"
+  },
+  "230": {
+   "titulo": "Santa Grata di Bergamo",
+   "nombres": "Grata di Bergamo",
+   "_es": "b3658137b2"
+  },
+  "231": {
+   "titulo": "San Gregorio «il Vecchio» e santa Nonna di Nazianzo",
+   "nombres": "Gregorio «il Vecchio» e Nonna di Nazianzo",
+   "descripcion": "genitori santi di una famiglia santa",
+   "resumen": "genitori dei santi Gregorio il Teologo, Cesario e Gorgonia",
+   "cita": "«La sua bocca non conosceva altro che la verità, ma nella sua modestia taceva le opere che le diedero gloria» (il figlio san Gregorio)",
+   "_es": "c82428c670"
+  },
+  "232": {
+   "titulo": "San Gregorio di Langres e Armentaria",
+   "nombres": "Gregorio di Langres e Armentaria",
+   "resumen": "vescovo",
+   "_es": "af9cd6a4e2"
+  },
+  "233": {
+   "titulo": "San Gregorio di Nissa, vescovo, e santa Teosebia",
+   "nombres": "Gregorio di Nissa e Teosebia",
+   "descripcion": "il «padre dei Padri della Chiesa»",
+   "resumen": "vescovo e dottore della Chiesa; casti dopo il matrimonio",
+   "cita": "«Basilio è il braccio che agisce; Gregorio Nazianzeno la bocca che parla; e Gregorio di Nissa la testa che pensa» (sui cosiddetti «Padri Cappadoci»)",
+   "_es": "3236d8ec86"
+  },
+  "234": {
+   "titulo": "Servo di Dio Guilherme Braga da Cruz e Ofélia García",
+   "nombres": "Guilherme Braga da Cruz e Ofélia García",
+   "descripcion": "professore ordinario di diritto, storico della dottrina sociale e pedagogista",
+   "resumen": "professore ordinario di diritto, storico della dottrina sociale e pedagogista",
+   "_es": "3ab8cb1ae7"
+  },
+  "235": {
+   "titulo": "Servo di Dio Guillermo Magro Espinosa e María Teresa Lucas Mas",
+   "nombres": "Guillermo Magro Espinosa e María Teresa Lucas Mas",
+   "resumen": "martire",
+   "cita": "«Quel santo di Guillermo ci preparò tutti a morire per Dio e senza paura» (un compagno che riuscì a fuggire)",
+   "_es": "2aef36c203"
+  },
+  "236": {
+   "titulo": "Servo di Dio Guillermo Rovirosa Albet e Caterina",
+   "nombres": "Guillermo Rovirosa Albet e Caterina",
+   "descripcion": "«apostolo della classe operaia»",
+   "resumen": "militante operaio, promotore della Fratellanza Operaia di Azione Cattolica (HOAC)",
+   "_es": "92d8538275"
+  },
+  "237": {
+   "titulo": "San Gunmaro e Guinimaria",
+   "nombres": "Gunmaro e Guinimaria",
+   "_es": "6fedffaec9"
+  },
+  "238": {
+   "titulo": "San Harald Dente Azzurro re e Tove / Gyrid Olafsdottir",
+   "nombres": "Harald Dente Azzurro e Tove / Gyrid Olafsdottir",
+   "descripcion": "sovrani",
+   "resumen": "sovrani",
+   "_es": "9b2289f220"
+  },
+  "239": {
+   "titulo": "Venerabile dott. Heinrich Hahn e Barbara Odilia Känzler",
+   "nombres": "Heinrich Hahn e Barbara Odilia Känzler",
+   "descripcion": "medico, parlamentare e fondatore tedesco",
+   "resumen": "medico, fondatore dell’Associazione Missionaria di San Francesco Saverio",
+   "cita": "«Cristo, mia speranza» (il motto di vita del dott. Heinrich Hahn)",
+   "_es": "dcc07a5ab5"
+  },
+  "240": {
+   "titulo": "Santa Elena di Skövde",
+   "nombres": "Elena di Skövde",
+   "descripcion": "nobile vedova",
+   "resumen": "nobile vedova",
+   "_es": "2ee8c6090b"
+  },
+  "241": {
+   "titulo": "Beata Elena Valentini da Udine e Antonio dei Cavalcanti",
+   "nombres": "Elena Valentini da Udine e Antonio dei Cavalcanti",
+   "descripcion": "vedova religiosa del Terz’Ordine agostiniano",
+   "resumen": "vedova religiosa del Terz’Ordine agostiniano",
+   "_es": "99a81d61fc"
+  },
+  "242": {
+   "titulo": "Sant’Ermenegildo e Ingonda",
+   "nombres": "Ermenegildo e Ingonda",
+   "descripcion": "il principe che avvia la conversione della Spagna dall’arianesimo",
+   "resumen": "nobile martire, patrono dei convertiti",
+   "_es": "092eccb40e"
+  },
+  "243": {
+   "titulo": "Beata Herminia Martínez Amigó",
+   "nombres": "Herminia Martínez Amigó",
+   "descripcion": "martire, aristocratica benefattrice",
+   "resumen": "martire, aristocratica benefattrice",
+   "_es": "bfa558568c"
+  },
+  "244": {
+   "titulo": "Santi Espero e Zoe",
+   "nombres": "Espero e Zoe",
+   "descripcion": "genitori del vescovo san Ciriaco di Attalia, martiri con i loro 2 figli",
+   "resumen": "genitori del vescovo san Ciriaco di Attalia, martiri con i loro 2 figli",
+   "_es": "30ce1a87cf"
+  },
+  "245": {
+   "titulo": "Sant’Ilario di Poitiers",
+   "nombres": "Ilario di Poitiers",
+   "descripcion": "vescovo, Padre e Dottore della Chiesa; casti dopo il matrimonio",
+   "resumen": "vescovo, Padre e Dottore della Chiesa; casti dopo il matrimonio",
+   "cita": "«Il principale servizio che ti devo, o Dio, è che ogni mio pensiero e ogni mia parola parlino di te» (sant’Ilario)",
+   "_es": "8f22a4e296"
+  },
+  "246": {
+   "titulo": "Beata Ildegonda e Lotario",
+   "nombres": "Ildegonda e Lotario",
+   "descripcion": "vedova religiosa",
+   "resumen": "vedova religiosa",
+   "_es": "40115c3bad"
+  },
+  "247": {
+   "titulo": "Sant’Omobono",
+   "nombres": "Omobono",
+   "descripcion": "patrono dei commercianti",
+   "resumen": "sarto",
+   "_es": "00bc993d3a"
+  },
+  "248": {
+   "titulo": "Sant’Ormisda papa",
+   "nombres": "Ormisda, papa",
+   "descripcion": "vedovo poi papa, padre di papa san Silverio",
+   "resumen": "vedovo poi papa, padre di papa san Silverio",
+   "_es": "16f9a49983"
+  },
+  "249": {
+   "titulo": "Beata Ortolana e Favarone",
+   "nombres": "Ortolana e Favarone",
+   "descripcion": "la madre di santa Chiara d’Assisi",
+   "_es": "a730a42ee7"
+  },
+  "250": {
+   "titulo": "Beato Hroznata",
+   "nombres": "Hroznata",
+   "descripcion": "patrono ceco degli ingiustamente perseguitati",
+   "resumen": "vedovo, monaco e martire",
+   "_es": "d2f8882549"
+  },
+  "251": {
+   "titulo": "Beata Umbelina e Guido di Marcy",
+   "nombres": "Umbelina e Guido di Marcy",
+   "descripcion": "sorella di san Bernardo di Chiaravalle, poi religiosa",
+   "resumen": "sorella di san Bernardo di Chiaravalle, poi religiosa",
+   "_es": "3800daeed3"
+  },
+  "252": {
+   "titulo": "Beata Umiliana de’ Cerchi e Bonaguisi",
+   "nombres": "Umiliana de’ Cerchi e Bonaguisi",
+   "_es": "d96ddd7aca"
+  },
+  "253": {
+   "titulo": "Santa Huna d’Alsazia e Huno di Hunawihr",
+   "nombres": "Huna d’Alsazia e Huno di Hunawihr",
+   "descripcion": "la santa lavandaia",
+   "_es": "0b27a27ca1"
+  },
+  "254": {
+   "titulo": "Beata Ida di Boulogne ed Eustachio II",
+   "nombres": "Ida di Boulogne ed Eustachio II",
+   "descripcion": "la madre dei primi sovrani cristiani del Regno latino di Gerusalemme",
+   "resumen": "sovrani",
+   "_es": "d70b84c45e"
+  },
+  "255": {
+   "titulo": "Santa Ida di Herzfeld e il signore Egberto",
+   "nombres": "Ida di Herzfeld e il signore Egberto",
+   "descripcion": "patrona tedesca delle spose e delle donne incinte",
+   "resumen": "nobili",
+   "cita": "«Nel momento in cui gli sposi si uniscono, vi è in loro un’unità fisica, azione indivisibile dello Spirito Santo che li accende di un potente amore interiore rivolto alle realtà celesti» (il suo biografo, il monaco Uffing, in un passo sul suo matrimonio)",
+   "_es": "b35653dc8f"
+  },
+  "256": {
+   "titulo": "Beata Ida di Hohenfels ed Everardo",
+   "nombres": "Ida di Hohenfels ed Everardo",
+   "_es": "18d9696352"
+  },
+  "257": {
+   "titulo": "Santa Itta e il beato Pipino di Landen «il Vecchio»",
+   "nombres": "Itta e Pipino di Landen «il Vecchio»",
+   "descripcion": "antenato di Carlo Martello, il vincitore dei Mori",
+   "resumen": "antenato di Carlo Martello, il vincitore dei Mori",
+   "_es": "de24cadc44"
+  },
+  "258": {
+   "titulo": "Servo di Dio Igino «Foco» Giordani e Mya Salvati",
+   "nombres": "Igino «Foco» Giordani e Mya Salvati",
+   "descripcion": "giornalista italiano cofondatore dei Focolari",
+   "resumen": "cofondatore del Movimento dei Focolari e deputato",
+   "cita": "«Clero e laicato: un binomio di valori. (...) La loro forza redentrice sta nella reciproca collaborazione» (Igino Giordani)",
+   "_es": "10f70f724f"
+  },
+  "259": {
+   "titulo": "Beata Irene d’Ungheria e Giovanni II Comneno",
+   "nombres": "Irene d’Ungheria e Giovanni II Comneno",
+   "descripcion": "figlia di Ladislao I e madre di 2 imperatori; considerata apostata da alcuni",
+   "resumen": "figlia di Ladislao I e madre di due imperatori; considerata apostata da alcuni",
+   "_es": "cef68f7eed"
+  },
+  "260": {
+   "titulo": "Servo di Dio Irving Francis Houle e Gail",
+   "nombres": "Irving Francis Houle e Gail",
+   "descripcion": "veggente stigmatizzato a 68 anni",
+   "resumen": "veggente stigmatizzato a 68 anni",
+   "cita": "Francis ricevette le piaghe di Cristo nelle mani quando Gesù gli apparve nel 1993 e gli disse: «Ti tolgo le tue mani e ti do le mie: tocca i miei figli»",
+   "_es": "77f0cfee0d"
+  },
+  "261": {
+   "titulo": "Servi di Dio Isaac Díaz González e Carmen Sánchez Álvarez",
+   "nombres": "Isaac Díaz González e Carmen Sánchez Álvarez",
+   "descripcion": "dell’Azione Cattolica e fondatori del Movimento dei Matrimoni Militanti",
+   "resumen": "dell’Azione Cattolica e fondatori del Movimento dei Matrimoni Militanti",
+   "_es": "4f938d695f"
+  },
+  "262": {
+   "titulo": "Beata Elisabetta Canori Mora e Cristoforo Mora",
+   "nombres": "Elisabetta Canori e Cristoforo Mora",
+   "descripcion": "madre e mistica che perseverò fino a trasformare il marito",
+   "resumen": "veggente, abbandonata dal marito che conduceva una vita dissoluta",
+   "_es": "e16a497fdd"
+  },
+  "263": {
+   "titulo": "Santa Elisabetta d’Ungheria e il beato Ludovico IV di Turingia",
+   "nombres": "Elisabetta d’Ungheria e Ludovico IV di Turingia",
+   "descripcion": "principessa e madre dei poveri e dei malati",
+   "resumen": "nobili; benefattrice, poi la prima terziaria francescana",
+   "cita": "«Se io amo tanto una creatura mortale, come dovrei amare il Signore immortale, padrone della mia anima?» (santa Elisabetta)",
+   "_es": "c6412848b6"
+  },
+  "264": {
+   "titulo": "Santa Elisabetta del Portogallo e il re Dionigi",
+   "nombres": "Elisabetta del Portogallo e il re Dionigi",
+   "descripcion": "regina santa e madre pacificatrice",
+   "resumen": "sovrani",
+   "_es": "9b10944ec2"
+  },
+  "265": {
+   "titulo": "Serva di Dio Isabella I la Cattolica e Ferdinando II",
+   "nombres": "Isabella I la Cattolica e Ferdinando II",
+   "descripcion": "la regina che promosse la fede in America",
+   "resumen": "sovrani",
+   "_es": "129bf3b130"
+  },
+  "266": {
+   "titulo": "Beato Isidro Fernández",
+   "nombres": "Isidro Fernández",
+   "descripcion": "tesoriere dell’Adorazione notturna",
+   "resumen": "tesoriere dell’Adorazione notturna",
+   "cita": "«Dovrete perdonare come io li perdono, di tutto cuore»",
+   "_es": "21515af57c"
+  },
+  "267": {
+   "titulo": "Sant’Isidoro l’Agricoltore e santa Maria Toribia (de la Cabeza)",
+   "nombres": "Isidoro l’Agricoltore e Maria Toribia (de la Cabeza)",
+   "descripcion": "patrono degli agricoltori",
+   "resumen": "contadini, in seguito religiosi",
+   "_es": "c8518ebb05"
+  },
+  "268": {
+   "titulo": "Beato Ísleifur Gissurarson",
+   "nombres": "Ísleifur Gissurarson",
+   "descripcion": "primo vescovo cattolico d’Islanda",
+   "resumen": "primo vescovo cattolico d’Islanda",
+   "_es": "90d874ff4d"
+  },
+  "269": {
+   "titulo": "Beata Ivetta (Jutta) di Huy",
+   "nombres": "Ivetta (Jutta) di Huy",
+   "descripcion": "vedova, veggente, mistica, caritatevole e religiosa",
+   "resumen": "vedova, veggente, mistica, caritatevole e religiosa",
+   "_es": "c40f53a7db"
+  },
+  "270": {
+   "titulo": "Beato Jacinto e Petrona de Los Ángeles",
+   "nombres": "Jacinto e Petrona de Los Ángeles",
+   "descripcion": "martire indigeno zapoteco, catechista",
+   "resumen": "martire indigeno zapoteco, catechista",
+   "cita": "«Una volta professato il battesimo, continueremo sempre a seguire la vera religione»",
+   "_es": "a118d6eab5"
+  },
+  "271": {
+   "titulo": "Beato James Duckett e Anne Hart",
+   "nombres": "James Duckett e Anne Hart",
+   "descripcion": "patrono dei librai e degli editori",
+   "resumen": "martire convertito, libraio sposato con una vedova",
+   "_es": "502a5d53e1"
+  },
+  "272": {
+   "titulo": "San Giacomo l’Interciso",
+   "nombres": "Giacomo l’Interciso",
+   "descripcion": "patrono dei dubbi vocazionali",
+   "resumen": "martire in Persia, nonostante la moglie avesse cercato di dissuaderlo",
+   "cita": "«La morte atterrisce i re e quanti non conoscono Dio, perché la speranza dei malvagi è effimera» (san Giacomo l’Interciso)",
+   "_es": "cfe0fafcf1"
+  },
+  "273": {
+   "titulo": "Beato Jacopone da Todi e Vanna di Guidone",
+   "nombres": "Jacopone da Todi e Vanna di Guidone",
+   "descripcion": "vedovo, frate francescano",
+   "resumen": "vedovo, frate francescano",
+   "_es": "9b966dd188"
+  },
+  "274": {
+   "titulo": "Servo di Dio Jacques Fesch e Pierrette Polack",
+   "nombres": "Jacques Fesch e Pierrette Polack",
+   "descripcion": "l’assassino convertito all’Amore in prigione",
+   "resumen": "assassino convertito in carcere",
+   "cita": "«Che ogni goccia del mio sangue cancelli un peccato mortale»",
+   "_es": "375816f7ec"
+  },
+  "275": {
+   "titulo": "Serva di Dio Jadwiga Działyńska e Władysław Zamoyski",
+   "nombres": "Jadwiga Działyńska e Władysław Zamoyski",
+   "descripcion": "madre e fondatrice polacca",
+   "resumen": "attivista sociale",
+   "cita": "«Servi Dio servendo la Patria, servi la Patria servendo Dio» (il motto di Jadwiga)",
+   "_es": "3214470bef"
+  },
+  "276": {
+   "titulo": "Servo di Dio János Esterházy e Lívia Serényi",
+   "nombres": "János Esterházy e Lívia Serényi",
+   "descripcion": "conte e politico ungherese-slovacco",
+   "resumen": "nobili",
+   "cita": "«Siamo benedetti più di altri e perciò abbiamo un obbligo maggiore di servire la gente» (János Esterházy)",
+   "_es": "d037a9fae8"
+  },
+  "277": {
+   "titulo": "Beata Giovanna Maria de Maillé e il barone di Silly",
+   "nombres": "Giovanna Maria de Maillé e il barone di Silly",
+   "descripcion": "sposa casta e religiosa",
+   "resumen": "sposa casta e religiosa",
+   "_es": "cd8cfcfa7d"
+  },
+  "278": {
+   "titulo": "Santi Senofonte e Maria",
+   "nombres": "Senofonte e Maria",
+   "descripcion": "nobili che si fecero monaci con i loro due figli",
+   "resumen": "nobili che si fecero monaci con i loro 2 figli",
+   "_es": "fac1452477"
+  },
+  "279": {
+   "titulo": "Beato Jérôme Le Royer e Jeanne de Baugé",
+   "nombres": "Jérôme Le Royer e Jeanne de Baugé",
+   "descripcion": "padre di famiglia e membro della società che fondò Montréal",
+   "resumen": "fondatore delle Suore Ospedaliere di San Giuseppe e della città di Montréal",
+   "cita": "«Dio solo è il mio tutto» (Jérôme Le Royer)",
+   "_es": "6c45d5bfe2"
+  },
+  "280": {
+   "titulo": "Venerabile Jerzy Ciesielski e Danuta Plebaczyk",
+   "nombres": "Jerzy Ciesielski e Danuta Plebaczyk",
+   "descripcion": "ingegnere e professore polacco, amico di Giovanni Paolo II",
+   "resumen": "dei Focolari, ingegnere amico di Giovanni Paolo II",
+   "cita": "«Che io possa trattare la mia fidanzata come un tuo dono e amarla con il tuo amore, di cui ci hai dato l’esempio con il tuo amore per la Chiesa. Che io possa prendere sul serio l’ideale del matrimonio cattolico e considerarne la realizzazione come l’impegno principale della mia vita», annota Jerzy, e ancora: «Il matrimonio non è soltanto una questione di due persone. Si tratta di due persone davanti a Dio, che è Creatore e fine di ciascuno di loro e del matrimonio stesso»",
+   "_es": "22f2c6e284"
+  },
+  "281": {
+   "titulo": "Servo di Dio Joaquín «Chimorrata» Llorente Llorens e Dolores Vidal",
+   "nombres": "Joaquín «Chimorrata» Llorente Llorens e Dolores Vidal",
+   "descripcion": "padre di famiglia e adoratore spagnolo",
+   "resumen": "dedito al prossimo; la città gli ha intitolato una via",
+   "cita": "«In nome di Gesù Cristo ricevi questo aiuto»",
+   "_es": "2204bedf07"
+  },
+  "282": {
+   "titulo": "San Gioacchino e sant’Anna",
+   "nombres": "Gioacchino e Anna",
+   "descripcion": "i patroni dei nonni",
+   "resumen": "precristiani (genitori della Vergine Maria)",
+   "_es": "30347a3c9d"
+  },
+  "283": {
+   "titulo": "Santa Gioacchina de Vedruna e Teodoro de Mas",
+   "nombres": "Gioacchina de Vedruna e Teodoro de Mas",
+   "descripcion": "madre ed educatrice catalana",
+   "resumen": "vedova religiosa con 9 figli, fondatrice delle Carmelitane della Carità",
+   "_es": "6f19342fb5"
+  },
+  "284": {
+   "titulo": "Beato John Bretton",
+   "nombres": "John Bretton",
+   "descripcion": "martire",
+   "resumen": "martire",
+   "_es": "0a20102751"
+  },
+  "285": {
+   "titulo": "Beato John Felton",
+   "nombres": "John Felton",
+   "resumen": "martire",
+   "cita": "In quel momento fu assalito da un violento spasmo di terrore, ma si riprese subito con un energico atto di volontà e, indicando col dito la porta del vescovo, disse: «Ho affisso la lettera del Sommo Pontefice contro le pretese della Regina. Su quella porta... E ora sono pronto a morire per la fede cattolica!»",
+   "_es": "ef8717159b"
+  },
+  "286": {
+   "titulo": "Beato John Storey",
+   "nombres": "John Storey",
+   "descripcion": "professore di diritto e legislatore inglese",
+   "resumen": "martire, membro del Parlamento",
+   "_es": "8fe4140046"
+  },
+  "287": {
+   "titulo": "Servo di Dio José Atiliano Franco Arita",
+   "nombres": "José Atiliano Franco Arita",
+   "descripcion": "alcolista guarito, delegato della Parola, prima causa dell’Honduras (martire)",
+   "resumen": "alcolista guarito, delegato della Parola, prima causa dell’Honduras (martire)",
+   "cita": "Non accadrà nulla che Dio non voglia",
+   "_es": "c4e8da9255"
+  },
+  "288": {
+   "titulo": "Servo di Dio José Barbosa de Andrade",
+   "nombres": "José Barbosa de Andrade",
+   "descripcion": "poliziotto eroico",
+   "resumen": "poliziotto eroico",
+   "_es": "63c2290968"
+  },
+  "289": {
+   "titulo": "Beato José Ferragud Girbés e Josefa Borrás Borrás",
+   "nombres": "José Ferragud Girbés e Josefa Borrás Borrás",
+   "descripcion": "agricoltore martire",
+   "resumen": "agricoltore martire",
+   "_es": "fae8932d0f"
+  },
+  "290": {
+   "titulo": "Servo di Dio dott. José Gálvez Ginachero e María Moll Sampelayo",
+   "nombres": "José Gálvez Ginachero e María Moll Sampelayo",
+   "descripcion": "ginecologo, direttore dell’Ospedale Civile Provinciale di Málaga",
+   "resumen": "ginecologo, direttore dell’Ospedale Civile Provinciale di Málaga",
+   "cita": "«Abituati a portare di buon animo le piccole mortificazioni che ti dà la vita» (José Gálvez Ginachero, dopo diversi momenti difficili)",
+   "_es": "aa601b22ff"
+  },
+  "291": {
+   "titulo": "Servo di Dio José Jorge Bunader e Sidara",
+   "nombres": "José Jorge Bunader e Sidara",
+   "descripcion": "padre di famiglia libanese-argentino",
+   "resumen": "maronita libanese, terziario francescano e dell’Azione Cattolica",
+   "cita": "«Lo circonda una luce speciale, una gioia e un raccoglimento profondo che fanno sentire che porta davvero Dio nell’anima» (su Bunader, nella causa di beatificazione)",
+   "_es": "781bba4fd4"
+  },
+  "292": {
+   "titulo": "Servo di Dio José María Haro e María Luisa Sabater Valero",
+   "nombres": "José María Haro e María Luisa Sabater Valero",
+   "descripcion": "padre e avvocato impegnato",
+   "resumen": "avvocato e giudice; dell’Azione Cattolica e dell’Associazione Cattolica dei Propagandisti; direttore del Banco de Nuestra Señora de los Desamparados e tesoriere del Patronato per gli Alloggi dell’arcidiocesi",
+   "cita": "«Haro, se non ti correggi… ti canonizzeranno!»",
+   "_es": "1f0b24e59c"
+  },
+  "293": {
+   "titulo": "Beato José María Zabal Blasco e Catalina Cerdá Palop",
+   "nombres": "José María Zabal Blasco e Catalina Cerdá Palop",
+   "descripcion": "martire dell’Azione Cattolica",
+   "resumen": "martire dell’Azione Cattolica",
+   "_es": "4d624afb97"
+  },
+  "294": {
+   "titulo": "Beato Giuseppe Outhay Phongphumi",
+   "nombres": "Giuseppe Outhay Phongphumi",
+   "descripcion": "vedovo, catechista martire",
+   "resumen": "vedovo, catechista martire",
+   "_es": "a441dc0064"
+  },
+  "295": {
+   "titulo": "Beato José Ramón Medes Ferris e Purificación Esteve Martínez",
+   "nombres": "José Ramón Medes Ferris e Purificación Esteve Martínez",
+   "descripcion": "contabile martire",
+   "resumen": "contabile martire",
+   "_es": "be4ae9562c"
+  },
+  "296": {
+   "titulo": "Beato Giuseppe Toniolo e Maria Schiratti",
+   "nombres": "Giuseppe Toniolo e Maria Schiratti",
+   "descripcion": "professore, economista e sociologo",
+   "resumen": "professore, economista e sociologo",
+   "_es": "63792198d5"
+  },
+  "297": {
+   "titulo": "Beato Giuseppe Tovini ed Emilia Corbolani",
+   "nombres": "Giuseppe Tovini ed Emilia Corbolani",
+   "descripcion": "banchiere, avvocato e sindaco",
+   "resumen": "banchiere, avvocato e sindaco",
+   "cita": "«I nostri figli senza la fede non saranno mai ricchi, con la fede non saranno mai poveri» (Giuseppe Antonio Tovini)",
+   "_es": "d4a0cf0351"
+  },
+  "298": {
+   "titulo": "San Giuseppe Tuân",
+   "nombres": "Giuseppe Tuân",
+   "descripcion": "sposo martirizzato per essersi rifiutato di calpestare la croce",
+   "resumen": "martire, padre di famiglia",
+   "cita": "si rifiutò di calpestare la croce; anzi, la adorava",
+   "_es": "728f89fcef"
+  },
+  "299": {
+   "titulo": "Beato Josef Mayr-Nusser e Hildegard Straub",
+   "nombres": "Josef Mayr-Nusser e Hildegard Straub",
+   "descripcion": "sposo martire per la sua libertà di coscienza",
+   "resumen": "economista, dell’Azione Cattolica e delle Conferenze di San Vincenzo de’ Paoli; morì martire per essersi rifiutato di giurare fedeltà al nazismo",
+   "cita": "Alzò la mano e gridò: «Generale, non posso giurare fedeltà a Hitler, la mia fede e la mia coscienza me lo impediscono». Un compagno, Hans Karl Neuhauser, gli disse che non credeva che Dio gli chiedesse di non prestare giuramento, e Josef rispose: «Se nessuno ha il coraggio di dire che non è d’accordo con la visione dei nazisti, non cambierà mai nulla»",
+   "_es": "03185d0ada"
+  },
+  "300": {
+   "titulo": "Beata Josefa Saturnina Rodríguez e il colonnello Manuel de Zavalía",
+   "nombres": "Josefa Saturnina Rodríguez e il colonnello Manuel de Zavalía",
+   "descripcion": "la donna di Córdoba che lavorò accanto al Cura Brochero",
+   "resumen": "vedova, fondatrice delle Suore Ancelle del Sacro Cuore di Gesù e collaboratrice del santo Cura Brochero",
+   "cita": "«Figlie, vi raccomando la pace, l’obbedienza e la santa carità» (madre Catalina de María)",
+   "_es": "578b9473c2"
+  },
+  "301": {
+   "titulo": "Beati Józef e Wiktoria Ulma",
+   "nombres": "Józef e Wiktoria Ulma",
+   "descripcion": "la prima famiglia beatificata insieme",
+   "resumen": "martiri dei nazisti per aver nascosto famiglie ebree",
+   "_es": "dbcaca697a"
+  },
+  "302": {
+   "titulo": "Beato Giusto Takayama Ukon e Giusta",
+   "nombres": "Giusto Takayama Ukon e Giusta",
+   "descripcion": "il «samurai di Cristo»",
+   "resumen": "il «samurai di Cristo»",
+   "cita": "«Dio dice che chi prende la spada di spada perisce» (Giusto Takayama)",
+   "_es": "534f02b84b"
+  },
+  "303": {
+   "titulo": "Beato Juan Bautista Faubel Cano e Patrocinio Olba Martínez",
+   "nombres": "Juan Bautista Faubel Cano e Patrocinio Olba Martínez",
+   "descripcion": "martire dell’Azione Cattolica",
+   "resumen": "martire dell’Azione Cattolica",
+   "cita": "«se Dio ha bisogno del mio sangue, non posso negarglielo»",
+   "_es": "3b74c737eb"
+  },
+  "304": {
+   "titulo": "Beato Juan Bautista e Josefa de la Cruz",
+   "nombres": "Juan Bautista e Josefa de la Cruz",
+   "descripcion": "martire indigeno zapoteco, catechista",
+   "resumen": "martire indigeno zapoteco, catechista",
+   "cita": "«Una volta professato il battesimo, continueremo sempre a seguire la vera religione»",
+   "_es": "5d2bddfaae"
+  },
+  "305": {
+   "titulo": "Beato Giovanni Colombini",
+   "nombres": "Giovanni Colombini",
+   "descripcion": "ricco mercante pentito, fondatore dei Gesuati",
+   "resumen": "avvocato e ricco mercante che lascia tutto e fonda l’ordine di laici poveri dei Chierici Apostolici di San Girolamo (Gesuati)",
+   "cita": "si trasforma «da esiliato dagli uomini in araldo di Dio»",
+   "_es": "0bf3c3087d"
+  },
+  "306": {
+   "titulo": "San Juan Diego Cuauhtlatoatzin e María Lucía",
+   "nombres": "Juan Diego Cuauhtlatoatzin e María Lucía",
+   "descripcion": "il veggente della Madonna di Guadalupe",
+   "resumen": "primo beato indigeno, patrono dei popoli indigeni, veggente dopo la vedovanza",
+   "_es": "4c4bc6bfec"
+  },
+  "307": {
+   "titulo": "San Giovanni l’Iberico",
+   "nombres": "Giovanni l’Iberico",
+   "descripcion": "con il figlio sant’Eutimio fondò il monastero di Iviron, dove fu abate",
+   "resumen": "con il figlio sant’Eutimio fondò il monastero di Iviron, dove fu abate",
+   "_es": "17bb028342"
+  },
+  "308": {
+   "titulo": "Servo di Dio dott. Juan José Barcia Goyanes e María Salorio",
+   "nombres": "Juan José Barcia Goyanes e María Salorio",
+   "descripcion": "il padre della neuropsichiatria spagnola",
+   "resumen": "medico anatomista, pioniere della psichiatria e della neurochirurgia in Spagna, accademico, dell’Azione Cattolica, presidente della Caritas e dell’Associazione Cattolica Nazionale dei Propagandisti a Valencia",
+   "cita": "«Forse possiamo... raccomandare ai ricercatori che si avvicinano al problema dell’uomo di non lasciare l’umiltà appesa alla porta del laboratorio. E questa umiltà non è altro che il riconoscimento del nostro limite, il limite dell’uomo di fronte alla grandezza di Dio. Come leggiamo nel testo sacro: “per quanto io possa diventare, non sono nulla davanti a Te”»",
+   "_es": "87d46e74e4"
+  },
+  "309": {
+   "titulo": "San Giovanni Ögmundsson di Hólar",
+   "nombres": "Giovanni Ögmundsson di Hólar",
+   "descripcion": "vescovo",
+   "resumen": "vescovo",
+   "_es": "43a459981b"
+  },
+  "310": {
+   "titulo": "Beati Giovanni Yu Jung-cheol e Lutgarda Yi Sun-i",
+   "nombres": "Giovanni Yu Jung-cheol e Lutgarda Yi Sun-i",
+   "descripcion": "sposi casti e martiri",
+   "resumen": "sposi casti e martiri",
+   "_es": "5cb1de84e6"
+  },
+  "311": {
+   "titulo": "San Giovanni Zhao Quanxin",
+   "nombres": "Giovanni Zhao Quanxin",
+   "descripcion": "contadino martire dei Boxer",
+   "resumen": "contadino martire dei Boxer",
+   "_es": "e3793b9357"
+  },
+  "312": {
+   "titulo": "Beata Giovanna d’Aza e il venerabile Felice de Guzmán",
+   "nombres": "Giovanna d’Aza e Felice de Guzmán",
+   "descripcion": "i genitori di san Domenico di Guzmán",
+   "resumen": "genitori di san Domenico di Guzmán",
+   "cita": "«Era una donna onesta, casta, irreprensibile, prudente e molto compassionevole verso i poveri e gli afflitti, splendente per virtù e buona fama» (Vita di san Domenico, del 1272)",
+   "_es": "97bb09acbf"
+  },
+  "313": {
+   "titulo": "Santa Giovanna de Lestonnac e Gaston de Montferrant",
+   "nombres": "Giovanna de Lestonnac e Gaston de Montferrant",
+   "descripcion": "madre, educatrice e fondatrice",
+   "resumen": "vedova religiosa, fondatrice della Compagnia di Maria",
+   "cita": "«Servite in modo sempre nuovo; uniamo le nostre forze per soccorrere la Chiesa» (santa Giovanna de Lestonnac)",
+   "_es": "0341b2d133"
+  },
+  "314": {
+   "titulo": "Santa Giovanna Francesca de Chantal",
+   "nombres": "Giovanna Francesca de Chantal",
+   "descripcion": "madre, religiosa e cofondatrice delle Visitandine",
+   "resumen": "vedova religiosa, cofondatrice delle Visitandine con san Francesco di Sales",
+   "cita": "«La considero una delle anime più sante che mi sia stato dato di incontrare sulla terra» (san Vincenzo de’ Paoli)",
+   "_es": "5b3baefa27"
+  },
+  "315": {
+   "titulo": "San Giuliano e santa Basilissa",
+   "nombres": "Giuliano e Basilissa",
+   "resumen": "sposi casti; martire (Giuliano)",
+   "_es": "2ad9726845"
+  },
+  "316": {
+   "titulo": "Servo di Dio Julio Culebras Barba e Gloria",
+   "nombres": "Julio Culebras Barba e Gloria",
+   "descripcion": "martire della Gioventù Cattolica",
+   "resumen": "martire della Gioventù Cattolica",
+   "cita": "«La gioventù per Cristo attraverso Maria»; «dove c’è un fratello da aiutare, un’anima da salvare: un motivo di apostolato»",
+   "_es": "b54f5c9818"
+  },
+  "317": {
+   "titulo": "Servo di Dio Julio Tobar Donoso e Ángela García Gómez",
+   "nombres": "Julio Tobar Donoso e Ángela García Gómez",
+   "descripcion": "professore universitario e diplomatico ecuadoriano",
+   "resumen": "diplomatico, avvocato e scrittore, fondatore della Pontificia Università Cattolica dell’Ecuador e direttore dell’Accademia Ecuadoriana della Lingua",
+   "_es": "ac2de1a64e"
+  },
+  "318": {
+   "titulo": "Servo di Dio Julius Nyerere e Maria Gabriel",
+   "nombres": "Julius Nyerere e Maria Gabriel",
+   "descripcion": "educatore e primo presidente della Tanzania",
+   "resumen": "primo presidente",
+   "cita": "«L’istruzione non è un modo per sfuggire alla povertà, è un modo per combatterla» (Julius Nyerere)",
+   "_es": "d19db2c3bb"
+  },
+  "319": {
+   "titulo": "Servi di Dio Karol ed Emilia Wojtyła",
+   "nombres": "Karol ed Emilia Wojtyła",
+   "descripcion": "i genitori di Giovanni Paolo II",
+   "resumen": "militare; genitori di san Giovanni Paolo II",
+   "cita": "«Preferisco morire piuttosto che sbarazzarmi di mio figlio» (Emilia Wojtyła)",
+   "_es": "07022e0cd5"
+  },
+  "320": {
+   "titulo": "Servo di Dio dott. Kazimierz Hołoga e Maria Rochalski",
+   "nombres": "Kazimierz Hołoga e Maria Rochalski",
+   "descripcion": "il chirurgo polacco «operatore di miracoli»",
+   "resumen": "medico chirurgo",
+   "cita": "prima degli interventi più seri diceva «Sotto la tua protezione»",
+   "_es": "cd427062ab"
+  },
+  "321": {
+   "titulo": "San Ladislao re e Adelaide",
+   "nombres": "Ladislao d’Ungheria e Adelaide",
+   "descripcion": "re ungherese molto amato",
+   "resumen": "sovrani",
+   "_es": "f5585b4354"
+  },
+  "322": {
+   "titulo": "Beato László Batthyány-Strattmann e Maria Theresia Coreth",
+   "nombres": "László Batthyány-Strattmann e Maria Theresia Coreth",
+   "descripcion": "aristocratico oculista ungherese che allestì un ospedale nel suo castello",
+   "resumen": "aristocratico medico benefattore",
+   "cita": "«Amo i miei dolori e mi consola il fatto di sopportarli per Cristo» (dott. László Batthyány)",
+   "_es": "243b74bb85"
+  },
+  "323": {
+   "titulo": "San Lazzaro Devasahayam e Bhargavi Ammal",
+   "nombres": "Lazzaro Devasahayam e Bhargavi Ammal",
+   "descripcion": "il primo santo laico dell’India",
+   "resumen": "primo martire laico indiano",
+   "_es": "0e8b880d28"
+  },
+  "324": {
+   "titulo": "Santa Lea",
+   "nombres": "Lea",
+   "descripcion": "vedova discepola di san Girolamo",
+   "resumen": "vedova discepola di san Girolamo",
+   "_es": "26382d5050"
+  },
+  "325": {
+   "titulo": "Venerabile Léon Papin-Dupont e Caroline d’Andiffredi",
+   "nombres": "Léon Papin-Dupont e Caroline d’Andiffredi",
+   "descripcion": "il «sant’uomo di Tours», fondatore della confraternita del Santo Volto",
+   "resumen": "aristocratico benefattore della Società di San Vincenzo de’ Paoli, il «sant’uomo di Tours»",
+   "_es": "9a42b1aed8"
+  },
+  "326": {
+   "titulo": "San Leocadio di Déols",
+   "nombres": "Leocadio di Déols",
+   "descripcion": "senatore delle Gallie convertito e governatore di Bourges; accolse i primi predicatori della fede e fece della sua casa una chiesa",
+   "resumen": "senatore delle Gallie convertito; accolse i primi predicatori della fede e fece della sua casa una chiesa",
+   "_es": "2558616d97"
+  },
+  "327": {
+   "titulo": "Servo di Dio Lucio León Cárdenas",
+   "nombres": "Lucio León Cárdenas",
+   "descripcion": "semplice lavoratore venezuelano",
+   "resumen": "semplice e senza istruzione, chiamato l’«apostolo dell’Eucaristia», padre di un sacerdote",
+   "_es": "d9072fd8c8"
+  },
+  "328": {
+   "titulo": "Santi Leonzio e Placidina",
+   "nombres": "Leonzio e Placidina",
+   "descripcion": "vescovo e diaconessa; casti dopo il matrimonio",
+   "resumen": "vescovo; casti dopo il matrimonio",
+   "_es": "bc0d28fd47"
+  },
+  "329": {
+   "titulo": "Servo di Dio Leopold Figl e Hilde Hemala",
+   "nombres": "Leopold Figl e Hilde Hemala",
+   "descripcion": "funzionario e prigioniero a Dachau",
+   "resumen": "politico, cancelliere, prigioniero a Dachau e poi ministro degli Esteri",
+   "_es": "c1c9e474b8"
+  },
+  "330": {
+   "titulo": "San Leopoldo III e Agnese",
+   "nombres": "Leopoldo III e Agnese",
+   "descripcion": "margravio e patrono dell’Austria",
+   "resumen": "sovrani",
+   "_es": "acda88fc3c"
+  },
+  "331": {
+   "titulo": "San Lorenzo Ruiz e Rosario",
+   "nombres": "Lorenzo Ruiz e Rosario",
+   "descripcion": "sposo e primo martire filippino",
+   "resumen": "primo martire",
+   "cita": "«Pronto a dare mille volte la vita per Cristo» (san Lorenzo Ruiz)",
+   "_es": "f6559699d3"
+  },
+  "332": {
+   "titulo": "Servi di Dio Louis Wandété e Valérie Ama",
+   "nombres": "Louis Wandété e Valérie Ama",
+   "descripcion": "coppia missionaria della Costa d’Avorio, primi sposi africani in causa di beatificazione",
+   "resumen": "catechisti convertiti",
+   "cita": "«Va’ in pace, il Signore ti accoglierà. I nostri figli ci hanno preceduto: se li vedi davanti al Padre celeste, ti prego, torna a cercarmi, perché riceva da Cristo la ricompensa promessa ai suoi servi» (Louis Wandété alla moglie)",
+   "_es": "2cdba8dde7"
+  },
+  "333": {
+   "titulo": "Beata Lucia Bartolini e Rodolfo Rucellai",
+   "nombres": "Lucia Bartolini e Rodolfo Rucellai",
+   "_es": "20f82096b4"
+  },
+  "334": {
+   "titulo": "Serva di Dio Lucia Pisapia «Mamma Lucia» e Carlo Apicella",
+   "nombres": "Lucia Pisapia «Mamma Lucia» e Carlo Apicella",
+   "descripcion": "diede cristiana sepoltura ai corpi dei soldati tedeschi",
+   "resumen": "diede cristiana sepoltura ai corpi dei soldati tedeschi",
+   "_es": "51236fced9"
+  },
+  "335": {
+   "titulo": "Santa Lucia Wang Wangzhi",
+   "nombres": "Lucia Wang Wangzhi",
+   "descripcion": "martire con le sue 2 figlie",
+   "resumen": "martire con le sue 2 figlie",
+   "cita": "«Sono cattolica. Non rinnegherò mai Dio» (Lucia e la sua compagna Anna)",
+   "_es": "250f871bbc"
+  },
+  "336": {
+   "titulo": "Beato Luciano Botovasoa e Suzanne Soazana",
+   "nombres": "Luciano Botovasoa e Suzanne Soazana",
+   "descripcion": "catechista che predisse la conversione del re che lo condannò",
+   "resumen": "martire, terziario francescano e catechista",
+   "cita": "«È una coerente testimonianza di Cristo fino al dono eroico della vita» (papa Francesco)",
+   "_es": "31342f20cc"
+  },
+  "337": {
+   "titulo": "Santa Ludmilla di Boemia e il duca Bořivoj I",
+   "nombres": "Ludmilla di Boemia e il duca Bořivoj I",
+   "descripcion": "la prima santa ceca",
+   "resumen": "casta dopo il matrimonio",
+   "_es": "2979ce8a52"
+  },
+  "338": {
+   "titulo": "Beati Ludovico e Lucia Yakichi",
+   "nombres": "Ludovico e Lucia Yakichi",
+   "descripcion": "martiri con i loro 2 figli",
+   "resumen": "martiri con i loro 2 figli",
+   "_es": "c2abe905b1"
+  },
+  "339": {
+   "titulo": "Venerabile Luis de Trelles y Noguerol e Adelaida Cuadrado",
+   "nombres": "Luis de Trelles y Noguerol e Adelaida Cuadrado",
+   "descripcion": "giurista mediatore e apostolo dell’Eucaristia",
+   "resumen": "avvocato, professore e giornalista, fondatore della Società dell’Adorazione notturna e attivista che liberava prigionieri di guerra",
+   "cita": "«Non possiamo mai attribuirci nulla nelle opere buone... quanto più eccellente è l’opera, tanta più umiltà richiede» (Luis de Trelles)",
+   "_es": "497ae2334a"
+  },
+  "340": {
+   "titulo": "Beato Luis Magaña Servín ed Elvira Camarena Méndez",
+   "nombres": "Luis Magaña Servín ed Elvira Camarena Méndez",
+   "descripcion": "martire cristero",
+   "resumen": "martire cristero",
+   "cita": "«se mi si accusa di essere cristiano, sì, lo sono, e se per questo devo essere giustiziato, ben venga»",
+   "_es": "66810a4596"
+  },
+  "341": {
+   "titulo": "Beata Ludovica Albertoni e Giacomo della Cetera",
+   "nombres": "Ludovica Albertoni e Giacomo della Cetera",
+   "descripcion": "madre italiana generosa",
+   "resumen": "vedova benefattrice, terziaria francescana",
+   "cita": "Cuoceva perfino pagnotte per i poveri in cui metteva monete d’oro e d’argento, pregando che quelle con le monete più preziose finissero per provvidenza nelle mani dei più bisognosi",
+   "_es": "ef593caf2c"
+  },
+  "342": {
+   "titulo": "Santa Luisa de Marillac e Le Gras",
+   "nombres": "Luisa de Marillac e Le Gras",
+   "descripcion": "vedova religiosa, cofondatrice delle Figlie della Carità con san Vincenzo de’ Paoli",
+   "resumen": "vedova religiosa, cofondatrice delle Figlie della Carità con san Vincenzo de’ Paoli",
+   "cita": "«Non abbiate occhi né cuore se non per i poveri» (santa Luisa de Marillac)",
+   "_es": "0e7db3b38a"
+  },
+  "343": {
+   "titulo": "Beata Ludovica di Savoia e il principe Ugo di Châlon-Arlay",
+   "nombres": "Ludovica di Savoia e il principe Ugo di Châlon-Arlay",
+   "descripcion": "sposa e principessa esemplare",
+   "resumen": "vedova religiosa, figlia del beato Amedeo IX di Savoia",
+   "_es": "61696bf781"
+  },
+  "344": {
+   "titulo": "Serva di Dio Luísa Mafo e Adolfo Raul Nombora",
+   "nombres": "Luísa Mafo e Adolfo Raul Nombora",
+   "descripcion": "catechista pioniera del Mozambico",
+   "resumen": "catechista martirizzata con altri 22, tra cui il figlio e il nipote",
+   "_es": "f08a46d4f5"
+  },
+  "345": {
+   "titulo": "Beati Lucchese e Buonadonna da Poggibonsi",
+   "nombres": "Lucchese e Buonadonna da Poggibonsi",
+   "descripcion": "la prima coppia del Terz’Ordine francescano",
+   "resumen": "primi terziari francescani",
+   "cita": "In quel tempo passò per la regione san Francesco, che Lucchese conosceva già come figlio del suo collega Pietro di Bernardone, ma che poi imparò a conoscere anche come santo e ospitò volentieri in casa sua. Colpiti dal suo spirito di povertà e semplicità, lui e la moglie Buonadonna andarono a chiedere a san Francesco come potessero, sposati e con figli, seguire la via del Vangelo e avere una regola come quella che aveva già dato ai frati e alle sorelle. Doveva essere una norma di vita la cui osservanza servisse a imitare coloro che si erano consacrati a Dio.",
+   "_es": "59e0da4900"
+  },
+  "346": {
+   "titulo": "Santi Macedonio e Patrizia",
+   "nombres": "Macedonio, presbitero, e Patrizia",
+   "descripcion": "presbitero",
+   "resumen": "martiri; presbitero",
+   "_es": "f31da835dc"
+  },
+  "347": {
+   "titulo": "Santa Macrina l’Anziana e Basilio",
+   "nombres": "Macrina l’Anziana e Basilio",
+   "descripcion": "madre di san Basilio il Vecchio, vescovo, sposato con santa Emmelia, diaconessa; nonna dei santi Macrina la Giovane, Gregorio di Nissa e Pietro di Sebaste",
+   "resumen": "madre di san Basilio il Vecchio, vescovo, sposato con santa Emmelia, diaconessa; nonna dei santi Macrina la Giovane, Gregorio di Nissa e Pietro di Sebaste",
+   "cita": "«Lei plasma le nostre anime in una pietà fondata sulla sana dottrina» (san Basilio Magno, sulla nonna)",
+   "_es": "86dce68edf"
+  },
+  "348": {
+   "titulo": "San Magnus delle Orcadi e Ingarth",
+   "nombres": "Magnus delle Orcadi e Ingarth",
+   "_es": "7ec9802996"
+  },
+  "349": {
+   "titulo": "Beato Maisam Pho Inpèng",
+   "nombres": "Maisam Pho Inpèng",
+   "descripcion": "catechista del Laos",
+   "resumen": "guida laica dei catecumeni di Houey Phong",
+   "_es": "dc99ddfa74"
+  },
+  "350": {
+   "titulo": "Servi di Dio Manuel Casesnoves e Adela Soldevilla",
+   "nombres": "Manuel Casesnoves e Adela Soldevilla",
+   "descripcion": "coppia spagnola del XX secolo",
+   "resumen": "farmacista, dell’Azione Cattolica, dell’Associazione Cattolica dei Propagandisti (presidente) e dell’Adorazione notturna; consigliere comunale",
+   "cita": "«Manolo, se non condividi con me la Messa e il Rosario, dovrò lasciarti»",
+   "_es": "1dcd4dc498"
+  },
+  "351": {
+   "titulo": "San Manuel Morales e María del Consuelo Loera Cifuentes",
+   "nombres": "Manuel Morales e María del Consuelo Loera Cifuentes",
+   "descripcion": "padre di famiglia «cristero»",
+   "resumen": "martire cristero dell’Associazione Cattolica della Gioventù Messicana",
+   "cita": "«Signor parroco, io muoio, ma Dio non muore. Egli si prenderà cura di mia moglie e dei miei figli». Poi si raddrizzò ed esclamò: «Viva Cristo Re e la Madonna di Guadalupe!»",
+   "_es": "29accde8e5"
+  },
+  "352": {
+   "titulo": "Beato Manuel Palacios Rodríguez e Luisa Monrabá Canela",
+   "nombres": "Manuel Palacios Rodríguez e Luisa Monrabá Canela",
+   "descripcion": "sette figli; membro del consiglio parrocchiale, fu ucciso dai miliziani repubblicani «in odio alla fede»",
+   "resumen": "sette figli; membro del consiglio parrocchiale, fu ucciso dai miliziani repubblicani «in odio alla fede»",
+   "_es": "2871a874cc"
+  },
+  "353": {
+   "titulo": "Servo di Dio Manuel Pascual Perrín e Ángeles Echeverría",
+   "nombres": "Manuel Pascual Perrín e Ángeles Echeverría",
+   "descripcion": "padre di famiglia argentino, l’«apostolo Paolo» di Punta Alta",
+   "resumen": "dei Focolari, l’«apostolo Paolo di Punta Alta»",
+   "cita": "«a Dio non si va da soli ma con i fratelli» e «Dobbiamo essere locomotive e non vagoni di coda!»",
+   "_es": "d4ea30a701"
+  },
+  "354": {
+   "titulo": "Santi Manuel Rodrigues Moura e sua moglie",
+   "nombres": "Manuel Rodrigues Moura",
+   "resumen": "martiri",
+   "_es": "08ad131e2c"
+  },
+  "355": {
+   "titulo": "Beato Manuel Solórzano ed Eleuteria Antonia Guillén",
+   "nombres": "Manuel Solórzano ed Eleuteria Antonia Guillén",
+   "descripcion": "attivo nella vita parrocchiale e padre di 10 figli, uno dei «martiri di Aguilares»",
+   "resumen": "attivo nella vita parrocchiale e padre di 10 figli, uno dei «martiri di Aguilares»",
+   "_es": "dfb0cd67a3"
+  },
+  "356": {
+   "titulo": "Santi Marcellino e Mannea",
+   "nombres": "Marcellino e Mannea",
+   "descripcion": "tribuno martire con la moglie e il figlio",
+   "resumen": "tribuno martire con la moglie e il figlio",
+   "_es": "091a93495b"
+  },
+  "357": {
+   "titulo": "Servi di Dio Marcello Inguscio e Anna Maria Ritter",
+   "nombres": "Marcello Inguscio e Anna Maria Ritter",
+   "descripcion": "sposi musicisti dediti al servizio",
+   "resumen": "consacrati di Missione Chiesa-Mondo; lui vicedirettore del Liceo musicale",
+   "cita": "«Mia madre aveva un tumore, fu lei a prepararci... sapeva che sarebbe nata a un’altra vita e per lei era una festa. Più tardi, nelle sue lettere al Signore, scoprimmo che lo ringraziava per quel dolore» (la figlia Lucia)",
+   "_es": "e167054d98"
+  },
+  "358": {
+   "titulo": "Beato Marco da Montegallo",
+   "nombres": "Marco da Montegallo",
+   "descripcion": "sposo casto e presbitero",
+   "resumen": "sposo casto e presbitero",
+   "_es": "bd2dd4aec2"
+  },
+  "359": {
+   "titulo": "San Marco Ji Tianxiang",
+   "nombres": "Marco Ji Tianxiang",
+   "descripcion": "medico dipendente dall’oppio che pregava per il martirio",
+   "resumen": "medico dipendente dall’oppio che pregava per il martirio",
+   "_es": "c148b6ef55"
+  },
+  "360": {
+   "titulo": "Beata Margaret Bermingham e Bartholomew Ball",
+   "nombres": "Margaret Bermingham e Bartholomew Ball",
+   "descripcion": "madre irlandese, simbolo della fedeltà cattolica del suo popolo",
+   "resumen": "martire",
+   "_es": "9e33fe4f00"
+  },
+  "361": {
+   "titulo": "Santa Margaret Clitherow e John Clitherow",
+   "nombres": "Margaret Clitherow e John Clitherow",
+   "resumen": "martire",
+   "_es": "ca5cb280ee"
+  },
+  "362": {
+   "titulo": "Beata Margaret Plantageneta e sir Richard Pole",
+   "nombres": "Margaret Plantageneta e sir Richard Pole",
+   "descripcion": "virtuosa erede reale, difensora della fede",
+   "resumen": "nobili",
+   "_es": "0b0574c7cd"
+  },
+  "363": {
+   "titulo": "Beata Margherita di Lorena e Renato duca d’Alençon",
+   "nombres": "Margherita di Lorena e Renato duca d’Alençon",
+   "descripcion": "duchessa, vedova e religiosa",
+   "resumen": "duchessa, vedova e religiosa",
+   "_es": "606ab8dd81"
+  },
+  "364": {
+   "titulo": "Beata Margherita di Savoia e Teodoro II, marchese del Monferrato",
+   "nombres": "Margherita di Savoia e Teodoro II, marchese del Monferrato",
+   "descripcion": "nobili; vedova terziaria domenicana",
+   "resumen": "nobili; vedova terziaria domenicana",
+   "_es": "97c6118fdd"
+  },
+  "365": {
+   "titulo": "Santa Margherita Scalza",
+   "nombres": "Margherita Scalza",
+   "resumen": "vedova",
+   "_es": "35f6213adc"
+  },
+  "366": {
+   "titulo": "Venerabile Margherita Occhiena e Francesco Bosco",
+   "nombres": "Margherita Occhiena e Francesco Bosco",
+   "descripcion": "la venerabile mamma di don Bosco",
+   "resumen": "genitori di don Bosco",
+   "cita": "«Se credi che questa sia la volontà del Signore, sono pronta a venire» (Margherita a don Bosco)",
+   "_es": "f368d69a2a"
+  },
+  "367": {
+   "titulo": "Serva di Dio Marguerite Audier e Jean Bauzac",
+   "nombres": "Marguerite Audier e Jean Bauzac",
+   "resumen": "martire",
+   "_es": "a7a8dad2a4"
+  },
+  "368": {
+   "titulo": "Santa Marguerite Dufrost de Lajemmerais e François d’Youville",
+   "nombres": "Marguerite Dufrost de Lajemmerais e François d’Youville",
+   "descripcion": "la prima santa canadese",
+   "resumen": "fondatrice delle Suore della Carità di Montréal",
+   "_es": "48f74c245a"
+  },
+  "369": {
+   "titulo": "Beata María Álvarez Marco",
+   "nombres": "María Álvarez Marco",
+   "descripcion": "vedova religiosa terziaria francescana",
+   "resumen": "vedova religiosa terziaria francescana",
+   "_es": "aa8b3deaef"
+  },
+  "370": {
+   "titulo": "Serva di Dio Maria Cantamessa e Carlo Gallo",
+   "nombres": "Maria Cantamessa e Carlo Gallo",
+   "descripcion": "catechista italiana al servizio nel dopoguerra",
+   "resumen": "si prese cura di malati e orfani",
+   "_es": "92b3f31aa6"
+  },
+  "371": {
+   "titulo": "Serva di Dio María Cecilia Perrín e Luis Buide",
+   "nombres": "Cecilia Perrín e Luis Buide",
+   "descripcion": "madre e insegnante argentina dei Focolari",
+   "resumen": "maestra dei Focolari, pro vita, morta per non interrompere la gravidanza",
+   "cita": "«Le tue vie, Signore, sono una follia, spezzano la mia umanità, ma sono le uniche che voglio percorrere»",
+   "_es": "89a17eda22"
+  },
+  "372": {
+   "titulo": "Venerabili Maria Clotilde e Carlo Emanuele IV",
+   "nombres": "Maria Clotilde e Carlo Emanuele IV",
+   "descripcion": "re di Sardegna",
+   "resumen": "re di Sardegna",
+   "_es": "388fd0def5"
+  },
+  "373": {
+   "titulo": "Serva di Dio Maria Concetta Pantusa e Vito De Marco",
+   "nombres": "Maria Concetta Pantusa e Vito De Marco",
+   "descripcion": "madre e mistica",
+   "resumen": "vedova religiosa",
+   "_es": "8ecd7addc0"
+  },
+  "374": {
+   "titulo": "Venerabile Maria Cristina Cella e Carlo Mocellin",
+   "nombres": "Maria Cristina Cella e Carlo Mocellin",
+   "descripcion": "giovane madre italiana dei nostri giorni che antepose la vita del figlio alla propria",
+   "resumen": "catechista pro vita, morta per non interrompere la gravidanza",
+   "cita": "«Posso solo ringraziare Dio perché ha voluto farci questo grande regalo che sono i nostri figli»",
+   "_es": "5b5779a847"
+  },
+  "375": {
+   "titulo": "Beata Maria Cristina di Savoia e Ferdinando II delle Due Sicilie",
+   "nombres": "Maria Cristina di Savoia e Ferdinando II delle Due Sicilie",
+   "descripcion": "sovrani benefattori",
+   "resumen": "sovrani benefattori",
+   "_es": "92e49aacd5"
+  },
+  "376": {
+   "titulo": "Santa Maria dell’Incarnazione Guyart e Claude Martin",
+   "nombres": "Maria dell’Incarnazione Guyart e Claude Martin",
+   "descripcion": "educatrice degli indigeni canadesi",
+   "resumen": "vedova religiosa, madre della Chiesa cattolica in Canada",
+   "cita": "«Il nostro amore per gli indigeni non è mai diminuito. Li porto nel cuore e cerco, dolcemente, di conquistarli al cielo» (madre Maria dell’Incarnazione)",
+   "_es": "6f21348873"
+  },
+  "377": {
+   "titulo": "Beata Maria di Oignies",
+   "nombres": "Maria di Oignies",
+   "descripcion": "sposa casta, benefattrice, reclusa e fondatrice",
+   "resumen": "sposa casta, benefattrice, reclusa e fondatrice",
+   "_es": "ac476b5398"
+  },
+  "378": {
+   "titulo": "Venerabile María del Refugio Aguilar Torres e Ángel Cancino Arce",
+   "nombres": "María del Refugio Aguilar Torres e Ángel Cancino Arce",
+   "descripcion": "madre e fondatrice",
+   "resumen": "vedova religiosa, fondatrice delle Suore Mercedarie del Santissimo Sacramento",
+   "_es": "0fb622dbb9"
+  },
+  "379": {
+   "titulo": "Serva di Dio María del Rosario Granados e Manuel de Cantos",
+   "nombres": "María del Rosario Granados e Manuel de Cantos",
+   "descripcion": "madre veggente della Madonna",
+   "resumen": "veggente della Madonna; perdonò gli assassini del figlio",
+   "cita": "Anche la Vergine perdonò i carnefici di suo Figlio sul Calvario",
+   "_es": "40a83c78ed"
+  },
+  "380": {
+   "titulo": "Beata María Dolores Sobrino e Rafael Cabezas Ruival",
+   "nombres": "María Dolores Sobrino e Rafael Cabezas Ruival",
+   "descripcion": "impegnata in parrocchia, fu fucilata nella chiesa di Constantina dai miliziani repubblicani",
+   "resumen": "impegnata in parrocchia, fu fucilata nella chiesa di Constantina dai miliziani repubblicani",
+   "_es": "016356937c"
+  },
+  "381": {
+   "titulo": "Santa Maria Du Zhaozhi",
+   "nombres": "Maria Du Zhaozhi",
+   "descripcion": "martire, madre di un sacerdote, rinunciò alla fuga per non tradire la sua fede",
+   "resumen": "martire, madre di un sacerdote, rinunciò alla fuga per non tradire la sua fede",
+   "_es": "6bc23c1b10"
+  },
+  "382": {
+   "titulo": "Serva di Dio María Esperanza Medrano e Geo Bianchini",
+   "nombres": "María Esperanza Medrano e Geo Bianchini",
+   "descripcion": "madre e veggente riconosciuta della Madonna",
+   "resumen": "veggente",
+   "cita": "«La tua missione non sarà quella di religiosa: ti santificherai nel mondo come sposa e madre di famiglia portando il mio messaggio» (la Vergine a Esperanza)",
+   "_es": "40f60e5cb2"
+  },
+  "383": {
+   "titulo": "Beata Maria Lorenza Requenses e Giovanni Longo",
+   "nombres": "Maria Lorenza Requenses e Giovanni Longo",
+   "descripcion": "moglie del reggente del Regno di Napoli; madre e fondatrice dell’Ospedale degli Incurabili di Napoli",
+   "resumen": "vedova del reggente di Napoli, disabile, benefattrice e fondatrice di un ospedale",
+   "_es": "f0170d2282"
+  },
+  "384": {
+   "titulo": "Venerabile María Luisa de la Peña e Pascual Rojas",
+   "nombres": "María Luisa de la Peña e Pascual Rojas",
+   "descripcion": "sposa e fondatrice",
+   "resumen": "vedova, fondatrice delle Carmelitane del Sacro Cuore",
+   "cita": "«Siete nate per cose più grandi» (diceva spesso madre Luisita)",
+   "_es": "f7a75ba081"
+  },
+  "385": {
+   "titulo": "Venerabile Maria Maddalena Frescobaldi e il marchese Pier Roberto Capponi",
+   "nombres": "Maria Maddalena Frescobaldi e il marchese Pier Roberto Capponi",
+   "descripcion": "madre italiana dedita al recupero delle ex prostitute",
+   "resumen": "nobile vedova educatrice, fondatrice delle Suore Passioniste di San Paolo della Croce con ex prostitute",
+   "cita": "«La Passione di Gesù è capace di purificare totalmente la persona, di renderla totalmente nuova» (Maddalena Frescobaldi)",
+   "_es": "50e4dedf4e"
+  },
+  "386": {
+   "titulo": "Beata Maria Mamala ed Enrico de Guzmán",
+   "nombres": "Maria Mamala ed Enrico de Guzmán",
+   "descripcion": "vedova clarissa",
+   "resumen": "vedova clarissa",
+   "_es": "b7761245d1"
+  },
+  "387": {
+   "titulo": "Beata Maria Mancini e Baccio / Guglielmo Spezzalaste",
+   "nombres": "Maria Mancini e Baccio / Guglielmo Spezzalaste",
+   "descripcion": "vedova discepola di santa Caterina e terziaria domenicana",
+   "resumen": "vedova discepola di santa Caterina e terziaria domenicana",
+   "_es": "7a9b3cca45"
+  },
+  "388": {
+   "titulo": "Beata María Teresa Ferragud Roig e Vicente Masiá Ferragut",
+   "nombres": "María Teresa Ferragud Roig e Vicente Masiá Ferragut",
+   "descripcion": "martire a 80 anni insieme alle sue 4 figlie religiose (5 figli sopravvissero)",
+   "resumen": "martire a 80 anni insieme alle sue 4 figlie religiose (5 figli sopravvissero)",
+   "_es": "6cc1e94827"
+  },
+  "389": {
+   "titulo": "Beata Maria Vittoria De Fornari e Angelo Strata",
+   "nombres": "Maria Vittoria De Fornari e Angelo Strata",
+   "descripcion": "vedova religiosa, fondatrice dell’Ordine della Santissima Annunziata (Turchine)",
+   "resumen": "vedova religiosa, fondatrice dell’Ordine della Santissima Annunziata (Turchine)",
+   "_es": "f129d95a6f"
+  },
+  "390": {
+   "titulo": "Santi Maria e Cleopa di Gerusalemme",
+   "nombres": "Maria e Cleopa di Gerusalemme",
+   "descripcion": "tra le prime coppie che seguirono Cristo",
+   "resumen": "discepoli di Cristo, genitori del secondo vescovo di Gerusalemme",
+   "_es": "1896a808af"
+  },
+  "391": {
+   "titulo": "Santa Maria Zhao Guozhi",
+   "nombres": "Maria Zhao Guozhi",
+   "descripcion": "madre cinese eroica",
+   "resumen": "martire insieme alle sue 2 figlie",
+   "cita": "Cercarono di costringerle ad apostatare, promettendo di risparmiare loro la vita. Rosa rispose: «Abbiamo deciso di morire piuttosto che rinnegare la nostra fede». Poi si rivolse alla madre e alla sorella, invitandole a chiedere a Gesù il coraggio di morire martiri. Un compaesano si fece avanti per difenderle, ma Rosa lo fermò: «Non perdere tempo. Mantenendo la fede, abbiamo già accettato la morte. Moriamo»",
+   "_es": "44b480216b"
+  },
+  "392": {
+   "titulo": "Beata Marianna Biernacka e Ludwik",
+   "nombres": "Marianna Biernacka (martire del nazismo) e Ludwik",
+   "descripcion": "la madre polacca che offrì la vita come Massimiliano Kolbe",
+   "resumen": "vedova ortodossa convertita, si offrì di essere giustiziata al posto della nuora incinta",
+   "_es": "8cdd508680"
+  },
+  "393": {
+   "titulo": "Beato dott. Mariano Mullerat Soldevila e Dolores Sans i Bové",
+   "nombres": "Mariano Mullerat Soldevila e Dolores Sans i Bové",
+   "descripcion": "medico e sindaco di Arbeca (Lleida), poi martire",
+   "resumen": "medico e sindaco di Arbeca (Lleida), poi martire",
+   "cita": "Segno eroico della sua dedizione cristiana al malato è il fatto che a uno dei miliziani partì un colpo dall’arma e si ferì. Il dott. Mullerat, che portava sempre con sé gli strumenti medici e il materiale di primo soccorso, ebbe il gesto di curare sul momento quel carnefice. Prima di scendere dal camion esortò di nuovo i compagni a recitare l’atto di dolore e a perdonare i loro carnefici.",
+   "_es": "59249a5c48"
+  },
+  "394": {
+   "titulo": "Beata Marie Avrillot e Pierre Acarie",
+   "nombres": "Marie Avrillot e Pierre Acarie",
+   "descripcion": "madre laica che portò in Francia la riforma carmelitana",
+   "resumen": "fondatrice delle Carmelitane Scalze in Francia, poi religiosa",
+   "cita": "«È ben avaro colui al quale Dio non basta» (la frase la cui lettura provocò la sua conversione radicale)",
+   "_es": "64b93a3fb0"
+  },
+  "395": {
+   "titulo": "Venerabile Marie-Josephte Fitzbach",
+   "nombres": "Marie-Josephte Fitzbach",
+   "descripcion": "madre, assistente di ex detenute e fondatrice canadese",
+   "resumen": "domestica, vedova che gestisce un ospizio per ex detenute",
+   "_es": "199465b949"
+  },
+  "396": {
+   "titulo": "Venerabile Marie-Rosalie Cadron e Jean-Marie Jetté",
+   "nombres": "Marie-Rosalie Cadron e Jean-Marie Jetté",
+   "descripcion": "canadese madre di 11 figli, protettrice delle ragazze madri e dei neonati",
+   "resumen": "vedova religiosa",
+   "_es": "415a1efd32"
+  },
+  "397": {
+   "titulo": "Beato Marino Blanes Giner e Julia Jordá Llovet",
+   "nombres": "Marino Blanes Giner e Julia Jordá Llovet",
+   "descripcion": "martire, impiegato e catechista",
+   "resumen": "martire, impiegato e catechista",
+   "_es": "0e0e8bd725"
+  },
+  "398": {
+   "titulo": "Santi Mario e Marta",
+   "nombres": "Mario e Marta",
+   "resumen": "martiri",
+   "_es": "9604cbe6fb"
+  },
+  "399": {
+   "titulo": "Santa Marta e Giovanni di Edessa",
+   "nombres": "Marta e Giovanni di Edessa",
+   "descripcion": "genitori di san Simeone lo Stilita",
+   "resumen": "genitori di san Simeone lo Stilita",
+   "_es": "c168d9ade0"
+  },
+  "400": {
+   "titulo": "Serva di Dio Mary Grace Bellotti e Luigi Lapercha / Umberto Cavalli",
+   "nombres": "Mary Grace Bellotti e Luigi Lapercha / Umberto Cavalli",
+   "descripcion": "mistica italo-americana",
+   "_es": "ba1cdf3479"
+  },
+  "401": {
+   "titulo": "San Mattia Feng De",
+   "nombres": "Mattia Feng De",
+   "descripcion": "martire dei Boxer, terziario francescano",
+   "resumen": "martire dei Boxer, terziario francescano",
+   "_es": "eda2547076"
+  },
+  "402": {
+   "titulo": "San Mattia Kalemba",
+   "nombres": "Mattia Kalemba",
+   "descripcion": "catechista convertito dell’Uganda",
+   "resumen": "martire, giudice e artigiano convertito",
+   "_es": "8245da3796"
+  },
+  "403": {
+   "titulo": "Serva di Dio Matilde Salem e Georges Elias",
+   "nombres": "Matilde Salem e Georges Elias",
+   "descripcion": "salesiana benefattrice dei giovani siriani",
+   "resumen": "«Mother Margaret» di Aleppo",
+   "cita": "«Muoio in una casa che non mi appartiene più» (Matilde Salem, poco prima di morire)",
+   "_es": "d272757d43"
+  },
+  "404": {
+   "titulo": "Santa Matilde ed Enrico I",
+   "nombres": "Matilde ed Enrico I",
+   "descripcion": "regina germanica di esemplare umiltà",
+   "resumen": "benefattrice, madre di Ottone I il Grande",
+   "_es": "e175a252a4"
+  },
+  "405": {
+   "titulo": "Serva di Dio Medarda Guerrero García e José Piñero",
+   "nombres": "Medarda Guerrero García e José Piñero",
+   "descripcion": "la samaritana delle Ande venezuelane",
+   "resumen": "assisteva i malati",
+   "cita": "«Vieni, figliolo! Qui hai una casa, qui hai il pane. Mangia, figliolo» (la frase di Medarda divenuta famosa tra la gente)",
+   "_es": "877bf19810"
+  },
+  "406": {
+   "titulo": "Santa Melania la Giovane e san Piniano",
+   "nombres": "Melania la Giovane e Piniano",
+   "_es": "1e1ea2e474"
+  },
+  "407": {
+   "titulo": "Santa Mella di Doire-Melle",
+   "nombres": "Mella di Doire-Melle",
+   "_es": "caf28356aa"
+  },
+  "408": {
+   "titulo": "Beato Miguel Gómez Loza e Guadalupe Sánchez Barragán",
+   "nombres": "Miguel Gómez Loza e Guadalupe Sánchez Barragán",
+   "descripcion": "martire cristero",
+   "resumen": "martire cristero",
+   "_es": "c5cb4c6908"
+  },
+  "409": {
+   "titulo": "San Michele Hồ Đình Hy",
+   "nombres": "Michele Hồ Đình Hy",
+   "resumen": "martire",
+   "_es": "19fca4ea57"
+  },
+  "410": {
+   "titulo": "Beata Michelina da Pesaro e il duca Malatesta",
+   "nombres": "Michelina da Pesaro e il duca Malatesta",
+   "descripcion": "nobile rimasta vedova a 20 anni con un figlio, mistica, lascia tutto per farsi terziaria francescana e fonda la Confraternita dell’Annunziata",
+   "resumen": "nobile rimasta vedova a 20 anni con un figlio, mistica, lascia tutto per farsi terziaria francescana e fonda la Confraternita dell’Annunziata",
+   "_es": "c8139c8906"
+  },
+  "411": {
+   "titulo": "Santi Montano e Massima",
+   "nombres": "Montano e Massima",
+   "descripcion": "martiri; presbitero",
+   "resumen": "martiri; presbitero",
+   "_es": "6eeb31c167"
+  },
+  "412": {
+   "titulo": "Venerabile Nerino Cobianchi e Graziella Vitulo",
+   "nombres": "Nerino Cobianchi e Graziella Vitulo",
+   "descripcion": "padre di famiglia fondatore di opere per i bisognosi",
+   "resumen": "caritatevole, fondatore dell’Associazione Pianzola-Olivelli",
+   "_es": "5a6e06eaab"
+  },
+  "413": {
+   "titulo": "Servo di Dio Nicholas Black Elk e Anna Brings White",
+   "nombres": "Nicholas Black Elk e Anna Brings White",
+   "descripcion": "il guaritore nativo americano che catechizzò la sua tribù",
+   "resumen": "guaritore indigeno convertito e catechista",
+   "_es": "e4100c8298"
+  },
+  "414": {
+   "titulo": "Servo di Dio Nicolás Ayllón",
+   "nombres": "Nicolás Ayllón",
+   "descripcion": "sarto peruviano dell’epoca coloniale",
+   "resumen": "sarto di origine indigena che accolse in casa donne bisognose",
+   "_es": "f477ef87d5"
+  },
+  "415": {
+   "titulo": "Beato Mykola Cehelskyj, presbitero, e Josefa Sartych",
+   "nombres": "Mykola Cehelskyj, presbitero, e Josefa Sartych",
+   "descripcion": "presbitero greco-cattolico e martire",
+   "resumen": "presbitero greco-cattolico e martire",
+   "_es": "90e10bf5c7"
+  },
+  "416": {
+   "titulo": "San Nicola di Flüe e Dorothea Wyss",
+   "nombres": "Nicola di Flüe e Dorothea Wyss",
+   "descripcion": "il padre della patria svizzera",
+   "resumen": "casti dopo il matrimonio; militare, giudice ed eremita, con 10 figli",
+   "cita": "Mio Signore e mio Dio, togli da me tutto ciò che mi allontana da te. Mio Signore e mio Dio, dammi tutto ciò che mi avvicina a te. Mio Signore e mio Dio, staccami da me stesso per darmi tutto a te.",
+   "_es": "811ff381d6"
+  },
+  "417": {
+   "titulo": "Beato Niccolò Giustiniani e Anna Michiel",
+   "nombres": "Niccolò Giustiniani e Anna Michiel",
+   "descripcion": "monaco che ricevette la dispensa per sposarsi e poi tornò in monastero",
+   "resumen": "monaco che ricevette la dispensa per sposarsi e poi tornò in monastero",
+   "_es": "f9ed1774d7"
+  },
+  "418": {
+   "titulo": "Venerabile Niklaus Wolf von Rippertschwand e Barbara Müller",
+   "nombres": "Niklaus Wolf von Rippertschwand e Barbara Müller",
+   "descripcion": "contadino e politico, «padre della vita di fede» a Lucerna, in Svizzera",
+   "resumen": "venerabile, parlamentare",
+   "cita": "«Chiedere che i politici siano buoni cristiani deve essere una preoccupazione centrale dei gruppi di preghiera» (Niklaus Wolf)",
+   "_es": "7e16763dac"
+  },
+  "419": {
+   "titulo": "Beato Nikolaus Gross ed Elisabeth Koch",
+   "nombres": "Nikolaus Gross ed Elisabeth Koch",
+   "descripcion": "giornalista tedesco eroico",
+   "resumen": "editore e scrittore, martire del nazismo",
+   "cita": "«Se ci viene chiesto qualcosa che va contro Dio o contro la fede, allora non solo possiamo, ma dobbiamo rifiutare l’obbedienza (agli uomini)». «Se oggi non rischiamo la vita, come vorremo un giorno giustificarci davanti a Dio e al nostro popolo?»",
+   "_es": "b665ce5a94"
+  },
+  "420": {
+   "titulo": "San Nuno Álvares Pereira e Leonor de Alvim",
+   "nombres": "Nuno Álvares Pereira e Leonor de Alvim",
+   "descripcion": "eroe dell’indipendenza portoghese",
+   "resumen": "nobile militare, vedovo e mistico",
+   "cita": "«C’è forse una libertà più grande di quella di servire Dio? Ce n’è una più piena dell’unione con Lui?» (Nuno Álvares Pereira)",
+   "_es": "2b8b576d2b"
+  },
+  "421": {
+   "titulo": "Beata Obdulia Puchol Merino",
+   "nombres": "Obdulia Puchol Merino",
+   "descripcion": "vedova che fondò una casa di accoglienza per viandanti poveri; partecipava alle Conferenze di San Vincenzo de’ Paoli e al Terz’Ordine francescano; martire a 36 anni",
+   "resumen": "vedova che fondò una casa di accoglienza per viandanti poveri; partecipava alle Conferenze di San Vincenzo de’ Paoli e al Terz’Ordine francescano; martire a 36 anni",
+   "_es": "813d79f4fd"
+  },
+  "422": {
+   "titulo": "Sant’Obizio e Inglissenda Porro",
+   "nombres": "Obizio e Inglissenda Porro",
+   "descripcion": "nobile cavaliere convertito",
+   "resumen": "militare",
+   "_es": "78457e9fce"
+  },
+  "423": {
+   "titulo": "Sant’Olaf II e Astrid",
+   "nombres": "Olaf II e Astrid",
+   "descripcion": "sovrano ed eroe norvegese",
+   "resumen": "sovrani",
+   "_es": "d27d4acf8d"
+  },
+  "424": {
+   "titulo": "Sant’Olga di Kiev e Igor I",
+   "nombres": "Olga di Kiev e Igor I",
+   "descripcion": "sovrani",
+   "resumen": "sovrani",
+   "_es": "23fd2afcc1"
+  },
+  "425": {
+   "titulo": "Sant’Olimpia di Costantinopoli e Nebridio",
+   "nombres": "Olimpia di Costantinopoli e Nebridio",
+   "_es": "cbda619dc0"
+  },
+  "426": {
+   "titulo": "Venerabile p. Francisco Barrecheguren Montagut e Concha García Calvo",
+   "nombres": "p. Francisco Barrecheguren Montagut e Concha García Calvo",
+   "descripcion": "vedovo sacerdote, padre della venerabile Conchita Barrecheguren",
+   "resumen": "vedovo sacerdote, padre della venerabile Conchita Barrecheguren",
+   "_es": "7b2de47edb"
+  },
+  "427": {
+   "titulo": "San Paolo di Skálholt e Herdís",
+   "nombres": "Paolo di Skálholt e Herdís",
+   "descripcion": "padre di famiglia e vescovo dell’antica Islanda",
+   "resumen": "vescovo",
+   "_es": "21792c8b50"
+  },
+  "428": {
+   "titulo": "Beato Pablo Meléndez Gonzalo e Dolores",
+   "nombres": "Pablo Meléndez Gonzalo e Dolores",
+   "descripcion": "martire, avvocato dell’Azione Cattolica",
+   "resumen": "martire, avvocato dell’Azione Cattolica",
+   "_es": "51246f3f1a"
+  },
+  "429": {
+   "titulo": "Santi Paolo e Tatta",
+   "nombres": "Paolo e Tatta",
+   "descripcion": "martiri a Damasco con i loro 4 figli",
+   "resumen": "martiri a Damasco con i loro 4 figli",
+   "_es": "fa7da245b5"
+  },
+  "430": {
+   "titulo": "Beati Paolo e Tecla Nangaichi",
+   "nombres": "Paolo e Tecla Nangaichi",
+   "resumen": "martiri",
+   "_es": "c6e331af8d"
+  },
+  "431": {
+   "titulo": "San Pammachio di Roma e Paolina",
+   "nombres": "Pammachio di Roma e Paolina",
+   "descripcion": "senatore, genero di santa Paola di Roma",
+   "resumen": "senatore, genero di santa Paola di Roma",
+   "_es": "90843dc9ce"
+  },
+  "432": {
+   "titulo": "Servo di Dio Paolo Xu Guangqi e Wu",
+   "nombres": "Paolo Xu Guangqi e Wu",
+   "descripcion": "poliedrico sposo cinese convertito",
+   "resumen": "funzionario",
+   "_es": "3806a5e3b7"
+  },
+  "433": {
+   "titulo": "Beato Pascual Torres Lloret e Leonor Pérez Canet",
+   "nombres": "Pascual Torres Lloret e Leonor Pérez Canet",
+   "descripcion": "martire, costruttore, dell’Azione Cattolica e delle Conferenze di San Vincenzo de’ Paoli",
+   "resumen": "martire, costruttore, dell’Azione Cattolica e delle Conferenze di San Vincenzo de’ Paoli",
+   "_es": "966644a329"
+  },
+  "434": {
+   "titulo": "Santa Paola Elisabetta Cerioli e Gaetano Buzecchi-Tassis",
+   "nombres": "Paola Cerioli e Gaetano Buzecchi-Tassis",
+   "descripcion": "madre di famiglia e fondatrice",
+   "resumen": "vedova, fondatrice degli Istituti della Sacra Famiglia",
+   "_es": "c2110659e7"
+  },
+  "435": {
+   "titulo": "Santa Paola di Roma e Giulio Tossozio",
+   "nombres": "Paola di Roma e Giulio Tossozio",
+   "descripcion": "madre erudita che aiutò nella prima traduzione della Bibbia",
+   "resumen": "vedova religiosa",
+   "cita": "«Seguendo a Betlemme Cristo in grande povertà, riducendo a una stalla la sua grandezza» (san Girolamo su Paola, nel suo epitaffio)",
+   "_es": "8544ec1a59"
+  },
+  "436": {
+   "titulo": "Beata Paola Gambara e Ludovico Antonio Costa",
+   "nombres": "Paola Gambara e Ludovico Antonio Costa",
+   "descripcion": "perseveranza per convertire il marito",
+   "resumen": "nobile con un marito violento e bigamo, poi convertito",
+   "_es": "bfeba428d7"
+  },
+  "437": {
+   "titulo": "San Paolino di Nola e Terasia",
+   "nombres": "Paolino di Nola e Terasia",
+   "descripcion": "funzionario, poeta e vescovo esemplare",
+   "resumen": "vescovo di Nola (Campania), vedovo",
+   "_es": "264f91e9d7"
+  },
+  "438": {
+   "titulo": "San Pietro di Capitolias",
+   "nombres": "Pietro di Capitolias",
+   "resumen": "martire, presbitero",
+   "_es": "e62292c728"
+  },
+  "439": {
+   "titulo": "Beato Pietro da Siena (il Pettinaio)",
+   "nombres": "Pietro da Siena (il Pettinaio)",
+   "descripcion": "artigiano vedovo, sposi casti, terziario francescano",
+   "resumen": "artigiano vedovo, sposi casti, terziario francescano",
+   "_es": "94dffee7a0"
+  },
+  "440": {
+   "titulo": "Venerabile dott. Pedro Herrero Rubio e Patrocinio Javaloy Lizón",
+   "nombres": "Pedro Herrero Rubio e Patrocinio Javaloy Lizón",
+   "descripcion": "grande pediatra spagnolo",
+   "resumen": "medico, direttore dell’Ospedale Provinciale di Alicante, promosse la fondazione del Cottolengo del Padre Alegre",
+   "_es": "21c3495d1f"
+  },
+  "441": {
+   "titulo": "Beato Pedro Ortiz de Zárate e Petronila de Ibarra y Argañarás",
+   "nombres": "Pedro Ortiz de Zárate e Petronila de Ibarra y Argañarás",
+   "descripcion": "padre di famiglia e sacerdote missionario argentino",
+   "resumen": "martire; vedovo, presbitero missionario",
+   "_es": "1be55d9f3e"
+  },
+  "442": {
+   "titulo": "Beato Pedro Sandoica y Granados",
+   "nombres": "Pedro Sandoica y Granados",
+   "descripcion": "medico dei poveri martirizzato per la sua fede nel 1936",
+   "resumen": "medico dei poveri martirizzato per la sua fede nel 1936",
+   "_es": "2027e3b101"
+  },
+  "443": {
+   "titulo": "Santa Perpetua",
+   "nombres": "Perpetua",
+   "resumen": "martire aristocratica",
+   "cita": "Io che sono cristiana non posso chiamarmi pagana né di nessun’altra religione, perché sono cristiana e voglio esserlo per sempre. Mio padre era l’unico della mia famiglia che non si rallegrava perché saremmo stati martiri per Cristo.",
+   "_es": "3b20d514c5"
+  },
+  "444": {
+   "titulo": "Servo di Dio Peter Paradesi",
+   "nombres": "Peter Paradesi",
+   "descripcion": "professore convertito, poi terziario francescano",
+   "resumen": "professore convertito, poi terziario francescano",
+   "_es": "722dbe369e"
+  },
+  "445": {
+   "titulo": "Servi di Dio Plácido Armengol Ceranova ed Emilia Serra Saura",
+   "nombres": "Plácido Armengol Ceranova ed Emilia Serra Saura",
+   "descripcion": "panettieri, il più numeroso gruppo familiare ucciso durante la guerra civile (6)",
+   "resumen": "panettieri, il più numeroso gruppo familiare ucciso durante la guerra civile (6)",
+   "_es": "5dffa41a2a"
+  },
+  "446": {
+   "titulo": "Venerabile Práxedes Fernández García e Gabriel Fernández",
+   "nombres": "Práxedes Fernández García e Gabriel Fernández",
+   "descripcion": "madre chiamata la «santa di Mieres»",
+   "resumen": "catechista, dirigente delle Figlie di Maria e terziaria domenicana",
+   "cita": "«Dio l’ha voluto» (Práxedes Fernández)",
+   "_es": "42a8776e54"
+  },
+  "447": {
+   "titulo": "San Protasio Chong Kuk-bo",
+   "nombres": "Protasio Chong Kuk-bo",
+   "resumen": "martire",
+   "_es": "2397211c00"
+  },
+  "448": {
+   "titulo": "Santa Pulcheria e Marciano",
+   "nombres": "Pulcheria e Marciano",
+   "descripcion": "nipote di Teodosio il Grande, sposa casta",
+   "resumen": "nipote di Teodosio il Grande, sposa casta",
+   "_es": "590195d247"
+  },
+  "449": {
+   "titulo": "San Quirino di Neuss",
+   "nombres": "Quirino di Neuss",
+   "descripcion": "martire, padre di santa Balbina",
+   "resumen": "martire, padre di santa Balbina",
+   "_es": "af37c14bf1"
+  },
+  "450": {
+   "titulo": "Beato Rafael Alonso Gutiérrez e Adelaida Ruiz Cañada",
+   "nombres": "Rafael Alonso Gutiérrez e Adelaida Ruiz Cañada",
+   "descripcion": "martire, catechista dell’Azione Cattolica",
+   "resumen": "martire, catechista dell’Azione Cattolica",
+   "_es": "40110aded7"
+  },
+  "451": {
+   "titulo": "Beata Rafaela Ybarra e José Vilallonga",
+   "nombres": "Rafaela Ybarra e José Vilallonga",
+   "descripcion": "madre di famiglia spagnola dedita ai bisognosi",
+   "resumen": "aristocratica benefattrice, fondatrice dell’Istituto delle Suore degli Angeli Custodi",
+   "_es": "f9498c7383"
+  },
+  "452": {
+   "titulo": "Servo di Dio dott. Raffaele Gentile e Susy Liotta",
+   "nombres": "Raffaele Gentile e Susy Liotta",
+   "descripcion": "medico, giornalista, funzionario e maestro",
+   "resumen": "medico di Catanzaro, cofondatore di In Charitate Christi",
+   "_es": "63d45f4fdf"
+  },
+  "453": {
+   "titulo": "San Raimondo Gayrard",
+   "nombres": "Raimondo Gayrard",
+   "descripcion": "maestro di scuola, poi vedovo caritatevole e canonico",
+   "resumen": "maestro di scuola, poi vedovo caritatevole e canonico",
+   "_es": "63da549589"
+  },
+  "454": {
+   "titulo": "Beato Raimondo Zanfogni «Palmerio»",
+   "nombres": "Raimondo Zanfogni «Palmerio»",
+   "descripcion": "padre e calzolaio benefattore",
+   "resumen": "fondò un ospizio",
+   "_es": "0a817e9b7e"
+  },
+  "455": {
+   "titulo": "Beato Raimondo Lullo e Blanca Picany",
+   "nombres": "Raimondo Lullo e Blanca Picany",
+   "descripcion": "trovatore diventato missionario e teologo",
+   "resumen": "trovatore diventato missionario e teologo",
+   "_es": "db659dcd23"
+  },
+  "456": {
+   "titulo": "Beata regina Esclaramunda di Maiorca e Giacomo II",
+   "nombres": "regina Esclaramunda di Maiorca e Giacomo II",
+   "descripcion": "nobile madre catalana",
+   "resumen": "regina consorte del Regno di Maiorca; benefattrice dell’Ordine dei Mercedari",
+   "_es": "4b88a83f63"
+  },
+  "457": {
+   "titulo": "Beata Renata Maria Feillatreau de Dumont",
+   "nombres": "Renata Maria Feillatreau de Dumont",
+   "resumen": "martire",
+   "_es": "71ca18f883"
+  },
+  "458": {
+   "titulo": "Servo di Dio re Francesco II di Napoli e Maria Sofia di Baviera",
+   "nombres": "re Francesco II di Napoli e Maria Sofia di Baviera",
+   "descripcion": "l’ultimo re di Napoli",
+   "resumen": "ultimo re delle Due Sicilie",
+   "cita": "«Nessuna parola di rimprovero o di risentimento dalla sua bocca, ma sempre di pace e di incoraggiamento» (dalla Fondazione Francesco II)",
+   "_es": "0764b41d0b"
+  },
+  "459": {
+   "titulo": "Serva di Dio Rhoda Wise ed Ernest Wissmar / George Wise",
+   "nombres": "Rhoda Wise ed Ernest Wissmar / George Wise",
+   "descripcion": "convertita, veggente degli Stati Uniti",
+   "resumen": "veggente stigmatizzata con la corona di spine",
+   "cita": "«Qui avverranno guarigioni più meravigliose della tua» (Gesù a Rhoda)",
+   "_es": "f13f6f2aae"
+  },
+  "460": {
+   "titulo": "Santa Riccarda d’Alsazia e Carlo il Grosso",
+   "nombres": "Riccarda d’Alsazia e Carlo il Grosso",
+   "descripcion": "imperatrice caritatevole del Sacro Romano Impero",
+   "resumen": "imperatrice caritatevole",
+   "_es": "19ec40558f"
+  },
+  "461": {
+   "titulo": "Santi Riccardo il Pellegrino e Wuna del Wessex",
+   "nombres": "Riccardo il Pellegrino e Wuna del Wessex",
+   "descripcion": "re britannico pellegrino",
+   "resumen": "nobili, genitori di santa Valburga, san Villibaldo e san Vunibaldo; morì in pellegrinaggio verso Roma",
+   "_es": "94d9e8cf0d"
+  },
+  "462": {
+   "titulo": "San Richard Gwyn e Catherine",
+   "nombres": "Richard Gwyn e Catherine",
+   "descripcion": "maestro convertito, poeta e martire",
+   "resumen": "primo martire del Galles, maestro di scuola",
+   "cita": "«Se è sangue che volete, potete togliermi la vita insieme a quella di mio marito» (Catherine Gwyn)",
+   "_es": "99c9c71be8"
+  },
+  "463": {
+   "titulo": "Beato Richard Langhorne e Dorothy Legatt",
+   "nombres": "Richard Langhorne e Dorothy Legatt",
+   "descripcion": "insigne ed eroico giurista",
+   "resumen": "insigne giurista accusato di tradimento e martirizzato sotto Carlo II",
+   "cita": "Le sue ultime parole al boia furono: «Desidero stare con il mio Gesù. Sono pronto»",
+   "_es": "0cb65840ab"
+  },
+  "464": {
+   "titulo": "Santa Rictrude di Marchiennes",
+   "nombres": "Rictrude di Marchiennes",
+   "_es": "1302dde619"
+  },
+  "465": {
+   "titulo": "Santa Rictrude e sant’Adalbaldo",
+   "nombres": "Rictrude e Adalbaldo",
+   "descripcion": "genitori di santa Eusebia, santa Clotsinde, santa Adalsinde e san Mauronto",
+   "resumen": "genitori di santa Eusebia, santa Clotsinde, santa Adalsinde e san Mauronto",
+   "_es": "9eb9468f77"
+  },
+  "466": {
+   "titulo": "Santa Rita da Cascia e Paolo Ferdinando",
+   "nombres": "Rita da Cascia e Paolo Ferdinando",
+   "descripcion": "patrona dei problemi coniugali e delle cause impossibili",
+   "resumen": "vedova agostiniana che convertì il marito",
+   "cita": "«Gli ostacoli sono insegnamenti per lo spirito» (santa Rita)",
+   "_es": "56fbbecf3d"
+  },
+  "467": {
+   "titulo": "Santa Rivanone e sant’Hyvarnion",
+   "nombres": "Rivanone e Hyvarnion",
+   "descripcion": "vedova e reclusa; genitori di sant’Hervé; casti dopo il matrimonio",
+   "resumen": "vedova e reclusa; genitori di sant’Hervé; casti dopo il matrimonio",
+   "_es": "0225c4d632"
+  },
+  "468": {
+   "titulo": "Beato Roman Lysko, presbitero, e Neonila Huniovska",
+   "nombres": "Roman Lysko, presbitero, e Neonila Huniovska",
+   "descripcion": "sposo, sacerdote e martire",
+   "resumen": "presbitero greco-cattolico e martire del comunismo",
+   "_es": "179e85f3eb"
+  },
+  "469": {
+   "titulo": "Serva di Dio Ruth Van Kooy e Michael Pakaluk",
+   "nombres": "Ruth Van Kooy e Michael Pakaluk",
+   "descripcion": "madre convertita e attivista pro vita",
+   "resumen": "attivista del movimento pro vita americano",
+   "_es": "c3ef0442a4"
+  },
+  "470": {
+   "titulo": "Santa Sabina e Valentino",
+   "nombres": "Sabina e Valentino",
+   "descripcion": "nobile, moglie di un senatore romano e martire",
+   "resumen": "nobile, moglie di un senatore romano e martire",
+   "cita": "«Cristo è il mio Dio, Lui solo servo e adoro» (santa Sabina, davanti al prefetto di Roma)",
+   "_es": "fcd108c28e"
+  },
+  "471": {
+   "titulo": "Santa Salaberga e Blandino",
+   "nombres": "Salaberga e Blandino",
+   "descripcion": "nobili, casti dopo il matrimonio",
+   "resumen": "nobili, casti dopo il matrimonio",
+   "_es": "c90758990f"
+  },
+  "472": {
+   "titulo": "Santi Salome e Zebedeo",
+   "nombres": "Salome e Zebedeo",
+   "descripcion": "genitori degli apostoli Giacomo e Giovanni",
+   "resumen": "genitori degli apostoli Giacomo e Giovanni",
+   "_es": "0b494ef6ed"
+  },
+  "473": {
+   "titulo": "Beato Salvador Damián Enguix Garés",
+   "nombres": "Salvador Damián Enguix Garés",
+   "descripcion": "martire, veterinario, cofondatore dell’Adorazione notturna",
+   "resumen": "martire, veterinario, cofondatore dell’Adorazione notturna",
+   "_es": "0776a97d79"
+  },
+  "474": {
+   "titulo": "Servo di Dio dott. Salvador García Pintos e María Esther Baracco",
+   "nombres": "Salvador García Pintos e María Esther Baracco",
+   "descripcion": "medico, politico e giornalista uruguaiano",
+   "resumen": "medico, giornalista, politico e presidente del Circolo Cattolico degli Operai",
+   "cita": "«La legge mostra un doppio volto quando frustra il diritto essenziale all’esistenza per mano della stessa madre» (dott. García Pintos)",
+   "_es": "07c48eed64"
+  },
+  "475": {
+   "titulo": "Venerabile Sándor Bálint e Sarolta Magdolna Németh",
+   "nombres": "Sándor Bálint e Sarolta Magdolna Németh",
+   "descripcion": "etnografo e storico cristiano",
+   "resumen": "etnografo e storico cristiano",
+   "_es": "edda546933"
+  },
+  "476": {
+   "titulo": "Santi Saturnino di Abitina e Maria",
+   "nombres": "Saturnino di Abitina e Maria",
+   "descripcion": "sacerdote martire insieme ai suoi 4 figli",
+   "resumen": "sacerdote martire insieme ai suoi 4 figli",
+   "cita": "«Non possiamo vivere senza celebrare il giorno del Signore» (disse Emerito, uno dei martiri, durante l’interrogatorio)",
+   "_es": "4f9785f2fe"
+  },
+  "477": {
+   "titulo": "San Sigismondo re di Borgogna e Ostrogota",
+   "nombres": "Sigismondo di Borgogna e Ostrogota",
+   "descripcion": "sovrani",
+   "resumen": "sovrani",
+   "_es": "84a85e4e22"
+  },
+  "478": {
+   "titulo": "Servi di Dio Settimio Manelli e Licia Gualandris",
+   "nombres": "Settimio Manelli e Licia Gualandris",
+   "descripcion": "sposi generosi con 21 figli",
+   "resumen": "militare; terziari francescani benedetti con 21 figli",
+   "cita": "«Papà e mamma ci invitavano sempre a fidarci della Provvidenza, ad aspettarne l’arrivo a casa come se fosse una persona» (padre Stefano)",
+   "_es": "aa73b0c8f1"
+  },
+  "479": {
+   "titulo": "Santi Severiano e Aquila",
+   "nombres": "Severiano e Aquila",
+   "resumen": "martiri",
+   "_es": "7dc86511ec"
+  },
+  "480": {
+   "titulo": "San Severino Boezio e Rusticiana",
+   "nombres": "Severino Boezio e Rusticiana",
+   "descripcion": "filosofo dell’antica Roma",
+   "resumen": "scrittore e filosofo, senatore, console e poi martire",
+   "cita": "«Perché, o mortali, cercate fuori di voi la felicità, che è invece dentro di voi?» (Severino Boezio)",
+   "_es": "07f770a79a"
+  },
+  "481": {
+   "titulo": "Beati Simone Bokusai Kiota e Maddalena",
+   "nombres": "Simone Bokusai Kiota e Maddalena",
+   "descripcion": "catechista martire con la moglie",
+   "resumen": "catechista martire con la moglie",
+   "_es": "09ecd44449"
+  },
+  "482": {
+   "titulo": "San Simone Phan Đắc Hòa",
+   "nombres": "Simone Phan Đắc Hòa",
+   "descripcion": "medico e maestro vietnamita",
+   "resumen": "martire, medico caritatevole e missionario",
+   "cita": "«Sono molto felice di fare la volontà di Dio, non siate tristi» (san Simone)",
+   "_es": "9652d07c60"
+  },
+  "483": {
+   "titulo": "Beata Sofía Ximénez Ximénez e Carlos del Río Díez de Bulnes",
+   "nombres": "Sofía Ximénez Ximénez e Carlos del Río Díez de Bulnes",
+   "descripcion": "martire, catechista dell’Azione Cattolica",
+   "resumen": "martire, catechista dell’Azione Cattolica",
+   "_es": "fd6d8ef15b"
+  },
+  "484": {
+   "titulo": "Servo di Dio dott. Stanisław Kownacki",
+   "nombres": "Stanisław Kownacki",
+   "descripcion": "medico dell’Organizzazione Todt, amico di Giovanni Paolo II",
+   "resumen": "medico dell’Organizzazione Todt, amico di Giovanni Paolo II",
+   "_es": "25253e35a4"
+  },
+  "485": {
+   "titulo": "Beato Stanisław Starowieyski",
+   "nombres": "Stanisław Starowieyski",
+   "descripcion": "dell’Azione Cattolica; morto a Dachau",
+   "resumen": "dell’Azione Cattolica; morto a Dachau",
+   "cita": "Adam Sarbinowski, uno dei compagni di prigionia convertitosi grazie a lui, confessò: «Sono felice di aver avuto l’occasione di conoscere un uomo santo»",
+   "_es": "303cb68804"
+  },
+  "486": {
+   "titulo": "Serva di Dio Stanisława Leszczyńska e Bronisław",
+   "nombres": "Stanisława Leszczyńska e Bronisław",
+   "descripcion": "l’«ostetrica di Auschwitz»",
+   "resumen": "l’«ostetrica di Auschwitz»",
+   "cita": "«Non giudicate, perché non sapete che cosa li ha spinti a comportarsi così» (Stanisława Leszczyńska)",
+   "_es": "4115e2d87a"
+  },
+  "487": {
+   "titulo": "Beata Tecla Hashimoto",
+   "nombres": "Tecla Hashimoto",
+   "descripcion": "martire insieme ai suoi 4 figli",
+   "resumen": "martire insieme ai suoi 4 figli",
+   "_es": "e4459b3270"
+  },
+  "488": {
+   "titulo": "Santa Teresa del Portogallo e Alfonso di Castiglia",
+   "nombres": "Teresa del Portogallo e Alfonso di Castiglia",
+   "descripcion": "madre e regina il cui matrimonio fu annullato dal re",
+   "resumen": "madre e regina il cui matrimonio fu annullato dal re",
+   "_es": "1aab52a1a7"
+  },
+  "489": {
+   "titulo": "Serva di Dio Teresa Di Janni e Giuseppe Magliozzi",
+   "nombres": "Teresa Di Janni e Giuseppe Magliozzi",
+   "descripcion": "madre generosa di 14 figli",
+   "resumen": "aristocratica benefattrice e terziaria francescana",
+   "_es": "5c4afdc8dc"
+  },
+  "490": {
+   "titulo": "Venerabile Teresa Enríquez e Gutierre de Cárdenas",
+   "nombres": "Teresa Enríquez e Gutierre de Cárdenas",
+   "descripcion": "la «Pazza del Sacramento»",
+   "resumen": "nobile, chiamata la «Pazza del Sacramento», fondatrice della Confraternita del Santissimo Sacramento di Torrijos",
+   "cita": "«Si faccia tutto senza pompa e non si dica nulla in mia lode, solo un sermone al Santissimo Sacramento» (chiese Teresa per il suo funerale)",
+   "_es": "f3c4e27c34"
+  },
+  "491": {
+   "titulo": "Venerabile Teresa Gallifa Palmarola e Manuel Benito Codolesa",
+   "nombres": "Teresa Gallifa Palmarola e Manuel Benito Codolesa",
+   "descripcion": "fondatrice di un’opera a protezione delle madri in gravidanza",
+   "resumen": "vedova religiosa, fondatrice delle Serve della Passione",
+   "cita": "«Madre, tu vedi i nostri bisogni. Proteggici tu, che tutto puoi» (Teresa Gallifa Palmarola)",
+   "_es": "0b420da5a3"
+  },
+  "492": {
+   "titulo": "Beata Teresa Grillo e Giovanni Battista Michel",
+   "nombres": "Teresa Grillo e Giovanni Battista Michel",
+   "descripcion": "benefattrice e fondatrice",
+   "resumen": "vedova religiosa che fondò la Congregazione delle Piccole Suore della Divina Provvidenza",
+   "cita": "«Vorrei poter allungare le braccia per accogliere tutti sotto le ali della Divina Provvidenza» (madre Teresa Michel)",
+   "_es": "12600298a4"
+  },
+  "493": {
+   "titulo": "Serva di Dio Teresa Orsini e Andrea Doria Pamphilj Landi",
+   "nombres": "Teresa Orsini e Andrea Doria Pamphilj Landi",
+   "descripcion": "nobile benefattrice ospedaliera e fondatrice",
+   "resumen": "nobile benefattrice ospedaliera e fondatrice",
+   "_es": "3d8ee85e28"
+  },
+  "494": {
+   "titulo": "San Tetrico di Langres",
+   "nombres": "Tetrico di Langres",
+   "descripcion": "vescovo",
+   "resumen": "vescovo",
+   "_es": "6ef1d4e196"
+  },
+  "495": {
+   "titulo": "Beato Thomas Percy e Anne Somerset",
+   "nombres": "Thomas Percy, VII conte di Northumberland, e Anne Somerset",
+   "descripcion": "nobili, VII conte di Northumberland",
+   "resumen": "nobili",
+   "_es": "360b24753c"
+  },
+  "496": {
+   "titulo": "Servo di Dio Thomas Vander Woude e Mary Ellen Earley",
+   "nombres": "Thomas Vander Woude e Mary Ellen Earley",
+   "descripcion": "diede la vita per salvare il figlio disabile",
+   "resumen": "salvò il figlio con sindrome di Down che stava annegando in una fossa settica",
+   "cita": "«La sua vita riflette la chiamata universale alla santità, e la sua morte “un atto inequivocabile di amore sacrificale”» (il vescovo di Arlington)",
+   "_es": "75636a4329"
+  },
+  "497": {
+   "titulo": "Santi Timoteo e Maura",
+   "nombres": "Timoteo e Maura",
+   "descripcion": "martiri dopo un mese di matrimonio",
+   "resumen": "martiri dopo un mese di matrimonio",
+   "_es": "05212703b3"
+  },
+  "498": {
+   "titulo": "Beati Tommaso Gengoro e Maria",
+   "nombres": "Tommaso Gengoro e Maria",
+   "descripcion": "crocifissi a testa in giù con il figlio",
+   "resumen": "crocifissi a testa in giù con il figlio",
+   "_es": "1719066094"
+  },
+  "499": {
+   "titulo": "Beato Tomás Ramírez Caba e Rosa",
+   "nombres": "Tomás Ramírez Caba e Rosa",
+   "descripcion": "martire guatemalteco del XX secolo",
+   "resumen": "membro dell’Azione Cattolica, sacrestano maggiore, uno dei 10 «martiri del Quiché»",
+   "cita": "Muoio come morì Gesù. Lui non era peccatore e la gente diceva che era un uomo cattivo… E io sì che sono peccatore",
+   "_es": "12f430dfea"
+  },
+  "500": {
+   "titulo": "Venerabile Uberto Mori e Gilda Cavedoni",
+   "nombres": "Uberto Mori e Gilda Cavedoni",
+   "descripcion": "lo chiamavano «l’ingegnere di Maria»",
+   "resumen": "terziario francescano, ingegnere e imprenditore",
+   "cita": "«Il nostro unico scopo deve essere la gloria del Signore in qualunque condizione ci troviamo» (Uberto Mori)",
+   "_es": "7602889aab"
+  },
+  "501": {
+   "titulo": "Servi di Dio Ulisse Amendolagine e Lelia Cossidente",
+   "nombres": "Ulisse Amendolagine e Lelia Cossidente",
+   "descripcion": "sposi italiani semplici e virtuosi",
+   "resumen": "sposi terziari carmelitani",
+   "cita": "«In qualunque condizione e in qualunque stato di vita, devi sempre cercare di guadagnarti il Paradiso» (lettera di Lelia al figlio Giuseppe)",
+   "_es": "2176f797e6"
+  },
+  "502": {
+   "titulo": "Beato Vicente Vilar David e Isabel Rodes Reig",
+   "nombres": "Vicente Vilar David e Isabel Rodes Reig",
+   "descripcion": "ingegnere industriale e catechista spagnolo",
+   "resumen": "martire, ingegnere industriale, fondatore del Patronato Parrocchiale di Azione Sociale",
+   "_es": "96252a45a3"
+  },
+  "503": {
+   "titulo": "San Vincenzo e santa Valdetrude",
+   "nombres": "Vincenzo e Valdetrude",
+   "descripcion": "casti dopo il matrimonio; genitori di san Landerico, vescovo di Parigi, san Dentellino, santa Aldetrude e santa Madelberta",
+   "resumen": "casti dopo il matrimonio; genitori di san Landerico, vescovo di Parigi, san Dentellino, santa Aldetrude e santa Madelberta",
+   "_es": "09184e1116"
+  },
+  "504": {
+   "titulo": "Beata Victoire Rasoamanarivo e Ratsimatahodriaka",
+   "nombres": "Victoire Rasoamanarivo e Ratsimatahodriaka",
+   "descripcion": "la principessa africana che convertì il marito",
+   "resumen": "principessa benefattrice con un marito alcolista e violento poi convertito, difensora dell’indissolubilità",
+   "_es": "8fac32054e"
+  },
+  "505": {
+   "titulo": "Servo di Dio Víctor Rodríguez Martínez e Asunción Merino Cuadrado",
+   "nombres": "Víctor Rodríguez Martínez e Asunción Merino Cuadrado",
+   "descripcion": "umile lavoratore spagnolo, padre di dieci figli",
+   "resumen": "adoratore notturno, carmelitano scalzo secolare e laico della congregazione di San Filippo Neri, con 10 figli",
+   "cita": "Nella fede cieca camminai. Nella speranza vissi. La carità mi arse. Di sé stesso mi nutrì.",
+   "_es": "2b27fd273b"
+  },
+  "506": {
+   "titulo": "Serva di Dio Victorina Rivara e Rafael Perazzo",
+   "nombres": "Victorina Rivara e Rafael Perazzo",
+   "descripcion": "madre argentina collaboratrice di don Orione",
+   "resumen": "vedova che conobbe don Orione e fondò il Cottolengo di Itatí (Corrientes)",
+   "_es": "40a1c9df36"
+  },
+  "507": {
+   "titulo": "Beata Villana de’ Botti e Rosso Benintendi",
+   "nombres": "Villana de’ Botti e Rosso Benintendi",
+   "descripcion": "aristocratica pentita",
+   "resumen": "aristocratica, terziaria domenicana",
+   "_es": "ee5fceb3a7"
+  },
+  "508": {
+   "titulo": "Santa Virginia Centurione e Gaspare Grimaldi Bracelli",
+   "nombres": "Virginia Centurione e Gaspare Grimaldi Bracelli",
+   "descripcion": "madre e fondatrice",
+   "resumen": "nobile vedova benefattrice",
+   "_es": "a833a0fba1"
+  },
+  "509": {
+   "titulo": "Santi Vitale e Valeria",
+   "nombres": "Vitale e Valeria",
+   "descripcion": "genitori dei santi Gervasio e Protasio",
+   "resumen": "genitori dei santi Gervasio e Protasio",
+   "_es": "70e7e681bc"
+  },
+  "510": {
+   "titulo": "San Vladimiro re di Kiev e Anna",
+   "nombres": "Vladimiro di Kiev e Anna",
+   "descripcion": "la coppia che convertì le nazioni slave",
+   "resumen": "sovrani con 12 figli; convertirono la Rus’ di Kiev",
+   "_es": "5b1e986ec0"
+  },
+  "511": {
+   "titulo": "Beato Volodymyr Ivanovych Pryjma",
+   "nombres": "Volodymyr Ivanovych Pryjma",
+   "descripcion": "padre e cantore parrocchiale ucraino",
+   "resumen": "greco-cattolico, direttore del coro",
+   "cita": "«Nel battesimo ogni cristiano è chiamato alla santità. Non tutti sono chiamati ad affrontare la prova suprema dello spargimento del sangue. Ma a tutti è affidato il compito di seguire Cristo con generosità quotidiana e fedele» (san Giovanni Paolo II alla beatificazione dei martiri ucraini)",
+   "_es": "c6eef94f0a"
+  },
+  "512": {
+   "titulo": "San Volusiano",
+   "nombres": "Volusiano",
+   "descripcion": "vescovo di Tours",
+   "resumen": "vescovo di Tours",
+   "cita": "A quel tempo c’erano ancora vescovi latini sposati, e anche Volusiano lo era: aveva una moglie così bisbetica che con il suo carattere terrorizzava tutti i conoscenti. Ne è prova la risposta che Ruricio, vescovo di Limoges, diede a Volusiano quando questi gli scrisse della sua paura dei Goti: «timere hostem non debet extraneum qui consuevit sustinere domesticum», cioè chi ha già un terribile nemico in casa non ha nulla da temere dagli estranei.",
+   "_es": "f683ec69e2"
+  },
+  "513": {
+   "titulo": "San Walberto e santa Bertilla",
+   "nombres": "Walberto e Bertilla",
+   "descripcion": "genitori di santa Valdetrude e santa Aldegonda",
+   "resumen": "genitori di santa Valdetrude e santa Aldegonda",
+   "_es": "b4e5e4287c"
+  },
+  "514": {
+   "titulo": "San Walfredo (Valfredo) della Gherardesca",
+   "nombres": "Walfredo (Valfredo) della Gherardesca",
+   "descripcion": "abate che, dopo aver avuto cinque figli, decise con la moglie di abbracciare la vita monastica",
+   "resumen": "abate che, dopo aver avuto cinque figli, decise con la moglie di abbracciare la vita monastica",
+   "_es": "440fd834f0"
+  },
+  "515": {
+   "titulo": "Beato Wenceslao Pedernera e Coca Cornejo",
+   "nombres": "Wenceslao Pedernera e Coca Cornejo",
+   "descripcion": "padre di famiglia e catechista argentino",
+   "resumen": "ucciso davanti alla sua famiglia durante la dittatura militare",
+   "cita": "«Non odiate, io li ho già perdonati» (Wenceslao, morente, alla sua famiglia)",
+   "_es": "bb4bbb66d9"
+  },
+  "516": {
+   "titulo": "Servo di Dio Wilhelm Frede e Maria Brohl",
+   "nombres": "Wilhelm Frede e Maria Brohl",
+   "descripcion": "politico, addetto consolare, poi prigioniero a Sachsenhausen",
+   "resumen": "politico, addetto consolare, poi prigioniero a Sachsenhausen",
+   "cita": "«Difficilmente c’è qualcuno che io ammiri di più per il suo carattere, la sua pazienza e il suo senso di giustizia. Diede tutto se stesso per il bene dei più umili» (lo descrisse così il suo superiore, il console Arnoldus Jurgens, nel 1948)",
+   "_es": "c24939a717"
+  },
+  "517": {
+   "titulo": "Beato William Howard e Mary Stafford",
+   "nombres": "William Howard e Mary Stafford",
+   "descripcion": "visconte martire",
+   "resumen": "nobile martire",
+   "cita": "«Signore, perdona coloro che hanno giurato il falso contro di me» (William, avvicinandosi al patibolo)",
+   "_es": "c8ef3cc35a"
+  },
+  "518": {
+   "titulo": "Beata Iolanda di Polonia e Boleslao il Pio",
+   "nombres": "Iolanda di Polonia e Boleslao il Pio",
+   "descripcion": "principessa polacca virtuosa",
+   "resumen": "duchessa vedova e poi badessa",
+   "_es": "a36eeff5b6"
+  },
+  "519": {
+   "titulo": "Servo di Dio Yvon Nicolazic e Guillemette Le Roux",
+   "nombres": "Yvon Nicolazic e Guillemette Le Roux",
+   "descripcion": "il contadino francese che vide sant’Anna",
+   "resumen": "contadino veggente di sant’Anna a Sainte-Anne-d’Auray",
+   "cita": "«Sono Anna, madre di Maria. Di’ al tuo sacerdote che nel campo chiamato Bocenno un tempo c’era una cappella a me dedicata. Voglio che sia ricostruita al più presto e che tu te ne prenda cura, perché Dio vuole che io sia onorata là»",
+   "_es": "ed2f7ac703"
+  },
+  "520": {
+   "titulo": "Santi Zaccaria ed Elisabetta",
+   "nombres": "Zaccaria ed Elisabetta",
+   "descripcion": "precristiani (genitori di Giovanni Battista)",
+   "resumen": "precristiani (genitori di Giovanni Battista)",
+   "_es": "7b80f29d22"
+  },
+  "521": {
+   "titulo": "Santa Zdislava di Lemberk e Havel",
+   "nombres": "Zdislava di Lemberk e Havel",
+   "descripcion": "nobile caritatevole ceca",
+   "resumen": "nobildonna in Moravia, fondatrice di 2 conventi e terziaria domenicana",
+   "_es": "8bc60c0fd1"
+  },
+  "522": {
+   "titulo": "Serva di Dio Zilda Arns e Aloísio Neumann",
+   "nombres": "Zilda Arns e Aloísio Neumann",
+   "descripcion": "madre, pediatra e umanitaria brasiliana, fondatrice della Pastorale del Bambino",
+   "resumen": "pediatra missionaria e fondatrice della Pastorale del Bambino e della Pastorale della Persona Anziana della CNBB, candidata al Nobel per la pace; vittima del terremoto di Haiti del 2010",
+   "cita": "«i bambini, quando sono ben accuditi, sono semi di pace e di speranza»",
+   "_es": "2fad27df75"
+  },
+  "523": {
+   "titulo": "Beata Zofia Czeska e Jan Czeski",
+   "nombres": "Zofia Czeska e Jan Czeski",
+   "descripcion": "vedova religiosa, fondatrice della Congregazione delle Vergini della Presentazione della Beata Vergine Maria",
+   "resumen": "vedova religiosa, fondatrice della Congregazione delle Vergini della Presentazione della Beata Vergine Maria",
+   "_es": "b0d9d5f06d"
+  }
+ },
+ "episodios": {
+  "mnbY-S8dbko": {
+   "nombre": "Enrique Shaw",
+   "descripcion": "il santo argentino del mondo imprenditoriale"
+  },
+  "dMbpLVbSb18": {
+   "nombre": "Tomás e Paquita Alvira",
+   "descripcion": "una coppia di educatori spagnoli"
+  },
+  "pAYWXs7DceM": {
+   "nombre": "Santi Luigi e Zelia Martin",
+   "descripcion": "i santi genitori di santa Teresa di Gesù Bambino"
+  },
+  "EP-8rdRQ1fY": {
+   "nombre": "Santa Gianna Beretta",
+   "descripcion": "la pediatra che diede tutto per i suoi figli"
+  },
+  "FKGbRCryrvM": {
+   "nombre": "Cyprien e Daphrose Rugamba",
+   "descripcion": "eroica storia di conversione e generosità in Ruanda"
+  },
+  "aEEXk6JwiFI": {
+   "nombre": "Santa Margherita di Scozia",
+   "descripcion": "modello di madre e di regina, la Perla di Scozia"
+  },
+  "7G6wIyOufQQ": {
+   "nombre": "Georges e Pauline Vanier",
+   "descripcion": "il governatore canadese e sua moglie"
+  },
+  "TvAXJeeHUWI": {
+   "nombre": "Sergio e Domenica Bernardini",
+   "descripcion": "una coppia italiana venerabile"
+  },
+  "jxXGZ7xve_w": {
+   "nombre": "Takashi e Midori Nagai",
+   "descripcion": "radiologo giapponese convertito, sopravvissuto alla bomba atomica"
+  },
+  "IDgfEkWqH-g": {
+   "nombre": "Gwen e Jerry Coniker",
+   "descripcion": "coppia americana pioniera dei contenuti televisivi per la famiglia"
+  },
+  "Di__6LuCLZ4": {
+   "nombre": "Jérôme Lejeune",
+   "descripcion": "pediatra genetista pro vita che scoprì la causa genetica della sindrome di Down"
+  },
+  "-tK2W4uSvW0": {
+   "nombre": "Pierre Toussaint",
+   "descripcion": "l’ex schiavo parrucchiere e filantropo a New York"
+  },
+  "6ThNZxvIhEs": {
+   "nombre": "Carlo e Giulia Falletti di Barolo",
+   "descripcion": "una coppia venerabile di benefattori"
+  },
+  "-SVYYQ626vI": {
+   "nombre": "Raoul e Madeleine Follereau",
+   "descripcion": "samaritani dei lebbrosi nel XX secolo"
+  },
+  "EQpDQkAoz7o": {
+   "nombre": "Aurelio e Natalia, Felice e Liliosa",
+   "descripcion": "eroica testimonianza di due coppie amiche"
+  },
+  "nda0LHUHyuI": {
+   "nombre": "Hildegard Burjan",
+   "descripcion": "madre, deputata e assistente sociale austriaca"
+  },
+  "eql1DdkTVPI": {
+   "nombre": "Elisabeth Leseur",
+   "descripcion": "la francese che riuscì a convertire il marito ateo... dal cielo"
+  },
+  "W0sMjraIUdI": {
+   "nombre": "Jerônimo e Zélia",
+   "descripcion": "i «Luigi e Zelia Martin brasiliani»"
+  },
+  "2LossRymLa4": {
+   "nombre": "San Luigi re di Francia",
+   "descripcion": "re virtuoso, padre e cavaliere di Francia"
+  },
+  "C6ocTAV1wuY": {
+   "nombre": "Luigi e Maria Beltrame Quattrocchi",
+   "descripcion": "i primi sposi beatificati insieme"
+  },
+  "O0JOBP37hns": {
+   "nombre": "Vittorio Trancanelli",
+   "descripcion": "il santo della sala operatoria"
+  },
+  "yxdfNf2WdBY": {
+   "nombre": "Arístides e Adela Calvani",
+   "descripcion": "ministro degli Esteri venezuelano, apostolo della democrazia"
+  },
+  "aZWGkeQ-Jow": {
+   "nombre": "Chiara Corbella",
+   "descripcion": "la Gianna Beretta del XXI secolo"
+  },
+  "-ih_WbeYZls": {
+   "nombre": "Dorotea Chopitea",
+   "descripcion": "madre cilena che donò la sua fortuna ai bisognosi di Barcellona"
+  },
+  "wNKuTDMz9Kg": {
+   "nombre": "Anna Maria Taigi",
+   "descripcion": "patrona delle madri di famiglia"
+  },
+  "nVVWjZoVwrk": {
+   "nombre": "Santa Monica",
+   "descripcion": "la patrona delle madri con figli smarriti"
+  },
+  "lsX6gaeCm2E": {
+   "nombre": "San Tommaso Moro",
+   "descripcion": "patrono dei politici e difensore del matrimonio cattolico"
+  },
+  "htcNCMds2G8": {
+   "nombre": "Alcide De Gasperi",
+   "descripcion": "uno dei padri fondatori dell’Unione europea"
+  },
+  "QIgN4vSzC5o": {
+   "nombre": "Odoardo Focherini",
+   "descripcion": "giornalista che salvò un centinaio di ebrei"
+  },
+  "6HSxcq3iIZU": {
+   "nombre": "Santa Brigida di Svezia",
+   "descripcion": "la compatrona d’Europa"
+  },
+  "j5OmiVHZk-c": {
+   "nombre": "Marcello Labor",
+   "descripcion": "medico, padre, scrittore e poi parroco"
+  },
+  "oo-2uQZTbg4": {
+   "nombre": "San Giuseppe e Maria Santissima",
+   "descripcion": "la Santa Famiglia"
+  },
+  "5CpFRPDlcmA": {
+   "nombre": "Santi Aquila e Priscilla",
+   "descripcion": "coppia compagna dell’apostolo san Paolo"
+  },
+  "8S-RQi0Hh8U": {
+   "nombre": "Santa regina Adelaide",
+   "descripcion": "virtuosa imperatrice del Sacro Romano Impero"
+  },
+  "_js0_0Vf6Wo": {
+   "nombre": "Conchita Cabrera",
+   "descripcion": "madre e mistica, la prima laica beatificata del Messico"
+  },
+  "ysVm6qF-GrA": {
+   "nombre": "Federico Ozanam",
+   "descripcion": "avvocato francese fondatore di un’opera di carità mondiale"
+  },
+  "jKOSoxVRVCk": {
+   "nombre": "Catherine Doherty",
+   "descripcion": "madre russa emigrata che si donò ai bisognosi degli Stati Uniti e del Canada"
+  },
+  "K5JrBmvfkVI": {
+   "nombre": "João Pozzobon",
+   "descripcion": "sposo brasiliano pioniere della Campagna della Madonna Pellegrina"
+  },
+  "hwsANIAD1QA": {
+   "nombre": "San Peter To Rot",
+   "descripcion": "catechista eroico, primo santo di Papua Nuova Guinea"
+  }
+ }
+}
