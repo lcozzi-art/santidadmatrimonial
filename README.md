@@ -28,7 +28,7 @@ Volver a exportar la planilla y regenerar `data/matrimonios.json` (y las fotos n
 
 ## Caché de los navegadores
 
-`index.html` carga `styles.css?v=…` y `app.js?v=…`. Al cambiar esos archivos, actualizar el valor de `v` para que los celulares no sigan usando la versión guardada. Al cambiar `data/matrimonios.json` , `data/en.json` o `data/fr.json`, actualizar `DATOS_V` en `app.js` (y el `v` de `app.js`).
+`index.html` carga `styles.css?v=…` y `app.js?v=…`. Al cambiar esos archivos, actualizar el valor de `v` para que los celulares no sigan usando la versión guardada. Al cambiar `data/matrimonios.json`, `data/en.json`, `data/fr.json` o `data/it.json`, actualizar `DATOS_V` en `app.js` (y el `v` de `app.js`).
 
 ## Versión en inglés
 
@@ -42,4 +42,8 @@ El sitio en inglés está en `/en/` y comparte las fotos, los datos y `app.js` c
 
 Igual que la inglesa, en `/fr/`: `fr/index.html` se genera con `python3 herramientas/generar-fr.py` (tabla `TEXTOS` en el script), los textos de `app.js` están en `i18n-fr.js`, las fichas y episodios en `data/fr.json` (revisar con `python3 herramientas/revisar-traduccion.py fr`) y las reseñas en `data/resenas-fr.json`. Las reseñas que no estén ahí se muestran en español con la aclaración "(en espagnol)".
 
-Cada versión muestra arriba a la derecha los otros dos idiomas (ES · EN · FR). Al agregar textos a `index.html`, correr los dos scripts `generar-*.py`.
+## Versión en italiano
+
+Igual que la francesa, en `/it/`: `it/index.html` se genera con `python3 herramientas/generar-it.py`, los textos de `app.js` están en `i18n-it.js`, las fichas y episodios en `data/it.json` (revisar con `python3 herramientas/revisar-traduccion.py it`) y las reseñas en `data/resenas-it.json`. Las reseñas que no estén ahí se muestran en español con la aclaración "(in spagnolo)". La pestaña Películas está oculta en italiano (como en inglés y francés) hasta que haya versiones en ese idioma.
+
+Cada versión muestra arriba a la derecha los otros idiomas (ES · EN · FR · IT). Al agregar textos a `index.html`, correr los tres scripts `generar-*.py`.
