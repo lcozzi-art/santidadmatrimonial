@@ -560,7 +560,7 @@
   }
 
   // Change DATOS_V whenever data/*.json changes, so browsers don't keep the cached copy.
-  var DATOS_V = "2026-11-04-drive";
+  var DATOS_V = "2026-11-04-d158";
   function leer(url) { return fetch(BASE + url + "?v=" + DATOS_V).then(function (r) { return r.json(); }); }
   var listo = Promise.all([leer("data/matrimonios.json"), TR.datos ? leer(TR.datos).catch(function () { return {}; }) : null])
     .then(function (r) { iniciar(r[1] ? traducir(r[0], r[1]) : r[0]); });
