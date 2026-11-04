@@ -310,9 +310,9 @@
   "41": {
    "titulo": "St. Abdel Mooti Massabki",
    "nombres": "Abdel Mooti Massabki",
-   "descripcion": "father of 5, killed with his 2 brothers at the convent of St. Paul (Damascus) by the Druze",
+   "descripcion": "father of 5, killed with his two brothers at the convent of St. Paul (Damascus) by the Druze",
    "resumen": "father of 5, killed with his 2 brothers at the convent of St. Paul (Damascus) by the Druze",
-   "_es": "a009d0672d"
+   "_es": "ca2dcb1f16"
   },
   "42": {
    "titulo": "Servants of God Abraham and María Patricia Reyes",
@@ -754,9 +754,9 @@
   "102": {
    "titulo": "Bl. Charlemagne and Hildegard of Vinzgau / Fastrada / Luitgard",
    "nombres": "Charlemagne and Hildegard of Vinzgau / Fastrada / Luitgard",
-   "descripcion": "first Holy Roman Emperor, cult confirmed by Benedict XIV",
-   "resumen": "first Holy Roman Emperor, cult confirmed by Benedict XIV",
-   "_es": "f0782b5a96"
+   "descripcion": "first Holy Roman Emperor",
+   "resumen": "cult confirmed by Benedict XIV",
+   "_es": "a8d688b7f1"
   },
   "103": {
    "titulo": "Bl. Charles the Good of Denmark and Flanders, and Margaret of Clermont",
@@ -1138,8 +1138,8 @@
    "titulo": "St. Elizabeth Ann Bayley and William Seton",
    "nombres": "Elizabeth Ann Bayley and William Seton",
    "descripcion": "mother, educator, founder of the Sisters of Charity and first saint of the USA",
-   "resumen": "founder of the Sisters of Charity",
-   "_es": "cd92bd5ab1"
+   "resumen": "founder of the Sisters of Charity and of the American Catholic school system",
+   "_es": "bee1b33b34"
   },
   "156": {
    "titulo": "Servant of God Ellen Ammann and Ottmar",
@@ -1201,10 +1201,10 @@
   "164": {
    "titulo": "Servant of God Empress Eugénie de Montijo and Emperor Napoleon III",
    "nombres": "Empress Eugénie de Montijo and Emperor Napoleon III",
-   "descripcion": "the empress devoted to Lourdes",
+   "descripcion": "empress devoted to Lourdes",
    "resumen": "benefactor devoted to Lourdes",
    "cita": "“Catholic and devout, she will offer to Heaven the same prayers I make for the happiness of France” (the emperor, about his wife)",
-   "_es": "e012a15a5f"
+   "_es": "4275bec56d"
   },
   "165": {
    "titulo": "Servants of God Enrica Onorante and Aldo Michisanti",
@@ -1240,16 +1240,16 @@
   "169": {
    "titulo": "Servant of God Henry II the Pious of Silesia and Anne of Bohemia",
    "nombres": "Henry II the Pious of Silesia and Anne of Bohemia",
-   "descripcion": "“Pious” ruler of Poland",
+   "descripcion": "pious ruler of Poland",
    "resumen": "rulers",
-   "_es": "2dbedd4405"
+   "_es": "41d514dddc"
   },
   "170": {
    "titulo": "St. Henry II and St. Cunigunde",
    "nombres": "Henry II and Cunigunde",
-   "descripcion": "Holy Roman Emperor and Empress, patrons of couples who cannot have children",
+   "descripcion": "the only canonized [Holy Roman] Emperor",
    "resumen": "celibate or infertile, patrons of couples who cannot have children",
-   "_es": "1febadad91"
+   "_es": "389d6d3bc7"
   },
   "171": {
    "titulo": "Servant of God Dr. Enzo Piccinini and Fiorisa",
@@ -1290,8 +1290,8 @@
    "titulo": "St. Æthelberht of Kent and St. Bertha",
    "nombres": "Æthelberht of Kent and Bertha",
    "descripcion": "the king and queen who began the evangelization of England",
-   "resumen": "king and queen who re-evangelized this English kingdom with St. Augustine of Canterbury",
-   "_es": "19a1b5ddc8"
+   "resumen": "king and queen who re-evangelized the English kingdom with St. Augustine of Canterbury",
+   "_es": "f4cf7fd2f3"
   },
   "177": {
    "titulo": "St. Æthelthryth of Ely and Ecgfrith",
@@ -1305,7 +1305,8 @@
    "nombres": "Baudouin and Fabiola of Belgium",
    "descripcion": "humble king and defender of life",
    "cita": "“Even if you feel you are of little worth, the Lord wants you to be holy. He needs your weakness to draw near to people and show them the power of his Love.” (King Baudouin of Belgium)",
-   "_es": "88a746fbad"
+   "_es": "38071d9b7c",
+   "resumen": "temporarily stepped down from the throne so as not to sign the abortion law"
   },
   "179": {
    "titulo": "Servant of God Eugen Bolz and Maria Hoene",
@@ -1363,9 +1364,9 @@
   "187": {
    "titulo": "Pope St. Felix III (II)",
    "nombres": "Felix III (II), pope",
-   "descripcion": "widower with 2 children who became a priest and was elected pope; great-great-grandfather of St. Gregory the Great",
-   "resumen": "widower with 2 children who became a priest and was elected pope; great-great-grandfather of St. Gregory the Great",
-   "_es": "5b1f65ad59"
+   "descripcion": "widower with two children who became a priest and was elected pope",
+   "resumen": "great-great-grandfather of St. Gregory the Great",
+   "_es": "4f69a662bb"
   },
   "188": {
    "titulo": "Servants of God Fernando Crespo Alfageme and Maria Lourdes de Miguel",
@@ -1392,9 +1393,9 @@
   "191": {
    "titulo": "Sts. Philetus and Lydia",
    "nombres": "Philetus and Lydia",
-   "descripcion": "senator; martyred with their 2 sons and the 2 Roman soldiers who were to make them renounce the faith",
-   "resumen": "senator; martyred with their 2 sons and the 2 Roman soldiers who were to make them renounce the faith",
-   "_es": "da5e77d028"
+   "descripcion": "senator; martyred with their two sons and the two Roman soldiers who were to make them renounce the faith",
+   "resumen": null,
+   "_es": "af79c78be8"
   },
   "192": {
    "titulo": "Bl. Philip Siphong Onphithakt and Mary Thong",
@@ -1467,7 +1468,7 @@
    "nombres": "Francis Taylor and Jennet Shelton",
    "descripcion": "mayor of Dublin",
    "resumen": "martyred mayor",
-   "_es": "ce6056e59a"
+   "_es": "062645d0d2"
   },
   "202": {
    "titulo": "St. Frances of Rome and Lorenzo de' Ponziani",
@@ -1517,7 +1518,7 @@
    "descripcion": "Catholic Action, Focolare, and mayor of Locri",
    "resumen": "Catholic Action, Focolare, and mayor of Locri",
    "cita": "Franco founded the MEIC (Ecclesial Movement for Cultural Commitment of Catholic Action) in the diocese and, with Maria Rosaria, took part in the 1995 ecclesial conference in Palermo, on returning from which he set out the lines of future pastoral commitment for all:\n1. restoring legality and public morality;\n2. promoting a social sense and a culture of participation;\n3. deepening and developing Christian social teaching;\n4. seeking new forms of solidarity economy",
-   "_es": "4fa80feaee"
+   "_es": "a0ed59c350"
   },
   "209": {
    "titulo": "Servant of God František Nosek and Anna Kubešová",
@@ -1552,9 +1553,9 @@
   "213": {
    "titulo": "Servant of God Gabriel García Moreno and Rosa Ascázubi / Mariana del Alcázar",
    "nombres": "Gabriel García Moreno and Rosa Ascázubi / Mariana del Alcázar",
-   "descripcion": "twice president of Ecuador, assassinated; Franciscan tertiary",
-   "resumen": "twice president of Ecuador, assassinated; Franciscan tertiary",
-   "_es": "b66b9bb403"
+   "descripcion": "twice president of Ecuador, later assassinated; Franciscan tertiary",
+   "resumen": null,
+   "_es": "09d64afeae"
   },
   "214": {
    "titulo": "Bl. Gabriel López-Cepero and María Teresa Ovelar",
@@ -1579,8 +1580,8 @@
    "titulo": "Bls. Gaspar Vaz and Maria",
    "nombres": "Gaspar Vaz and Maria",
    "descripcion": "Franciscan Third Order members martyred in Nagasaki",
-   "resumen": "Franciscan Third Order members martyred in Nagasaki",
-   "_es": "c1289baff3"
+   "resumen": null,
+   "_es": "e9fa98eded"
   },
   "218": {
    "titulo": "Bl. Gentile Giusti and Giacomo “Pianella”",
@@ -1621,10 +1622,10 @@
   "223": {
    "titulo": "Servant of God Dr. Giancarlo Rastelli and Anna Anghileri",
    "nombres": "Giancarlo Rastelli and Anna Anghileri",
-   "descripcion": "great pediatric surgeon",
-   "resumen": "cardiologist who moved to the USA, creator of 2 “Rastelli procedures”",
+   "descripcion": "great pediatric surgeon who lived in the USA",
+   "resumen": "cardiologist, creator of two “Rastelli procedures”",
    "cita": "“Pursuing scientific knowledge is an act of love for the patient” (Giancarlo Rastelli)",
-   "_es": "5e83321ab5"
+   "_es": "18a5de5fa5"
   },
   "224": {
    "titulo": "Sts. Gordianus and Silvia",
@@ -1644,10 +1645,10 @@
   "226": {
    "titulo": "Servant of God Giovanni Modugno and Maria Spinelli",
    "nombres": "Giovanni Modugno and Maria Spinelli",
-   "descripcion": "20th-century Italian educator",
-   "resumen": "educator",
+   "descripcion": "distinguished educator",
+   "resumen": "distinguished educator",
    "cita": "“On this long pilgrimage, without even knowing it, I was seeking Christ, and I came to the Father's house.” (Giovanni Modugno)",
-   "_es": "f9b31ff0c3"
+   "_es": "a5e05907ec"
   },
   "227": {
    "titulo": "Ven. Giuseppe Castagnetti and Giovannina Sghedoni",
@@ -1769,9 +1770,9 @@
   "244": {
    "titulo": "Sts. Hesperus and Zoe",
    "nombres": "Hesperus and Zoe",
-   "descripcion": "parents of the bishop St. Cyriacus of Attalia, martyred with their 2 sons",
+   "descripcion": "parents of the bishop St. Cyriacus of Attalia, martyred with their two sons",
    "resumen": "parents of the bishop St. Cyriacus of Attalia, martyred with their 2 sons",
-   "_es": "30ce1a87cf"
+   "_es": "3cd2d6552a"
   },
   "245": {
    "titulo": "St. Hilary of Poitiers",
@@ -1873,7 +1874,7 @@
    "nombres": "Irene of Hungary and John II Komnenos",
    "descripcion": "daughter of Ladislaus I and mother of two emperors; considered an apostate by some",
    "resumen": "daughter of Ladislaus I and mother of two emperors; considered an apostate by some",
-   "_es": "cef68f7eed"
+   "_es": "2c645157aa"
   },
   "260": {
    "titulo": "Servant of God Irving Francis Houle and Gail",
@@ -2147,7 +2148,7 @@
    "nombres": "Giuseppe Toniolo and Maria Schiratti",
    "descripcion": "professor, economist and sociologist",
    "resumen": "professor, economist and sociologist",
-   "_es": "63792198d5"
+   "_es": "f702f7945c"
   },
   "297": {
    "titulo": "Bl. Giuseppe Tovini and Emilia Corbolani",
@@ -2319,10 +2320,10 @@
   "319": {
    "titulo": "Servants of God Karol and Emilia Wojtyła",
    "nombres": "Karol and Emilia Wojtyła",
-   "descripcion": "the parents of John Paul II",
-   "resumen": "army officer; parents of St. John Paul II",
+   "descripcion": "the parents of St. John Paul II",
+   "resumen": "army officer and mother who refused to abort the future pope",
    "cita": "“I would rather die than get rid of my child.” (Emilia Wojtyła)",
-   "_es": "07022e0cd5"
+   "_es": "d2b6a019ef"
   },
   "320": {
    "titulo": "Servant of God Dr. Kazimierz Hołoga and Maria Rochalski",
@@ -2343,16 +2344,16 @@
    "titulo": "Bl. László Batthyány-Strattmann and Maria Theresia Coreth",
    "nombres": "László Batthyány-Strattmann and Maria Theresia Coreth",
    "descripcion": "Hungarian aristocrat and eye doctor who set up a hospital in his castle",
-   "resumen": "aristocrat, doctor and benefactor",
+   "resumen": null,
    "cita": "“I love my sufferings, and I am consoled by the fact that I bear them for Christ” (Dr. László Batthyány)",
-   "_es": "243b74bb85"
+   "_es": "1475af3d2b"
   },
   "323": {
    "titulo": "St. Lazarus Devasahayam and Bhargavi Ammal",
    "nombres": "Lazarus Devasahayam and Bhargavi Ammal",
    "descripcion": "the first lay saint of India",
-   "resumen": "first Indian lay martyr",
-   "_es": "0e8b880d28"
+   "resumen": null,
+   "_es": "8f16033869"
   },
   "324": {
    "titulo": "St. Lea",
@@ -2414,10 +2415,10 @@
   "332": {
    "titulo": "Servants of God Louis Wandété and Valérie Ama",
    "nombres": "Louis Wandété and Valérie Ama",
-   "descripcion": "missionary couple from Ivory Coast, the first African spouses with a cause for beatification",
+   "descripcion": "missionary couple, the first African spouses with a cause for beatification",
    "resumen": "convert catechists",
    "cita": "“Go in peace, the Lord will receive you. Our children went before us, so if you see them before the Heavenly Father, please come back for me, so that I may receive from Christ the reward promised to his servants.” (Louis Wandété to his wife)",
-   "_es": "2cdba8dde7"
+   "_es": "a698cc0931"
   },
   "333": {
    "titulo": "Bl. Lucia Bartolini and Rodolfo Rucellai",
@@ -2715,10 +2716,10 @@
   "374": {
    "titulo": "Ven. Maria Cristina Cella and Carlo Mocellin",
    "nombres": "Maria Cristina Cella and Carlo Mocellin",
-   "descripcion": "young Italian mother of recent times who put her child's life first",
+   "descripcion": "young mother of recent times who put her child's life first",
    "resumen": "pro-life catechist who died after refusing to end her pregnancy",
    "cita": "“I can only thank God for wanting to give us this great gift, our children”",
-   "_es": "5b5779a847"
+   "_es": "123273cd4a"
   },
   "375": {
    "titulo": "Bl. Maria Cristina of Savoy and Ferdinand II of the Two Sicilies",
@@ -2740,7 +2741,7 @@
    "nombres": "Marie of Oignies",
    "descripcion": "celibate benefactor, recluse and founder",
    "resumen": "celibate benefactor, recluse and founder",
-   "_es": "ac476b5398"
+   "_es": "1b9d82fc2c"
   },
   "378": {
    "titulo": "Ven. María del Refugio Aguilar Torres and Ángel Cancino Arce",
@@ -2828,14 +2829,14 @@
    "nombres": "Maria Vittoria De Fornari and Angelo Strata",
    "descripcion": "widow who became a religious and founded the Order of the Annunciation (or “Blue Nuns”)",
    "resumen": "widow who became a religious and founded the Order of the Annunciation (or “Blue Nuns”)",
-   "_es": "f129d95a6f"
+   "_es": "50e59ccc6a"
   },
   "390": {
    "titulo": "Sts. Mary and Cleophas of Jerusalem",
    "nombres": "Mary and Cleophas of Jerusalem",
    "descripcion": "one of the first married couples to follow Christ",
-   "resumen": "apostles of Christ, parents of the second bishop of Jerusalem",
-   "_es": "1896a808af"
+   "resumen": "disciples of Christ, parents of the second bishop of Jerusalem",
+   "_es": "c2b8b1ec55"
   },
   "391": {
    "titulo": "St. Mary Zhao Guozhi",
@@ -3340,7 +3341,7 @@
    "descripcion": "convert teacher, poet and martyr",
    "resumen": "first martyr of Wales, schoolteacher",
    "cita": "“If it is blood you want, you can take my life along with my husband's” (Catherine Gwyn)",
-   "_es": "99c9c71be8"
+   "_es": "2dff8fb9de"
   },
   "463": {
    "titulo": "Bl. Richard Langhorne and Dorothy Legatt",
@@ -3790,6 +3791,14 @@
    "descripcion": "widow who became a religious and founded the Congregation of the Virgins of the Presentation of the Blessed Virgin Mary",
    "resumen": "widow who became a religious and founded the Congregation of the Virgins of the Presentation of the Blessed Virgin Mary",
    "_es": "b0d9d5f06d"
+  },
+  "524": {
+   "titulo": "St. Lydia of Thyatira",
+   "nombres": "Lydia of Thyatira",
+   "descripcion": "considered the first Christian of Europe",
+   "resumen": "disciple of St. Paul, the merchant of purple cloth",
+   "cita": "“If you have judged me to be faithful to the Lord, come and stay at my house”",
+   "_es": "91ddc81893"
   }
  },
  "episodios": {

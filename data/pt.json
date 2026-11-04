@@ -310,9 +310,9 @@
   "41": {
    "titulo": "São Abdel Mooti Massabki",
    "nombres": "Abdel Mooti Massabki",
-   "descripcion": "pai de 5 filhos, assassinado pelos drusos com seus 2 irmãos no convento de São Paulo (Damasco)",
+   "descripcion": "pai de 5 filhos, assassinado pelos drusos com seus dois irmãos no convento de São Paulo (Damasco)",
    "resumen": "pai de 5 filhos, assassinado pelos drusos com seus 2 irmãos no convento de São Paulo (Damasco)",
-   "_es": "a009d0672d"
+   "_es": "ca2dcb1f16"
   },
   "42": {
    "titulo": "Servos de Deus Abraham e María Patricia Reyes",
@@ -754,9 +754,9 @@
   "102": {
    "titulo": "Beato Carlos Magno e Hildegarda de Vinzgau / Fastrada / Liutgarda",
    "nombres": "Carlos Magno e Hildegarda de Vinzgau / Fastrada / Liutgarda",
-   "descripcion": "primeiro imperador romano-germânico, culto confirmado por Bento XIV",
-   "resumen": "primeiro imperador romano-germânico, culto confirmado por Bento XIV",
-   "_es": "f0782b5a96"
+   "descripcion": "primeiro imperador romano-germânico",
+   "resumen": "culto confirmado por Bento XIV",
+   "_es": "a8d688b7f1"
   },
   "103": {
    "titulo": "Beato Carlos, o Bom, da Dinamarca e Flandres, e Margarida de Clermont",
@@ -1138,8 +1138,8 @@
    "titulo": "Santa Elizabeth Ann Bayley e William Seton",
    "nombres": "Elizabeth Ann Bayley e William Seton",
    "descripcion": "mãe, educadora, fundadora das Irmãs da Caridade e primeira santa dos Estados Unidos",
-   "resumen": "fundadora das Irmãs da Caridade",
-   "_es": "cd92bd5ab1"
+   "resumen": "fundadora das Irmãs da Caridade e do sistema de educação católica dos Estados Unidos",
+   "_es": "bee1b33b34"
   },
   "156": {
    "titulo": "Serva de Deus Ellen Ammann e Ottmar",
@@ -1201,10 +1201,10 @@
   "164": {
    "titulo": "Serva de Deus imperatriz Eugênia de Montijo e o imperador Napoleão III",
    "nombres": "Imperatriz Eugênia de Montijo e o imperador Napoleão III",
-   "descripcion": "a imperatriz devota de Lourdes",
+   "descripcion": "imperatriz devota de Lourdes",
    "resumen": "benfeitora devota de Lourdes",
    "cita": "“Católica e piedosa, ela dirigirá ao céu as mesmas orações que eu faço pela felicidade da França” (o imperador sobre sua esposa)",
-   "_es": "e012a15a5f"
+   "_es": "4275bec56d"
   },
   "165": {
    "titulo": "Servos de Deus Enrica Onorante e Aldo Michisanti",
@@ -1240,16 +1240,16 @@
   "169": {
    "titulo": "Servo de Deus Henrique II da Silésia, “o Piedoso”, e Ana da Boêmia",
    "nombres": "Henrique II da Silésia, “o Piedoso”, e Ana da Boêmia",
-   "descripcion": "o regente “Piedoso” da Polônia",
+   "descripcion": "piedoso regente da Polônia",
    "resumen": "reis",
-   "_es": "2dbedd4405"
+   "_es": "41d514dddc"
   },
   "170": {
    "titulo": "Santo Henrique II e Santa Cunegundes",
    "nombres": "Henrique II e Cunegundes",
-   "descripcion": "imperador do Sacro Império Romano-Germânico; padroeiros dos casais que não podem ter filhos",
+   "descripcion": "único imperador [romano-germânico] canonizado",
    "resumen": "celibatários ou inférteis; padroeiros dos casais que não podem ter filhos",
-   "_es": "1febadad91"
+   "_es": "389d6d3bc7"
   },
   "171": {
    "titulo": "Servo de Deus Dr. Enzo Piccinini e Fiorisa",
@@ -1290,8 +1290,8 @@
    "titulo": "Santo Etelberto de Kent e Santa Berta",
    "nombres": "Etelberto de Kent e Berta",
    "descripcion": "os reis que iniciam a evangelização da Inglaterra",
-   "resumen": "reis que reevangelizaram este reino inglês com Santo Agostinho de Cantuária",
-   "_es": "19a1b5ddc8"
+   "resumen": "reis que reevangelizaram o reino inglês com Santo Agostinho de Cantuária",
+   "_es": "f4cf7fd2f3"
   },
   "177": {
    "titulo": "Santa Etelreda de Ely e Egfrido",
@@ -1305,7 +1305,8 @@
    "nombres": "Balduíno e Fabíola da Bélgica",
    "descripcion": "rei humilde e defensor da vida",
    "cita": "«Mesmo que te sintas pouca coisa, o Senhor te quer santo. Ele precisa da tua fraqueza para se aproximar dos homens e mostrar-lhes o poder do seu Amor.» (Rei Balduíno da Bélgica)",
-   "_es": "88a746fbad"
+   "_es": "38071d9b7c",
+   "resumen": "abdicou temporariamente do trono para não assinar a lei do aborto"
   },
   "179": {
    "titulo": "Servo de Deus Eugen Bolz e Maria Hoene",
@@ -1363,9 +1364,9 @@
   "187": {
    "titulo": "Papa São Félix III (II)",
    "nombres": "Félix III (II), papa",
-   "descripcion": "viúvo com 2 filhos que se torna sacerdote e é eleito papa; bisavô de São Gregório Magno",
-   "resumen": "viúvo com 2 filhos que se torna sacerdote e é eleito papa; bisavô de São Gregório Magno",
-   "_es": "5b1f65ad59"
+   "descripcion": "viúvo com dois filhos que se torna sacerdote e é eleito papa",
+   "resumen": "bisavô de São Gregório Magno",
+   "_es": "4f69a662bb"
   },
   "188": {
    "titulo": "Servos de Deus Fernando Crespo Alfageme e Maria Lourdes de Miguel",
@@ -1392,9 +1393,9 @@
   "191": {
    "titulo": "Santos Fileto e Lídia",
    "nombres": "Fileto e Lídia",
-   "descripcion": "senador; mártires com seus 2 filhos e os 2 soldados romanos que deveriam tê-los feito abjurar",
-   "resumen": "senador; mártires com seus 2 filhos e os 2 soldados romanos que deveriam tê-los feito abjurar",
-   "_es": "da5e77d028"
+   "descripcion": "senador; mártires com seus dois filhos e os dois soldados romanos que deveriam tê-los feito abjurar",
+   "resumen": null,
+   "_es": "af79c78be8"
   },
   "192": {
    "titulo": "Beato Filipe Siphong Onphithakt e Maria Thong",
@@ -1466,8 +1467,8 @@
    "titulo": "Beato Francis Taylor e Jennet Shelton",
    "nombres": "Francis Taylor e Jennet Shelton",
    "descripcion": "prefeito de Dublin",
-   "resumen": "mártir, prefeito",
-   "_es": "ce6056e59a"
+   "resumen": "prefeito mártir",
+   "_es": "062645d0d2"
   },
   "202": {
    "titulo": "Santa Francisca Romana e Lorenzo de’ Ponziani",
@@ -1517,7 +1518,7 @@
    "descripcion": "Ação Católica, Focolares e prefeito de Locri",
    "resumen": "Ação Católica, Focolares e prefeito de Locri",
    "cita": "Franco fundou o MEIC (Movimento Eclesial de Compromisso Cultural da AC) na diocese e participou em 1995, com Maria Rosaria, do congresso eclesial de Palermo; ao voltar, traçou as linhas do futuro compromisso pastoral para todos: 1. recuperação da legalidade e da moral pública; 2. promoção do sentido social e de uma cultura de participação; 3. aprofundamento e desenvolvimento da doutrina social cristã; 4. busca de novas formas de economia solidária",
-   "_es": "4fa80feaee"
+   "_es": "a0ed59c350"
   },
   "209": {
    "titulo": "Servo de Deus František Nosek e Anna Kubešová",
@@ -1552,9 +1553,9 @@
   "213": {
    "titulo": "Servo de Deus Gabriel García Moreno e Rosa Ascázubi / Mariana del Alcázar",
    "nombres": "Gabriel García Moreno e Rosa Ascázubi / Mariana del Alcázar",
-   "descripcion": "duas vezes presidente do Equador, assassinado; terciário franciscano",
-   "resumen": "duas vezes presidente do Equador, assassinado; terciário franciscano",
-   "_es": "b66b9bb403"
+   "descripcion": "duas vezes presidente do Equador, depois assassinado; terciário franciscano",
+   "resumen": null,
+   "_es": "09d64afeae"
   },
   "214": {
    "titulo": "Beato Gabriel López-Cepero e María Teresa Ovelar",
@@ -1579,8 +1580,8 @@
    "titulo": "Beatos Gaspar Vaz e Maria",
    "nombres": "Gaspar Vaz e Maria",
    "descripcion": "franciscanos da Ordem Terceira martirizados em Nagasaki",
-   "resumen": "franciscanos da Ordem Terceira martirizados em Nagasaki",
-   "_es": "c1289baff3"
+   "resumen": null,
+   "_es": "e9fa98eded"
   },
   "218": {
    "titulo": "Beata Gentil Giusti e Giacomo “Pianella”",
@@ -1621,10 +1622,10 @@
   "223": {
    "titulo": "Servo de Deus Dr. Giancarlo Rastelli e Anna Anghileri",
    "nombres": "Giancarlo Rastelli e Anna Anghileri",
-   "descripcion": "grande cirurgião pediátrico",
-   "resumen": "cardiologista radicado nos Estados Unidos, criador de 2 “procedimentos Rastelli”",
+   "descripcion": "grande cirurgião pediátrico que viveu nos Estados Unidos",
+   "resumen": "cardiologista criador de dois “procedimentos Rastelli”",
    "cita": "«Buscar o conhecimento científico é um ato de amor para com o paciente» (Giancarlo Rastelli)",
-   "_es": "5e83321ab5"
+   "_es": "18a5de5fa5"
   },
   "224": {
    "titulo": "Santos Gordiano e Sílvia",
@@ -1644,10 +1645,10 @@
   "226": {
    "titulo": "Servo de Deus Giovanni Modugno e Maria Spinelli",
    "nombres": "Giovanni Modugno e Maria Spinelli",
-   "descripcion": "educador italiano do século XX",
-   "resumen": "educador",
+   "descripcion": "prestigiado educador",
+   "resumen": "prestigiado educador",
    "cita": "«Nesta longa peregrinação – mesmo sem saber – busquei Cristo e cheguei à casa do Pai.» (Giovanni Modugno)",
-   "_es": "f9b31ff0c3"
+   "_es": "a5e05907ec"
   },
   "227": {
    "titulo": "Venerável Giuseppe Castagnetti e Giovannina Sghedoni",
@@ -1769,9 +1770,9 @@
   "244": {
    "titulo": "Santos Héspero e Zoé",
    "nombres": "Héspero e Zoé",
-   "descripcion": "pais do bispo São Ciríaco de Atália, mártires com seus 2 filhos",
+   "descripcion": "pais do bispo São Ciríaco de Atália, mártires com seus dois filhos",
    "resumen": "pais do bispo São Ciríaco de Atália, mártires com seus 2 filhos",
-   "_es": "30ce1a87cf"
+   "_es": "3cd2d6552a"
   },
   "245": {
    "titulo": "Santo Hilário de Poitiers",
@@ -1871,9 +1872,9 @@
   "259": {
    "titulo": "Beata Irene da Hungria e João II Comneno",
    "nombres": "Irene da Hungria e João II Comneno",
-   "descripcion": "filha de Ladislau I e mãe de 2 imperadores; considerada apóstata por alguns",
+   "descripcion": "filha de Ladislau I e mãe de dois imperadores; considerada apóstata por alguns",
    "resumen": "filha de Ladislau I e mãe de dois imperadores; considerada apóstata por alguns",
-   "_es": "cef68f7eed"
+   "_es": "2c645157aa"
   },
   "260": {
    "titulo": "Servo de Deus Irving Francis Houle e Gail",
@@ -2147,7 +2148,7 @@
    "nombres": "Giuseppe Toniolo e Maria Schiratti",
    "descripcion": "professor, economista e sociólogo",
    "resumen": "professor, economista e sociólogo",
-   "_es": "63792198d5"
+   "_es": "f702f7945c"
   },
   "297": {
    "titulo": "Beato Giuseppe Tovini e Emilia Corbolani",
@@ -2319,10 +2320,10 @@
   "319": {
    "titulo": "Servos de Deus Karol e Emilia Wojtyła",
    "nombres": "Karol e Emilia Wojtyła",
-   "descripcion": "os pais de João Paulo II",
-   "resumen": "militar; pais de São João Paulo II",
+   "descripcion": "os pais de São João Paulo II",
+   "resumen": "militar e mãe que se recusaram a abortar o futuro papa",
    "cita": "«Prefiro morrer a me desfazer do meu filho.» (Emilia Wojtyła)",
-   "_es": "07022e0cd5"
+   "_es": "d2b6a019ef"
   },
   "320": {
    "titulo": "Servo de Deus Dr. Kazimierz Hologa e Maria Rochalski",
@@ -2343,16 +2344,16 @@
    "titulo": "Beato László Batthyány-Strattmann e Maria Theresia Coreth",
    "nombres": "László Batthyány-Strattmann e Maria Theresia Coreth",
    "descripcion": "aristocrata oftalmologista húngaro que montou um hospital em seu castelo",
-   "resumen": "aristocrata, médico benfeitor",
+   "resumen": null,
    "cita": "«Amo as minhas dores e me consola o fato de suportá-las por Cristo» (Dr. László Batthyány)",
-   "_es": "243b74bb85"
+   "_es": "1475af3d2b"
   },
   "323": {
    "titulo": "São Lázaro Devasahayam e Bhargavi Ammal",
    "nombres": "Lázaro Devasahayam e Bhargavi Ammal",
    "descripcion": "o primeiro santo leigo da Índia",
-   "resumen": "primeiro mártir leigo indiano",
-   "_es": "0e8b880d28"
+   "resumen": null,
+   "_es": "8f16033869"
   },
   "324": {
    "titulo": "Santa Leia",
@@ -2414,10 +2415,10 @@
   "332": {
    "titulo": "Servos de Deus Louis Wandété e Valérie Ama",
    "nombres": "Louis Wandété e Valérie Ama",
-   "descripcion": "casal missionário da Costa do Marfim, primeiros esposos africanos em processo de beatificação",
+   "descripcion": "casal missionário, primeiros esposos africanos em processo de beatificação",
    "resumen": "catequistas convertidos",
    "cita": "«Vai em paz, que o Senhor te receberá. Nossos filhos nos precederam; então, se os vires diante do Pai Celeste, por favor, volta para me buscar, para que eu receba de Cristo a recompensa prometida a seus servos.» (Louis Wandété à esposa)",
-   "_es": "2cdba8dde7"
+   "_es": "a698cc0931"
   },
   "333": {
    "titulo": "Beata Lúcia Bartolini e Rodolfo Rucellai",
@@ -2715,10 +2716,10 @@
   "374": {
    "titulo": "Venerável Maria Cristina Cella e Carlo Mocellin",
    "nombres": "Maria Cristina Cella e Carlo Mocellin",
-   "descripcion": "jovem mãe italiana recente que priorizou a vida do filho",
+   "descripcion": "jovem mãe recente que priorizou a vida do filho",
    "resumen": "catequista pró-vida falecida por não interromper a gravidez",
    "cita": "“Só posso dar graças a Deus, porque quis nos dar este grande presente que são os nossos filhos”",
-   "_es": "5b5779a847"
+   "_es": "123273cd4a"
   },
   "375": {
    "titulo": "Beata Maria Cristina de Saboia e Fernando II das Duas Sicílias",
@@ -2740,7 +2741,7 @@
    "nombres": "Maria de Oignies",
    "descripcion": "celibatária benfeitora, reclusa e fundadora",
    "resumen": "celibatária benfeitora, reclusa e fundadora",
-   "_es": "ac476b5398"
+   "_es": "1b9d82fc2c"
   },
   "378": {
    "titulo": "Venerável María del Refugio Aguilar Torres e Ángel Cancino Arce",
@@ -2828,14 +2829,14 @@
    "nombres": "Maria Vittoria De Fornari e Angelo Strata",
    "descripcion": "viúva religiosa, fundadora da Ordem da Anunciação (ou Irmãs Azuis)",
    "resumen": "viúva religiosa, fundadora da Ordem da Anunciação (ou Irmãs Azuis)",
-   "_es": "f129d95a6f"
+   "_es": "50e59ccc6a"
   },
   "390": {
    "titulo": "Santos Maria e Cléofas de Jerusalém",
    "nombres": "Maria e Cléofas de Jerusalém",
    "descripcion": "um dos primeiros casais seguidores de Cristo",
-   "resumen": "apóstolos de Cristo, pais do segundo bispo de Jerusalém",
-   "_es": "1896a808af"
+   "resumen": "discípulos de Cristo, pais do segundo bispo de Jerusalém",
+   "_es": "c2b8b1ec55"
   },
   "391": {
    "titulo": "Santa Maria Zhao Guozhi",
@@ -3340,7 +3341,7 @@
    "descripcion": "professor convertido, poeta e mártir",
    "resumen": "primeiro mártir do País de Gales, professor primário",
    "cita": "«Se o que quereis é sangue, podeis tirar a minha vida junto com a do meu marido» (Catherine Gwyn)",
-   "_es": "99c9c71be8"
+   "_es": "2dff8fb9de"
   },
   "463": {
    "titulo": "Beato Ricardo Langhorne e Dorothy Legatt",
@@ -3790,6 +3791,14 @@
    "descripcion": "viúva religiosa, fundadora da Congregação das Virgens da Apresentação da Bem-Aventurada Virgem Maria",
    "resumen": "viúva religiosa, fundadora da Congregação das Virgens da Apresentação da Bem-Aventurada Virgem Maria",
    "_es": "b0d9d5f06d"
+  },
+  "524": {
+   "titulo": "Santa Lídia de Tiatira",
+   "nombres": "Lídia de Tiatira",
+   "descripcion": "considerada a primeira cristã da Europa",
+   "resumen": "discípula de São Paulo, a comerciante de púrpura",
+   "cita": "“Se julgais que sou fiel ao Senhor, entrai e ficai em minha casa”",
+   "_es": "91ddc81893"
   }
  },
  "episodios": {
