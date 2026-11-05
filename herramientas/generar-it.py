@@ -39,7 +39,7 @@ TEXTOS = [
 
     # Matrimonios
     ('<h1>Esposos que caminaron hacia los altares.</h1>',
-     '<h1>Sposi giunti, o in cammino, verso gli altari.</h1>'),
+     '<h1>Sposi che hanno percorso verso gli altari.</h1>'),
     ('<p class="lede">Quiénes fueron y cómo conocer más sobre los esposos reconocidos como virtuosos por la Iglesia Católica a lo largo de los siglos.</p>',
      '<p class="lede">Chi erano e come saperne di più sugli sposi di cui la Chiesa cattolica ha riconosciuto le virtù nel corso dei secoli.</p>'),
     ('aria-label="Algunos matrimonios"', 'aria-label="Alcune coppie"'),
