@@ -41,7 +41,7 @@ TEXTOS = [
 
     # Matrimonios
     ('<h1>Esposos que llegaron, o han caminado, a los altares.</h1>',
-     '<h1>Husbands and wives who strode to the altars.</h1>'),
+     '<h1>Catholic spouses who strode to the altars.</h1>'),
     ('<p class="lede">Quiénes fueron y cómo conocer más sobre los esposos reconocidos como virtuosos por la Iglesia Católica a lo largo de los siglos.</p>',
      '<p class="lede">Learn about the married men and women the Catholic Church has recognized for their virtue through the centuries.</p>'),
     ('aria-label="Algunos matrimonios"', 'aria-label="Some couples"'),
