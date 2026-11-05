@@ -102,7 +102,7 @@
       if (orden === "siglo") return sigloNum(a.siglo) - sigloNum(b.siglo) || a._orden.localeCompare(b._orden);
       if (orden === "siglo-desc") return sigloNum(b.siglo) - sigloNum(a.siglo) || a._orden.localeCompare(b._orden);
       if (orden === "fiesta") return (a.fiestaOrden || 9999) - (b.fiestaOrden || 9999) || a._orden.localeCompare(b._orden, LOCALE);
-      if (orden === "destacados") return b._peso - a._peso || a._orden.localeCompare(b._orden, LOCALE);
+      if (orden === "destacados") return (a.destacado || 1e9) - (b.destacado || 1e9) || b._peso - a._peso || a._orden.localeCompare(b._orden, LOCALE);
       return a._orden.localeCompare(b._orden, LOCALE);
     });
     mostrados = 0;
@@ -560,7 +560,7 @@
   }
 
   // Change DATOS_V whenever data/*.json changes, so browsers don't keep the cached copy.
-  var DATOS_V = "2026-11-05-v275b";
+  var DATOS_V = "2026-11-05-orden";
   function leer(url) { return fetch(BASE + url + "?v=" + DATOS_V).then(function (r) { return r.json(); }); }
   var listo = Promise.all([leer("data/matrimonios.json"), TR.datos ? leer(TR.datos).catch(function () { return {}; }) : null])
     .then(function (r) { iniciar(r[1] ? traducir(r[0], r[1]) : r[0]); });
