@@ -38,8 +38,8 @@ TEXTOS = [
     ('\n      <a class="idioma" href="pt/" hreflang="pt" lang="pt" title="Versão em português">PT</a>', ''),
 
     # Matrimonios
-    ('<h1>Esposos que caminaron hacia los altares.</h1>',
-     '<h1>Esposos que caminharam rumo aos altares.</h1>'),
+    ('<h1>Los esposos que caminaron hacia los altares.</h1>',
+     '<h1>Os esposos que caminharam rumo aos altares.</h1>'),
     ('<p class="lede">Quiénes fueron y cómo conocer más sobre los esposos reconocidos como virtuosos por la Iglesia Católica a lo largo de los siglos.</p>',
      '<p class="lede">Quem foram e como conhecer melhor os esposos cujas virtudes a Igreja Católica reconheceu ao longo dos séculos.</p>'),
     ('aria-label="Algunos matrimonios"', 'aria-label="Alguns casais"'),

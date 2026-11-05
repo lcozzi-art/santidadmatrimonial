@@ -42,7 +42,7 @@ TEXTOS = [
      '<a class="idioma" href="../pt/" hreflang="pt" lang="pt" title="Versão em português">PT</a>'),
 
     # Matrimonios
-    ('<h1>Esposos que caminaron hacia los altares.</h1>',
+    ('<h1>Los esposos que caminaron hacia los altares.</h1>',
      '<h1>Époux qui se sont dirigés vers les autels.</h1>'),
     ('<p class="lede">Quiénes fueron y cómo conocer más sobre los esposos reconocidos como virtuosos por la Iglesia Católica a lo largo de los siglos.</p>',
      '<p class="lede">Qui ils étaient et comment en savoir plus sur les époux dont l’Église catholique a reconnu les vertus au fil des siècles.</p>'),
