@@ -12,7 +12,7 @@
   "2": {
    "titulo": "Sts. Aquila and Priscilla",
    "nombres": "Aquila and Priscilla",
-   "descripcion": "married companions of the apostle Saint Paul",
+   "descripcion": "close companions of the apostle Saint Paul",
    "resumen": "followers of the apostle Saint Paul",
    "cita": "“They are a model of married life committed to serving the Christian community, and a model of the Church, the family of God for all times” (Benedict XVI)",
    "_es": "c484ea538b"
@@ -20,7 +20,7 @@
   "3": {
    "titulo": "Sts. Aurelius and Natalia, Felix and Liliosa",
    "nombres": "Aurelius and Natalia, Felix and Liliosa",
-   "descripcion": "heroic witness of two friendly couples",
+   "descripcion": "the heroic testimony of two Christian couples",
    "resumen": "martyrs",
    "_es": "e619625d25"
   },
@@ -35,7 +35,7 @@
   "5": {
    "titulo": "St. Stephen King of Hungary and Bl. Gisela",
    "nombres": "Stephen King of Hungary and Gisela",
-   "descripcion": "great evangelizing monarchs",
+   "descripcion": "outstanding monarchs who evangelized their country",
    "resumen": "king and queen",
    "cita": "“Send, Lord, wisdom from on high, that it may be with me and work with me, so that I may know what is pleasing in your sight at all times” (St. Stephen)",
    "_es": "4fec53b901"
@@ -43,7 +43,7 @@
   "7": {
    "titulo": "St. Gianna Beretta and Pietro Molla",
    "nombres": "Gianna Beretta and Pietro Molla",
-   "descripcion": "the pediatrician who gave everything for her children",
+   "descripcion": "the pediatrician who gave it all for her child",
    "resumen": "heroic pro-life mother",
    "cita": "“If you must decide between me and the child, do not hesitate: choose the child, I insist on it. Save the baby.” (Gianna to her husband, days before giving birth)",
    "_es": "52ac53f299"
@@ -83,7 +83,7 @@
   "12": {
    "titulo": "St. Peter To Rot and Paula Ia Varpit",
    "nombres": "Peter To Rot and Paula Ia Varpit",
-   "descripcion": "catechist martyred in wartime, first saint of his country",
+   "descripcion": "catechist martyred in WWII, his country's first saint",
    "resumen": "catechist martyred by the Japanese, first blessed of Papua New Guinea",
    "cita": "“His marriage was sacred to him, and he fought against the secularization of the bond that others defended” (Chief Tarue, his uncle)",
    "_es": "1082959da5"
@@ -99,7 +99,7 @@
   "14": {
    "titulo": "Bl. Anna Maria and Domenico Taigi",
    "nombres": "Anna Maria and Domenico Taigi",
-   "descripcion": "patroness of mothers of families",
+   "descripcion": "patroness of mothers",
    "resumen": "mystic, patroness of mothers of families",
    "cita": "“Anna Maria was the happiness of the family, always kind and smiling” (Domenico, during his wife's beatification process)",
    "_es": "dd5119d74e"
@@ -107,7 +107,7 @@
   "15": {
    "titulo": "Bl. Concepción Cabrera de Armida and Francisco",
    "nombres": "Conchita Cabrera and Francisco Armida",
-   "descripcion": "mother and mystic, the first laywoman beatified in her country",
+   "descripcion": "mother and mystic, her country's first beatified laywoman",
    "resumen": "writer, first laywoman beatified in Mexico",
    "cita": "“I have Christ, who does not die, who does not leave me and will never abandon me” (Conchita Cabrera)",
    "_es": "3ba9bb555c"
@@ -115,7 +115,7 @@
   "16": {
    "titulo": "Bl. Frédéric Ozanam and Amélie Soulacroix",
    "nombres": "Frédéric Ozanam and Amélie Soulacroix",
-   "descripcion": "lawyer who founded a worldwide work of charity",
+   "descripcion": "the lawyer who founded a worldwide charity work",
    "resumen": "lawyer, founder of the Society of St. Vincent de Paul",
    "cita": "“The main purpose of marriage is to offer an example, a model, the first consecration of every human association in love.” (F. Ozanam)",
    "_es": "14aebc8eff"
@@ -139,7 +139,7 @@
   "19": {
    "titulo": "Bl. Odoardo Focherini and Maria Marchesi",
    "nombres": "Odoardo Focherini and Maria Marchesi",
-   "descripcion": "journalist who saved about a hundred Jews",
+   "descripcion": "the journalist who saved some hundred Jews",
    "resumen": "martyr journalist who died in a concentration camp",
    "cita": "“Accept, O Lord, this sacrifice (...) my life as an offering (...) for the return of peace to the world” (in a letter to a friend)",
    "_es": "0126cbc921"
@@ -271,7 +271,7 @@
   "36": {
    "titulo": "Servants of God Gwen Cecilia Billings and Jerry Coniker",
    "nombres": "Gwen and Jerry Coniker",
-   "descripcion": "couple who pioneered family television programming",
+   "descripcion": "the couple who pioneered US family television",
    "resumen": "parents of 13, founders of the Apostolate for Family Consecration",
    "_es": "4f45520d3e"
   },
@@ -286,7 +286,7 @@
   "38": {
    "titulo": "Servants of God Raoul Follereau and Madeleine Boudou",
    "nombres": "Raoul Follereau and Madeleine Boudou",
-   "descripcion": "Good Samaritans to lepers in the 20th century",
+   "descripcion": "Good Samaritans for 20th century lepers",
    "resumen": "writer and journalist, foundation against leprosy and poverty",
    "cita": "“To be happy is to make others happy” (Raoul Follereau)",
    "_es": "360f7d5632"
@@ -302,7 +302,7 @@
   "40": {
    "titulo": "Servants of God Tomás Alvira and Paquita Domínguez",
    "nombres": "Tomás and Paquita Alvira",
-   "descripcion": "a couple of educators",
+   "descripcion": "educators by vocation",
    "resumen": "supernumeraries of Opus Dei; educators",
    "cita": "“They had a love for God that showed through their married love, and that love overflowed to others” (their daughter M. Isabel Alvira)",
    "_es": "fa1cabf3d2"
@@ -1473,7 +1473,7 @@
   "202": {
    "titulo": "St. Frances of Rome and Lorenzo de' Ponziani",
    "nombres": "Frances of Rome and Lorenzo de' Ponziani",
-   "descripcion": "Rome's most admired benefactor saint",
+   "descripcion": "Rome's most admired benefactor",
    "resumen": "noblewoman married by obligation; a great benefactor together with her sister-in-law Vannozza",
    "_es": "59a26b62d0"
   },
@@ -1756,7 +1756,7 @@
   "242": {
    "titulo": "St. Hermenegild and Ingund",
    "nombres": "Hermenegild and Ingund",
-   "descripcion": "the prince who began Spain's conversion from Arianism",
+   "descripcion": "the prince who sparked Spain's reconversion from Arianism",
    "resumen": "noble martyr, patron of converts",
    "_es": "092eccb40e"
   },
@@ -2489,7 +2489,7 @@
   "342": {
    "titulo": "St. Louise de Marillac and Antoine Le Gras",
    "nombres": "Louise de Marillac and Antoine Le Gras",
-   "descripcion": "widow who became a religious and co-founded the Daughters of Charity with St. Vincent de Paul",
+   "descripcion": "widow who co-founded the Daughters of Charity with St. Vincent de Paul",
    "resumen": "widow who became a religious and co-founded the Daughters of Charity with St. Vincent de Paul",
    "cita": "“Have eyes and heart only for the poor” (St. Louise de Marillac)",
    "_es": "0e7db3b38a"
