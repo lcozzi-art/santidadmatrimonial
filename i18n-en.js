@@ -27,7 +27,7 @@ window.TRADUCCION = {
     "Siervo de Dios": "Servant of God", "Siervos de Dios": "Servants of God",
     "Reproductor de YouTube": "YouTube player",
     "Siglo {s}": "Century {s}",
-    "s. {s}": "Cent. {s}",
+    "s. {s}": "{s}",
     "{n} matrimonios": "{n} couples",
     "{n} de {total} matrimonios": "{n} of {total} couples",
     "No hay fichas con esos filtros. Probá quitar alguno.": "No profiles match these filters. Try removing one.",
