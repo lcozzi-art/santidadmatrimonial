@@ -204,7 +204,7 @@ TEXTOS = [
     ('<h2>Por referencia vocacional</h2>', '<h2>By reference</h2>'),
     ('<p class="nota">Lo que caracterizó a los esposos.</p>', '<p class="nota">What characterized the spouses.</p>'),
     ('<h2>Fiestas y memorias por mes</h2>', '<h2>Feasts and memorials by month</h2>'),
-    ('<p class="nota">En qué mes del calendario se los recuerda.</p>', '<p class="nota">The month of the calendar in which they are remembered.</p>'),
+    ('<p class="nota">En qué mes del calendario se los recuerda.</p>', ''),
     ('<p class="est-pie">Nota: los números no incluyen varias decenas más de esposos beatificados en procesos colectivos por martirio.</p>',
      '<p class="est-pie">Note: these numbers do not include several dozen more spouses beatified in group causes of martyrdom.</p>'),
 
