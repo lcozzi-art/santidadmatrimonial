@@ -244,7 +244,7 @@
     "África": ["Madagascar","Argelia","Sudáfrica","Egipto","Túnez","Ruanda","Burkina Faso","Etiopía","Lesotho","Tanzania","Costa de Marfil","Uganda","Mauritania"],
     "Oceanía": ["Papua Nueva Guinea"]
   };
-  var PAISES_VISIBLES = 12;
+  var PAISES_VISIBLES = 20;
   // Spreadsheet country -> name in data/mundo.json (Natural Earth). England, Scotland and Wales share the United Kingdom.
   var MAPA = {
     "Italia": "Italy", "España": "Spain", "Francia": "France", "Inglaterra": "United Kingdom", "Escocia": "United Kingdom", "Gales": "United Kingdom",
