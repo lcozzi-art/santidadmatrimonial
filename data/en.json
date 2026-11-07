@@ -317,10 +317,10 @@
   "42": {
    "titulo": "Servants of God Abraham and María Patricia Reyes",
    "nombres": "Abraham and María Patricia Reyes",
-   "descripcion": "humble and generous Venezuelan couple",
+   "descripcion": "humble and generous couple",
    "resumen": "members of the Legion of Mary and co-founders of the Jesuit educational movement Fe y Alegría",
    "cita": "“Why so many things? You have given me too much,” he would say to God, “what have I done?…” (Abraham Reyes)",
-   "_es": "495548f4b5"
+   "_es": "d6891619d7"
   },
   "43": {
    "titulo": "St. Acahilda of Wendelstein and Thietmar",
@@ -332,9 +332,9 @@
   "44": {
    "titulo": "St. Regina of Denain and Bl. Adalbert II",
    "nombres": "Adalbert II and Regina of Denain",
-   "descripcion": "noble widow, religious who founded a convent, obedient to her daughter the abbess St. Renfroie",
-   "resumen": "noble widow, religious who founded a convent, obedient to her daughter the abbess St. Renfroie",
-   "_es": "31911efc8e"
+   "descripcion": "noble widow who founded a convent with her daughter the abbess",
+   "resumen": "religious who founded a convent, obedient to her daughter the abbess St. Renfroie",
+   "_es": "2505cef0c4"
   },
   "45": {
    "titulo": "Bl. Adrian Fortescue and Anne Stonor / Anne Rede",
@@ -430,7 +430,7 @@
    "descripcion": "the great Saxon king",
    "resumen": "King of the West Saxons",
    "cita": "“In prosperity a man forgets himself; in hardship he is forced to reflect on himself” (St. Alfred)",
-   "_es": "190a42bbe9"
+   "_es": "84f4775843"
   },
   "58": {
    "titulo": "Bl. Aleth of Montbard and Ven. Tescelin",
@@ -445,7 +445,7 @@
    "nombres": "Alma Ferrara and Francesco Sacco",
    "descripcion": "recent mother and mystic",
    "resumen": "seer and founder of the Movement for the Joyful Love of the Father",
-   "_es": "ac963cdd30"
+   "_es": "f3532cfb4b"
   },
   "60": {
    "titulo": "St. Alphonsus Rodríguez and María Suárez",
@@ -461,7 +461,7 @@
    "descripcion": "nobleman very generous with the poor",
    "resumen": "Savoy nobles of Piedmont, keepers of the Holy Shroud, with 10 children",
    "cita": "“Heaven forbid that I should inquire into the condition of the poor who come to my doors; if the Lord looked at our actions in the same way, he would very often find us lacking in uprightness” (Amadeus of Savoy)",
-   "_es": "10fc7e6557"
+   "_es": "81b17df087"
   },
   "62": {
    "titulo": "Servant of God Amador M. Tajanlangit Sr. and Angeles O. Ledesma",
@@ -540,7 +540,8 @@
    "nombres": "Anne Line and Roger",
    "resumen": "martyr",
    "cita": "“Where I have received one [priest], I wish I could have received a thousand” (St. Anne Line, at her trial)",
-   "_es": "e533cad34d"
+   "_es": "42773edde5",
+   "descripcion": "sheltered priests during the religious persecution"
   },
   "73": {
    "titulo": "St. Ansfrid and Hilsondis",
@@ -661,9 +662,9 @@
   "89": {
    "titulo": "Sts. Basil the Elder and Emmelia",
    "nombres": "Basil the Elder and Emmelia",
-   "descripcion": "bishop and deaconess, parents of the holy bishops Basil the Great, Gregory of Nyssa and Peter of Sebaste, and of St. Macrina",
-   "resumen": "bishop and deaconess, parents of the holy bishops Basil the Great, Gregory of Nyssa and Peter of Sebaste, and of St. Macrina",
-   "_es": "71ee9b3404"
+   "descripcion": "bishop and deaconess, parents of several saints",
+   "resumen": "parents of the holy bishops Basil the Great, Gregory of Nyssa and Peter of Sebaste, and of St. Macrina",
+   "_es": "c21f2adc96"
   },
   "90": {
    "titulo": "St. Begga of Austrasia and Ansegisel",
@@ -678,7 +679,7 @@
    "descripcion": "courageous school principal",
    "resumen": "martyr, school principal and father of 8",
    "cita": "“Benedict's witness joins that of so many (...) persecuted, expelled, killed for confessing Jesus Christ.” (Pope Francis)",
-   "_es": "04192e5f4f"
+   "_es": "d3c2e1a025"
   },
   "92": {
    "titulo": "St. Bernard, Bishop of Vienne",
@@ -814,7 +815,7 @@
    "descripcion": "pioneering humanitarian for immigrants to Australia",
    "resumen": "humanitarian",
    "cita": "“This is my principle and creed: the common good is my commitment” (Caroline Jones Chisholm)",
-   "_es": "9cae2336ae"
+   "_es": "327f84f25c"
   },
   "111": {
    "titulo": "Ven. Caroline-Barbe Colchen and Paul Carré",
@@ -827,8 +828,8 @@
    "titulo": "St. Castulus of Rome and St. Irene",
    "nombres": "Castulus of Rome and Irene",
    "descripcion": "public servant, ancient patron of farmers and shepherds",
-   "resumen": "official killed under Diocletian; patron of farmers and shepherds",
-   "_es": "9d9d58ab85"
+   "resumen": "official killed during Diocletian's persecution",
+   "_es": "99c168ab4b"
   },
   "113": {
    "titulo": "St. Catherine of Genoa and Giuliano",
@@ -836,7 +837,7 @@
    "descripcion": "reconverted wife, perseverant and mystic",
    "resumen": "mystic and benefactor, daughter of the viceroy of Naples and descendant of 2 popes",
    "cita": "“Is it possible, O Love, that in a single moment you have revealed to me what cannot be said in words?” (St. Catherine of Genoa)",
-   "_es": "dd114865e7"
+   "_es": "fabf91931d"
   },
   "114": {
    "titulo": "St. Catherine of Sweden and Eggert van Kyren",
@@ -1030,9 +1031,9 @@
    "titulo": "Bl. Edmund Rice and Mary Elliott",
    "nombres": "Edmund Rice and Mary Elliott",
    "descripcion": "widower priest, founder of the Christian Brothers congregation and network of schools",
-   "resumen": "widower who became a religious, founder of the Christian Brothers and the Presentation Brothers",
+   "resumen": "founder of the Christian Brothers and the Presentation Brothers",
    "cita": "“Take courage: the good seed will grow in the children's hearts later on” (Edmund Rice)",
-   "_es": "5e6d577487"
+   "_es": "8efbfe0b7b"
   },
   "141": {
    "titulo": "Bl. Edward Coleman",
@@ -1044,7 +1045,7 @@
   "142": {
    "titulo": "St. Edward the Confessor and Edith",
    "nombres": "Edward the Confessor and Edith",
-   "_es": "d667d5b6fc",
+   "_es": "d5b56dec3f",
    "descripcion": "pious and peace-making king"
   },
   "143": {
@@ -2698,7 +2699,7 @@
    "descripcion": "teacher, Focolare and courageous mother",
    "resumen": "Focolare member, pro-life teacher who died after refusing to end her pregnancy",
    "cita": "“Your ways, Lord, are madness; they break my humanity, but they are the only ones I want to walk”",
-   "_es": "89a17eda22"
+   "_es": "99f538f08e"
   },
   "372": {
    "titulo": "Ven. Marie Clotilde and Charles Emmanuel IV",

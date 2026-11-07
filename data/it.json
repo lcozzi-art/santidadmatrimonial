@@ -317,10 +317,10 @@
   "42": {
    "titulo": "Servi di Dio Abraham e María Patricia Reyes",
    "nombres": "Abraham e María Patricia Reyes",
-   "descripcion": "sposi venezuelani umili e generosi",
+   "descripcion": "sposi umili e generosi",
    "resumen": "della Legione di Maria e cofondatori del movimento educativo gesuita Fe y Alegría",
    "cita": "«Perché tante cose? È troppo quello che mi hai dato – diceva a Dio – che cosa ho fatto io?…» (Abraham Reyes)",
-   "_es": "495548f4b5"
+   "_es": "d6891619d7"
   },
   "43": {
    "titulo": "Santa Acahilda di Wendelstein e Thietmar",
@@ -332,9 +332,9 @@
   "44": {
    "titulo": "Santa Regina di Denain e il beato Adalberto II",
    "nombres": "Adalberto II e Regina di Denain",
-   "descripcion": "vedova nobile, religiosa fondatrice di un convento, obbediente alla figlia badessa santa Renfrida",
-   "resumen": "vedova nobile, religiosa fondatrice di un convento, obbediente alla figlia badessa santa Renfrida",
-   "_es": "31911efc8e"
+   "descripcion": "vedova nobile, fondatrice di un convento insieme alla figlia badessa",
+   "resumen": "religiosa fondatrice di un convento, obbediente alla figlia badessa santa Renfrida",
+   "_es": "2505cef0c4"
   },
   "45": {
    "titulo": "Beato Adrian Fortescue e Anne Stonor / Anne Rede",
@@ -427,10 +427,10 @@
   "57": {
    "titulo": "Sant’Alfredo il Grande, re del Wessex, ed Ealhswith",
    "nombres": "Alfredo il Grande, re del Wessex, ed Ealhswith",
-   "descripcion": "grande re sassone",
+   "descripcion": "il grande re sassone",
    "resumen": "re dei Sassoni occidentali",
    "cita": "«Nella prosperità l’uomo dimentica se stesso; nelle difficoltà è costretto a riflettere su se stesso» (sant’Alfredo)",
-   "_es": "190a42bbe9"
+   "_es": "84f4775843"
   },
   "58": {
    "titulo": "Beata Aletta di Montbard e il venerabile Tescelino",
@@ -443,9 +443,9 @@
   "59": {
    "titulo": "Serva di Dio Alma Ferrara e Francesco Sacco",
    "nombres": "Alma Ferrara e Francesco Sacco",
-   "descripcion": "madre e mistica del XX secolo",
+   "descripcion": "madre e mistica recente",
    "resumen": "veggente e fondatrice del Movimento dell’Amore Gioioso del Padre",
-   "_es": "ac963cdd30"
+   "_es": "f3532cfb4b"
   },
   "60": {
    "titulo": "Sant’Alfonso Rodríguez e María Suárez",
@@ -458,10 +458,10 @@
   "61": {
    "titulo": "Beato Amedeo IX di Savoia e Iolanda",
    "nombres": "Amedeo IX di Savoia e Iolanda",
-   "descripcion": "nobile italiano virtuoso con i poveri",
+   "descripcion": "nobile molto generoso con i poveri",
    "resumen": "nobili di Savoia e Piemonte, custode della Sacra Sindone, con 10 figli",
    "cita": "«Non voglia il Cielo che io indaghi sulla condizione dei poveri che bussano alla mia porta; se il Signore guardasse allo stesso modo le nostre azioni, ci troverebbe molto spesso mancanti di rettitudine» (Amedeo di Savoia)",
-   "_es": "10fc7e6557"
+   "_es": "81b17df087"
   },
   "62": {
    "titulo": "Servi di Dio Amador M. Tajanlangit Sr. e Angeles O. Ledesma",
@@ -540,7 +540,8 @@
    "nombres": "Anne Line e Roger",
    "resumen": "martire",
    "cita": "«Dove ne ho accolto uno, avrei voluto poterne accogliere mille [di sacerdoti]» (santa Anne Line, durante il processo)",
-   "_es": "e533cad34d"
+   "_es": "42773edde5",
+   "descripcion": "ospitava sacerdoti durante la persecuzione religiosa"
   },
   "73": {
    "titulo": "Sant’Ansfrido e Ilsunda",
@@ -661,9 +662,9 @@
   "89": {
    "titulo": "Santi Basilio il Vecchio ed Emmelia",
    "nombres": "Basilio il Vecchio ed Emmelia",
-   "descripcion": "vescovo e diaconessa, genitori dei santi vescovi Basilio Magno, Gregorio di Nissa e Pietro di Sebaste, e di santa Macrina",
-   "resumen": "vescovo e diaconessa, genitori dei santi vescovi Basilio Magno, Gregorio di Nissa e Pietro di Sebaste, e di santa Macrina",
-   "_es": "71ee9b3404"
+   "descripcion": "vescovo e diaconessa, genitori di diversi santi",
+   "resumen": "genitori dei santi vescovi Basilio Magno, Gregorio di Nissa e Pietro di Sebaste, e di santa Macrina",
+   "_es": "c21f2adc96"
   },
   "90": {
    "titulo": "Santa Begga di Austrasia e Ansegiso",
@@ -675,10 +676,10 @@
   "91": {
    "titulo": "Beato Benedict Daswa e Shadi Eveline Monyai",
    "nombres": "Benedict Daswa e Shadi Eveline Monyai",
-   "descripcion": "direttore di scuola sudafricano",
+   "descripcion": "coraggioso direttore di scuola",
    "resumen": "martire, direttore di scuola e padre di 8 figli",
    "cita": "«La testimonianza di Benedict si unisce a quella di tanti (...) perseguitati, espulsi, uccisi per aver confessato Gesù Cristo» (papa Francesco)",
-   "_es": "04192e5f4f"
+   "_es": "d3c2e1a025"
   },
   "92": {
    "titulo": "San Bernardo, vescovo di Vienne",
@@ -811,10 +812,10 @@
   "110": {
    "titulo": "Serva di Dio Caroline Jones Chisholm e Archibald",
    "nombres": "Caroline Jones Chisholm e Archibald",
-   "descripcion": "madre e pioniera umanitaria dell’Australia",
+   "descripcion": "pioniera umanitaria con gli immigrati in Australia",
    "resumen": "umanitaria",
    "cita": "«Questo è il mio principio e il mio credo: il bene comune è il mio impegno» (Caroline Jones Chisholm)",
-   "_es": "9cae2336ae"
+   "_es": "327f84f25c"
   },
   "111": {
    "titulo": "Venerabile Caroline-Barbe Colchen e Paul Carré",
@@ -826,9 +827,9 @@
   "112": {
    "titulo": "San Castulo di Roma e santa Irene",
    "nombres": "Castulo di Roma e Irene",
-   "descripcion": "funzionario ucciso sotto Diocleziano; patrono degli agricoltori e dei pastori",
-   "resumen": "funzionario ucciso sotto Diocleziano; patrono degli agricoltori e dei pastori",
-   "_es": "9d9d58ab85"
+   "descripcion": "funzionario, antico patrono degli agricoltori e dei pastori",
+   "resumen": "funzionario ucciso durante la persecuzione di Diocleziano",
+   "_es": "99c168ab4b"
   },
   "113": {
    "titulo": "Santa Caterina da Genova e Giuliano",
@@ -836,7 +837,7 @@
    "descripcion": "sposa convertita, perseverante e mistica",
    "resumen": "mistica benefattrice, figlia del viceré di Napoli e discendente di 2 papi",
    "cita": "«È possibile, o Amore, che in un solo istante tu mi abbia rivelato ciò che non si può dire con le parole?» (santa Caterina da Genova)",
-   "_es": "dd114865e7"
+   "_es": "fabf91931d"
   },
   "114": {
    "titulo": "Santa Caterina di Svezia ed Eggert von Kyren",
@@ -1029,10 +1030,10 @@
   "140": {
    "titulo": "Beato Edmund Rice e Mary Elliott",
    "nombres": "Edmund Rice e Mary Elliott",
-   "descripcion": "vedovo religioso, fondatore dei Christian Brothers e dei Presentation Brothers",
-   "resumen": "vedovo religioso, fondatore dei Christian Brothers e dei Presentation Brothers",
+   "descripcion": "vedovo sacerdote, fondatore dei “Christian Brothers” e della loro rete mondiale di scuole",
+   "resumen": "fondatore dei Christian Brothers e dei Presentation Brothers",
    "cita": "«Abbiate coraggio: il buon seme germoglierà più avanti nel cuore dei ragazzi» (Edmund Rice)",
-   "_es": "5e6d577487"
+   "_es": "8efbfe0b7b"
   },
   "141": {
    "titulo": "Beato Edward Coleman",
@@ -1044,7 +1045,8 @@
   "142": {
    "titulo": "Sant’Edoardo il Confessore ed Edith",
    "nombres": "Edoardo il Confessore ed Edith",
-   "_es": "d667d5b6fc"
+   "_es": "d5b56dec3f",
+   "descripcion": "re pio e pacificatore"
   },
   "143": {
    "titulo": "Sant’Edoardo ed Æthelflæd",
@@ -2694,10 +2696,10 @@
   "371": {
    "titulo": "Serva di Dio María Cecilia Perrín e Luis Buide",
    "nombres": "Cecilia Perrín e Luis Buide",
-   "descripcion": "madre e insegnante argentina dei Focolari",
+   "descripcion": "insegnante, dei Focolari e madre eroica",
    "resumen": "maestra dei Focolari, pro vita, morta per non interrompere la gravidanza",
    "cita": "«Le tue vie, Signore, sono una follia, spezzano la mia umanità, ma sono le uniche che voglio percorrere»",
-   "_es": "89a17eda22"
+   "_es": "99f538f08e"
   },
   "372": {
    "titulo": "Venerabili Maria Clotilde e Carlo Emanuele IV",
