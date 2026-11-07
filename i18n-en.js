@@ -82,7 +82,7 @@ window.TRADUCCION = {
     "mártir": "martyr", "religioso/a": "religious", "monarcas": "monarchs", "funcionario/a": "public servant",
     "fundador/a": "founder", "educador/a": "educator", "nobles": "nobility", "benefactor/a": "benefactor",
     "padres de santo": "parents of a saint", "otros": "other", "médico": "physician", "profesional": "professional",
-    "mística o vidente": "mystic or seer", "escritor/periodista": "writer/journalist", "esposas orantes": "praying wives",
+    "mística o vidente": "mystic or seer", "escritor/periodista": "writer/journalist", "esposas orantes": "praying spouses",
     "activista social": "social activist", "labrador": "farmer", "pro vida": "pro-life", "artesano": "craftsman"
   },
   continentes: { "Europa": "Europe", "América": "Americas", "Asia": "Asia", "África": "Africa", "Oceanía": "Oceania" },

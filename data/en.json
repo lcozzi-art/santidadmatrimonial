@@ -374,7 +374,7 @@
   "50": {
    "titulo": "Ven. Albertina Violi and Livio Zirondoli",
    "nombres": "Albertina Violi and Livio Zirondoli",
-   "descripcion": "“the lady teacher”",
+   "descripcion": "the lady teacher",
    "resumen": "Focolare member, called “the lady teacher”",
    "cita": "“Thanks to the Almighty, who allowed my word to enter the soul of that good-hearted creature”",
    "_es": "ef3ca71ca4"
@@ -427,7 +427,7 @@
   "57": {
    "titulo": "St. Alfred the Great, King of Wessex, and Ealhswith",
    "nombres": "Alfred the Great, King of Wessex, and Ealhswith",
-   "descripcion": "great Saxon king",
+   "descripcion": "the great Saxon king",
    "resumen": "King of the West Saxons",
    "cita": "“In prosperity a man forgets himself; in hardship he is forced to reflect on himself” (St. Alfred)",
    "_es": "190a42bbe9"
@@ -443,7 +443,7 @@
   "59": {
    "titulo": "Servant of God Alma Ferrara and Francesco Sacco",
    "nombres": "Alma Ferrara and Francesco Sacco",
-   "descripcion": "20th-century mother and mystic",
+   "descripcion": "recent mother and mystic",
    "resumen": "seer and founder of the Movement for the Joyful Love of the Father",
    "_es": "ac963cdd30"
   },
@@ -458,7 +458,7 @@
   "61": {
    "titulo": "Bl. Amadeus IX of Savoy and Yolande",
    "nombres": "Amadeus IX of Savoy and Yolande",
-   "descripcion": "Italian noble, virtuous with the poor",
+   "descripcion": "nobleman very generous with the poor",
    "resumen": "Savoy nobles of Piedmont, keepers of the Holy Shroud, with 10 children",
    "cita": "“Heaven forbid that I should inquire into the condition of the poor who come to my doors; if the Lord looked at our actions in the same way, he would very often find us lacking in uprightness” (Amadeus of Savoy)",
    "_es": "10fc7e6557"
@@ -484,7 +484,7 @@
   "65": {
    "titulo": "Ven. Amparo Portilla Crespo and Federico Romero",
    "nombres": "Amparo Portilla Crespo and Federico Romero",
-   "descripcion": "venerable Spanish mother",
+   "descripcion": "venerable mother and teacher",
    "resumen": "catechist devoted to the poor and the sick",
    "cita": "“To mothers and to God, we are all only children” (Amparo Portilla Crespo)",
    "_es": "ef63677fac"
@@ -500,7 +500,7 @@
   "67": {
    "titulo": "Bl. Anacleto González Flores and Concepción Guerrero",
    "nombres": "Anacleto González Flores and Concepción Guerrero",
-   "descripcion": "Cristero husband, called the “Mexican Gandhi”",
+   "descripcion": "Cristero martyr, called the “Mexican Gandhi”",
    "resumen": "Cristero martyr, patron of the laity in Mexico",
    "cita": "“I forgive you with all my heart; very soon we will meet before the divine tribunal (...) and then you will have in me an intercessor with God” (Anacleto González Flores, to his executioner)",
    "_es": "e96aba9ea3"
@@ -603,7 +603,7 @@
   "81": {
    "titulo": "Servant of God Argentino del Valle Larrabure and María Susana de San Martín",
    "nombres": "Argentino del Valle Larrabure and María Susana de Martín",
-   "descripcion": "Argentine family man and army officer who forgave his captors",
+   "descripcion": "family man and army officer who forgave his captors",
    "resumen": "colonel murdered by the ERP guerrillas",
    "cita": "“I want to die standing, calling on God in my family, on my country in my army, on my people untainted by ideas soaked in division and blood. I ask God in his mercy to grant me this grace.” (from his captivity diary)",
    "_es": "87b5753610"
@@ -616,9 +616,9 @@
    "_es": "5a96d29b0a"
   },
   "83": {
-   "titulo": "Sts. Artemius and Candida",
+   "titulo": "Artemius and Candida",
    "nombres": "Artemius and Candida",
-   "descripcion": "Roman converts, parents of St. Paulina",
+   "descripcion": "Roman converts, parents of St. Pauline",
    "resumen": "Roman converts, parents of St. Paulina",
    "_es": "5c73f679cc"
   },
@@ -675,7 +675,7 @@
   "91": {
    "titulo": "Bl. Benedict Daswa and Shadi Eveline Monyai",
    "nombres": "Benedict Daswa and Shadi Eveline Monyai",
-   "descripcion": "South African school principal",
+   "descripcion": "courageous school principal",
    "resumen": "martyr, school principal and father of 8",
    "cita": "“Benedict's witness joins that of so many (...) persecuted, expelled, killed for confessing Jesus Christ.” (Pope Francis)",
    "_es": "04192e5f4f"
@@ -740,7 +740,7 @@
   "100": {
    "titulo": "King St. Canute IV and Adela of Flanders",
    "nombres": "Canute IV and Adela of Flanders",
-   "descripcion": "holy king of Denmark",
+   "descripcion": "saintly king of Denmark",
    "resumen": "king and queen",
    "_es": "bfab02b092"
   },
@@ -791,7 +791,7 @@
   "107": {
    "titulo": "Servant of God Carmela Nebot Soldán and Salvador Noguera",
    "nombres": "Carmela Nebot Soldán and Salvador Noguera",
-   "descripcion": "catechist of the group “Vivencias de Fe” and the Association of Mary Help of Christians (ADMA)",
+   "descripcion": "catechist at “Vivencias de Fe” group and the Association of Mary Help of Christians (ADMA)",
    "resumen": "catechist of the group “Vivencias de Fe” and the Association of Mary Help of Christians (ADMA)",
    "cita": "“The Christian life is a struggle that lasts a lifetime”",
    "_es": "8f75f00a7c"
@@ -811,7 +811,7 @@
   "110": {
    "titulo": "Servant of God Caroline Jones Chisholm and Archibald",
    "nombres": "Caroline Jones Chisholm and Archibald",
-   "descripcion": "mother and pioneering humanitarian in Australia",
+   "descripcion": "pioneering humanitarian for immigrants to Australia",
    "resumen": "humanitarian",
    "cita": "“This is my principle and creed: the common good is my commitment” (Caroline Jones Chisholm)",
    "_es": "9cae2336ae"
@@ -826,14 +826,14 @@
   "112": {
    "titulo": "St. Castulus of Rome and St. Irene",
    "nombres": "Castulus of Rome and Irene",
-   "descripcion": "official killed under Diocletian; patron of farmers and shepherds",
+   "descripcion": "public servant, ancient patron of farmers and shepherds",
    "resumen": "official killed under Diocletian; patron of farmers and shepherds",
    "_es": "9d9d58ab85"
   },
   "113": {
    "titulo": "St. Catherine of Genoa and Giuliano",
    "nombres": "Catherine of Genoa and Giuliano",
-   "descripcion": "a wife reconverted, persevering and mystic",
+   "descripcion": "reconverted wife, perseverant and mystic",
    "resumen": "mystic and benefactor, daughter of the viceroy of Naples and descendant of 2 popes",
    "cita": "“Is it possible, O Love, that in a single moment you have revealed to me what cannot be said in words?” (St. Catherine of Genoa)",
    "_es": "dd114865e7"
@@ -1289,7 +1289,7 @@
   "176": {
    "titulo": "St. Æthelberht of Kent and St. Bertha",
    "nombres": "Æthelberht of Kent and Bertha",
-   "descripcion": "the king and queen who began the evangelization of England",
+   "descripcion": "the king and queen who spurred the evangelization of England",
    "resumen": "king and queen who re-evangelized the English kingdom with St. Augustine of Canterbury",
    "_es": "f4cf7fd2f3"
   },
@@ -2694,7 +2694,7 @@
   "371": {
    "titulo": "Servant of God María Cecilia Perrín and Luis Buide",
    "nombres": "Cecilia Perrín and Luis Buide",
-   "descripcion": "Argentine mother and teacher of the Focolare",
+   "descripcion": "teacher, Focolare and courageous mother",
    "resumen": "Focolare member, pro-life teacher who died after refusing to end her pregnancy",
    "cita": "“Your ways, Lord, are madness; they break my humanity, but they are the only ones I want to walk”",
    "_es": "89a17eda22"
