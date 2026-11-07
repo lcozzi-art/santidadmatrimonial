@@ -799,7 +799,7 @@
   "108": {
    "titulo": "Servant of God “Mamma” Carolina Bellandi and Olinto Palladini",
    "nombres": "Carolina Bellandi and Olinto Palladini",
-   "descripcion": "Franciscan tertiary",
+   "descripcion": "Franciscan tertiary who launched the Work of First Communions",
    "resumen": "Franciscan tertiary",
    "_es": "109d20c2c0"
   },
@@ -953,7 +953,7 @@
   "130": {
    "titulo": "Servant of God Csaba Ozsvári",
    "nombres": "Csaba Ozsvári",
-   "descripcion": "Hungarian goldsmith of sacred art, of the Schoenstatt Family Federation",
+   "descripcion": "Hungarian goldsmith of sacred art, of the Schoenstatt Federation of Families",
    "resumen": "church goldsmith, member of Schoenstatt",
    "cita": "“The ultimate goal of all art can only be to glorify Almighty and Eternal God and to lift up this humanity again” (Csaba Ozsvári)",
    "_es": "4fa96b733e"
@@ -961,7 +961,7 @@
   "131": {
    "titulo": "Servants of God Daniel and Maria “Domitilla” Hyams",
    "nombres": "Daniel and Maria “Domitilla” Hyams",
-   "descripcion": "South Africa's “angels of the disabled”",
+   "descripcion": "“angels of the disabled”",
    "resumen": "founders of the Little Eden Society",
    "cita": "“Each of us is called to be the hands of Jesus” (Domitilla Hyams)",
    "_es": "dab440e910"
@@ -976,7 +976,7 @@
   "133": {
    "titulo": "St. Darerca and Conan Meriadoc / Chonas the Briton",
    "nombres": "Darerca and Conan Meriadoc / Chonas the Briton",
-   "descripcion": "sister and co-worker of St. Patrick",
+   "descripcion": "St. Patrick's sister and co-worker",
    "resumen": "younger sister of St. Patrick",
    "_es": "c45192d33d"
   },
@@ -998,7 +998,7 @@
   "136": {
    "titulo": "Servant of God Domenico Antonio Mangano and Maria Pia",
    "nombres": "Domenico Antonio Mangano and Maria Pia",
-   "descripcion": "committed Italian Focolare member and public servant",
+   "descripcion": "committed Focolare member and public servant",
    "resumen": "Focolare politician, member of the Volunteers of God",
    "cita": "he devoted his life to building “fragments of reciprocity,” pearls of communion and dialogue",
    "_es": "f87c2fbeb8"
@@ -1021,7 +1021,7 @@
   "139": {
    "titulo": "Servants of God Edmond Michelet and Marie Vialle",
    "nombres": "Edmond Michelet and Marie Vialle",
-   "descripcion": "Dachau survivor and French government minister",
+   "descripcion": "Dachau survivor and government minister",
    "resumen": "politician and Minister of Justice",
    "cita": "“I ask God to support my human weakness so that I may be equal to my demanding responsibilities” (Edmond Michelet)",
    "_es": "9bb6bd9ea4"
@@ -1029,7 +1029,7 @@
   "140": {
    "titulo": "Bl. Edmund Rice and Mary Elliott",
    "nombres": "Edmund Rice and Mary Elliott",
-   "descripcion": "widower who became a religious, founder of the Christian Brothers and the Presentation Brothers",
+   "descripcion": "widower priest, founder of the Christian Brothers congregation and network of schools",
    "resumen": "widower who became a religious, founder of the Christian Brothers and the Presentation Brothers",
    "cita": "“Take courage: the good seed will grow in the children's hearts later on” (Edmund Rice)",
    "_es": "5e6d577487"
@@ -1044,7 +1044,8 @@
   "142": {
    "titulo": "St. Edward the Confessor and Edith",
    "nombres": "Edward the Confessor and Edith",
-   "_es": "d667d5b6fc"
+   "_es": "d667d5b6fc",
+   "descripcion": "pious and peace-making king"
   },
   "143": {
    "titulo": "St. Edward and Æthelflæd",
@@ -1079,7 +1080,7 @@
   "147": {
    "titulo": "St. Edwin of Northumbria and St. Æthelburh",
    "nombres": "Edwin of Northumbria and Æthelburh",
-   "descripcion": "early English king who converted",
+   "descripcion": "early English king and convert",
    "resumen": "descendant of St. Clotilde, she converted her husband the king",
    "_es": "13c10bcf06"
   },
