@@ -480,7 +480,7 @@
         (m ? '<a href="#m' + m.id + '">' + t("Ver ficha") + '</a>' : '') + '</div></div></li>';
     }).join("");
     pintarEstadisticas();
-    fetch(BASE + "data/mundo.json?v=2026-10-27b").then(function (r) { return r.json(); }).then(pintarMapa).catch(function () {
+    fetch(BASE + "data/mundo.json?v=2026-11-07").then(function (r) { return r.json(); }).then(pintarMapa).catch(function () {
       $("est-mapa").textContent = t("No se pudo cargar el mapa.");
     });
     tooltip();

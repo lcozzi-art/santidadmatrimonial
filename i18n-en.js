@@ -53,7 +53,7 @@ window.TRADUCCION = {
     "con causa de ambos esposos": "with a cause for both spouses",
     "mártires": "martyrs",
     "países": "countries",
-    "Los {n} con más casos.": "The {n} with the most cases.",
+    "Los {n} con más casos.": "Top {n}",
     "Ver menos": "Show fewer",
     "Ver todos los países": "Show all countries",
     "{n} fiestas o memorias": "{n} feasts or memorials",
