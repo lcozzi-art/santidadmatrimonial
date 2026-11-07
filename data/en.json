@@ -1088,20 +1088,20 @@
   "148": {
    "titulo": "Bl. Elba Ramos and Obdulio",
    "nombres": "Elba Ramos and Obdulio",
-   "descripcion": "cook killed by soldiers together with her daughter and several Jesuits of the UCA",
+   "descripcion": "parish cook murdered by soldiers with her daughter and several UCA Jesuits",
    "resumen": "cook killed by soldiers together with her daughter and several Jesuits of the UCA",
    "_es": "8a06da4272"
   },
   "149": {
    "titulo": "Bl. Elena Duglioli Dall'Olio",
    "nombres": "Elena Duglioli Dall'Olio",
-   "descripcion": "Italian wife admired by her town",
+   "descripcion": "virtuous wife admired by her fellow townspeople",
    "_es": "22c80d2b6e"
   },
   "150": {
    "titulo": "Ven. Eleonora Ramírez Montalvo Landi",
    "nombres": "Eleonora Ramírez Montalvo Landi",
-   "descripcion": "widow who became a religious and founded the Minim Sisters, Servants of the Most Holy Trinity",
+   "descripcion": "widow who became a nun and founded the Minimal Sisters, Servants of the Holy Trinity",
    "resumen": "widow who became a religious and founded the Minim Sisters, Servants of the Most Holy Trinity",
    "_es": "b35514e50a"
   },
@@ -1116,7 +1116,7 @@
   "152": {
    "titulo": "Ven. Elisa Baldo Foresti",
    "nombres": "Elisa Baldo Foresti",
-   "descripcion": "Italian widow and founder",
+   "descripcion": "religious widow who founded a home for the needy",
    "resumen": "widow who became a religious and founded the Holy Family of St. Joseph home",
    "cita": "“My God, I would rather be poor and despised in your service than illustrious in the world” (Elisa)",
    "_es": "878fda8ea2"
@@ -1124,7 +1124,7 @@
   "153": {
    "titulo": "Bl. Elisabetta Sanna",
    "nombres": "Elisabetta Sanna",
-   "descripcion": "mother of a family with a disability, carer of the sick",
+   "descripcion": "disabled family mother and carer for the sick",
    "resumen": "Franciscan tertiary disabled since childhood, mother of 5",
    "cita": "Elisabetta, struck by smallpox three months after birth, could never raise her arms again. She could move her fingers and wrists, but could not bring food to her mouth. She could not make the sign of the cross, comb her hair, wash her face or change her clothes, yet she could knead bread, bake and cook, and she raised five children. Despite her physical disability she married, and her marriage was fully happy. The couple had seven children, two of whom died young.",
    "_es": "209db2ab32"
@@ -1132,7 +1132,7 @@
   "154": {
    "titulo": "Ven. Elisabetta Tasca and Giuseppe Serena",
    "nombres": "Elisabetta Tasca and Giuseppe Serena",
-   "descripcion": "Italian farm woman, mother of 13",
+   "descripcion": "simple farmer and mother of thirteen",
    "resumen": "parents of 2 priests and 2 nuns",
    "_es": "100b6c2244"
   },
@@ -1161,12 +1161,13 @@
   "158": {
    "titulo": "St. Elzéar of Sabran and Bl. Delphine",
    "nombres": "Elzéar of Sabran and Delphine",
-   "_es": "e07a3314de"
+   "_es": "e07a3314de",
+   "descripcion": "generous nobles who chose a chaste marriage"
   },
   "159": {
    "titulo": "Bl. Émilie d'Oultremont (Mary of Jesus) and Victor d'Hooghvorst",
    "nombres": "Émilie d'Oultremont (Mary of Jesus) and Victor d'Hooghvorst",
-   "descripcion": "Belgian mother and founder",
+   "descripcion": "mother and founder of the Institute of Mary Reparatrix",
    "resumen": "widow who became a religious, founded and led the Society of the Sisters of Mary Reparatrix",
    "cita": "“Émilie fulfilled above all the mission of every Christian marriage: to make her home ‘a domestic sanctuary of the Church’” (St. John Paul II)",
    "_es": "6fb712ab65"
@@ -1174,14 +1175,14 @@
   "160": {
    "titulo": "Bl. Emilia Fernández Rodríguez and Juan Cortés",
    "nombres": "Emilia Fernández Rodríguez and Juan Cortés",
-   "descripcion": "Gypsy woman jailed in the Civil War who gave birth in prison and died soon after; one of the 115 killed in hatred of the faith between 1936 and 1939",
+   "descripcion": "gypsy who converted in prison during the Civil War and died soon after giving birth",
    "resumen": "Gypsy woman jailed in the Civil War who gave birth in prison and died soon after; one of the 115 killed in hatred of the faith between 1936 and 1939",
    "_es": "4f27e2ceb4"
   },
   "161": {
    "titulo": "Bl. Émilie Tavernier and Jean-Baptiste Gamelin",
    "nombres": "Émilie Tavernier and Jean-Baptiste Gamelin",
-   "descripcion": "Canadian mother and foundress",
+   "descripcion": "mother and foundress of the Sisters of Providence",
    "resumen": "widow who became a religious and founded the Sisters of Providence",
    "cita": "“Humility, simplicity, charity, above all charity.” (Émilie's testament to her spiritual daughters)",
    "_es": "5ba1471f76"
@@ -1196,7 +1197,7 @@
   "163": {
    "titulo": "St. Emma of Lesum and Liudger",
    "nombres": "Emma of Lesum and Liudger",
-   "descripcion": "German noble mother and benefactor",
+   "descripcion": "noble mother and benefactor",
    "resumen": "nobles",
    "_es": "cfce08e6f6"
   },
