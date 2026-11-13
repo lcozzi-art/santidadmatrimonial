@@ -101,7 +101,7 @@ window.TRADUCCION = {
     "Suiza": "Svizzera", "Islandia": "Islanda", "Madagascar": "Madagascar", "Argelia": "Algeria", "Chile": "Cile",
     "Rusia": "Russia", "Filipinas": "Filippine", "Grecia": "Grecia", "Sudáfrica": "Sudafrica", "Dinamarca": "Danimarca",
     "El Salvador": "El Salvador", "Guatemala": "Guatemala", "Tailandia": "Thailandia", "Ecuador": "Ecuador", "Iran": "Iran",
-    "Corea": "Corea", "India": "India", "Noruega": "Norvegia", "Túnez": "Tunisia", "Papua Nueva Guinea": "Papua Nuova Guinea",
+    "Corea": "Corea", "India": "India", "Noruega": "Norvegia", "Túnez": "Tunisia", "Papua Nueva Guinea": "Papua Nuova Guinea", "Australia": "Australia",
     "Haiti": "Haiti", "Trinidad": "Trinidad", "Colombia": "Colombia", "Ruanda": "Ruanda", "Burkina Faso": "Burkina Faso",
     "Arabia": "Arabia", "Arabia Saudita": "Arabia Saudita", "Egipto": "Egitto", "Etiopía": "Etiopia", "Escocia": "Scozia",
     "Bielorrusia": "Bielorussia", "Malta": "Malta", "Chipre": "Cipro", "Lesotho": "Lesotho", "Albania": "Albania",

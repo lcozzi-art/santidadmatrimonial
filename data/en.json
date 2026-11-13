@@ -18,11 +18,11 @@
    "_es": "c484ea538b"
   },
   "3": {
-   "titulo": "Sts. Aurelius and Natalia, Felix and Liliosa",
-   "nombres": "Aurelius and Natalia, Felix and Liliosa",
+   "titulo": "Sts. Aurelius and Natalia",
+   "nombres": "Aurelius and Natalia",
    "descripcion": "the heroic testimony of two Christian couples",
    "resumen": "martyrs",
-   "_es": "e619625d25"
+   "_es": "c1e0d22ce8"
   },
   "4": {
    "titulo": "St. Bridget and Ulf Gudmarsson",
@@ -710,11 +710,11 @@
    "_es": "68111c6603"
   },
   "96": {
-   "titulo": "St. Bodegisel",
-   "nombres": "Bodegisel",
+   "titulo": "St. Bodegisel and Oda",
+   "nombres": "Bodegisel and Oda",
    "descripcion": "governor and hermit",
-   "resumen": "governor and hermit",
-   "_es": "5b85c9a598"
+   "resumen": "father of St. Arnulf of Metz and St. Venantius Fortunatus; a governor who later agreed with his wife to become a hermit",
+   "_es": "6183fd511c"
   },
   "97": {
    "titulo": "Servant of God Boutros Wadih Kassab",
@@ -801,8 +801,8 @@
    "titulo": "Servant of God “Mamma” Carolina Bellandi and Olinto Palladini",
    "nombres": "Carolina Bellandi and Olinto Palladini",
    "descripcion": "Franciscan tertiary who launched the Work of First Communions",
-   "resumen": "Franciscan tertiary",
-   "_es": "109d20c2c0"
+   "resumen": "founder of the Work of First Communions to promote the sacrament, and of another for “Assistance to Cloistered Monasteries”",
+   "_es": "952c61f3fd"
   },
   "109": {
    "titulo": "Servant of God Carolina Mancinelli and Otto Scampone",
@@ -856,7 +856,9 @@
   "116": {
    "titulo": "Bl. Cecilia of Ferrara",
    "nombres": "Cecilia of Ferrara",
-   "_es": "b5d93de0eb"
+   "_es": "db76d89e71",
+   "descripcion": "a wife who chose consecrated life, as her husband did",
+   "resumen": "she married a very devout young man; after 8 years each entered religious life, where she spent 30 years of exemplary ascetic life"
   },
   "117": {
    "titulo": "St. Cecilia and Valerian",
@@ -1002,7 +1004,7 @@
    "descripcion": "committed Focolare member and public servant",
    "resumen": "Focolare politician, member of the Volunteers of God",
    "cita": "he devoted his life to building “fragments of reciprocity,” pearls of communion and dialogue",
-   "_es": "f87c2fbeb8"
+   "_es": "44a73c9643"
   },
   "137": {
    "titulo": "Bl. Dorothea Swartz of Montau and Albrecht of Danzig",
@@ -1124,10 +1126,10 @@
   "153": {
    "titulo": "Bl. Elisabetta Sanna",
    "nombres": "Elisabetta Sanna",
-   "descripcion": "disabled family mother and carer for the sick",
-   "resumen": "Franciscan tertiary disabled since childhood, mother of 5",
+   "descripcion": "disabled from infancy, she became a mother of seven and a carer for the sick",
+   "resumen": "disabled by smallpox three months after birth, she could no longer raise her arms or bring food to her mouth; even so she was the mother of a large family, became a Franciscan tertiary and gave herself to other sick people",
    "cita": "Elisabetta, struck by smallpox three months after birth, could never raise her arms again. She could move her fingers and wrists, but could not bring food to her mouth. She could not make the sign of the cross, comb her hair, wash her face or change her clothes, yet she could knead bread, bake and cook, and she raised five children. Despite her physical disability she married, and her marriage was fully happy. The couple had seven children, two of whom died young.",
-   "_es": "209db2ab32"
+   "_es": "4c681d4b95"
   },
   "154": {
    "titulo": "Ven. Elisabetta Tasca and Giuseppe Serena",
@@ -1161,7 +1163,7 @@
   "158": {
    "titulo": "St. Elzéar of Sabran and Bl. Delphine",
    "nombres": "Elzéar of Sabran and Delphine",
-   "_es": "e07a3314de",
+   "_es": "92f1aeef89",
    "descripcion": "generous nobles who chose a chaste marriage"
   },
   "159": {
@@ -1347,9 +1349,10 @@
    "_es": "b4ef309996"
   },
   "184": {
-   "titulo": "St. Eberhard",
-   "nombres": "Eberhard",
-   "_es": "d44618defb"
+   "titulo": "St. Eberhard and Gisela",
+   "nombres": "Eberhard and Gisela",
+   "_es": "0c7c590690",
+   "descripcion": "diplomat, politician, scholar and soldier; he founded a monastery of canons regular and wrote many manuscripts reflecting on sacred and secular sciences, literary and legal questions; he married Gisela, sister of Emperor Lothair, with whom he had 8 children"
   },
   "185": {
    "titulo": "St. Faro of Meaux and Blidechilde",
@@ -1432,10 +1435,10 @@
   "196": {
    "titulo": "Servant of God Fortunata “Natuzza” Evolo and Pasquale Nicolace",
    "nombres": "Fortunata “Natuzza” Evolo and Pasquale Nicolace",
-   "descripcion": "simple mother and mystic of the 20th century",
+   "descripcion": "simple mother and mystic of recent times",
    "resumen": "charitable seer who bore the stigmata",
    "cita": "“You will suffer much in your body, but what joy in your spirit!” (Jesus to Natuzza Evolo)",
-   "_es": "688a12a234"
+   "_es": "2b877f450a"
   },
   "197": {
    "titulo": "St. Gwen and St. Fragan the Confessor",
@@ -1570,9 +1573,9 @@
   "215": {
    "titulo": "Bl. Gaetana Sterni and Liberale Conte",
    "nombres": "Gaetana Sterni and Liberale Conte",
-   "descripcion": "Italian mother and founder",
+   "descripcion": "mother and founder",
    "resumen": "widow who became a religious and founded the Daughters of the Divine Will",
-   "_es": "e9bc375b76"
+   "_es": "aa9f396e85"
   },
   "216": {
    "titulo": "St. Gangulphus",
@@ -1968,12 +1971,12 @@
    "_es": "502a5d53e1"
   },
   "272": {
-   "titulo": "St. James Intercisus",
-   "nombres": "James Intercisus",
+   "titulo": "St. James [Jacob] Intercisus",
+   "nombres": "James [Jacob] Intercisus",
    "descripcion": "patron of those in doubt about their vocation",
    "resumen": "martyred in Persia, although his wife tried to dissuade him",
    "cita": "“Death terrifies kings and all who do not know God, for the hope of the wicked is fleeting” (St. James Intercisus)",
-   "_es": "cfe0fafcf1"
+   "_es": "44a304db44"
   },
   "273": {
    "titulo": "Bl. Jacopone da Todi and Vanna di Guidone",
@@ -1992,11 +1995,11 @@
   },
   "275": {
    "titulo": "Servant of God Jadwiga Działyńska and Władysław Zamoyski",
-   "nombres": "Jadwiga Działyńska and Władysław Zamoyski",
+   "nombres": "Jadwiga Zamoyska and Władysław",
    "descripcion": "Polish mother and founder",
    "resumen": "social activist",
    "cita": "“Serve God by serving the Homeland, serve the Homeland by serving God” (Jadwiga's motto)",
-   "_es": "3214470bef"
+   "_es": "df9696a1f6"
   },
   "276": {
    "titulo": "Servant of God János Esterházy and Lívia Serényi",
@@ -2281,7 +2284,7 @@
    "descripcion": "mother, educator and founder",
    "resumen": "widow who became a religious and founded the Company of Mary",
    "cita": "“Serve in an ever new way; let us join our strength to help the Church.” (St. Jeanne de Lestonnac)",
-   "_es": "0341b2d133"
+   "_es": "30240fc351"
   },
   "314": {
    "titulo": "St. Jane Frances de Chantal",
@@ -2368,23 +2371,23 @@
   "325": {
    "titulo": "Ven. Léon Papin-Dupont and Caroline d'Audiffredi",
    "nombres": "Léon Papin-Dupont and Caroline d'Audiffredi",
-   "descripcion": "the “holy man of Tours,” founder of the confraternity of the Holy Face",
+   "descripcion": "the “holy man of Tours,” founder of the Confraternity of the Holy Face",
    "resumen": "aristocrat and benefactor of the St. Vincent de Paul Society, the “holy man of Tours”",
-   "_es": "9a42b1aed8"
+   "_es": "8d4950fd16"
   },
   "326": {
    "titulo": "St. Leocadius of Dol",
    "nombres": "Leocadius of Dol",
-   "descripcion": "convert, senator of the Gauls and governor of Bourges; he welcomed the first preachers of the faith and made a church of his house",
-   "resumen": "convert, senator of the Gauls; he welcomed the first preachers of the faith and made a church of his house",
-   "_es": "2558616d97"
+   "descripcion": "convert, senator of the Gauls and governor of Bourges who made a church of his house",
+   "resumen": "he welcomed the first preachers of the faith and made a church of his house",
+   "_es": "cf40c55278"
   },
   "327": {
    "titulo": "Servant of God Lucio León Cárdenas",
    "nombres": "Lucio León Cárdenas",
-   "descripcion": "simple Venezuelan worker",
+   "descripcion": "simple bricklayer",
    "resumen": "simple and unschooled, called the “apostle of the Eucharist,” and father of a priest",
-   "_es": "d9072fd8c8"
+   "_es": "05bd7c2b5e"
   },
   "328": {
    "titulo": "Sts. Leontius and Placidina",
@@ -2572,16 +2575,16 @@
   "353": {
    "titulo": "Servant of God Manuel Pascual Perrín and Ángeles Echeverría",
    "nombres": "Manuel Pascual Perrín and Ángeles Echeverría",
-   "descripcion": "Argentine family man, the “apostle Paul” of Punta Alta",
+   "descripcion": "family man, the “apostle Paul” of Punta Alta",
    "resumen": "Focolare member, the “apostle Paul of Punta Alta”",
-   "cita": "“One does not go to God alone but with one's brothers” and “We have to be locomotives, not caboose cars!”",
-   "_es": "d4ea30a701"
+   "cita": "“One does not go to God alone but with one's brothers” “We have to be locomotives, not caboose cars!”",
+   "_es": "afce9977ce"
   },
   "354": {
-   "titulo": "Sts. Manuel Rodrigues Moura and his wife",
+   "titulo": "Bls. Manuel Rodrigues Moura and his wife",
    "nombres": "Manuel Rodrigues Moura",
    "resumen": "martyrs",
-   "_es": "08ad131e2c"
+   "_es": "62a1071e0e"
   },
   "355": {
    "titulo": "Bl. Manuel Solórzano and Eleuteria Antonia Guillén",
@@ -2678,7 +2681,7 @@
    "nombres": "Marguerite Dufrost de Lajemmerais and François d'Youville",
    "descripcion": "the first Canadian-born saint",
    "resumen": "founder of the Sisters of Charity of Montreal (Grey Nuns)",
-   "_es": "48f74c245a"
+   "_es": "00606a4531"
   },
   "369": {
    "titulo": "Bl. María Álvarez Marco",
@@ -2830,9 +2833,8 @@
   "389": {
    "titulo": "Bl. Maria Vittoria De Fornari and Angelo Strata",
    "nombres": "Maria Vittoria De Fornari and Angelo Strata",
-   "descripcion": "widow who became a religious and founded the Order of the Annunciation (or “Blue Nuns”)",
-   "resumen": "widow who became a religious and founded the Order of the Annunciation (or “Blue Nuns”)",
-   "_es": "50e59ccc6a"
+   "descripcion": "widow who became a religious and founded the Order of the Annunciation (the “Blue Nuns”)",
+   "_es": "820944d243"
   },
   "390": {
    "titulo": "Sts. Mary and Cleophas of Jerusalem",
@@ -3001,11 +3003,11 @@
    "_es": "e4100c8298"
   },
   "414": {
-   "titulo": "Servant of God Nicolás Ayllón",
-   "nombres": "Nicolás Ayllón",
+   "titulo": "Servant of God Nicolás Ayllón and María Jacinta",
+   "nombres": "Nicolás Ayllón and María Jacinta",
    "descripcion": "Peruvian tailor of colonial times",
    "resumen": "tailor of Indigenous descent who took women in need into his home",
-   "_es": "f477ef87d5"
+   "_es": "85bd376513"
   },
   "415": {
    "titulo": "Bl. Mykola Tsehelskyi, priest, and Josefa Sartych",
@@ -3056,9 +3058,9 @@
   "421": {
    "titulo": "Bl. Obdulia Puchol Merino",
    "nombres": "Obdulia Puchol Merino",
-   "descripcion": "widow who founded a shelter for poor transients; active in the St. Vincent de Paul Conferences and the Franciscan Third Order; martyred at 36",
-   "resumen": "widow who founded a shelter for poor transients; active in the St. Vincent de Paul Conferences and the Franciscan Third Order; martyred at 36",
-   "_es": "813d79f4fd"
+   "descripcion": "she founded a shelter for poor transients",
+   "resumen": "as a widow she founded a shelter for poor transients; active in the St. Vincent de Paul Conferences and the Franciscan Third Order; martyred in the Civil War at 36",
+   "_es": "b3c18d278c"
   },
   "422": {
    "titulo": "St. Obitius and Inglissenda Porro",
@@ -3484,12 +3486,12 @@
    "_es": "09ecd44449"
   },
   "482": {
-   "titulo": "St. Simon Phan Đắc Hòa",
-   "nombres": "Simon Phan Đắc Hòa",
+   "titulo": "St. Simon Phan Đắc Hòa and Yem",
+   "nombres": "Simon Phan Đắc Hòa and Yem",
    "descripcion": "Vietnamese doctor and teacher",
    "resumen": "martyr, charitable doctor and missionary",
    "cita": "“I am very happy to do God's will; do not be sad.” (St. Simon)",
-   "_es": "9652d07c60"
+   "_es": "79fe2778bd"
   },
   "483": {
    "titulo": "Bl. Sofía Ximénez Ximénez and Carlos del Río Díez de Bulnes",
@@ -3803,6 +3805,13 @@
    "resumen": "disciple of St. Paul, the merchant of purple cloth",
    "cita": "“If you have judged me to be faithful to the Lord, come and stay at my house”",
    "_es": "91ddc81893"
+  },
+  "6": {
+   "titulo": "Sts. Felix and Liliosa",
+   "nombres": "Felix and Liliosa",
+   "descripcion": "the heroic testimony of two Christian couples",
+   "resumen": "martyrs",
+   "_es": "15a04901cb"
   }
  },
  "episodios": {
