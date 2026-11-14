@@ -242,7 +242,7 @@
     "América": ["México","Argentina","EEUU","Brasil","Canadá","Venezuela","Chile","El Salvador","Guatemala","Ecuador","Haiti","Trinidad","Colombia","Honduras","Perú","Uruguay"],
     "Asia": ["Turquía","Japón","China","Siria","Israel","Vietnam","Filipinas","Tailandia","Iran","Corea","India","Arabia","Arabia Saudita","Líbano","Georgia","Laos","Jordania"],
     "África": ["Madagascar","Argelia","Sudáfrica","Egipto","Túnez","Ruanda","Burkina Faso","Etiopía","Lesotho","Tanzania","Costa de Marfil","Uganda","Mauritania"],
-    "Oceanía": ["Papua Nueva Guinea"]
+    "Oceanía": ["Papua Nueva Guinea","Australia"]
   };
   var PAISES_VISIBLES = 20;
   // Spreadsheet country -> name in data/mundo.json (Natural Earth). England, Scotland and Wales share the United Kingdom.
@@ -259,7 +259,7 @@
     "Ruanda": "Rwanda", "Burkina Faso": "Burkina Faso", "Arabia": "Saudi Arabia", "Arabia Saudita": "Saudi Arabia", "Etiopía": "Ethiopia", "Bielorrusia": "Belarus",
     "Malta": "Malta", "Chipre": "Cyprus", "Lesotho": "Lesotho", "Albania": "Albania", "Eslovaquia": "Slovakia", "Honduras": "Honduras",
     "Líbano": "Lebanon", "Georgia": "Georgia", "Tanzania": "Tanzania", "Costa de Marfil": "Côte d'Ivoire", "Laos": "Laos", "Rumania": "Romania",
-    "Uganda": "Uganda", "Croacia": "Croatia", "Perú": "Peru", "Jordania": "Jordan", "Uruguay": "Uruguay", "Mauritania": "Mauritania"
+    "Uganda": "Uganda", "Croacia": "Croatia", "Perú": "Peru", "Jordania": "Jordan", "Uruguay": "Uruguay", "Mauritania": "Mauritania", "Australia": "Australia"
   };
   // Upper bound of each color step; counts above the last one take the darkest.
   var ESCALONES = [4, 9, 24, 69];
@@ -560,7 +560,7 @@
   }
 
   // Change DATOS_V whenever data/*.json changes, so browsers don't keep the cached copy.
-  var DATOS_V = "2026-11-07-ref3";
+  var DATOS_V = "2026-11-14-felix";
   function leer(url) { return fetch(BASE + url + "?v=" + DATOS_V).then(function (r) { return r.json(); }); }
   var listo = Promise.all([leer("data/matrimonios.json"), TR.datos ? leer(TR.datos).catch(function () { return {}; }) : null])
     .then(function (r) { iniciar(r[1] ? traducir(r[0], r[1]) : r[0]); });

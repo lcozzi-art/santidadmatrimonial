@@ -710,11 +710,11 @@
    "_es": "68111c6603"
   },
   "96": {
-   "titulo": "Saint Bodegisel",
-   "nombres": "Bodegisel",
+   "titulo": "Saint Bodegisel et Oda",
+   "nombres": "Bodegisel et Oda",
    "descripcion": "gouverneur et ermite",
-   "resumen": "gouverneur et ermite",
-   "_es": "5b85c9a598"
+   "resumen": "père de saint Arnoul de Metz et de saint Venance Fortunat ; gouverneur, il convint ensuite avec son épouse de devenir ermite",
+   "_es": "6183fd511c"
   },
   "97": {
    "titulo": "Serviteur de Dieu Boutros Wadih Kassab",
@@ -801,8 +801,8 @@
    "titulo": "Servante de Dieu « Mamma » Carolina Bellandi et Olinto Palladini",
    "nombres": "Carolina Bellandi et Olinto Palladini",
    "descripcion": "tertiaire franciscaine",
-   "resumen": "tertiaire franciscaine",
-   "_es": "109d20c2c0"
+   "resumen": "fondatrice de l’Œuvre des premières communions pour promouvoir le sacrement, et d’une autre d’« Assistance aux monastères cloîtrés »",
+   "_es": "952c61f3fd"
   },
   "109": {
    "titulo": "Servante de Dieu Carolina Mancinelli et Otto Scampone",
@@ -856,7 +856,9 @@
   "116": {
    "titulo": "Bienheureuse Cécile de Ferrare",
    "nombres": "Cécile de Ferrare",
-   "_es": "b5d93de0eb"
+   "_es": "db76d89e71",
+   "descripcion": "épouse qui choisit la vie consacrée, comme son mari",
+   "resumen": "elle épousa un jeune homme très pieux ; après 8 ans, chacun entra en religion, où elle vécut 30 ans d’une vie ascétique exemplaire"
   },
   "117": {
    "titulo": "Sainte Cécile et Valérien",
@@ -999,10 +1001,10 @@
   "136": {
    "titulo": "Serviteur de Dieu Domenico Antonio Mangano et Maria Pia",
    "nombres": "Domenico Antonio Mangano et Maria Pia",
-   "descripcion": "focolarino italien engagé et serviteur public",
+   "descripcion": "focolarino et serviteur public engagé",
    "resumen": "homme politique des Focolari, membre des Volontaires de Dieu",
    "cita": "il consacra sa vie à bâtir des « fragments de réciprocité », perles de communion et de dialogue",
-   "_es": "f87c2fbeb8"
+   "_es": "44a73c9643"
   },
   "137": {
    "titulo": "Bienheureuse Dorothée Swartz de Montau et Albrecht de Dantzig",
@@ -1088,9 +1090,9 @@
   "148": {
    "titulo": "Bienheureuse Elba Ramos et Obdulio",
    "nombres": "Elba Ramos et Obdulio",
-   "descripcion": "cuisinière tuée par des soldats avec sa fille et plusieurs jésuites de l’UCA",
+   "descripcion": "cuisinière tuée par des soldats avec sa fille et des prêtres jésuites de l’UCA",
    "resumen": "cuisinière tuée par des soldats avec sa fille et plusieurs jésuites de l’UCA",
-   "_es": "8a06da4272"
+   "_es": "85216b5392"
   },
   "149": {
    "titulo": "Bienheureuse Elena Duglioli Dall’Olio",
@@ -1124,10 +1126,9 @@
   "153": {
    "titulo": "Bienheureuse Elisabetta Sanna",
    "nombres": "Elisabetta Sanna",
-   "descripcion": "mère de famille handicapée, au chevet des malades",
-   "resumen": "tertiaire franciscaine handicapée depuis l’enfance, mère de 5 enfants",
-   "cita": "Elisabetta, frappée par la variole trois mois après sa naissance, ne put plus jamais lever les bras. Elle pouvait bouger les doigts et les poignets, mais ne pouvait porter la nourriture à sa bouche. Elle ne pouvait faire le signe de croix, se coiffer, se laver le visage ni changer de vêtements, et pourtant elle savait pétrir le pain, le cuire et cuisiner, et elle éleva cinq enfants. Malgré son handicap physique, elle se maria, et son mariage fut pleinement heureux. Le couple eut sept enfants, dont deux moururent jeunes.",
-   "_es": "209db2ab32"
+   "descripcion": "handicapée depuis l’enfance, mère de sept enfants et au chevet des malades",
+   "resumen": "handicapée par la variole trois mois après sa naissance, elle ne put plus lever les bras ni porter la nourriture à sa bouche ; elle fut pourtant mère d’une famille nombreuse, devint tertiaire franciscaine et se donna aux autres malades",
+   "_es": "3b7ea8d776"
   },
   "154": {
    "titulo": "Vénérable Elisabetta Tasca et Giuseppe Serena",
@@ -1161,7 +1162,8 @@
   "158": {
    "titulo": "Saint Elzéar de Sabran et la bienheureuse Delphine",
    "nombres": "Elzéar de Sabran et Delphine",
-   "_es": "e07a3314de"
+   "_es": "92f1aeef89",
+   "descripcion": "nobles généreux qui choisirent un mariage chaste"
   },
   "159": {
    "titulo": "Bienheureuse Émilie d’Oultremont (Marie de Jésus) et Victor d’Hooghvorst",
@@ -1346,9 +1348,10 @@
    "_es": "b4ef309996"
   },
   "184": {
-   "titulo": "Saint Évrard",
-   "nombres": "Évrard",
-   "_es": "d44618defb"
+   "titulo": "Saint Évrard et Gisèle",
+   "nombres": "Évrard et Gisèle",
+   "_es": "0c7c590690",
+   "descripcion": "diplomate, homme politique, lettré et militaire ; il fonda un monastère de chanoines réguliers et écrivit de nombreux manuscrits de réflexion sur les sciences sacrées et profanes, les questions littéraires et juridiques ; il épousa Gisèle, sœur de l’empereur Lothaire, dont il eut 8 enfants"
   },
   "185": {
    "titulo": "Saint Faron de Meaux et Blidechilde",
@@ -1431,10 +1434,10 @@
   "196": {
    "titulo": "Servante de Dieu Fortunata « Natuzza » Evolo et Pasquale Nicolace",
    "nombres": "Fortunata « Natuzza » Evolo et Pasquale Nicolace",
-   "descripcion": "mère simple et mystique du XXe siècle",
+   "descripcion": "mère simple et mystique de notre temps",
    "resumen": "voyante charitable qui porta les stigmates",
    "cita": "« Tu souffriras beaucoup dans ton corps, mais quelle joie dans ton esprit ! » (Jésus à Natuzza Evolo)",
-   "_es": "688a12a234"
+   "_es": "2b877f450a"
   },
   "197": {
    "titulo": "Sainte Gwenn et saint Fragan le Confesseur",
@@ -1569,9 +1572,9 @@
   "215": {
    "titulo": "Bienheureuse Gaetana Sterni et Liberale Conte",
    "nombres": "Gaetana Sterni et Liberale Conte",
-   "descripcion": "mère et fondatrice italienne",
+   "descripcion": "mère et fondatrice",
    "resumen": "veuve devenue religieuse, fondatrice des Filles de la Divine Volonté",
-   "_es": "e9bc375b76"
+   "_es": "aa9f396e85"
   },
   "216": {
    "titulo": "Saint Gengoult",
@@ -1967,12 +1970,12 @@
    "_es": "502a5d53e1"
   },
   "272": {
-   "titulo": "Saint Jacques l’Intercis",
-   "nombres": "Jacques l’Intercis",
+   "titulo": "Saint Jacques [Jacob] l’Intercis",
+   "nombres": "Jacques [Jacob] l’Intercis",
    "descripcion": "patron de ceux qui doutent de leur vocation",
    "resumen": "martyrisé en Perse, bien que sa femme ait tenté de l’en dissuader",
    "cita": "« La mort terrifie les rois et tous ceux qui ne connaissent pas Dieu, car l’espérance des impies est passagère » (saint Jacques l’Intercis)",
-   "_es": "cfe0fafcf1"
+   "_es": "44a304db44"
   },
   "273": {
    "titulo": "Bienheureux Jacopone da Todi et Vanna di Guidone",
@@ -1991,11 +1994,11 @@
   },
   "275": {
    "titulo": "Servante de Dieu Jadwiga Działyńska et Władysław Zamoyski",
-   "nombres": "Jadwiga Działyńska et Władysław Zamoyski",
+   "nombres": "Jadwiga Zamoyska et Władysław",
    "descripcion": "mère et fondatrice polonaise",
    "resumen": "militante sociale",
    "cita": "« Servir Dieu en servant la Patrie, servir la Patrie en servant Dieu » (devise de Jadwiga)",
-   "_es": "3214470bef"
+   "_es": "df9696a1f6"
   },
   "276": {
    "titulo": "Serviteur de Dieu János Esterházy et Lívia Serényi",
@@ -2280,7 +2283,7 @@
    "descripcion": "mère, éducatrice et fondatrice",
    "resumen": "veuve devenue religieuse, fondatrice de la Compagnie de Marie Notre-Dame",
    "cita": "« Servez d’une manière toujours nouvelle ; unissons nos forces pour aider l’Église. » (sainte Jeanne de Lestonnac)",
-   "_es": "0341b2d133"
+   "_es": "30240fc351"
   },
   "314": {
    "titulo": "Sainte Jeanne-Françoise de Chantal",
@@ -2367,23 +2370,23 @@
   "325": {
    "titulo": "Vénérable Léon Papin-Dupont et Caroline d’Audiffredi",
    "nombres": "Léon Papin-Dupont et Caroline d’Audiffredi",
-   "descripcion": "le « saint homme de Tours », fondateur de la confrérie de la Sainte-Face",
+   "descripcion": "le « saint homme de Tours », fondateur de la Confrérie de la Sainte-Face",
    "resumen": "aristocrate et bienfaiteur de la Société de Saint-Vincent-de-Paul, le « saint homme de Tours »",
-   "_es": "9a42b1aed8"
+   "_es": "8d4950fd16"
   },
   "326": {
    "titulo": "Saint Léocade de Dol",
    "nombres": "Léocade de Dol",
-   "descripcion": "converti, sénateur des Gaules et gouverneur de Bourges ; il accueillit les premiers prédicateurs de la foi et fit de sa maison une église",
-   "resumen": "converti, sénateur des Gaules ; il accueillit les premiers prédicateurs de la foi et fit de sa maison une église",
-   "_es": "2558616d97"
+   "descripcion": "converti, sénateur des Gaules et gouverneur de Bourges qui fit de sa maison une église",
+   "resumen": "il accueillit les premiers prédicateurs de la foi et fit de sa maison une église",
+   "_es": "cf40c55278"
   },
   "327": {
    "titulo": "Serviteur de Dieu Lucio León Cárdenas",
    "nombres": "Lucio León Cárdenas",
-   "descripcion": "simple ouvrier vénézuélien",
+   "descripcion": "simple maçon",
    "resumen": "simple et sans instruction, surnommé l’« apôtre de l’Eucharistie », et père d’un prêtre",
-   "_es": "d9072fd8c8"
+   "_es": "05bd7c2b5e"
   },
   "328": {
    "titulo": "Saints Léonce et Placidine",
@@ -2571,16 +2574,16 @@
   "353": {
    "titulo": "Serviteur de Dieu Manuel Pascual Perrín et Ángeles Echeverría",
    "nombres": "Manuel Pascual Perrín et Ángeles Echeverría",
-   "descripcion": "père de famille argentin, l’« apôtre Paul » de Punta Alta",
+   "descripcion": "père de famille, l’« apôtre Paul » de Punta Alta",
    "resumen": "membre des Focolari, l’« apôtre Paul de Punta Alta »",
-   "cita": "« On ne va pas à Dieu seul, mais avec ses frères » et « Nous devons être des locomotives, pas des wagons de queue ! »",
-   "_es": "d4ea30a701"
+   "cita": "« On ne va pas à Dieu seul, mais avec ses frères » « Nous devons être des locomotives, pas des wagons de queue ! »",
+   "_es": "afce9977ce"
   },
   "354": {
-   "titulo": "Saints Manuel Rodrigues Moura et son épouse",
+   "titulo": "Bienheureux Manuel Rodrigues Moura et son épouse",
    "nombres": "Manuel Rodrigues Moura",
    "resumen": "martyrs",
-   "_es": "08ad131e2c"
+   "_es": "62a1071e0e"
   },
   "355": {
    "titulo": "Bienheureux Manuel Solórzano et Eleuteria Antonia Guillén",
@@ -2677,7 +2680,7 @@
    "nombres": "Marguerite Dufrost de Lajemmerais et François d’Youville",
    "descripcion": "la première sainte née au Canada",
    "resumen": "fondatrice des Sœurs de la Charité de Montréal (Sœurs Grises)",
-   "_es": "48f74c245a"
+   "_es": "00606a4531"
   },
   "369": {
    "titulo": "Bienheureuse María Álvarez Marco",
@@ -2829,9 +2832,8 @@
   "389": {
    "titulo": "Bienheureuse Maria Vittoria De Fornari et Angelo Strata",
    "nombres": "Maria Vittoria De Fornari et Angelo Strata",
-   "descripcion": "veuve devenue religieuse, fondatrice de l’ordre de l’Annonciade (ou « Annonciades célestes »)",
-   "resumen": "veuve devenue religieuse, fondatrice de l’ordre de l’Annonciade (ou « Annonciades célestes »)",
-   "_es": "50e59ccc6a"
+   "descripcion": "veuve devenue religieuse, fondatrice de l’ordre de l’Annonciade (les « Annonciades célestes »)",
+   "_es": "820944d243"
   },
   "390": {
    "titulo": "Saints Marie et Cléophas de Jérusalem",
@@ -3000,11 +3002,11 @@
    "_es": "e4100c8298"
   },
   "414": {
-   "titulo": "Serviteur de Dieu Nicolás Ayllón",
-   "nombres": "Nicolás Ayllón",
+   "titulo": "Serviteur de Dieu Nicolás Ayllón et María Jacinta",
+   "nombres": "Nicolás Ayllón et María Jacinta",
    "descripcion": "tailleur péruvien de l’époque coloniale",
    "resumen": "tailleur d’ascendance indigène qui accueillit chez lui des femmes dans le besoin",
-   "_es": "f477ef87d5"
+   "_es": "85bd376513"
   },
   "415": {
    "titulo": "Bienheureux Mykola Tsehelskyi, prêtre, et Josefa Sartych",
@@ -3055,9 +3057,9 @@
   "421": {
    "titulo": "Bienheureuse Obdulia Puchol Merino",
    "nombres": "Obdulia Puchol Merino",
-   "descripcion": "veuve qui fonda un refuge pour les pauvres de passage ; engagée dans les Conférences Saint-Vincent-de-Paul et le Tiers-Ordre franciscain ; martyrisée à 36 ans",
-   "resumen": "veuve qui fonda un refuge pour les pauvres de passage ; engagée dans les Conférences Saint-Vincent-de-Paul et le Tiers-Ordre franciscain ; martyrisée à 36 ans",
-   "_es": "813d79f4fd"
+   "descripcion": "elle fonda un refuge pour les pauvres de passage",
+   "resumen": "veuve, elle fonda un refuge pour les pauvres de passage ; engagée dans les Conférences Saint-Vincent-de-Paul et le Tiers-Ordre franciscain ; martyre de la guerre civile à 36 ans",
+   "_es": "b3c18d278c"
   },
   "422": {
    "titulo": "Saint Obizio et Inglissenda Porro",
@@ -3483,12 +3485,12 @@
    "_es": "09ecd44449"
   },
   "482": {
-   "titulo": "Saint Simon Phan Đắc Hòa",
-   "nombres": "Simon Phan Đắc Hòa",
+   "titulo": "Saint Simon Phan Đắc Hòa et Yem",
+   "nombres": "Simon Phan Đắc Hòa et Yem",
    "descripcion": "médecin et enseignant vietnamien",
    "resumen": "martyr, médecin charitable et missionnaire",
    "cita": "« Je suis très heureux de faire la volonté de Dieu ; ne soyez pas tristes. » (saint Simon)",
-   "_es": "9652d07c60"
+   "_es": "79fe2778bd"
   },
   "483": {
    "titulo": "Bienheureuse Sofía Ximénez Ximénez et Carlos del Río Díez de Bulnes",
