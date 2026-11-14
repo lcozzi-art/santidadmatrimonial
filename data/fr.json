@@ -18,11 +18,11 @@
    "_es": "c484ea538b"
   },
   "3": {
-   "titulo": "Saints Aurèle et Natalie",
-   "nombres": "Aurèle et Natalie",
+   "titulo": "Saints Aurèle et Natalie, Félix et Liliose",
+   "nombres": "Aurèle et Natalie, Félix et Liliose",
    "descripcion": "témoignage héroïque de deux couples amis",
    "resumen": "martyrs",
-   "_es": "c1e0d22ce8"
+   "_es": "e619625d25"
   },
   "4": {
    "titulo": "Sainte Brigitte et Ulf Gudmarsson",
@@ -3804,13 +3804,6 @@
    "resumen": "disciple de saint Paul, la marchande de pourpre",
    "cita": "« Si vous jugez que je crois au Seigneur, venez demeurer dans ma maison »",
    "_es": "91ddc81893"
-  },
-  "6": {
-   "titulo": "Saints Félix et Liliose",
-   "nombres": "Félix et Liliose",
-   "descripcion": "témoignage héroïque de deux couples amis",
-   "resumen": "martyrs",
-   "_es": "15a04901cb"
   }
  },
  "episodios": {

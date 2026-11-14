@@ -18,11 +18,11 @@
    "_es": "c484ea538b"
   },
   "3": {
-   "titulo": "Santi Aurelio e Natalia",
-   "nombres": "Aurelio e Natalia",
+   "titulo": "Santi Aurelio e Natalia, Felice e Liliosa",
+   "nombres": "Aurelio e Natalia, Felice e Liliosa",
    "descripcion": "eroica testimonianza di due coppie amiche",
    "resumen": "martiri",
-   "_es": "c1e0d22ce8"
+   "_es": "e619625d25"
   },
   "4": {
    "titulo": "Santa Brigida e Ulf Gudmarsson",
@@ -3804,13 +3804,6 @@
    "resumen": "discepola di san Paolo, la commerciante di porpora",
    "cita": "«Se mi avete giudicata fedele al Signore, venite ad abitare nella mia casa»",
    "_es": "91ddc81893"
-  },
-  "6": {
-   "titulo": "Santi Felice e Liliosa",
-   "nombres": "Felice e Liliosa",
-   "descripcion": "eroica testimonianza di due coppie amiche",
-   "resumen": "martiri",
-   "_es": "15a04901cb"
   }
  },
  "episodios": {

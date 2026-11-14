@@ -18,11 +18,11 @@
    "_es": "c484ea538b"
   },
   "3": {
-   "titulo": "Sts. Aurelius and Natalia",
-   "nombres": "Aurelius and Natalia",
+   "titulo": "Sts. Aurelius and Natalia, Felix and Liliosa",
+   "nombres": "Aurelius and Natalia, Felix and Liliosa",
    "descripcion": "the heroic testimony of two Christian couples",
    "resumen": "martyrs",
-   "_es": "c1e0d22ce8"
+   "_es": "e619625d25"
   },
   "4": {
    "titulo": "St. Bridget and Ulf Gudmarsson",
@@ -3804,13 +3804,6 @@
    "resumen": "disciple of St. Paul, the merchant of purple cloth",
    "cita": "“If you have judged me to be faithful to the Lord, come and stay at my house”",
    "_es": "91ddc81893"
-  },
-  "6": {
-   "titulo": "Sts. Felix and Liliosa",
-   "nombres": "Felix and Liliosa",
-   "descripcion": "the heroic testimony of two Christian couples",
-   "resumen": "martyrs",
-   "_es": "15a04901cb"
   }
  },
  "episodios": {
