@@ -96,7 +96,7 @@ window.TRADUCCION = {
     "Italia": "Italy", "España": "Spain", "Francia": "France", "Inglaterra": "England", "Polonia": "Poland",
     "Alemania": "Germany", "México": "Mexico", "Turquía": "Turkey", "Bélgica": "Belgium", "Hungría": "Hungary",
     "Argentina": "Argentina", "EEUU": "USA", "Japón": "Japan", "China": "China", "Siria": "Syria", "Brasil": "Brazil",
-    "Canadá": "Canada", "Suecia": "Sweden", "Portugal": "Portugal", "Ucrania": "Ukraine", "Austria": "Austria",
+    "Canadá": "Canada", "Suecia": "Sweden", "Portugal": "Portugal", "Ucrania": "Ukraine", "Austria": "Austria", "Luxemburgo": "Luxembourg",
     "Irlanda": "Ireland", "Israel": "Israel", "Venezuela": "Venezuela", "Vietnam": "Vietnam", "Chequia": "Czechia",
     "Suiza": "Switzerland", "Islandia": "Iceland", "Madagascar": "Madagascar", "Argelia": "Algeria", "Chile": "Chile",
     "Rusia": "Russia", "Filipinas": "Philippines", "Grecia": "Greece", "Sudáfrica": "South Africa", "Dinamarca": "Denmark",
