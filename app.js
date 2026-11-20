@@ -238,7 +238,7 @@
   var MESES = ["Ene","Feb","Mar","Abr","May","Jun","Jul","Ago","Sep","Oct","Nov","Dic"];
   var MESES_LARGOS = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
   var CONTINENTES = {
-    "Europa": ["Italia","España","Francia","Inglaterra","Polonia","Alemania","Bélgica","Hungría","Irlanda","Suecia","Portugal","Ucrania","Austria","Chequia","Suiza","Grecia","Islandia","Rusia","Dinamarca","Noruega","Escocia","Bielorrusia","Malta","Chipre","Albania","Eslovaquia","Rumania","Croacia","Gales"],
+    "Europa": ["Italia","España","Francia","Inglaterra","Polonia","Alemania","Bélgica","Hungría","Irlanda","Suecia","Portugal","Ucrania","Austria","Chequia","Suiza","Grecia","Islandia","Rusia","Dinamarca","Noruega","Escocia","Bielorrusia","Malta","Chipre","Albania","Eslovaquia","Rumania","Croacia","Gales","Luxemburgo"],
     "América": ["México","Argentina","EEUU","Brasil","Canadá","Venezuela","Chile","El Salvador","Guatemala","Ecuador","Haiti","Trinidad","Colombia","Honduras","Perú","Uruguay"],
     "Asia": ["Turquía","Japón","China","Siria","Israel","Vietnam","Filipinas","Tailandia","Iran","Corea","India","Arabia","Arabia Saudita","Líbano","Georgia","Laos","Jordania"],
     "África": ["Madagascar","Argelia","Sudáfrica","Egipto","Túnez","Ruanda","Burkina Faso","Etiopía","Lesotho","Tanzania","Costa de Marfil","Uganda","Mauritania"],
@@ -250,7 +250,7 @@
     "Italia": "Italy", "España": "Spain", "Francia": "France", "Inglaterra": "United Kingdom", "Escocia": "United Kingdom", "Gales": "United Kingdom",
     "Polonia": "Poland", "Alemania": "Germany", "Turquía": "Turkey", "México": "Mexico", "Argentina": "Argentina", "Bélgica": "Belgium",
     "Hungría": "Hungary", "EEUU": "United States of America", "Japón": "Japan", "China": "China", "Siria": "Syria", "Brasil": "Brazil",
-    "Canadá": "Canada", "Irlanda": "Ireland", "Suecia": "Sweden", "Portugal": "Portugal", "Ucrania": "Ukraine", "Austria": "Austria",
+    "Canadá": "Canada", "Irlanda": "Ireland", "Suecia": "Sweden", "Portugal": "Portugal", "Ucrania": "Ukraine", "Austria": "Austria", "Luxemburgo": "Luxembourg",
     "Israel": "Israel", "Venezuela": "Venezuela", "Vietnam": "Vietnam", "Chequia": "Czechia", "Suiza": "Switzerland", "Grecia": "Greece",
     "Islandia": "Iceland", "Madagascar": "Madagascar", "Argelia": "Algeria", "Chile": "Chile", "Rusia": "Russia", "Filipinas": "Philippines",
     "Sudáfrica": "South Africa", "Egipto": "Egypt", "Dinamarca": "Denmark", "El Salvador": "El Salvador", "Guatemala": "Guatemala",
