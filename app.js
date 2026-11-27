@@ -64,7 +64,7 @@
   var ANILLOS = '<svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="15" cy="20" r="10"/><circle cx="25" cy="20" r="10"/></svg>';
 
   function fotoHTML(m, sizes) {
-    var src = m.foto ? BASE + m.foto : ytThumb(m.fotoYT);
+    var src = m.foto ? BASE + m.foto + "?v=" + DATOS_V : ytThumb(m.fotoYT); // ?v: una foto reemplazada con el mismo nombre se ve enseguida
     var em = '<div class="emblema">' + ANILLOS + '<span>' + esc(m.siglo ? t("Siglo {s}", { s: m.siglo }) : "") + '</span></div>';
     if (!src) return '<div class="foto">' + em + '</div>';
     return '<div class="foto">' + em + '<img src="' + esc(src) + '" alt="' + esc(m.nombres) + '" loading="lazy" onerror="this.remove()"></div>';
@@ -560,7 +560,7 @@
   }
 
   // Change DATOS_V whenever data/*.json changes, so browsers don't keep the cached copy.
-  var DATOS_V = "2026-11-21-sajon";
+  var DATOS_V = "2026-11-27-filip";
   function leer(url) { return fetch(BASE + url + "?v=" + DATOS_V).then(function (r) { return r.json(); }); }
   var listo = Promise.all([leer("data/matrimonios.json"), TR.datos ? leer(TR.datos).catch(function () { return {}; }) : null])
     .then(function (r) { iniciar(r[1] ? traducir(r[0], r[1]) : r[0]); });
