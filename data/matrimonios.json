@@ -12916,7 +12916,7 @@
    "fiestaOrden": 1223,
    "destacado": null,
    "referencia": "profesional",
-   "referencia2": null,
+   "referencia2": "escritor/periodista",
    "martir": true,
    "josefino": false,
    "cita": null,
@@ -12927,7 +12927,7 @@
    "podcastId": null,
    "video": null,
    "videoId": null,
-   "foto": null,
+   "foto": "img/428.jpg",
    "fotoYT": null
   },
   {
