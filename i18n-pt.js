@@ -64,6 +64,7 @@ window.TRADUCCION = {
     "Episodio {n}": "Episódio {n}",
     "Escuchar": "Ouvir",
     "Ver película": "Ver o filme",
+    "Compartir": "Compartilhar", "¡Link copiado!": "Link copiado!",
     "Ver ficha": "Ver a ficha",
     "Ver {t}": "Ver {t}",
     "No se pudo cargar el mapa.": "Não foi possível carregar o mapa.",
