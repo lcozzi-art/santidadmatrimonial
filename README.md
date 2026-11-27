@@ -26,6 +26,12 @@ La versión en inglés lee `data/resenas-en.json` (configurado en `i18n-en.js` c
 
 Volver a exportar la planilla y regenerar `data/matrimonios.json` (y las fotos nuevas en `img/`).
 
+## Links para compartir (vista previa con foto)
+
+WhatsApp, Facebook, Telegram y X no leen lo que va después de `#`, así que un link como `santidadmatrimonial.org/#m192` muestra siempre la vista previa general del sitio. Por eso cada ficha tiene además una página chica en `m/<id>/` (y `en/m/<id>/`, `fr/m/<id>/`, `it/m/<id>/`, `pt/m/<id>/`) con la foto, el nombre y la descripción de esa ficha en las etiquetas Open Graph; al abrirla, lleva enseguida a la ficha (`/#m<id>`). El botón "Compartir" de cada ficha da ese link (en el celular abre el menú de compartir; en la computadora lo copia).
+
+Esas páginas se generan con `python3 herramientas/generar-fichas.py` (necesita `pip install pillow`). Correrlo después de cambiar `data/matrimonios.json`, `data/<idioma>.json` o las fotos de `img/`. WhatsApp y Facebook guardan la vista previa de cada link por un tiempo: si se cambia la foto de una ficha ya compartida, Facebook la actualiza con su [depurador de contenido compartido](https://developers.facebook.com/tools/debug/).
+
 ## Caché de los navegadores
 
 `index.html` carga `styles.css?v=…` y `app.js?v=…`. Al cambiar esos archivos, actualizar el valor de `v` para que los celulares no sigan usando la versión guardada. Al cambiar `data/matrimonios.json`, `data/en.json`, `data/fr.json`, `data/it.json` o `data/pt.json`, actualizar `DATOS_V` en `app.js` (y el `v` de `app.js`).
