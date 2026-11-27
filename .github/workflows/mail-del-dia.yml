@@ -1,0 +1,27 @@
+name: Mail diario de las fichas del día
+
+on:
+  schedule:
+    # 9:45 UTC = 6:45 en Buenos Aires (GitHub suele demorar unos minutos, llega cerca de las 7)
+    - cron: "45 9 * * *"
+  workflow_dispatch:
+    inputs:
+      fecha:
+        description: "Fecha a probar (AAAA-MM-DD). Vacío = hoy"
+        required: false
+
+jobs:
+  enviar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Enviar mail
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          FECHA: ${{ github.event.inputs.fecha }}
+        run: python herramientas/mail-del-dia.py
