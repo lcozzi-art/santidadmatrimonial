@@ -30,8 +30,10 @@ if os.environ.get("FECHA"):
 else:
     hoy = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=-3))).date()  # Buenos Aires, UTC-3 sin horario de verano
 orden = hoy.month * 100 + hoy.day
+# Orden: Santos, Beatos, Venerables, Siervos de Dios
+RANGO = {"S": 0, "B": 1, "V": 2, "SdD": 3}
 fichas = sorted((m for m in datos["matrimonios"] if m.get("fiestaOrden") == orden),
-                key=lambda m: m["titulo"])
+                key=lambda m: (RANGO.get(m.get("proceso"), 9), m["titulo"]))
 
 fecha_txt = f"{hoy.day} de {MESES[hoy.month - 1]}"
 if not fichas:
@@ -49,8 +51,8 @@ def origen(m):
     return f" ({', '.join(partes)})" if partes else ""
 
 
-texto = [f"Hoy, {fecha_txt}, se celebra:", ""]
-cuerpo = [f'<p style="font-size:16px">Hoy, <b>{fecha_txt}</b>, se celebra:</p>']
+texto = [fecha_txt.capitalize(), ""]
+cuerpo = [f'<p style="font-size:16px"><b>{fecha_txt.capitalize()}</b></p>']
 for m in fichas:
     ficha = f"{SITIO}/m/{m['id']}/"
     links = [("Ficha", ficha)]
@@ -78,7 +80,7 @@ texto.append(SITIO)
 cuerpo.append(f'<p style="color:#888;font-size:13px"><a href="{SITIO}">santidadmatrimonial.org</a></p>')
 
 msg = EmailMessage()
-msg["Subject"] = f"Santidad Matrimonial · Memorias del {fecha_txt}"
+msg["Subject"] = f"Santidad Matrimonial · {fecha_txt}"
 msg["From"] = f"Santidad Matrimonial <{os.environ.get('GMAIL_USER', 'sin-remitente@example.com')}>"
 msg["To"] = os.environ.get("MAIL_TO", "")
 msg.set_content("\n".join(texto))
